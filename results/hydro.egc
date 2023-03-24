@@ -1,0 +1,1015 @@
+D	PMID:15466576	https://journals.asm.org/doi/10.1128/AEM.70.10.6282-6289.2004?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+D	PMID:25133584	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0104959
+D	PMID:27754478	https://www.nature.com/articles/ismej2016119
+D	PMID:23183981	https://journals.asm.org/doi/10.1128/AEM.03034-12?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+D	PMID:30768760	https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/1758-2229.12740
+D	PMID:26371554	https://elifesciences.org/articles/07966
+D	PMID:25397946	https://www.nature.com/articles/ismej2014214
+D	PMID:23940820	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0072958
+D	PMID:25124552	https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-15-679
+D	PMID:18987310	https://www.pnas.org/doi/abs/10.1073/pnas.0802782105?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+D	PMID:16156726	https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/j.1462-2920.2005.00836.x
+D	PMID:20597983	https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?code=uNAltw&state=32454c84-2280-4f5c-9ef1-cc99376ef36fredirecturl%3Dhttpszazjzjacademiczwoupzwcomzjfemseczjarticlezylookupzjdoizj10zw1111zjjzw1574zy6941zw2010zw00919zwx
+D	PMID:17105352	https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0040383
+D	PMID:19197347	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000362
+D	PMID:18790866	https://journals.asm.org/doi/10.1128/JB.00746-08?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+D	PMID:32239454	https://link.springer.com/article/10.1007/s12275-020-9424-9
+D	PMID:20975831	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0013530
+D	PMID:25279954	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0109696
+D	PMID:29354879	https://dx.doi.org/10.1007/s00248-018-1144-x
+D	PMID:15164268	https://dx.doi.org/10.1007/s00792-004-0389-0
+D	PMID:29521452	https://sfamjournals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.14090
+D	PMID:21410492	https://academic.oup.com/femsec/article-lookup/doi/10.1111/j.1574-6941.2011.01090.x
+D	PMID:25244359	https://academic.oup.com/femsec/article/90/3/731/540387?login=true
+D	PMID:32561582	https://journals.asm.org/doi/10.1128/AEM.01160-20?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
+D	PMID:26487573	https://doi.org/10.1111/1462-2920.13095
+S	SH3	PMID:15466576	Although the Calvin cycle is widely distributed (14, 45), our molecular evidence suggests it is less prevalent in the hydrothermal vent samples we analyzed. This study provides evolutionary insight for the hypothesis that a version of the rTCA cycle was the first autotrophic pathway to have evolved (51) and demonstrates that it is an important carbon fixation pathway in deep-sea hydrothermal vents and potentially in other environments, such as the deep subsurface.
+S	SH4	PMID:25133584	The genome harbors pyrophosphate-dependent 6-phosphofructokinase (PPi-PFK) and proton-translocating pyrophosphatase, which have been identified in methanotrophic and thiotrophic Gammaproteobacteria
+S	SH5	PMID:25133584	The pentose phosphate pathway (oxidative branch) is known to be the major pathway for NADPH production and well conserved in the genomes of sulfur-oxidizing Gammaproteobacteria, but the genomes of several, such as Calyptogena endosymbionts, Alkalilimnicola ehrlichei, Thioalkalivibrio strain K90mix and Halorhodospira halophila, do not possess the branch.
+S	SH6	PMID:25133584	Genes for an incomplete-type Sox system and a nearly complete Dsr system for oxidation of sulfur compounds such as sulfide, elemental sulfur, thiosulfate and sulfite, are present in the genome, as is the case for several sulfur-oxidizing Gammaproteobacteria (Figure 4). Among the genes for periplasmic Sox-type sulfur oxidation system, genes for SoxBZYKAX are encoded in a gene cluster, but the genes for SoxCD and their homologues SorAB are missing, as is the case of the incomplete SOX system in other sulfur-oxidizing Gammaproteobacteria.
+S	SH7	PMID:25133584	Genes for the flavoprotein-cytochrome c complex (SoxEF) are present in strain Hiromi 1 and Chromatiaceae species but are absent in Calyptogena clam symbionts and T. crunogena.
+S	SH8	PMID:27754478	The methanogenic type of mcrA genes were obtained only from the uppermost sediment at 0.3 mbsf in Hole C0014B (Figure 4) and were phylogenetically related to the mcrA genes of Methanococcoides (Supplementary Figure S5).
+S	SH9	PMID:23183981	The mcrA gene encodes the α subunit of methyl-coenzyme M reductase (MCR), which catalyzes the methane-forming step in methanogenic archaea (53) and is also involved in oxidation of methane catalyzed by microorganisms of ANME clusters (54).
+S	SH10	PMID:30768760	The small genomes of cultivated Nanoarchaeota lack nearly all biosynthetic pathways and have split protein-coding genes (Waters et al., 2003; Wurch et al., 2016; St. John et al., 2019), pointing to a common pattern of genomic reduction and fragmentation.
+S	SH12	PMID:30768760	Unlike cultivated Nanoarchaeota, however, the Gua-46 MAG contains a predicted tyrosine-specific transporter (Gua_114), which may allow the nanoarchaeote to uptake this amino acid from the environment. The MC-1 MAG also encodes for genes involved in nucleotide biotransformation that have not been previously identified in cultivated nanoarchaeotes, including a cytidylate kinase (MC-1_488) and a uridylate kinase (MC-1_320).
+S	SH14	PMID:30768760	However, MC-1 does encode genes involved in the pentose bisphosphate pathway, previously described in Thermococcus kodakarensis (Fig. 4), which would allow nanoarchaeotal cells to produce 3-phosphoglycerate and bypass the missing steps in glycolysis (Aono et al., 2012; 2015). The pentose bisphosphate pathway typically begins with nucleoside monophosphates, which may be produced by a putative nucleoside kinase (MC_288) that shows 35.1%–37.4% amino acid similarity to nucleoside kinases in Methanocaldococcus jannaschii and Aeropyrum pernix (Hansen et al., 2007; Aono et al., 2015).
+S	SH15	PMID:30768760	The MAGs also contain a mosaic of key nanoarchaeotal features, including CRISPR repeat regions and marker genes for gluconeogenesis and archaeal flagella.
+S	SH16	PMID:26371554	While MARTX genes were enriched in host-associated bacteria regardless of their location, YD repeat genes were only significantly enriched in intracellular bacteria. In contrast to YD repeat and MARTX genes, RTX did not show any enrichment in the three defined categories. RTX are therefore widely distributed among bacteria and are just as likely to be found in free-living and host-associated bacteria
+S	SH17	PMID:26371554	Genes from the second major class of TRGs, MARTX, that were similar to those from Bathymodiolus symbiont, were significantly enriched in beneficial and pathogenic host-associated bacteria.
+S	SH18	PMID:26371554	RTX genes were not preferentially found in host-associated bacteria but were also regularly found in free-living bacteria. Bloom-forming aquatic cyanobacteria had some of the highest numbers of RTX genes (Figure 5, Figure 5—figure supplement 3).
+S	SH19	PMID:26371554	Members of the marine Roseobacter clade also had an unusually large number of RTX genes (Figure 5—figure supplement 3). Roseobacter are some of the most abundant bacteria in marine habitats.
+S	SH20	PMID:25397946	As no AI-2 receptors have yet been identified in Epsilonproteobacteria, the complete luxS/AI-2 QS circuit remains unclear. Two main classes of AI-2 receptors have been characterized: the LuxP family receptors, found in Vibrio spp. (Chen et al., 2002), and the LrsB family, found in S. typhimurium and other enteric bacteria (Miller et al., 2004).
+S	SH21	PMID:23940820	Genes encoding periplasmic nitrate reductase and dissimilatory nitrite reductase were more prevalent in the G1 dataset than in the G2 dataset, especially within the members of Epsilonproteobacteria.
+S	SH22	PMID:25124552	Comparative analyses revealed atypical features, such as the scattering of the ribosomal RNA genes in the genome and the absence of eukaryotic-like histone gene otherwise present in most of Euryarchaeota genomes. Previously identified in Thermoplasmatales genomes, these features are presently extended to several completely sequenced genomes of this large evolutionary branch, including MG-II and DHVE2.
+S	SH23	PMID:25124552	In particular, the analysis of “Ca. M. alvus” and M. luminyensis methanogenic pathways revealed they lack the 6 step C1-pathway forming methyl-CoM by the reduction of CO2 with H2, otherwise present in all previously sequenced methanogens, fitting with their restriction to H2-dependent methylotrophic methanogenesis [16].
+S	SH24	PMID:25124552	Strikingly, 16S and 23S rRNA genes are not clustered and do not form a transcriptional unit as found in most bacterial and archaeal genomes. Among archaea, this unusual characteristic was first documented in Thermoplasmatales [27], but is also found in related lineages such as the uncultured Marine Group II (MG-II) and Aciduliprofundum boonei(Figure 1).
+S	SH25	PMID:25124552	The Methanomassiliicoccales, Marine Group II, and DHVE2 harbor both subunits of the archaeal topoisomerase TopoVI, strengthening a specific loss of this gene in Thermoplasmatales, which replaced it by a bacterial-type DNA gyrase [42]. Moreover, all three Methanomassiliicoccales representatives also harbor a bacterial-like DNA gyrase, known to have been acquired from bacteria in late emerging Euryarchaeota [41].
+S	SH26	PMID:25124552	An important feature shared by the three Methanomassiliicoccales representatives, the Thermoplasmatales and other related lineages is the lack of Eukaryotic-like histone found in other Euryarchaeota [43], suggesting that the loss of this gene occurred early in the evolution of the whole lineage. Surprisingly, no gene coding for homologues of the bacterial-type HTa histones known to have replaced the native histone in Thermoplasmatales and DHVE2 are present in the Methanomassiliicoccales genomes and the MG-II genome.
+S	SH27	PMID:25124552	As usually observed in methanogens, the three species harbors an incomplete reductive TCA cycle [46].
+S	SH28	PMID:25124552	Similarly to other methanogens and differently from the Thermoplasmatales representatives, the three Methanomassiliicoccales lack PurK for purine synthesis pathway.
+S	SH29	PMID:25124552	Another adaptation to GIT could be inferred through the presence of a conserved amino acid domain corresponding to COG0790 (TPR repeat, SEL1 subfamily) in at least one protein of each Methanomassiliicoccales representative. This conserved domain has been previously identified in proteins involved in interactions between bacteria and eukaryotes and was never reported in archaea [55] suggesting an adaptation to digestive tracts unique to Methanomassiliicoccales among archaea
+S	SH30	PMID:25124552	A pool of genes conserved among all methanogens and not found in any other archaea was recently determined by Kaster et al.[57]. These genes encode the subunits of two enzymatic complexes unique and shared by all methanogens, the methyl-H4MPT: coenzyme M methyltransferase (Mtr) and the methyl coenzyme reductase (two complexes of isoenzymes Mcr and Mrt), as well as proteins of unknown function. Being unique to methanogens, these uncharacterized proteins likely have an important role for methanogenesis and could be directly associated to the functioning of Mcr and Mtr [57]. The lack of Mtr and the other genes of the CO2-reductive pathway in the three Methanomassiliicoccales described here, prompted us to reevaluate the overall methanogenesis markers. In addition to the five genes coding for subunits of the Mtr enzymatic complex, two former methanogenesis markers (annotated as methanogenesis markers 10 and 14 in the databases and belonging to arCOG00950 and arCOG04866, respectively) are absent from the three Methanomassiliicoccales genomes (Table 5).
+S	SH31	PMID:25124552	The lack of Mtr and the other genes of the CO2-reductive pathway in the three Methanomassiliicoccales described here, prompted us to reevaluate the overall methanogenesis markers. In addition to the five genes coding for subunits of the Mtr enzymatic complex, two former methanogenesis markers (annotated as methanogenesis markers 10 and 14 in the databases and belonging to arCOG00950 and arCOG04866, respectively) are absent from the three Methanomassiliicoccales genomes (Table 5).
+S	SH32	PMID:25124552	Fifteen genes present in the three Methanomassiliicoccales genomes have homologues (and/or paralogs in the case of atwA and the mcr/mrt operons) conserved in all other methanogens and not in other archaea and could still be considered as methanogenesis markers (Table 5).
+S	SH33	PMID:25124552	The exergonic reduction of the heterodisulfide CoM-S-S-CoB formed by the Mcr complex is a crucial step for energy conservation conserved in all methanogens. The three genomes harbor at least one copy of hdrA, hdrB and hdrC homologues encoding a soluble heterodisulfide reductase (Table 6), HdrB representing the catalytic activity for CoM-S-S-CoB reduction. The current HdrA differs from its homologues present in other methanogens by its longer size and the presence of two predicted FAD-binding sites instead of one, and three 4Fe-4S centers instead of four. The three genomes also contain homologues of hdrD, encoding the catalytic site of a second class of heterodisulfide reductase (HdrDE), but no homologues of hdrEencoding the membrane bound cytochrome subunit of this complex
+S	SH34	PMID:25124552	Similarly to the Methanococcales, Methanobacteriales and Methanopyrales, the hdrB and hdrC genes are adjacent whereas the hdrA gene is located apart and in close association with mvhDGAencoding the cytoplasmic F420-non-reducing hydrogenase, absent from members of the Methanosarcinales and some Methanomicrobiales [66].
+S	SH36	PMID:18987310	Signal transductions COGs (COG ‘T’) were found in greater abundance in free-living Epsilonproteobacteria (4.5%) and the EM-C (2.8%) compared with pathogens (1.3%)—possibly a result of the stochastic environment characteristic of both the free-living organisms and episymbionts.
+S	SH37	PMID:18987310	Two essential enzymes in the Entner Doudoroff pathway (6-phosphogluconate dehydratase and 2-keto-3-deoxy-6-phosphogluconate aldolase) are absent in both the episymbiont dataset and other free-living Epsilonproteobacteria genomes. They are present, however, in the Epsilonproteobacteria pathogen genomes—indicating free glucose utilization as an energy source.
+S	SH39	PMID:16156726	Cluster III includes nitrogenases from diverse anaerobic bacteria such as clostridia (low G+C, Gram-positive) and sulfate reducers (δ-proteobacteria), which is an example of the NifH phylogeny deviating from the 16S rRNA phylogeny. Some methanogens within the order Methanosarcinales have one nifH gene in cluster II and another copy called nifH2 in cluster III, which is believed to be an example of horizontal gene transfer between methanogens and clostridia (Raymond et al., 2004).
+S	SH40	PMID:16156726	Cluster IV includes divergent nitrogenases from methanogens, many of which are not able to fix nitrogen.
+S	SH41	PMID:16156726	Hydrothermal vent fluid originating from hot anaerobic zones in the subseafloor primarily contained nifH genes from anaerobic bacteria related to sulfate reducers and clostridia (cluster III), while hydrothermal fluid with a strong seawater component was dominated by unique putative archaeal nifH genes distantly related to methanogens.
+S	SH42	PMID:16156726	In order to rule out the possibility that the deep-sea nifH genes belong to methanogens too low in abundance to be detected using 16S rRNA primers, the methyl coenzyme-M reductase (mcrA) gene, which is specific to methanogens, was targeted.
+S	SH43	PMID:25244359	Moreover, most epsilonproteobacterial genomes encode 3–4 rRNA operons, possibly leading to an overrepresentation of Epsilonproteobacteria in sequence data.
+S	SH44	PMID:18987310	The complexity of the cell wall and membrane biosynthesis pathways (COG ‘M’) in the episymbionts compared with other Epsilonproteobacteria are reflected in the abundance of genes found in this category. It is the most represented COG category, accounting for 8% of the EM-C.
+S	SH45	PMID:18987310	A portion of the episymbiont consortia likely generates energy via pyruvate synthesis from glucose, as all of the enzymes in the pathway are present (Table S3). Although we detected all enzymes to run TCA in the forward direction, sequences encoding ATP citrate lyase subunits were much more abundant (at least 8:1) than those with homology to citrate synthase.
+S	SH46	PMID:20597983	Components of a fully functional Sox complex involve SoxB, SoxXA, SoxYZ and SoxCD. In earlier studies, the SoxB-encoding gene has been used as a marker gene and its presence has been demonstrated in reference strains from the Alpha-, Beta-, Gammaproteobacteria and Chlorobi (Petri et al., 2001; Meyer et al., 2007). The sox genes have also been found within the genomes of certain Epsilonproteobacteria, strongly indicating that they use the Sox pathway for sulfur oxidation (Nakagawa et al., 2007; Sievert et al., 2008b).
+S	SH47	PMID:20597983	Dissimilatory APS reductase (AprBA) is also a key enzyme of the dissimilatory sulfate-reduction pathway in sulfate-reducing prokaryotes (Meyer & Kuever, 2007b).  However, the enzyme is found in a wide variety of sulfur-oxidizing prokaryotes, where it is most likely involved in the reverse process, the transformation of sulfite to APS (Meyer & Kuever, 2007a).
+S	SH48	PMID:20597983	In this context, it should be mentioned that Epsilonproteobacteria of group D cannot oxidize reduced sulfur compounds, but rely on hydrogen as an energy source. Consequently, their genomes lack the sox genes (Campbell et al., 2009).
+S	SH49	PMID:20597983	Autotrophic Epsilonproteobacteria have been shown to use the reductive TCA cycle for CO2 fixation with a bona fide ATP citrate lyase as the key enzyme (Hügler et al., 2005; Takai et al., 2005; Voordeckers et al., 2008). In this study, various epsilonproteobacterial aclB sequences were found clustering mainly with sequences from groups F and D. This indicates the potential of Epsilonproteobacteria at the Irina II site to fix CO2 via the reductive TCA cycle.
+S	SH50	PMID:20597983	AprA genes of sulfur-oxidizing bacteria form APR lineage I, while sequences from sulfate-reducers form lineage II (Fig. 3b). However, the aprA genes of several sulfur-oxidizing bacteria, such as those of Beggiatoa spp., Thiobacillus spp. or the endosymbiont of Riftia pachyptila, cluster within lineage II, indicating lateral gene transfer of the apr genes (Meyer & Kuever, 2007a).
+S	SH51	PMID:20597983	Although sulfur-oxidizing members of the Gammaproteobacteria have been isolated frequently from vent sites, our knowledge of their sulfur-oxidation pathways is rather limited. Some strains, for example Thiomicrospira crunogena XCL-2, seem to use the complete Sox enzyme system (Scott et al., 2006), while others such as Beggiatoa and the endosymbiont of the tubeworm R. pachyptila use alternative pathways (Hagen & Nelson, 1997; Markert et al., 2007). The huge variety of gammaproteobacterial aprA genes found in this study indicates that Gammaproteobacteria at the Irina II site mainly use the APS pathway for sulfur oxidation.
+S	SH52	PMID:20597983	At least some strains also have the capability to use the CBB cycle for carbon fixation because we found several gammaproteobacterial cbbM gene sequences, encoding RubisCO form II (Table 1, Fig. S3). It has been postulated that RubisCO form II is used in niches with high CO2 and low O2 levels, while RubisCO form I works best in a low-CO2 and high-O2 environment (Badger & Bek, 2008). In line with this hypothesis, we were only able to amplify the cbbM gene.
+S	SH53	PMID:17105352	Genes are present in this genome that encode all of the components essential to assemble a fully functional Sox system that performs sulfite-, thiosulfate-, sulfur-, and hydrogen sulfide–dependent cytochrome c reduction, namely, SoxXA (Tcr0604 and Tcr0601), SoxYZ (Tcr0603 and Tcr0602), SoxB (Tcr1549), and SoxCD (Tcr0156and Tcr0157) [32,33]. This well-characterized system for the oxidation of reduced sulfur compounds has been studied in facultatively chemolithoautotrophic, aerobic, thiosulfate-oxidizing alphaproteobacteria, including Paracococcus versutus GB17, Thiobacillus versutus, Starkeya novella, and Pseudoaminobacter salicylatoxidans ([32,34] and references therein). This model involves a periplasmic multienzyme complex that is capable of oxidizing various reduced sulfur compounds completely to sulfate. Genes encoding components of this complex have been identified, and it has further been shown that these so-called “sox” genes form extensive clusters in the genomes of the aforementioned bacteria.
+S	SH54	PMID:17105352	Genome analyses also reveal the presence of a putative sulfide:quinone reductase gene (Tcr1170; SQR). This enzyme is present in a number of phototrophic and chemotrophic bacteria and is best characterized from Rhodobacter capsulatus.
+S	SH55	PMID:17105352	Thiom. crunogena XCL-2 apparently also lacks a sulfite:acceptor oxidoreductase (SorAB), an enzyme evolutionarily related to SoxCD that catalyzes the direct oxidation of sulfite to sulfate and that has a wide distribution among different sulfur-oxidizing bacteria (Figure S1).
+S	SH56	PMID:17105352	All 14 genes for the subunits of an electrogenic NADH:ubiquinone oxidoreductase (NDH-1) are present (Tcr0817–0830) and are organized in an apparent operon, as in other proteobacteria [48,49].
+S	SH57	PMID:17105352	Consistent with its microaerophilic lifestyle and inability to use nitrate as an electron acceptor [6], the only terminal oxidase present in the Thiom. crunogena XCL-2 genome is a cbb3-type cytochrome c oxidase (Tcr1963–5). To date, Helicobacter pylori is the only other sequenced organism that has solely a cbb3-type oxidase, and this has been proposed to be an adaptation to growth under microaerophilic conditions [49], since cbb3-type oxidase has a higher affinity for oxygen than aa3-type oxidase does [56].
+S	SH58	PMID:17105352	A recent comprehensive phylogenetic analysis of the cytochrome c553 proteins, including the mono-heme cytochromes from Thiom. crunogena and Thiob. denitrificans, revealed existence of a large protein superfamily that also includes proteins in the COG4654 cytochrome c551/c552 protein family (M. G. Klotz and A. B. Hooper, unpublished data). In ammonia-oxidizing bacteria, representatives of this protein superfamily (NE0102, Neut2204, and NmulA0344 in the COG4654 protein family; and Noc0751, NE0736, and Neut1650 in the COG2863 protein family) are the key electron carriers that connect the bc1 complex with complex IV as well as NOx-detoxifying reductases (i.e., NirK and NirS) and oxidases (i.e., cytochrome P460 and cytochrome c peroxidase) involved in nitrifier denitrification ([57] and references therein).
+S	SH59	PMID:17105352	Unlike many other bacteria [67], the gene encoding the sole SulP-type ion transporter (Tcr1533) does not have a carbonic anhydrase gene adjacent to it.
+S	SH61	PMID:17105352	The lack of CBB enzyme operons in obligate autotrophs from the Alpha-. Beta-, and Gammaproteobacteria, as well as the Cyanobacteria, may reflect a lack of selective pressure for these genes to be juxtaposed in their chromosomes for ease of coordinate repression during heterotrophic growth.
+S	SH62	PMID:17105352	All of the genes necessary for an oxidative CAC are potentially present, as in some other obligate autotrophs and methanotrophs [18,78].
+S	SH64	PMID:19197347	Free-living Epsilonproteobacteria have many genes containing diguanylate cyclase (GGDEF) and phosphodiesterase (EAL) domains, whereas Campylobacter and Helicobacter genomes have only a few or none.
+S	SH65	PMID:19197347	At the time of writing, 22 out of 26 sequenced Epsilonproteobacteria have the luxS and pfs genes, with only four Campylobacter species lacking the AI-2 system. While LuxS has been shown to affect biofilm formation, motility, type III secretion, and the production of virulence factors and toxins in pathogens, it remains unclear whether AI-2 is truly a universal signal or simply a metabolic byproduct for most bacterial strains [43]–[45]. In support of the widespread nature of LuxS/Pfs in Epsilonproteobacteria, the metagenome of the A. pompejana episymbionts contains 36 luxS sequences and 49 pfs sequences [46]. The abundance of these genes in Epsilonproteobacteria at hydrothermal vents may offer a mechanism through which this group dominates episymbiont communities.
+S	SH66	PMID:19197347	All the vent Epsilonproteobacteria as well as S. denitrificans and A. butzleri contain homologs to the second arsenate reductase (GAmH_0397 in N. profundicola). W. succinogenes, Sulfurovum, Nitratiruptor, and S. denitrificans contain an apparent operon that encodes an arsenite permease and regulatory protein, ArsR [18],[31],[61], whereas both N. profundicola and C. mediatlanticus lack an arsenical permease homolog (COG1055), but contain an arsR homolog (GAmH_0374) elsewhere.
+S	SH67	PMID:19197347	There are several genes in N. profundicola and other vent Epsilonproteobacteria that encode proteins directly or peripherally involved in resistance to toxins. One of these is a member of the Nudix family of proteins that clean the cell of toxic nucleotide metabolites [56]. This gene (GAmH_1363) is predicted to encode ADP-ribose pyrophosphatase and is found only in the vent epsiloproteobacterial and Arcobacter butzleri genomes and not in pathogenic Epsilonproteobacteria [18],[57].
+S	SH68	PMID:18790866	To determine how widely carboxydotrophy was distributed within the genus Thermococcus growing in hydrothermal vents, the presence of the CODH-encoding gene in seven Thermococcus species isolated from a solfataric acid field or hydrothermal vent was investigated. PCR products of CODH were not detected in any of the strains tested (data not shown). It is therefore suggested that CODH is restricted to only a few Thermococcus spp.
+S	SH69	PMID:18790866	No F420-hydrogenase homologues from the Thermococcales have been reported, to our knowledge.
+S	SH70	PMID:18790866	Unlike lithoheterotrophic bacteria at the ocean surface (22), T. onnurineus NA1 contains genes required for both CO oxidation and CO2 fixation, and a study of how the two processes can be coupled during CO oxidation is necessary.
+S	SH71	PMID:32239454	Most species of Thermococcus have multi-copy [Ni-Fe] hydrogenases, which play an essential role in H2 production and energy converting respiration.
+S	SH72	PMID:20975831	In the genomes of all obligate autotrophs including T. crunogena, RubisCO genes are not located near other enzymes of the Calvin-Benson-Bassham cycle [12].
+S	SH73	PMID:25279954	Thus, not only do the genomes of archaea and bacteria in vents encode a higher abundance of mobile elements, on average, than genomes native to other habitats, but vent viruses encode a high abundance of mobile elements as well.
+S	SH74	PMID:29354879	These findings are consistent with previous studies that report hydrothermal Epsilonproteobacteria and nitrite-oxidizing Nitrospirae employing the rTCA cycle for CO2 fixation [51].
+S	SH75	PMID:29354879	The results are in line with previous studies that reported WL pathway in acetogenic members, in autotrophic sulfate-reducing bacteria and archaea as well as in methanogenic Archaea [54, 55].
+S	SH76	PMID:29354879	The 3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle is mainly known to be conducted by autotrophic thermoacidophilic members of the Thaumarchaeota phylum [40].
+S	SH77	PMID:29354879	The use of the reverse sulfate reduction pathway instead of the Sox pathway by hydrothermal Gammaproteobacteria has been previously reported [39, 61]
+S	SH78	PMID:29354879	Members of the bacterial phyla Nitrospirae and Nitrospinae, mainly associated with RB dataset, were potentially involved in nitrite oxidation, as suggested by the presence of genes encoding enzymes involved in the nitrification process, namely narG and narH (Table S3)
+S	SH79	PMID:29354879	In aerobic methane-oxidizing bacteria, the same gene encodes for the particulate methane monooxygenase (pMMO) responsible for oxidizing ethane to methanol (see Methane metabolism section).
+S	SH80	PMID:29354879	Genes encoding the Sox enzyme complex (soxABXYZ) for oxidation of thiosulfate (S2O32−) to elemental sulfur (S0) and the supplementary soxCD genes for the further oxidation of thiosulfate to sulfate (SO42−) were mainly found related to the epsilonproteobacterial genera Sulfurovum, Sulfurimonas, Arcobacter, and Nitratiruptor.
+S	SH81	PMID:32561582	Interestingly, the genome of strain KV also encodes a putative multicopper oxidase, PcoAB, which could play a role in Fe(II) oxidation, a pathway found only in two other Zetaproteobacteria genomes (Ghiorsea bivora TAG-1 and SCGC AB-602-C20).
+S	SH82	PMID:32561582	Both genomes contain the gene for form II ribulose 1,5-bisphosphate carboxylase (RuBisCo) large subunit (cbbM), closely related to other Mariprofundus species cbbM genes (Fig. S2); cbbM is an essential gene for inorganic carbon fixation and is consistent with our growth observations in the laboratory (37).
+S	SH83	PMID:32561582	Though the genomes contain the gene for form II RuBisCo, they do not contain the gene for form I RuBisCo (cbbL). This observation is consistent with findings in other Zetaproteobacteria, for example, strains CP-5, CP-8, EKF-M39, TAG-1, and SV-108 (21, 36, 40).
+S	SH84	PMID:32561582	The genomes of many microaerophilic Fe(II)-oxidizing bacteria, originating from both freshwater and marine habitats, contain homologs of an outer membrane cytochrome protein (Cyc2) (42), which has been shown to oxidize Fe(II) in the acidophilic Acidithiobacillus ferrooxidans (43).
+S	SH85	PMID:32561582	The presence of the alternative respiratory complex III (AC-III) is a common feature in many Zetaproteobacteria and other Fe(II)-oxidizing bacteria (36), and it has been hypothesized that they are able to use the AC-III, which is thought to be analogous to the bc1 complex, as well as a molybdopterin oxidoreductase (encoded by the actB gene) to facilitate Fe(II) oxidation (35).
+S	SH86	PMID:32561582	Homologs of cbb3-type oxidases have been found in almost all Zetaproteobacteria genomes, aside from strains CP-5 and CP-8
+S	SH87	PMID:26487573	Carbon monoxide dehydrogenase is the key enzyme of the reductive acetyl-CoA pathway, which may couple CO oxidation to sulfate reduction, or reduce CO2 to either acetate (acetogenesis) or methane (methanogenesis) (Wu et al., 2005; King and Weber, 2007). This pathway is previously reported in anaerobic ammonia-oxidizing Planctomycetes, sulfate-reducing bacteria and in autotrophic Archaeoglobales (Berg, 2011).
+S	SH88	PMID:15164268	The key enzymes of CO metabolism are CO dehydrogenases, which perform the reaction CO + H2O→CO2 + 2e− + 2H+ (Meyer et al. 1993; Svetlitchny et al. 2001; Lindahl 2002). Among anaerobes, CO dehydrogenases are present in microorganisms that form or degrade acetate via the acetyl-CoA pathway found both in the representatives of Archaea and Bacteria domains. Among bacteria, it was found in acetogenic (Drake 1994), sulfate-reducing (see, e.g., Fukui et al. 1999) and some photosynthetic bacteria (Uffen 1983; Ensign 1995); and among archaea, in a variety of methanogens, including species of Methanosarcina, Methanothrix, and Methanocaldococcus (Ferry 1999), and in nonmethanogenic archaea like Archeoglobus fulgidus (Möller-Zinkhan and Thauer 1990) and Ferroglobus placidus (Vorholt et al. 1997).
+S	SH89	PMID:15164268	The genus Thiomicrospira includes sulfide-oxidizing chemolithoautotrophs possessing RubisCO form II (cbbM) in addition to form I (cbbL) (Tourova et al. 2006)
+S	SH90	PMID:29521452	Chemolithoautotrophic bacteria from the genera Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira are common, sometimes dominant, isolates from sulfidic habitats including hydrothermal vents, soda and salt lakes and marine sediments. Their genome sequences confirm their membership in a deeply branching clade of the Gammaproteobacteria. Several adaptations to heterogeneous habitats are apparent. Their genomes include large numbers of genes for sensing and responding to their environment (EAL- and GGDEF-domain proteins and methyl-accepting chemotaxis proteins) despite their small sizes (2.1–3.1 Mbp).
+S	SH91	PMID:29521452	Many members of Hydrogenovibrio and Thiomicrorhabdus have large tandem repeats preceding a gene encoding protein kinase (e.g., Tcr_0106; Fig. 2). Hydrogenovibrio halophilus lacks an ortholog to this protein kinase, as well as the repeated regions.
+S	SH93	PMID:29521452	Genes with MCP domains are very abundant in members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira (11–23 genes per genome; Fig. 3), particularly when compared with other members of family Piscirickettsiaceae (0–13 genes per genome, median = 4).
+S	SH94	PMID:29521452	As a result, several taxa carry multiple sulfide:quinone oxidoreductase genes, and this is also the case for other members of ‘Proteobacteria’ (Supporting Information Table S3).
+S	SH95	PMID:29521452	Most of the members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira also carry one or multiple copies of flavocytochrome c sulfide dehydrogenase (SDH; EC 1.8.1.19; Table 3). These genomes encode a particularly large number of copies of this enzyme (up to 4); other members of ‘Proteobacteria’ typically carry fewer (1–2; Supporting Information Table S3).
+S	SH96	PMID:29521452	Members of the genera Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira carry genes encoding the complete thiosulfate-oxidizing multienzyme system (‘Sox complex’, encoded by soxABCDXYZ) associated with the Kelly–Friedrich pathway, which can oxidize thiosulfate completely to sulfate without the formation of any free intermediates in the cell or locale. These genes are not collocated in a single operon, similar to H. crunogenus (Scott et al., 2006), suggesting that they may be differentially regulated. Most of the the ‘Proteobacteria’ surveyed here carry soxABXYZ instead (Supporting Information Table S3); this ‘incomplete’ Sox complex may produce polysulfide or elemental sulfur (Frigaard and Dahl, 2009).
+S	SH97	PMID:29521452	As has been noted for H. crunogenus (Scott et al., 2006), members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira lack dissimilatory sulfite reductase (DSR); this enzyme is common in photosynthetic sulfur oxidizing bacteria, which use it to oxidize sulfide and elemental sulfur to sulfite (Frigaard and Dahl, 2009). This complex is also encoded in the genomes of many chemolithoautotrophic members of ‘Proteobacteria’ (Supporting Information Table S3). Its absence in Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira is consistent with previous studies which noted that the DSR complex is absent from organisms carrying genes encoding a complete Sox complex that includes SoxCD (Frigaard and Dahl, 2009; Gregersen et al., 2011). Genes encoding enzymes to oxidize sulfite directly (SorAB, SoeABC) or indirectly (dissimilatory APS reductase) are also absent from their genomes, though these genes are common among other ‘Proteobacteria’ (Supporting Information Table S3).
+S	SH98	PMID:29521452	All of them also carry genes encoding NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase, EC 1.6.5.3), cytochrome bc1 complex (EC 1.10.2.2) and a cbb3-type cytochrome c oxidase (EC 1.9.3.1), which facilitates growth under low oxygen conditions (Pitcher and Watmough, 2004) and has been purified and characterized from Tms. aerophila (Sorokin et al., 1999).
+S	SH99	PMID:29521452	Genes encoding group 1d (oxygen-tolerant) and 2b (sensory) hydrogenases are present in both H. marinus and H. thermophilus MA2–6, and both are capable of growth with hydrogen gas as the electron donor (Hansen and Perner, 2016). Genes encoding group 1d hydrogenase are common among the members of Gammaproteobacteria (Supporting Information Table S4).
+S	SH100	PMID:29521452	Two, and often three, genes encoding RubisCO are present in genomes from members of Hydrogenovibrio and Thiomicrorhabdus (Table 4); it is more common among ‘Proteobacteria’ for genomes to include one or two of these genes (Supporting Information Table S5).
+S	SH101	PMID:29521452	Genomes of most members of Thiomicrospira encode only carboxysomal RubisCO (form IAc) and not form II (Table 4), confirming results from PCR-based assays for these enzymes (Tourova et al., 2006).
+S	SH102	PMID:21410492	Closer examination of this trend shows that thermophilic strains, on average, have higher numbers of CRISPR loci in their genomes than mesophiles.
+T	TH1	PMID:25124552	Table 5 Core proteins of methanogenesis
+G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:class
+G	Gi_free	free-living	biological_interaction	OMP:0007646
+G	Gh_hydrvent	hydrothermal vents	habitat	OMIT:0027720
+G	Gm_methanotrophic	methanotrophic	metabolic	Wikipedia:Methanotroph	XR:Z:GO:0044227
+G	Gm_thiotrophic	thiotrophic	metabolic	doi:10.1007/978-1-4020-9212-1_206#Thiotrophic Bacteria	XR:Z:GO:0019417
+G	Gt_Gammaproteobacteria	Gammaproteobacteria	taxonomic	taxid:1236	TR:Z:class
+G	Gc_methanotr_Gamma	methanotrophic Gammaproteobacteria	combined	Gm_methanotrophic & Gt_Gammaproteobacteria
+G	Gc_thiotr_Gamma	thiotrophic Gammaproteobacteria	combined	Gm_thiotrophic & Gt_Gammaproteobacteria
+G	Gi_Calyptogena_endosym	Calyptogena endosymbionts	biological_interaction	def:endosymbiont of Calyptogena
+G	Gc_thiotr_Gamma_Calyptogena_endosym	thiotrophic Gammaproteobacteria in Calyptogena endosymbionts	combined	Gm_thiotrophic & Gt_Gammaproteobacteria & Gi_Calyptogena_endosym
+G	Gt_Aehrlichei	Alkalilimnicola ehrlichei	taxonomic	taxid:351052	TR:Z:species
+G	Gs_TspK90mix	Thioalkalivibrio strain K90mix	strain	taxid:396595
+G	Gt_Hhalophila	Halorhodospira halophila	taxonomic	taxid:1053	TR:Z:species
+G	Gt_Chromatiaceae	Chromatiaceae	taxonomic	taxid:1046	TR:Z:family
+G	Gt_Hcrunogenus	Thiomicrospira crunogena	taxonomic	taxid:39765	TR:Z:species
+G	Gt_Methanococcoides	Methanococcoides	taxonomic	taxid:2225	TR:Z:genus
+G	Gm_methanogenic	methanogenic	metabolic	MICRO:0000166
+G	Gt_ANME	ANME group	taxonomic	taxid:588816	TR:Z:clade
+G	Gt_Archaea	Archaea	taxonomic	taxid:2157	TR:Z:superkingdom
+G	Gc_methanog_A	methanogenic archaea	combined	Gt_Archaea & Gm_methanogenic
+G	Gt_Nanoarchaeota	Nanoarchaeota	taxonomic	taxid:192989	TR:Z:phylum
+G	Gb_cultured	cultured	cultiviability	def:already cultivated in a laboratory
+G	Gc_cultured_Nanoarch	cultured Nanoarchaeota	combined	Gt_Nanoarchaeota & Gb_cultured
+G	Gl_NarcGua46	Nanoarchaeota archaeon Gua-46	metagenome_assembled	taxid:2478562
+G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
+G	Gl_NarcMC1	Nanoarchaeota archaeon MC-1	metagenome_assembled	biosample:SAMN21554103
+G	Gi_hashost	host-associated (has host)	biological_interaction	RO:0002454
+G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
+G	Gt_Bacteria	Bacteria	taxonomic	taxid:2	TR:Z:superkingdom
+G	Gc_intracellular_B	intracellular bacteria	combined	Gt_Bacteria & Gi_intracellular
+G	Gh_marine	marine	habitat	ENVO:01000320
+G	Gt_Roseobacter	Roseobacter	taxonomic	taxid:2433	TR:Z:genus
+G	Gc_mar_Roseob	marine Roseobacter	combined	Gh_marine & Gt_Roseobacter
+G	Gc_hashost_B	host-associated (has host) bacteria	combined	Gi_hashost & Gt_Bacteria
+G	Gc_free_B	free-living bacteria	combined	Gi_free & Gt_Bacteria
+G	Gt_Vibrio	Vibrio	taxonomic	taxid:662	TR:Z:genus
+G	Gh_gut	gut/enteric	habitat	ENVO:2100002	XR:Z:NCIT:C93019;OHMI:0000020
+G	Gc_gut_B	enteric bacteria	combined	Gh_gut & Gt_Bacteria
+G	Gt_Euryarchaeota	Euryarchaeota	taxonomic	taxid:28890	TR:Z:phylum
+G	Gt_Thermoplasmatales	Thermoplasmatales	taxonomic	taxid:2301	TR:Z:genus
+G	Gt_DHVE2	DHVE2 group	taxonomic	taxid:1803510	TR:Z:clade
+G	Gt_MG2	Marine Group II (MG-II)	taxonomic	taxid:133814	TR:Z:order
+G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
+G	Gt_Mluminyensis	Methanomassiliicoccus luminyensis	taxonomic	taxid:1080712	TR:Z:species
+G	Gc_methanog_A_not_Mlumin_Malvus	methanogenic archaea excluding Methanomassiliicoccus luminyensis & Candidatus Methanomethylophilus alvus	combined	Gc_methanog_A & !(Gt_Malvus) & !(Gt_Mluminyensis)
+G	Gt_Aboonei	Aciduliprofundum boonei	taxonomic	taxid:379547	TR:Z:species
+G	Gt_Mintestinalis	Candidatus Methanomassiliicoccus intestinalis	taxonomic	taxid:1406512	TR:Z:species
+G	Gb_uncultured	uncultured	cultiviability	def:not yet cultivated in a laboratory
+G	Gc_uncultured_MG2	uncultured Marine Group II (MG-II)	combined	Gb_uncultured & Gt_MG2
+G	Gt_Methanosarcinales	Methanosarcinales	taxonomic	taxid:94695	TR:Z:order
+G	Gt_Methanococcales	Methanococcales	taxonomic	taxid:2182	TR:Z:order
+G	Gt_Methanobacteriales	Methanobacteriales	taxonomic	taxid:2158	TR:Z:order
+G	Gt_Methanopyrales	Methanopyrales	taxonomic	taxid:68985	TR:Z:order
+G	Gt_Methanomicrobiales	Methanomicrobiales	taxonomic	taxid:2191	TR:Z:order
+G	Gc_free_Epsilon	free-living Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_free
+G	Gc_hydrvent_free_Epsilon	free-living Epsilonproteobacteria in hydrothermal vents	combined	Gc_free_Epsilon & Gh_hydrvent
+G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
+G	Gc_pathog_Epsilon	pathogenic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_pathogenic
+G	Gi_episymbiont_Apompejana	episymbiont of Alvinella pompejana	biological_interaction	RO:0002632
+G	Gc_epis_Apmpejana_Epsilon	Epsilonproteobacteria & episymbiont of Alvinella pompejana	combined	Gt_Epsilonproteobacteria & Gi_episymbiont_Apompejana
+G	Gt_Alphaproteobacteria	Alphaproteobacteria	taxonomic	taxid:28211	TR:Z:class
+G	Gt_Betaproteobacteria	Betaproteobacteria	taxonomic	taxid:28216	TR:Z:class
+G	Gt_Chlorobi	Chlorobi	taxonomic	taxid:1090	TR:Z:phylum
+G	Gc_sulfred_A	sulfate-reducing Archaea	combined	Gm_sulfred & Gt_Archaea
+G	Gm_sulfred	sulfate-reducing	metabolic	Wikipedia:Sulfate-reducing_microorganism	XR:Z:GO:0019419
+G	Gm_sulfox	sulfur-oxidizing	metabolic	def:capable of oxidation of sulfur	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
+G	Gc_sulfox_A	sulfur-oxidizing Archaea	combined	Gm_sulfox & Gt_Archaea
+G	Gc_autotr_Epsilon	Autotrophic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gp_autotrophic
+G	Gp_autotrophic	autotrophic	trophic_strategy	MICRO:0001456
+G	Gc_sulfox_B	sulfur-oxidizing Bacteria	combined	Gt_Bacteria & Gm_sulfox
+G	Gc_sulfred_B	sulfate-reducing Bacteria	combined	Gt_Bacteria & Gm_sulfred
+G	Gp_phototrophic	phototrophic	trophic_strategy	MICRO:0001457	XR:Z:MICRO:0001452;MICRO:0000498
+G	Gp_chemotrophic	chemotrophic	trophic_strategy	MICRO:0001458	XR:Z:MICRO:0000496;MICRO:0001494
+G	Gc_phototrophic_B	phototrophic Bacteria	combined	Gp_phototrophic & Gt_Bacteria
+G	Gc_chemotrophic_B	chemotrophic Bacteria	combined	Gp_chemotrophic & Gt_Bacteria
+G	Gt_Rcapsulatus	Rhodobacter capsulatus	taxonomic	taxid:1061	TR:Z:species
+G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
+G	Gs_HcruXCL2	Thiomicrospira crunogena XCL-2	strain	taxid:317025
+G	Gt_Methanomassiliicoccales	Methanomassiliicoccales	taxonomic	taxid:1235850	TR:Z:genus
+G	Gc_not_methanog_A	Archaea excluding methanogenic archaea	combined	Gt_Archaea & !(Gc_methanog_A)
+G	Gc_meth_A_not_Methanomas	methanogenic archaea excluding Methanomassiliicoccales	combined	Gc_methanog_A & !(Gt_Methanomassiliicoccales)
+G	Gc_not_methanog_A_plus_Methanomas	Archaea excluding methanogenic archaea except Methanomassiliicoccales	combined	Gt_Archaea & !(Gc_meth_A_not_Methanomas)
+G	Gp_obl_autotr	obligate autotrophic	trophic_strategy	def: always having an autotrophic lifestyle (MICRO:0001456), contrasted to facultative autotrophs
+G	Gc_obl_autotr_Gamma	obligate autotrophic Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gp_obl_autotr
+G	Gc_obl_autotr_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Alphaproteobacteria
+G	Gc_obl_autotr_Beta	obligate autotrophic Betaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Betaproteobacteria
+G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
+G	Gc_obl_autotr_B	obligate autotrophic bacteria	combined	Gp_obl_autotr & Gt_Bacteria
+G	Gc_methanotr_B	methanotrophic bacteria	combined	Gm_methanotrophic & Gt_Bacteria
+G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
+G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
+G	Gc_hydrvent_Epsilon	Epsilonproteobacteria in hydrothermal vents	combined	Gt_Epsilonproteobacteria & Gh_hydrvent
+G	Gc_free_Epsilon_not_Campylo_Helico	free-living Epsilonproteobacteria excluding Campylobacter & Helicobacter	combined	Gc_free_Epsilon & !(Gt_Campylobacter) & !(Gt_Helicobacter)
+G	Gt_Sdenitrificans	Sulfurimonas denitrificans	taxonomic	taxid:39766	TR:Z:species
+G	Gt_Abutzleri	Arcobacter butzleri	taxonomic	taxid:28197	TR:Z:species
+G	Gt_Wsuccinogenes	Wolinella succinogenes	taxonomic	taxid:844	TR:Z:species
+G	Gt_Sulfurovum	Sulfurovum	taxonomic	taxid:265570	TR:Z:genus
+G	Gt_Nitratiruptor	Nitratiruptor	taxonomic	taxid:269258	TR:Z:genus
+G	Gt_Cmediatlanticus	Caminibacter mediatlanticus	taxonomic	taxid:291048	TR:Z:species
+G	Gt_Nprofundicola	Nautilia profundicola	taxonomic	taxid:244787	TR:Z:species
+G	Gt_Thermococcus	Thermococcus	taxonomic	taxid:2263	TR:Z:genus
+G	Gc_hydrvent_Thermococcus	Thermococcus in hydrothermal vents	combined	Gt_Thermococcus & Gh_hydrvent
+G	Gt_Thermococcales	Thermococcales	taxonomic	taxid:2258	TR:Z:order
+G	Gp_lithoheterotrophic	lithoheterotrophic	combined	Gp_heterotrophic & Gp_lithotrophic
+G	Gc_lithoheterotr_B	lithoheterotrophic bacteria	combined	Gt_Bacteria & Gp_lithoheterotrophic
+G	Gs_TonnNA1	Thermococcus onnurineus NA1	strain	taxid:523850
+G	Gp_heterotrophic	heterotrophic	trophic_strategy	MICRO:0001474
+G	Gp_lithotrophic	lithotrophic	trophic_strategy	MICRO:0001459
+G	Gc_hydrvent_A	archaea in hydrothermal vents	combined	Gh_hydrvent & Gt_Archaea
+G	Gc_hydrvent_B	bacteria in hydrothermal vents	combined	Gh_hydrvent & Gt_Bacteria
+G	Gc_not_hydrvent_A	archaea excluding archaea in hydrothermal vents	combined	Gt_Archaea & !(Gc_hydrvent_A)
+G	Gc_not_hydrvent_B	bacteria excluding bacteria in hydrothermal vents	combined	Gt_Bacteria & !(Gc_hydrvent_B)
+G	Gt_Nitrospirae	Nitrospirae	taxonomic	taxid:40117	TR:Z:phylum
+G	Gm_nitriox	nitrite-oxidizing	metabolic	def:capable of oxidizing nitrite	XR:Z:Wikipedia:Nitrifying_bacteria
+G	Gc_nitriox_Nitrospirae	nitrite-oxidizing Nitrospirae	combined	Gt_Nitrospirae & Gm_nitriox
+G	Gc_autotr_sulfred_B	autotrophic sulfate-reducing bacteria	combined	Gp_autotrophic & Gc_sulfred_B
+G	Gc_autotr_sulfred_A	autotrophic sulfate-reducing archaea	combined	Gm_sulfred & Gt_Archaea & Gp_autotrophic
+G	Gt_Thaumarchaeota	Thaumarchaeota	taxonomic	taxid:651137	TR:Z:phylum
+G	Gc_thermoacidophilic	thermoacidophilic	combined	Gr_thermophilic & Gr_acidophilic
+G	Gc_autotr_thermoac_Thaumarch	autotrophic thermoacidophilic Thaumarchaeota	combined	Gp_autotrophic & Gt_Thaumarchaeota & Gc_thermoacidophilic
+G	Gc_hydroth_Gamma	hydrothermal Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gh_hydrvent
+G	Gt_Nitrospinae	Nitrospinae	taxonomic	taxid:1293497	TR:Z:phylum
+G	Gc_aer_methox_B	aerobic methane-oxidizing bacteria	combined	Gt_Bacteria & Gm_aer_methox
+G	Gm_aer_methox	aerobic methane-oxidizing	metabolic	doi:10.1007/978-1-4020-9212-1_139#Methane Oxidation (Aerobic)	# anaerobic and aerobic methane oxidation are very distinct processes
+G	Gt_Sulfurimonas	Sulfurimonas	taxonomic	taxid:202746	TR:Z:genus
+G	Gt_Arcobacter	Arcobacter	taxonomic	taxid:28196	TR:Z:genus
+G	Gg_Irina2	Irina II	geographical	https://vents-data.interridge.org/ventfield/logatchev-1
+G	Gc_Irina2_Gamma	Gammaproteobacteria at Irina II	combined	Gt_Gammaproteobacteria & Gg_Irina2
+G	Gt_Nautiliaceae	Nautiliaceae	taxonomic	taxid:224467	TR:Z:family
+G	Gc_Irina2_Nautiliaceae	Nautiliaceae at Irina II	combined	Gt_Nautiliaceae & Gg_Irina2
+G	Gt_Zetaproteobacteria	Zetaproteobacteria	taxonomic	taxid:580370	TR:Z:genus
+G	Gs_GbivTAG1	Ghiorsea bivora TAG-1	strain	dsmz:DSM-103937	TS:Z:taxid:1485545
+G	Gs_ZetaAB602C20	zeta proteobacterium SCGC AB-602-C20	strain	taxid:1131287
+G	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	Zetaproteobacteria excluding Ghiorsea bivora TAG-1 & zeta proteobacterium SCGC AB-602-C20	combined	Gt_Zetaproteobacteria & !(Gs_GbivTAG1) & !(Gs_ZetaAB602C20)
+G	Gt_Mariprofundus	Mariprofundus	taxonomic	taxid:377315	TR:Z:genus
+G	Gc_microaer_Fe2ox_B	microaerophilic Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gr_microaerophilic & Gm_Fe2ox
+G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
+G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
+G	Gr_microaerophilic	microaerophilic	O2_requirement	MICRO:0000515
+G	Gm_Fe2ox	Fe(II)-oxidizing	metabolic	Wikipedia:Iron-oxidizing_bacteria
+G	Gc_Fe2ox_B	Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gm_Fe2ox
+G	Gc_anaer_ammox_Planctomycetes	anaerobic ammonia-oxidizing Planctomycetes	combined	Gr_anaerobic & Gm_ammox & Gt_Planctomycetes
+G	Gc_autotr_Archaeoglobales	autotrophic Archaeoglobales	combined	Gp_autotrophic & Gt_Archaeoglobales
+G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
+G	Gt_Archaeoglobales	Archaeoglobales	taxonomic	taxid:2231	TR:Z:order
+G	Gm_ammox	ammonia-oxidizing	metabolic	def:capable of oxidizing ammonia	XR:Z:Wikipedia:Nitrifying_bacteria;XR:Z:GO:0019329
+G	Gc_acetog_B	acetogenic bacteria	combined	Gt_Bacteria & Gm_acetogenic
+G	Gc_photos_B	photosynthetic bacteria	combined	Gt_Bacteria & Gp_photosynthetic
+G	Gm_acetogenic	acetogenic	metabolic	Wikipedia:Acetogenesis
+G	Gp_photosynthetic	photosynthetic	trophic_strategy	Wikipedia:Photosynthesis	XR:Z:GO:0034357
+G	Gt_Methanosarcina	Methanosarcina	taxonomic	taxid:2207	TR:Z:genus
+G	Gt_Methanothrix	Methanothrix	taxonomic	taxid:2222	TR:Z:genus
+G	Gt_Methanocaldococcus	Methanocaldococcus	taxonomic	taxid:196118	TR:Z:genus
+G	Gt_Afulgidus	Archeoglobus fulgidus	taxonomic	taxid:2234	TR:Z:species
+G	Gt_Fplacidus	Ferroglobus placidus	taxonomic	taxid:54261	TR:Z:species
+G	Gt_Thiomicrospira	Thiomicrospira	taxonomic	taxid:933	TR:Z:genus
+G	Gc_sulfiox_chemolithoa_Thiomicrospira	sulfide-oxidizing chemolithoautotroph Thiomicrospira	combined	Gt_Thiomicrospira & Gm_sulfiox & Gp_chemolithoautotrophic
+G	Gm_sulfiox	sulfide-oxidizing	metabolic	def:capable of ozidizing sulfide	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
+G	Gp_chemolithoautotrophic	chemolithoautotrophic	trophic_strategy	MICRO:0001477
+G	Gt_Hydrogenovibrio	Hydrogenovibrio	taxonomic	taxid:28884	TR:Z:genus
+G	Gt_Thiomicrorhabdus	Thiomicrorhabdus	taxonomic	taxid:2039723	TR:Z:genus
+G	Gc_chemolithoa_Hydrogenovibrio	chemolithoautotroph Hydrogenovibrio	combined	Gp_chemolithoautotrophic & Gt_Hydrogenovibrio
+G	Gc_chemolithoa_Thiomicrorhabdus	chemolithoautotroph Thiomicrorhabdus	combined	Gp_chemolithoautotrophic & Gt_Thiomicrorhabdus
+G	Gc_chemolithoa_Thiomicrospira	chemolithoautotroph Thiomicrospira	combined	Gp_chemolithoautotrophic & Gt_Thiomicrospira
+G	Gt_Piscirickettsiaceae	Piscirickettsiaceae	taxonomic	taxid:135616	TR:Z:family
+G	Gc_Hydrogenov_Thiomicror_Thiomicros	members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira	combined	Gt_Hydrogenovibrio & Gt_Thiomicrorhabdus & Gt_Thiomicrospira
+G	Gt_Proteobacteria	Proteobacteria	taxonomic	taxid:1224	TR:Z:phylum
+G	Gc_Proteo_not_Hydrogenov_Thiomicror_Thiomicros	Proteobacteria exlcuding members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira	combined	Gt_Proteobacteria & !(Gc_Hydrogenov_Thiomicror_Thiomicros)
+G	Gt_Hhalophilus	Hydrogenovibrio halophilus	taxonomic	taxid:373391	TR:Z:species
+G	Gc_Hydrogenov_not_halophilus	Hydrogenovibrio excluding Hydrogenovibrio halophilus	combined	Gt_Hydrogenovibrio & !(Gt_Hhalophilus)
+G	Gr_thermophilic	thermophilic	temperature_requirement	MICRO:0000118
+G	Gr_mesophilic	mesophilic	temperature_requirement	MICRO:0000111
+G	Gc_thermophilic_A	thermophilic archaea	combined	Gr_thermophilic & Gt_Archaea
+G	Gc_thermophilic_B	thermophilic bacteria	combined	Gr_thermophilic & Gt_Bacteria
+G	Gc_mesophilic_A	mesophilic archaea	combined	Gr_mesophilic & Gt_Archaea
+G	Gc_mesophilic_B	mesophilic bacteria	combined	Gr_mesophilic & Gt_Bacteria
+G	Gr_acidophilic	acidophilic	pH_requirement	Wikipedia:Acidophile
+U	Uw_rTCA	set:metabolic_pathway	.	rTCA	reverse triboxylic acid cycle
+U	Ug_mcrA	specific_gene	.	mcrA	.
+U	Up_F420	specific_protein	.	F420	F420-hydrogenase
+U	Uh_F420	family_or_domain:homolog	homolog:Up_F420	.	F420-hydrogenase homolog
+U	Uw_CO_ox	set:metabolic_pathway	.	.	CO oxidation
+U	Uw_CO2_fix	set:metabolic_pathway	.	.	CO2 fixation
+U	Ud_NiFe_hydr	family_or_domain	.	.	[Ni-Fe] hydrogenase
+U	Ur_RubisCO_out_CBB	set:arrangement	Uf_RubisCO,<>,Uc_CBB	.	RubisCO genes located outside Calvin-Benson-Bassham cluster
+U	Uc_CBB	set:gene_cluster	.	CBB	Calvin-Benson-Bassham cluster
+U	Ut_mobile_genetic_element	feature_type	SO:0001037	mobile_genetic_element	.
+U	Uw_3HP4HB	set:metabolic_pathway	.	.	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
+U	Uw_rev_sulf_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway
+U	Ug_narG	specific_gene	.	narG	.
+U	Ut_split_pcgene	feature_type	.	.	split protein-coding gene
+U	Ug_narH	specific_gene	.	narH	.
+U	Ug_pmoA	specific_gene	.	pmoA	particulate methane monooxygenase (pMMO)
+U	Uc_SoxABXYZ	set:gene_cluster	Ug_soxA,Ug_soxB,Ug_soxX,Ug_soxY,Ug_soxZ	SoxABXYZ	SoxABXYZ (Sox enzyme complex)
+U	Uw_sox	set:metabolic_pathway	.	.	Sox system pathway
+U	Uy_PcoAB	set:gene_system	Ug_pcoA,Ug_pcoB	PcoAB	multicopper oxidase
+U	Ug_pcoA	specific_gene	.	pcoA	copper resistance protein A
+U	Ug_pcoB	specific_gene	.	pcoB	copper resistance protein B
+U	Ug_cbbL	specific_gene	.	cbbL	form I RuBisCo (cbbL)
+U	Up_cyc2	specific_protein	.	cyc2	outer membrane cytochrome protein (Cyc2)
+U	Uh_cyc2	family_or_domain:homolog	homolog:Up_cyc2	.	outer membrane cytochrome protein (Cyc2) homolog
+U	Uw_ACIII	set:metabolic_pathway	.	ACIII	alternative respiratory complex III
+U	Ug_cbb3	specific_gene	.	cbb3	cbb3-type oxidase
+U	Uh_cbb3	family_or_domain:homolog	homolog:Ug_cbb3	.	cbb3-type oxidase homolog
+U	Uf_tyr_tr	function	.	.	tyrosine-specific transporter
+U	Uf_CO_deh	function	.	.	CO dehydrogenase
+U	Ud_Pfam00563	family_or_domain:Pfam	Pfam00563	.	EAL domain
+U	Ud_Pfam00990	family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
+U	Ud_Pfam000159	family_or_domain:Pfam	Pfam000159	.	MCP domain
+U	Up_SDH	specific_protein	.	.	flavocytochrome c sulfide dehydrogenase (SDH)
+U	Uf_NDH1_NADH_deh	function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase)
+U	Uf_cyt_bc1	function	.	.	cytochrome bc1 complex
+U	Uf_hydr_1d	function	.	.	group 1d hydrogenase
+U	Uf_RubisCO	function	.	RubisCO	Ribulose bisphosphate carboxylase
+U	Uw_pent_biph	set:metabolic_pathway	.	.	pentose biphosphate pathway
+U	Up_RubisCO_IAc	specific_protein	.	.	carboxysomal RubisCO (form IAc)
+U	Uc_SoxABCDXYZ	set:gene_cluster	Ug_soxA,Ug_soxB,Ug_soxC,Ug_soxD,Ug_soxX,Ug_soxY,Ug_soxZ	SoxABCDXYZ	SoxABCDXYZ (Sox enzyme complex)
+U	Ug_soxA	specific_gene	.	soxA	.
+U	Ug_soxK	specific_gene	.	soxK	.
+U	Ug_soxX	specific_gene	.	soxX	.
+U	Ug_soxY	specific_gene	.	soxY	.
+U	Ug_soxZ	specific_gene	.	soxZ	.
+U	Ur_LTR_prkin	set:arrangement	Ut_LTR,UH113b	.	gene for a protein kinase, predeced by: long tandem repeat
+U	Ut_LTR	feature_type	.	.	long tandem repeat
+U	Uf_protein_kinase	function	.	.	protein kinase
+U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
+U	Up_MARTX	specific_protein	.	MARTX	Multifunctional autoprocessing RTX toxin
+U	Ud_rhs	family_or_domain	.	rhs	rhs genes (YD repeat toxins)
+U	Ud_RTX	family_or_domain	.	RTX	RTX toxin repeat
+U	Ug_lrsB	specific_gene	.	lrsB	.
+U	Ug_luxP	specific_gene	.	luxP	.
+U	Uw_calvin	set:metabolic_pathway	.	.	Calvin cycle
+U	Uf_euk_like_hystone	function	.	eukaryotic-like histone
+U	Uw_C1_f_methylCoM	set:metabolic_pathway	.	.	C1-pathway forming methyl-CoM
+U	Ur_16S_tRNA_23S	set:arrangement	Ug_16S,1:*(tRNA_gene),Ug_23S	.	16S rRNA; (tRNAs); 23S rRNA
+U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
+U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
+U	Up_topoVI	specific_protein	.	.	topoisomerase TopoVI
+U	Uf_bact_DNA_gyr	function	.	.	bacterial-type DNA gyrase
+U	Uf_bact_HTa_hist	function	.	.	bacterial-type HTa histone
+U	Uw_red_TCA	set:metabolic_pathway	.	.	reductive TCA cycle
+U	Ug_purK	specific_gene	.	purK	.
+U	Uog_COG0790	ortholog_group:COG	COG0790	.	TPR repeat, SEL1 subfamily
+U	Uf_Mtr	function	.	.	coenzyme M methyltransferase (Mtr) complex
+U	Up_PPi_PFK	specific_protein	.	PPi-PFK	pyrophosphate-dependent 6-phosphofructokinase (PPi-PFK)
+U	Uf_meth_coe_red	function	.	.	methyl coenzyme reductase
+U	Uog_arCOG00950	ortholog_group:arCOG	arCOG00950	.	.
+U	Uog_arCOG04866	ortholog_group:arCOG	arCOG04866	.	.
+U	Ug_hdrA	specific_gene	.	hdrA	.
+U	Ug_hdrB	specific_gene	.	hdrB	.
+U	Ug_hdrC	specific_gene	.	hdrC	.
+U	Ug_hdrD	specific_gene	.	hdrD	.
+U	Ug_hdrE	specific_gene	.	hdrE	.
+U	Ur_hdrBC_far_A	set:arrangement	Ug_hdrB,><,Ug_hdrC,<>,Ug_hdrA	.	(hdrB-hdrC cluster) & hdrA separated
+U	Up_mvhDGA	set:protein_complex	Ug_mvhD,Ug_mvhG,Ug_mvhA	.	cytoplasmic F420-non-reducing hydrogenase (mvhDGA)
+U	Ug_mvhA	specific_gene	.	mvhA	.
+U	Ug_mvhD	specific_gene	.	mvhD	.
+U	Ug_mvhG	specific_gene	.	mvhG	.
+U	Uf_pt_pyrop	function	.	.	proton-translocating pyrophosphatase
+U	Ux_T	ortholog_groups_category:COG_category	T	.	Signal transduction
+U	Uf_6pg_deh	function	.	.	6-phosphogluconate dehydratase
+U	Uf_2k3d6pg_ald	function	.	.	2-keto-3-deoxy-6-phosphogluconate aldolase
+U	Uop_ribosomal	set:operon	.	ribosomal	.
+U	Ux_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
+U	Uf_ATP_cytr_ly	function	.	.	ATP citrate lyase subunits
+U	Uf_citr_syn	function	.	.	citrate synthase
+U	Ug_soxB	specific_gene	.	soxB	.
+U	Up_AprBA	set:protein_complex	Ug_aprB,Ug_aprA	AprBA	dissimilatory adenylyl-sulfate reductase
+U	Ug_aprB	specific_gene	.	aprB	.
+U	Uw_pentp_oxbranch	set:metabolic_pathway	.	.	pentose phosphate pathway, oxidative branch
+U	Ud_sox	family_or_domain	.	sox	sox genes
+U	Ug_aclB	specific_gene	.	aclB	.
+U	Ug_aprA	specific_gene	.	aprA	.
+U	Ug_cbbM	specific_gene	.	cbbM	form II ribulose 1,5-bisphosphate carboxylase (RuBisCo) large subunit (cbbM)
+U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
+U	Up_SorAB	set:protein_complex	Ug_sorA,Ug_sorB	.	sulfite:acceptor oxidoreductase (SorAB)
+U	Uf_aa3_cytC_ox	function	.	.	aa3-type cytochrome c oxidase
+U	Uf_cbb3_cytC_ox	function	.	.	cbb3-type cytochrome c oxidase
+U	Uc_SulP_ion_tr	set:gene_cluster	.	.	SulP-type ion transporter - carbonic anhydrase
+U	Uog_arCOG04888	ortholog_group:arCOG	arCOG04888	.	.
+U	Uc_SoxBZYKAX	set:gene_cluster	Ug_soxB,Ug_soxZ,Ug_soxY,Ug_soxK,Ug_soxA,Ug_soxX	SoxBZYKAX	SoxBZYKAX (Sox enzyme complex)
+U	Uog_arCOG02822	ortholog_group:arCOG	arCOG02822	.	.
+U	Uog_arCOG03226	ortholog_group:arCOG	arCOG03226	.	.
+U	Uog_arCOG04904	ortholog_group:arCOG	arCOG04904	.	.
+U	Uog_arCOG02679	ortholog_group:arCOG	arCOG02679	.	.
+U	Uog_arCOG04903	ortholog_group:arCOG	arCOG04903	.	.
+U	Uog_arCOG04901	ortholog_group:arCOG	arCOG04901	.	.
+U	Uog_arCOG04900	ortholog_group:arCOG	arCOG04900	.	.
+U	Uog_arCOG03225	ortholog_group:arCOG	arCOG03225	.	.
+U	Uog_arCOG00185	ortholog_group:arCOG	arCOG00185	.	.
+U	Uog_arCOG04860	ortholog_group:arCOG	arCOG04860	.	.
+U	Uog_arCOG04859	ortholog_group:arCOG	arCOG04859	.	.
+U	Uog_arCOG04858	ortholog_group:arCOG	arCOG04858	.	.
+U	Uog_arCOG04857	ortholog_group:arCOG	arCOG04857	.	.
+U	Uog_arCOG04846	ortholog_group:arCOG	arCOG04846	.	.
+U	Uog_arCOG02882	ortholog_group:arCOG	arCOG02882	.	.
+U	Uog_arCOG00640	ortholog_group:arCOG	arCOG00640	.	.
+U	Uog_arCOG01116	ortholog_group:arCOG	arCOG01116	.	.
+U	Uog_arCOG00854	ortholog_group:arCOG	arCOG00854	.	.
+U	Uog_arCOG04893	ortholog_group:arCOG	arCOG04893	.	.
+U	Ug_soxC	specific_gene	.	soxC	.
+U	Ug_soxD	specific_gene	.	soxD	.
+U	Uog_arCOG03221	ortholog_group:arCOG	arCOG03221	.	.
+U	Uog_arCOG04867	ortholog_group:arCOG	arCOG04867	.	.
+U	Uog_arCOG04868	ortholog_group:arCOG	arCOG04868	.	.
+U	Uog_arCOG04869	ortholog_group:arCOG	arCOG04869	.	.
+U	Uog_arCOG04870	ortholog_group:arCOG	arCOG04870	.	.
+U	Uog_arCOG01579	ortholog_group:arCOG	arCOG01579	.	.
+U	Uog_arCOG04844	ortholog_group:arCOG	arCOG04844	.	.
+U	Uog_arCOG04885	ortholog_group:arCOG	arCOG04885	.	.
+U	Uop_CBB	set:operon	.	.	CBB enzyme
+U	Ug_sorA	specific_gene	.	sorA	.
+U	Ug_sorB	specific_gene	.	sorB	.
+U	Uy_SoxEF	set:gene_system	Ug_soxE,Ug_soxF	SoxEF	Flavoprotein-cytochrome c complex (SoxEF)
+U	Uw_CAC	set:metabolic_pathway	.	CAC	oxidative citric acid cycle
+U	Ud_EAL	family_or_domain	.	EAL	phosphodiesterase (EAL)
+U	Ug_luxS	specific_gene	.	luxS	S-ribosylhomocysteinase
+U	Uf_5mA_SahC_nucl	function	.	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
+U	Up_arsenate_red	specific_protein	.	.	arsenate reductase
+U	Uh_arsenate_red	family_or_domain:homolog	homolog:Up_arsenate_red	.	arsenate reductase homolog
+U	Ug_arsR	specific_gene	.	arsR	.
+U	Uog_COG1055	ortholog_group:COG	COG1055	.	arsenical permease
+U	Uf_ADP_rib_pyr	function	.	.	ADP-ribose pyrophosphatase
+U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase
+U	Ug_soxE	specific_gene	.	soxE	.
+U	Ug_soxF	specific_gene	.	soxF	.
+M	Up_PPi_PFK	InterPro	IPR011404	PPi-PFK_XF0274	UP:Z:Q609I3
+M	Uf_pt_pyrop	InterPro	IPR004131	PPase-energised_H-pump	UP:Z:Q8P5M6
+M	Uf_pt_pyrop	Pfam	PF03030	H_PPase	UP:Z:Q8P5M6
+M	Ug_mcrA	InterPro	IPR008924	Me_CoM_Rdtase_asu/bsu_C	UP:Z:K0L1F4
+M	Ug_mcrA	InterPro	IPR009047	Me_CoM_Rdtase_asu_C	UP:Z:K0L1F4
+M	Ug_mcrA	InterPro	IPR003183	Me_CoM_Rdtase_asu_N	UP:Z:K0L1F4
+M	Ug_mcrA	InterPro	IPR015823	Me_CoM_Rdtase_asu_N_sub2	UP:Z:K0L1F4
+M	Ug_mcrA	InterPro	IPR009024	Me_CoM_Rdtase_Fd-like_fold	UP:Z:K0L1F4
+M	Ug_mcrA	Pfam	PF02249	MCR_alpha	UP:Z:K0L1F4
+M	Ug_mcrA	Pfam	PF02745	MCR_alpha_N	UP:Z:K0L1F4
+M	Uf_euk_like_hystone	InterPro	IPR003958	CBFA_NFYB_domain	UP:Z:Q59041
+M	Uf_euk_like_hystone	InterPro	IPR009072	Histone-fold	UP:Z:Q59041
+M	Uf_euk_like_hystone	Pfam	PF00808	CBFD_NFYB_HMF	UP:Z:Q59041
+M	Uf_euk_like_hystone	SUPfam	SSF47113	SSF47113	UP:Z:Q59041
+M	Up_topoVI	InterPro	IPR005734	TopoVI_B	UP:Z:A0A843B1I7
+M	Up_topoVI	InterPro	IPR015320	TopoVI_B_transducer	UP:Z:A0A843B1I7
+M	Up_topoVI	InterPro	IPR002815	Spo11/TopoVI_A	UP:Z:A0A523YGG9
+M	Up_topoVI	InterPro	IPR013049	Spo11/TopoVI_A_N	UP:Z:A0A523YGG9
+M	Up_topoVI	InterPro	IPR036078	Spo11/TopoVI_A_sf	UP:Z:A0A523YGG9
+M	Up_topoVI	InterPro	IPR004085	TopoVI_A	UP:Z:A0A523YGG9
+M	Up_topoVI	PRINTS	PR0155	TOP6AFAMILY	UP:Z:A0A523YGG9
+M	Up_topoVI	Pfam	PF04406	TP6A_N	UP:Z:A0A523YGG9
+M	Uf_bact_DNA_gyr	HAMAP	MF_01898	GyrB	UP:Z:A0A0D8DMK8
+M	Uf_bact_DNA_gyr	InterPro	IPR002288	DNA_gyrase_B_C	UP:Z:A0A0D8DMK8
+M	Uf_bact_DNA_gyr	InterPro	IPR011557	GyrB	UP:Z:A0A0D8DMK8
+M	Uf_bact_DNA_gyr	Pfam	PF00204	DNA_gyraseB	UP:Z:A0A0D8DMK8
+M	Uf_bact_DNA_gyr	Pfam	PF00986	DNA_gyraseB_C	UP:Z:A0A0D8DMK8
+M	Uf_bact_DNA_gyr	TIGRFAMs	TIGR01059	gyrB	UP:Z:A0A0D8DMK8
+M	Uf_bact_HTa_hist	InterPro	IPR000119	Hist_DNA-bd	UP:Z:P02345
+M	Uf_bact_HTa_hist	InterPro	IPR020816	Histone-like_DNA-bd_CS	UP:Z:P02345
+M	Uf_bact_HTa_hist	InterPro	IPR010992	IHF-like_DNA-bd_dom_sf	UP:Z:P02345
+M	Uf_bact_HTa_hist	PROSITE	PS00045	HISTONE_LIKE	UP:Z:P02345
+M	Uf_bact_HTa_hist	Pfam	PF00216	Bac_DNA_binding	UP:Z:P02345
+M	Uf_bact_HTa_hist	SMART	SM00411	BHL	UP:Z:P02345
+M	Ug_purK	InterPro	IPR005875	PurK	UP:Z:A0A7U3GRY4
+M	Ug_purK	InterPro	IPR040686	PurK_C	UP:Z:A0A7U3GRY4
+M	Ug_purK	Pfam	PF17769	PurK_C	UP:Z:A0A7U3GRY4
+M	Ug_purK	TIGRFAMs	TIGR01161	purK	UP:Z:A0A7U3GRY4
+M	Ug_hdrA	InterPro	IPR039650	HdrA-like	UP:Z:Q6LWL2
+M	Ug_hdrB	InterPro	IPR017678	CoB/CoM_hetero-S_Rdtase_bsu	UP:Z:Q6LY38
+M	Ug_hdrB	TIGRFAMs	TIGR03288	CoB_CoM_SS_B	UP:Z:Q6LY38
+M	Ug_hdrC	InterPro	IPR017680	CoB/CoM_hetero-S_Rdtase_csu	UP:Z:Q6LY39
+M	Ug_hdrC	TIGRFAMs	TIGR03290	CoB_CoM_SS_C	UP:Z:Q6LY39
+M	Ug_hdrE	InterPro	IPR023234	NarG-like_domain	UP:Z:A0A0E3NFS5
+M	Ug_hdrE	InterPro	IPR036197	NarG-like_sf	UP:Z:A0A0E3NFS5
+M	Uf_6pg_deh	InterPro	IPR004786	6-phosphgluc_deHydtase	UP:Z:Q1CSG7
+M	Ug_soxB	InterPro	IPR030998	Thiosulf_SoxB	UP:Z:A0A6L7SV37
+M	Ug_soxB	TIGRFAMs	TIGR04486	thiosulf_SoxB	UP:Z:A0A6L7SV37
+M	Ug_aclB	InterPro	IPR032263	Citrate-bd	UP:Z:Q32SK4
+M	Ug_aclB	InterPro	IPR017866	Succ-CoA_synthase_bsu_CS	UP:Z:Q32SK4
+M	Ug_aclB	InterPro	IPR016102	Succinyl-CoA_synth-like	UP:Z:Q32SK4
+M	Ug_aclB	PROSITE	PS01217	SUCCINYL_COA_LIG_3	UP:Z:Q32SK4
+M	Ug_aclB	Pfam	PF16114	Citrate_bind	UP:Z:Q32SK4
+M	Ug_aprA	InterPro	IPR011803	AprA	UP:Z:T2G6Z9
+M	Ug_aprA	InterPro	IPR030664	SdhA/FrdA/AprAc	UP:Z:T2G6Z9
+M	Ug_aprA	TIGRFAMs	TIGR02061	aprA	UP:Z:T2G6Z9
+M	Ug_cbbM	InterPro	IPR020871	RuBisCO_lsuII	UP:Z:Q59462
+M	Up_SQR	InterPro	IPR036188	FAD/NAD-bd_sf	UP:Z:Q31GF8
+M	Up_SQR	InterPro	IPR023753	FAD/NAD-binding_dom	UP:Z:Q31GF8
+M	Up_SQR	Pfam	PF07992	Pyr_redox_2	UP:Z:Q31GF8
+M	Uf_aa3_cytC_ox	InterPro	IPR023616	Cyt_c_oxase-like_su1_dom	UP:Z:P33517
+M	Uf_aa3_cytC_ox	InterPro	IPR036927	Cyt_c_oxase-like_su1_sf	UP:Z:P33517
+M	Uf_aa3_cytC_ox	InterPro	IPR000883	Cyt_C_Oxase_1	UP:Z:P33517
+M	Uf_aa3_cytC_ox	InterPro	IPR023615	Cyt_c_Oxase_su1_BS	UP:Z:P33517
+M	Uf_aa3_cytC_ox	PROSITE	PS50855	COX1	UP:Z:P33517
+M	Uf_aa3_cytC_ox	PROSITE	PS00077	COX1_CUB	UP:Z:P33517
+M	Uf_cbb3_cytC_ox	InterPro	IPR004678	Cyt_c_oxidase_cbb3_su3	UP:Z:Q31E70
+M	Ud_Pfam00990	InterPro	IPR000160	GGDEF_dom	UP:Z:A0A377JTX8
+M	Ud_Pfam00990	SMART	SM00267	GGDEF	UP:Z:A0A377JTX8
+M	Ud_Pfam00990	Pfam	PF00990	GGDEF	UP:Z:A0A377JTX8
+M	Ud_EAL	InterPro	IPR001633	EAL_dom	UP:Z:B9L7D8
+M	Ud_EAL	InterPro	IPR035919	EAL_sf	UP:Z:B9L7D8
+M	Ud_EAL	Pfam	PF00563	EAL	UP:Z:B9L7D8
+M	Ud_EAL	SMART	SM00052	EAL	UP:Z:B9L7D8
+M	Ud_EAL	PROSITE	PS50883	EAL	UP:Z:B9L7D8
+M	Ug_luxS	InterPro	IPR037005	LuxS_sf	UP:Z:Q9ZMW8
+M	Ug_luxS	InterPro	IPR011249	Metalloenz_LuxS/M16	UP:Z:Q9ZMW8
+M	Ug_luxS	InterPro	IPR003815	S-ribosylhomocysteinase	UP:Z:Q9ZMW8
+M	Ug_luxS	Pfam	PF02664	LuxS	UP:Z:Q9ZMW8
+M	Uf_5mA_SahC_nucl	InterPro	IPR010049	MTA_SAH_Nsdase	UP:Z:Q0PC20
+M	Up_arsenate_red	InterPro	IPR006659	Arsenate_reductase	UP:Z:A0A661I2B4
+M	Up_arsenate_red	InterPro	IPR006660	Arsenate_reductase-like	UP:Z:A0A661I2B4
+M	Up_arsenate_red	PROSITE	PS51353	ARSC	UP:Z:A0A661I2B4
+M	Up_arsenate_red	Pfam	PF03960	ArsC	UP:Z:A0A661I2B4
+M	Up_arsenate_red	TIGRFAMs	TIGR00014	arsC	UP:Z:A0A661I2B4
+M	Ug_arsR	InterPro	IPR011991	ArsR-like_HTH	UP:Z:A0A6M8N2C7
+M	Ug_arsR	InterPro	IPR018334	ArsR_HTH	UP:Z:A0A6M8N2C7
+M	Ug_arsR	InterPro	IPR001845	HTH_ArsR_DNA-bd_dom	UP:Z:A0A6M8N2C7
+M	Ug_arsR	PROSITE	PS00846	HTH_ARSR_1	UP:Z:A0A6M8N2C7
+M	Ug_arsR	PROSITE	PS50987	HTH_ARSR_2	UP:Z:A0A6M8N2C7
+M	Uf_ADP_rib_pyr	InterPro	IPR004385	NDP_pyrophosphatase	UP:Z:E7G4H5
+M	Up_CODH	InterPro	IPR016101	CO_DH_a-bundle	UP:Z:A0A7D3UQY9
+M	Up_CODH	InterPro	IPR010047	CODH	UP:Z:A0A7D3UQY9
+M	Up_CODH	InterPro	IPR004137	HCP/CODH	UP:Z:A0A7D3UQY9
+M	Up_F420	InterPro	IPR007516	Co_F420_Hydgase/DH_bsu_N	UP:Z:A0A0K1HGQ7
+M	Ud_NiFe_hydr	InterPro	IPR037148	NiFe-Hase_small_C_sf	UP:Z:A0A518XYK5
+M	Ud_NiFe_hydr	InterPro	IPR037024	NiFe_Hase_small_N_sf	UP:Z:A0A518XYK5
+M	Ud_NiFe_hydr	Pfam	PF14720	NiFe_hyd_SSU_C	UP:Z:A0A518XYK5
+M	Ug_narG	InterPro	IPR006468	NarG	UP:Z:A0A2E6DC43
+M	Ug_narG	InterPro	IPR037943	MopB_CT_Nitrate-R-NarG-like	UP:Z:A0A2E6DC43
+M	Ug_narH	TIGRFAMs	TIGR01660	narH	UP:Z:A0A2E6DC38
+M	Ug_pmoA	InterPro	IPR037001	NH3/CH4_mOase_suA_sf	UP:Z:Q607G3
+M	Ug_pmoA	InterPro	IPR003393	NH3_CH4_mOase_A	UP:Z:Q607G3
+M	Ug_pmoA	Pfam	PF02461	AMO	UP:Z:Q607G3
+M	Ug_pmoA	TIGRFAMs	TIGR03080	CH4_NH3mon_ox_A	UP:Z:Q607G3
+M	Ug_cbbL	InterPro	IPR020888	RuBisCO_lsuI	UP:Z:O85040
+M	Up_cyc2	InterPro	IPR009056	Cyt_c-like_dom	UP:Z:P0C0X8
+M	Up_cyc2	InterPro	IPR036909	Cyt_c-like_dom_sf	UP:Z:P0C0X8
+M	Up_cyc2	InterPro	IPR002327	Cyt_c_1A/1B	UP:Z:P0C0X8
+M	Up_cyc2	PROSITE	PS51007	CYTC	UP:Z:P0C0X8
+M	Up_cyc2	Pfam	PF00034	Cytochrom_C	UP:Z:P0C0X8
+M	Uf_CO_deh	TIGRFAMs	TIGR02416	CO_dehy_Mo_lg	UP:Z:P19913
+M	Uf_CO_deh	InterPro	IPR012780	CO_Mo_DH_lsu	UP:Z:P19913
+A	Ap_w_rTCA	Uw_rTCA	presence
+A	Amc_w_rTCA	Uw_rTCA	members_count
+A	Aall_w_calvin	Uw_calvin	complete
+A	Ap_p_PPi_PFK	Up_PPi_PFK	presence
+A	Ap_f_pt_pyrop	Uf_pt_pyrop	presence
+A	Av_w_pentp_oxbranch	Uw_pentp_oxbranch	conservation
+A	Ap_w_pentp_oxbranch	Uw_pentp_oxbranch	presence
+A	Ap_g_soxC	Ug_soxC	presence
+A	Ap_g_soxD	Ug_soxD	presence
+A	Ap_g_sorA	Ug_sorA	presence
+A	Ap_g_sorB	Ug_sorB	presence
+A	Ap_g_soxB	Ug_soxB	presence
+A	Ac_p_RubisCO_IAc	Up_RubisCO_IAc	count
+A	Ap_c_SoxBZYKAX	Uc_SoxBZYKAX	presence
+A	Ap_c_SoxABXYZ	Uc_SoxABXYZ	presence
+A	Ap_c_SoxABCDXYZ	Uc_SoxABCDXYZ	presence
+A	Ap_w_sox	Uw_sox	presence
+A	Ap_y_SoxEF	Uy_SoxEF	presence
+A	Ap_g_mcrA	Ug_mcrA	presence
+A	Ap_t_split_pcgene	Ut_split_pcgene	presence
+A	Ap_f_tyr_tr	Uf_tyr_tr	presence
+A	Aall_w_pent_biph	Uw_pent_biph	complete
+A	Ap_t_CRISPR	Ut_CRISPR	presence
+A	Ac_t_CRISPR	Ut_CRISPR	count
+A	Ac_p_MARTX	Up_MARTX	count
+A	Ac_d_rhs	Ud_rhs	count
+A	Ac_d_RTX	Ud_RTX	count
+A	Ap_g_lrsB	Ug_lrsB	presence
+A	Ap_g_luxP	Ug_luxP	presence
+A	Ap_f_euk_like_hystone	Uf_euk_like_hystone	presence
+A	Aall_w_C1_f_methylCoM	Uw_C1_f_methylCoM	complete
+A	Ap_r_16S_tRNA_23S	Ur_16S_tRNA_23S	presence
+A	Ap_p_topoVI	Up_topoVI	presence
+A	Ap_f_bact_DNA_gyr	Uf_bact_DNA_gyr	presence
+A	Ap_f_bact_HTa_hist	Uf_bact_HTa_hist	presence
+A	Aall_w_red_TCA	Uw_red_TCA	complete
+A	Ap_g_purK	Ug_purK	presence
+A	Ap_og_COG0790	Uog_COG0790	presence
+A	Ap_f_Mtr	Uf_Mtr	presence
+A	Ap_f_meth_coe_red	Uf_meth_coe_red	presence
+A	Ap_og_arCOG00950	Uog_arCOG00950	presence
+A	Ap_og_arCOG04866	Uog_arCOG04866	presence
+A	Ap_g_hdrA	Ug_hdrA	presence
+A	Ap_g_hdrB	Ug_hdrB	presence
+A	Ap_g_hdrC	Ug_hdrC	presence
+A	Ap_g_hdrD	Ug_hdrD	presence
+A	Ap_g_hdrE	Ug_hdrE	presence
+A	Ap_r_hdrBC_far_A	Ur_hdrBC_far_A	presence
+A	Ap_p_mvhDGA	Up_mvhDGA	presence
+A	Ac_x_T	Ux_T	count
+A	Ap_f_6pg_deh	Uf_6pg_deh	presence
+A	Ap_f_2k3d6pg_ald	Uf_2k3d6pg_ald	presence
+A	Ac_op_ribosomal	Uop_ribosomal	count
+A	Ac_x_M	Ux_M	count
+A	Ar_f_ATP_cytr_ly	Uf_ATP_cytr_ly	relative:Uf_citr_syn
+A	Ap_p_AprBA	Up_AprBA	presence
+A	Ap_d_sox	Ud_sox	presence
+A	Ap_g_aclB	Ug_aclB	presence
+A	Ap_g_aprA	Ug_aprA	presence
+A	Ap_g_cbbM	Ug_cbbM	presence
+A	Ap_p_SQR	Up_SQR	presence
+A	Ap_p_SorAB	Up_SorAB	presence
+A	Ap_f_aa3_cytC_ox	Uf_aa3_cytC_ox	presence
+A	Ap_f_cbb3_cytC_ox	Uf_cbb3_cytC_ox	presence
+A	Ap_c_SulP_ion_tr	Uc_SulP_ion_tr	presence
+A	Ap_og_arCOG04888	Uog_arCOG04888	presence
+A	Ap_og_arCOG02822	Uog_arCOG02822	presence
+A	Ap_og_arCOG03226	Uog_arCOG03226	presence
+A	Ap_og_arCOG04904	Uog_arCOG04904	presence
+A	Ap_og_arCOG02679	Uog_arCOG02679	presence
+A	Ap_og_arCOG04903	Uog_arCOG04903	presence
+A	Ap_og_arCOG04901	Uog_arCOG04901	presence
+A	Ap_og_arCOG04900	Uog_arCOG04900	presence
+A	Ap_og_arCOG03225	Uog_arCOG03225	presence
+A	Ap_og_arCOG00185	Uog_arCOG00185	presence
+A	Ap_og_arCOG04860	Uog_arCOG04860	presence
+A	Ap_og_arCOG04859	Uog_arCOG04859	presence
+A	Ap_og_arCOG04858	Uog_arCOG04858	presence
+A	Ap_og_arCOG04857	Uog_arCOG04857	presence
+A	Ap_og_arCOG04846	Uog_arCOG04846	presence
+A	Ap_og_arCOG02882	Uog_arCOG02882	presence
+A	Ap_og_arCOG00640	Uog_arCOG00640	presence
+A	Ap_og_arCOG01116	Uog_arCOG01116	presence
+A	Ap_og_arCOG00854	Uog_arCOG00854	presence
+A	Ap_og_arCOG04893	Uog_arCOG04893	presence
+A	Ap_og_arCOG03221	Uog_arCOG03221	presence
+A	Ap_og_arCOG04867	Uog_arCOG04867	presence
+A	Ap_og_arCOG04868	Uog_arCOG04868	presence
+A	Ap_og_arCOG04869	Uog_arCOG04869	presence
+A	Ap_og_arCOG04870	Uog_arCOG04870	presence
+A	Ap_og_arCOG01579	Uog_arCOG01579	presence
+A	Ap_og_arCOG04844	Uog_arCOG04844	presence
+A	Ap_og_arCOG04885	Uog_arCOG04885	presence
+A	Ap_op_CBB	Uop_CBB	presence
+A	Ap_w_CAC	Uw_CAC	presence
+A	Ac_d_Pfam00990	Ud_Pfam00990	count
+A	Ac_d_EAL	Ud_EAL	count
+A	Ac_g_luxS	Ug_luxS	count
+A	Ac_f_5mA_SahC_nucl	Uf_5mA_SahC_nucl	count
+A	Ac_h_arsenate_red	Uh_arsenate_red	count
+A	Ap_g_arsR	Ug_arsR	presence
+A	Ap_og_COG1055	Uog_COG1055	presence
+A	Ap_f_ADP_rib_pyr	Uf_ADP_rib_pyr	presence
+A	Ap_p_CODH	Up_CODH	presence
+A	Ap_h_F420	Uh_F420	presence
+A	Ap_w_CO_ox	Uw_CO_ox	presence
+A	Ap_w_CO2_fix	Uw_CO2_fix	presence
+A	Ac_d_NiFe_hydr	Ud_NiFe_hydr	count
+A	Ap_r_RubisCO_out_CBB	Ur_RubisCO_out_CBB	presence
+A	Ac_t_mobile_genetic_element	Ut_mobile_genetic_element	count
+A	Ap_w_3HP4HB	Uw_3HP4HB	presence
+A	Ap_w_rev_sulf_red	Uw_rev_sulf_red	presence
+A	Ap_g_narG	Ug_narG	presence
+A	Ap_g_narH	Ug_narH	presence
+A	Ap_g_pmoA	Ug_pmoA	presence
+A	Ap_y_PcoAB	Uy_PcoAB	presence
+A	Ap_g_cbbL	Ug_cbbL	presence
+A	Ap_h_cyc2	Uh_cyc2	presence
+A	Ap_w_ACIII	Uw_ACIII	presence
+A	Ap_h_cbb3	Uh_cbb3	presence
+A	Ap_f_CO_deh	Uf_CO_deh	presence
+A	Ac_d_Pfam00563	Ud_Pfam00563	count
+A	Ac_d_Pfam000159	Ud_Pfam000159	count
+A	Ac_p_SQR	Up_SQR	count
+A	Ac_p_SDH	Up_SDH	count
+A	Ap_f_NDH1_NADH_deh	Uf_NDH1_NADH_deh	presence
+A	Ap_f_cyt_bc1	Uf_cyt_bc1	presence
+A	Ap_f_hydr_1d	Uf_hydr_1d	presence
+A	Ac_f_RubisCO	Uf_RubisCO	count
+A	Ap_r_LTR_prkin	Ur_LTR_prkin	presence
+V	VH1	SH3	Aall_w_calvin	Gh_hydrvent:some	==	True
+V	VH2	SH4	Ap_p_PPi_PFK	Gc_methanotr_Gamma	==	True
+V	VH3	SH4	Ap_p_PPi_PFK	Gc_thiotr_Gamma	==	True
+V	VH4	SH4	Ap_f_pt_pyrop	Gc_methanotr_Gamma	==	True
+V	VH5	SH4	Ap_f_pt_pyrop	Gc_thiotr_Gamma	==	True
+V	VH6	SH5	Av_w_pentp_oxbranch	Gc_thiotr_Gamma	level	high
+V	VH7	SH5	Ap_w_pentp_oxbranch	Gc_thiotr_Gamma_Calyptogena_endosym	==	False
+V	VH8	SH5	Ap_w_pentp_oxbranch	Gt_Aehrlichei	==	False
+V	VH9	SH5	Ap_w_pentp_oxbranch	Gs_TspK90mix	==	False
+V	VH10	SH5	Ap_w_pentp_oxbranch	Gt_Hhalophila	==	False
+V	VH11	SH6	Ap_c_SoxBZYKAX	Gc_thiotr_Gamma:some	==	True
+V	VH12	SH6	Ap_g_soxC	Gc_thiotr_Gamma:some	==	False
+V	VH13	SH6	Ap_g_soxD	Gc_thiotr_Gamma:some	==	False
+V	VH14	SH6	Ap_g_sorA	Gc_thiotr_Gamma:some	==	False
+V	VH15	SH6	Ap_g_sorB	Gc_thiotr_Gamma:some	==	False
+V	VH16	SH7	Ap_y_SoxEF	Gc_thiotr_Gamma_Calyptogena_endosym	==	False
+V	VH17	SH7	Ap_y_SoxEF	Gt_Chromatiaceae	==	True
+V	VH18	SH7	Ap_y_SoxEF	Gt_Hcrunogenus	==	False
+V	VH19	SH8	Ap_g_mcrA	Gt_Methanococcoides	==	True
+V	VH20	SH9	Ap_g_mcrA	Gc_methanog_A	==	True
+V	VH21	SH9	Ap_g_mcrA	Gt_ANME	==	True
+V	VH22	SH10	Ap_t_split_pcgene	Gc_cultured_Nanoarch	==	True
+V	VH23	SH12	Ap_f_tyr_tr	Gc_cultured_Nanoarch	==	False
+V	VH24	SH12	Ap_f_tyr_tr	Gl_NarcGua46	==	True
+V	VH25	SH14	Aall_w_pent_biph	Gt_Tkodakarensis	==	True
+V	VH26	SH14	Aall_w_pent_biph	Gl_NarcMC1	==	True
+V	VH27	SH14	Aall_w_pent_biph	Gc_cultured_Nanoarch	==	False
+V	VH28	SH15	Ap_t_CRISPR	Gt_Nanoarchaeota	==	True
+V	VH29	SH16	Ac_p_MARTX	Gc_hashost_B	level	high
+V	VH30	SH16	Ac_d_rhs	Gc_intracellular_B	level	high
+V	VH31	SH19	Ac_d_RTX	Gc_mar_Roseob:most	level	high
+V	VH32	SH18	Ac_d_RTX	Gc_hashost_B	level	low
+V	VH33	SH18	Ac_d_RTX	Gc_free_B	level	high
+V	VH34	SH20	Ap_g_lrsB	Gt_Vibrio	==	True
+V	VH35	SH20	Ap_g_luxP	Gc_gut_B	==	True
+V	VH36	SH22	Ap_f_euk_like_hystone	Gt_Euryarchaeota:most	==	True
+V	VH37	SH22	Ap_f_euk_like_hystone	Gt_Thermoplasmatales	==	True
+V	VH38	SH22	Ap_f_euk_like_hystone	Gt_DHVE2	==	True
+V	VH39	SH22	Ap_f_euk_like_hystone	Gt_MG2	==	True
+V	VH40	SH23	Aall_w_C1_f_methylCoM	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH41	SH23	Aall_w_C1_f_methylCoM	Gt_Malvus	==	False
+V	VH42	SH23	Aall_w_C1_f_methylCoM	Gt_Malvus	==	False
+V	VH43	SH24	Ap_r_16S_tRNA_23S	Gc_uncultured_MG2	==	False
+V	VH44	SH24	Ap_r_16S_tRNA_23S	Gt_Thermoplasmatales	==	False
+V	VH45	SH24	Ap_r_16S_tRNA_23S	Gt_Aboonei	==	False
+V	VH46	SH25	Ap_p_topoVI	Gt_Thermoplasmatales	==	False
+V	VH47	SH25	Ap_p_topoVI	Gt_DHVE2	==	True
+V	VH48	SH25	Ap_p_topoVI	Gt_MG2	==	True
+V	VH49	SH25	Ap_p_topoVI	Gt_Malvus	==	True
+V	VH50	SH25	Ap_p_topoVI	Gt_Mluminyensis	==	True
+V	VH51	SH25	Ap_p_topoVI	Gt_Mintestinalis	==	True
+V	VH52	SH25	Ap_f_bact_DNA_gyr	Gt_Thermoplasmatales	==	True
+V	VH53	SH25	Ap_f_bact_DNA_gyr	Gt_Malvus	==	True
+V	VH54	SH25	Ap_f_bact_DNA_gyr	Gt_Mluminyensis	==	True
+V	VH55	SH25	Ap_f_bact_DNA_gyr	Gt_Mintestinalis	==	True
+V	VH56	SH25	Ap_f_bact_DNA_gyr	Gt_Euryarchaeota:some	==	True
+V	VH57	SH26	Ap_f_bact_HTa_hist	Gt_Thermoplasmatales	==	True
+V	VH58	SH26	Ap_f_bact_HTa_hist	Gt_DHVE2	==	True
+V	VH59	SH26	Ap_f_bact_HTa_hist	Gt_Malvus	==	False
+V	VH60	SH26	Ap_f_bact_HTa_hist	Gt_Mluminyensis	==	False
+V	VH61	SH26	Ap_f_bact_HTa_hist	Gt_Mintestinalis	==	False
+V	VH62	SH26	Ap_f_bact_HTa_hist	Gt_MG2	==	False
+V	VH63	SH27	Aall_w_red_TCA	Gc_methanog_A	==	False
+V	VH64	SH27	Aall_w_red_TCA	Gt_Malvus	==	False
+V	VH65	SH27	Aall_w_red_TCA	Gt_Mluminyensis	==	False
+V	VH66	SH27	Aall_w_red_TCA	Gt_Mintestinalis	==	False
+V	VH67	SH28	Ap_g_purK	Gt_Malvus	==	False
+V	VH68	SH28	Ap_g_purK	Gt_Mluminyensis	==	False
+V	VH69	SH28	Ap_g_purK	Gt_Mintestinalis	==	False
+V	VH70	SH28	Ap_g_purK	Gc_methanog_A	==	False
+V	VH71	SH28	Ap_g_purK	Gt_Thermoplasmatales	==	True
+V	VH72	SH29	Ap_og_COG0790	Gt_Malvus	==	True
+V	VH73	SH29	Ap_og_COG0790	Gt_Mluminyensis	==	True
+V	VH74	SH29	Ap_og_COG0790	Gt_Mintestinalis	==	True
+V	VH75	SH30	Ap_f_Mtr	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH76	SH30	Ap_f_meth_coe_red	Gc_methanog_A	==	True
+V	VH77	SH30	Ap_f_Mtr	Gt_Malvus	==	False
+V	VH78	SH30	Ap_f_Mtr	Gt_Mluminyensis	==	False
+V	VH79	SH30	Ap_f_Mtr	Gt_Mintestinalis	==	False
+V	VH80	SH31	Ap_og_arCOG00950	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH81	SH31	Ap_og_arCOG00950	Gc_not_methanog_A	==	False
+V	VH82	SH31	Ap_og_arCOG00950	Gt_Malvus	==	False
+V	VH83	SH31	Ap_og_arCOG00950	Gt_Mluminyensis	==	False
+V	VH84	SH31	Ap_og_arCOG00950	Gt_Mintestinalis	==	False
+V	VH85	SH31	Ap_og_arCOG04866	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH86	SH31	Ap_og_arCOG04866	Gc_not_methanog_A	==	False
+V	VH87	SH31	Ap_og_arCOG04866	Gt_Malvus	==	False
+V	VH88	SH31	Ap_og_arCOG04866	Gt_Mluminyensis	==	False
+V	VH89	SH31	Ap_og_arCOG04866	Gt_Mintestinalis	==	False
+V	VH90	SH33	Ap_g_hdrA	Gc_methanog_A	==	True
+V	VH91	SH33	Ap_g_hdrB	Gc_methanog_A	==	True
+V	VH92	SH33	Ap_g_hdrC	Gc_methanog_A	==	True
+V	VH93	SH33	Ap_g_hdrD	Gc_methanog_A	==	True
+V	VH94	SH33	Ap_g_hdrE	Gt_Malvus	==	False
+V	VH95	SH33	Ap_g_hdrE	Gt_Mluminyensis	==	False
+V	VH96	SH33	Ap_g_hdrE	Gt_Mintestinalis	==	False
+V	VH97	SH33	Ap_g_hdrE	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH98	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
+V	VH99	SH34	Ap_r_hdrBC_far_A	Gt_Methanobacteriales	==	True
+V	VH100	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
+V	VH101	SH34	Ap_p_mvhDGA	Gt_Methanobacteriales	==	True
+V	VH102	SH34	Ap_p_mvhDGA	Gt_Methanopyrales	==	True
+V	VH103	SH34	Ap_p_mvhDGA	Gt_Methanopyrales	==	True
+V	VH104	SH34	Ap_p_mvhDGA	Gt_Methanosarcinales	==	False
+V	VH105	SH34	Ap_p_mvhDGA	Gt_Methanomicrobiales:some	==	False
+V	VH106	SH37	Ap_f_6pg_deh	Gc_free_Epsilon	==	False
+V	VH107	SH37	Ap_f_6pg_deh	Gc_pathog_Epsilon	==	True
+V	VH108	SH37	Ap_f_2k3d6pg_ald	Gc_free_Epsilon	==	False
+V	VH109	SH37	Ap_f_2k3d6pg_ald	Gc_pathog_Epsilon	==	True
+V	VH110	SH43	Ac_op_ribosomal	Gt_Epsilonproteobacteria:most	in_range	3,4
+V	VH111	SH37	Ap_f_6pg_deh	Gc_epis_Apmpejana_Epsilon	==	False
+V	VH112	SH37	Ap_f_2k3d6pg_ald	Gc_epis_Apmpejana_Epsilon	==	False
+V	VH113	SH44	Ac_x_M	Gc_epis_Apmpejana_Epsilon	level	high
+V	VH114	SH45	Ar_f_ATP_cytr_ly	Gc_epis_Apmpejana_Epsilon	>	1
+V	VH115	SH46	Ap_g_soxB	Gt_Epsilonproteobacteria:some	==	True
+V	VH116	SH46	Ap_g_soxB	Gt_Gammaproteobacteria	==	True
+V	VH117	SH46	Ap_g_soxB	Gt_Alphaproteobacteria	==	True
+V	VH118	SH46	Ap_g_soxB	Gt_Betaproteobacteria	==	True
+V	VH119	SH46	Ap_g_soxB	Gt_Chlorobi	==	True
+V	VH120	SH47	Ap_p_AprBA	Gc_sulfred_A	==	True
+V	VH121	SH47	Ap_p_AprBA	Gc_sulfox_A:some	==	True
+V	VH122	SH48	Ap_d_sox	Gc_Irina2_Nautiliaceae	==	False
+V	VH123	SH49	Ap_g_aclB	Gc_autotr_Epsilon	==	True
+V	VH124	SH49	Ap_g_aclB	Gc_Irina2_Nautiliaceae	==	True
+V	VH125	SH50	Ap_g_aprA	Gc_sulfox_B	==	True
+V	VH126	SH50	Ap_g_aprA	Gc_sulfred_B	==	True
+V	VH127	SH52	Ap_g_cbbM	Gt_Gammaproteobacteria:some	==	True
+V	VH128	SH54	Ap_p_SQR	Gc_phototrophic_B:some	==	True
+V	VH129	SH54	Ap_p_SQR	Gc_chemotrophic_B:some	==	True
+V	VH130	SH54	Ap_p_SQR	Gt_Rcapsulatus	==	True
+V	VH131	SH55	Ap_p_SorAB	Gc_sulfox_B:most	==	True
+V	VH132	SH56	Ap_f_aa3_cytC_ox	Gt_Hpylori	==	True
+V	VH133	SH56	Ap_f_cbb3_cytC_ox	Gt_Hpylori	==	False
+V	VH134	SH56	Ap_f_aa3_cytC_ox	Gs_HcruXCL2	==	True
+V	VH135	SH56	Ap_f_cbb3_cytC_ox	Gs_HcruXCL2	==	False
+V	VH136	SH59	Ap_c_SulP_ion_tr	Gt_Bacteria:most	==	True
+V	VH137	SH59	Ap_c_SulP_ion_tr	Gs_HcruXCL2	==	False	rare
+V	VH138	TH1	Ap_og_arCOG04888	Gc_methanog_A	==	True
+V	VH139	TH1	Ap_og_arCOG02822	Gc_methanog_A	==	True
+V	VH140	TH1	Ap_og_arCOG03226	Gc_methanog_A	==	True
+V	VH141	TH1	Ap_og_arCOG04904	Gc_methanog_A	==	True
+V	VH142	TH1	Ap_og_arCOG02679	Gc_methanog_A	==	True
+V	VH143	TH1	Ap_og_arCOG04903	Gc_methanog_A	==	True
+V	VH144	TH1	Ap_og_arCOG04901	Gc_methanog_A	==	True
+V	VH145	TH1	Ap_og_arCOG04900	Gc_methanog_A	==	True
+V	VH146	TH1	Ap_og_arCOG03225	Gc_methanog_A	==	True
+V	VH147	TH1	Ap_og_arCOG00185	Gc_methanog_A	==	True
+V	VH148	TH1	Ap_og_arCOG04860	Gc_methanog_A	==	True
+V	VH149	TH1	Ap_og_arCOG04859	Gc_methanog_A	==	True
+V	VH150	TH1	Ap_og_arCOG04858	Gc_methanog_A	==	True
+V	VH151	TH1	Ap_og_arCOG04857	Gc_methanog_A	==	True
+V	VH152	TH1	Ap_og_arCOG04846	Gc_methanog_A	==	True
+V	VH153	TH1	Ap_og_arCOG04888	Gc_not_methanog_A	==	False
+V	VH154	TH1	Ap_og_arCOG02822	Gc_not_methanog_A	==	False
+V	VH155	TH1	Ap_og_arCOG03226	Gc_not_methanog_A	==	False
+V	VH156	TH1	Ap_og_arCOG04904	Gc_not_methanog_A	==	False
+V	VH157	TH1	Ap_og_arCOG02679	Gc_not_methanog_A	==	False
+V	VH158	TH1	Ap_og_arCOG04903	Gc_not_methanog_A	==	False
+V	VH159	TH1	Ap_og_arCOG04901	Gc_not_methanog_A	==	False
+V	VH160	TH1	Ap_og_arCOG04900	Gc_not_methanog_A	==	False
+V	VH161	TH1	Ap_og_arCOG03225	Gc_not_methanog_A	==	False
+V	VH162	TH1	Ap_og_arCOG00185	Gc_not_methanog_A	==	False
+V	VH163	TH1	Ap_og_arCOG04860	Gc_not_methanog_A	==	False
+V	VH164	TH1	Ap_og_arCOG04859	Gc_not_methanog_A	==	False
+V	VH165	TH1	Ap_og_arCOG04858	Gc_not_methanog_A	==	False
+V	VH166	TH1	Ap_og_arCOG04857	Gc_not_methanog_A	==	False
+V	VH167	TH1	Ap_og_arCOG04846	Gc_not_methanog_A	==	False
+V	VH168	TH1	Ap_og_arCOG02882	Gc_methanog_A:most	==	True
+V	VH169	TH1	Ap_og_arCOG00640	Gc_methanog_A:most	==	True
+V	VH170	TH1	Ap_og_arCOG01116	Gc_methanog_A:most	==	True
+V	VH171	TH1	Ap_og_arCOG00854	Gc_methanog_A:most	==	True
+V	VH172	TH1	Ap_og_arCOG02882	Gc_not_methanog_A:>95%	==	False
+V	VH173	TH1	Ap_og_arCOG00640	Gc_not_methanog_A:>95%	==	False
+V	VH174	TH1	Ap_og_arCOG01116	Gc_not_methanog_A:>95%	==	False
+V	VH175	TH1	Ap_og_arCOG00854	Gc_not_methanog_A:>95%	==	False
+V	VH176	TH1	Ap_og_arCOG00854	Gt_Methanomassiliicoccales	==	True
+V	VH177	TH1	Ap_og_arCOG04893	Gt_Methanomassiliicoccales	==	True
+V	VH178	TH1	Ap_og_arCOG04893	Gc_methanog_A:>90%	==	True
+V	VH179	TH1	Ap_og_arCOG00854	Gc_methanog_A:>90%	==	True
+V	VH180	TH1	Ap_og_arCOG00854	Gc_not_methanog_A:>95%	==	False
+V	VH181	TH1	Ap_og_arCOG04893	Gc_not_methanog_A:>95%	==	False
+V	VH182	TH1	Ap_og_arCOG00950	Gt_Methanomassiliicoccales	==	False
+V	VH183	TH1	Ap_og_arCOG04866	Gt_Methanomassiliicoccales	==	False
+V	VH184	TH1	Ap_og_arCOG03221	Gt_Methanomassiliicoccales	==	False
+V	VH185	TH1	Ap_og_arCOG04867	Gt_Methanomassiliicoccales	==	False
+V	VH186	TH1	Ap_og_arCOG04868	Gt_Methanomassiliicoccales	==	False
+V	VH187	TH1	Ap_og_arCOG04869	Gt_Methanomassiliicoccales	==	False
+V	VH188	TH1	Ap_og_arCOG04870	Gt_Methanomassiliicoccales	==	False
+V	VH189	TH1	Ap_og_arCOG00950	Gt_Methanomassiliicoccales	==	True
+V	VH190	TH1	Ap_og_arCOG04866	Gc_meth_A_not_Methanomas	==	True
+V	VH191	TH1	Ap_og_arCOG03221	Gc_meth_A_not_Methanomas	==	True
+V	VH192	TH1	Ap_og_arCOG04867	Gc_meth_A_not_Methanomas	==	True
+V	VH193	TH1	Ap_og_arCOG04868	Gc_meth_A_not_Methanomas	==	True
+V	VH194	TH1	Ap_og_arCOG04869	Gc_meth_A_not_Methanomas	==	True
+V	VH195	TH1	Ap_og_arCOG04870	Gc_meth_A_not_Methanomas	==	True
+V	VH196	TH1	Ap_og_arCOG00950	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH197	TH1	Ap_og_arCOG04866	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH198	TH1	Ap_og_arCOG03221	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH199	TH1	Ap_og_arCOG04867	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH200	TH1	Ap_og_arCOG04868	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH201	TH1	Ap_og_arCOG04869	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH202	TH1	Ap_og_arCOG04870	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH203	TH1	Ap_og_arCOG01579	Gt_Methanomassiliicoccales	==	False
+V	VH204	TH1	Ap_og_arCOG04844	Gt_Methanomassiliicoccales	==	False
+V	VH205	TH1	Ap_og_arCOG01579	Gc_meth_A_not_Methanomas:>90%	==	True
+V	VH206	TH1	Ap_og_arCOG04844	Gc_meth_A_not_Methanomas:>90%	==	True
+V	VH207	TH1	Ap_og_arCOG01579	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH208	TH1	Ap_og_arCOG04844	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH209	TH1	Ap_og_arCOG04885	Gt_Methanomassiliicoccales	==	False
+V	VH210	TH1	Ap_og_arCOG04885	Gc_meth_A_not_Methanomas:>90%	==	True
+V	VH211	TH1	Ap_og_arCOG04885	Gc_not_methanog_A_plus_Methanomas:>95%	==	False
+V	VH212	SH61	Ap_op_CBB	Gc_obl_autotr_Gamma	==	True
+V	VH213	SH61	Ap_op_CBB	Gc_obl_autotr_Alpha	==	True
+V	VH214	SH61	Ap_op_CBB	Gc_obl_autotr_Beta	==	True
+V	VH215	SH61	Ap_op_CBB	Gt_Cyanobacteria	==	True
+V	VH216	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	level	high
+V	VH217	SH64	Ac_d_Pfam00990	Gt_Campylobacter	level	none_or_low
+V	VH218	SH64	Ac_d_Pfam00990	Gt_Helicobacter	level	none_or_low
+V	VH219	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	level	high
+V	VH220	SH64	Ac_d_EAL	Gt_Campylobacter	level	none_or_low
+V	VH221	SH64	Ac_d_EAL	Gt_Helicobacter	level	none_or_low
+V	VH222	SH65	Ac_g_luxS 	Gc_hydrvent_Epsilon	level	high
+V	VH223	SH65	Ac_f_5mA_SahC_nucl 	Gc_hydrvent_Epsilon	level	high
+V	VH224	SH66	Ac_h_arsenate_red	Gc_hydrvent_Epsilon	>=	2
+V	VH225	SH66	Ac_h_arsenate_red	Gt_Sdenitrificans	>=	2
+V	VH226	SH66	Ac_h_arsenate_red	Gt_Abutzleri	>=	2
+V	VH227	SH66	Ap_g_arsR	Gt_Sdenitrificans	==	True
+V	VH228	SH66	Ap_g_arsR	Gt_Wsuccinogenes	==	True
+V	VH229	SH66	Ap_g_arsR	Gt_Sulfurovum	==	True
+V	VH230	SH66	Ap_g_arsR	Gt_Nitratiruptor	==	True
+V	VH231	SH66	Ap_og_COG1055	Gt_Cmediatlanticus	==	False
+V	VH232	SH66	Ap_og_COG1055	Gt_Nprofundicola	==	False
+V	VH233	SH66	Ap_g_arsR	Gt_Cmediatlanticus	==	True
+V	VH234	SH66	Ap_g_arsR	Gt_Nprofundicola	==	True
+V	VH235	SH67	Ap_f_ADP_rib_pyr	Gc_pathog_Epsilon	==	False
+V	VH236	SH67	Ap_f_ADP_rib_pyr	Gc_hydrvent_Epsilon:some	==	True
+V	VH237	SH67	Ap_f_ADP_rib_pyr	Gt_Abutzleri	==	True
+V	VH238	SH68	Ap_p_CODH	Gc_hydrvent_Thermococcus:some	==	True
+V	VH239	SH69	Ap_h_F420	Gt_Thermococcales	==	False
+V	VH240	SH70	Ap_w_CO_ox	Gc_lithoheterotr_B	==	False
+V	VH241	SH70	Ap_w_CO_ox	Gs_TonnNA1	==	True
+V	VH242	SH70	Ap_w_CO2_fix	Gc_lithoheterotr_B	==	False
+V	VH243	SH70	Ap_w_CO2_fix	Gs_TonnNA1	==	True
+V	VH244	SH71	Ac_d_NiFe_hydr	Gt_Thermococcus:most	>	1
+V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_autotr_B	==	False
+V	VH246	SH72	Ap_r_RubisCO_out_CBB	Gt_Hcrunogenus	==	False
+V	VH247	SH74	Ap_w_rTCA	Gc_hydrvent_Epsilon	==	True
+V	VH248	SH74	Ap_w_rTCA	Gc_nitriox_Nitrospirae	==	True
+V	VH249	SH75	AH106	Gc_autotr_sulfred_B	==	True
+V	VH250	SH75	AH106	Gc_autotr_sulfred_A	==	True
+V	VH251	SH76	Ap_w_3HP4HB	Gc_autotr_thermoac_Thaumarch	==	True
+V	VH252	SH77	Ap_w_rev_sulf_red	Gc_hydroth_Gamma	==	True
+V	VH253	SH78	Ap_g_narG	Gt_Nitrospirae	==	True
+V	VH254	SH78	Ap_g_narG	Gt_Nitrospinae	==	True
+V	VH255	SH78	Ap_g_narH	Gt_Nitrospirae	==	True
+V	VH256	SH78	Ap_g_narH	Gt_Nitrospinae	==	True
+V	VH257	SH79	Ap_g_pmoA	Gc_aer_methox_B	==	True
+V	VH258	SH80	Ap_c_SoxABXYZ	Gt_Sulfurovum	==	True
+V	VH259	SH80	Ap_c_SoxABXYZ	Gt_Nitratiruptor	==	True
+V	VH260	SH80	Ap_c_SoxABXYZ	Gt_Sulfurimonas	==	True
+V	VH261	SH80	Ap_c_SoxABXYZ	Gt_Arcobacter	==	True
+V	VH262	SH80	Ap_g_soxC	Gt_Sulfurovum	==	True
+V	VH263	SH80	Ap_g_soxC	Gt_Nitratiruptor	==	True
+V	VH264	SH80	Ap_g_soxC	Gt_Sulfurimonas	==	True
+V	VH265	SH80	Ap_g_soxC	Gt_Arcobacter	==	True
+V	VH266	SH80	Ap_g_soxD	Gt_Sulfurovum	==	True
+V	VH267	SH80	Ap_g_soxD	Gt_Nitratiruptor	==	True
+V	VH268	SH80	Ap_g_soxD	Gt_Sulfurimonas	==	True
+V	VH269	SH80	Ap_g_soxD	Gt_Arcobacter	==	True
+V	VH270	SH51	Ap_w_sox	Gc_Irina2_Gamma	==	False
+V	VH271	SH51	Ap_g_aprA	Gc_Irina2_Gamma	==	True
+V	VH272	SH47	Ap_p_AprBA	Gc_sulfred_B	==	True
+V	VH273	SH47	Ap_p_AprBA	Gc_sulfox_B:some	==	True
+V	VH274	SH81	Ap_y_PcoAB	Gs_GbivTAG1	==	True
+V	VH275	SH81	Ap_y_PcoAB	Gs_ZetaAB602C20	==	True
+V	VH276	SH81	Ap_y_PcoAB	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	==	False
+V	VH277	SH82	Ap_g_cbbM	Gt_Mariprofundus	==	True
+V	VH278	SH83	Ap_g_cbbL	Gt_Zetaproteobacteria	==	False
+V	VH279	SH84	Ap_h_cyc2	Gc_microaer_Fe2ox_B:many	==	True
+V	VH280	SH85	Ap_w_ACIII	Gt_Zetaproteobacteria:many	==	True
+V	VH281	SH85	Ap_w_ACIII	Gc_Fe2ox_B:some	==	True
+V	VH282	SH86	Ap_h_cbb3	Gt_Zetaproteobacteria:most	==	True
+V	VH283	SH87	AH106	Gc_sulfred_B:some	==	True
+V	VH284	SH87	AH106	Gc_anaer_ammox_Planctomycetes:some	==	True
+V	VH285	SH87	AH106	Gc_autotr_Archaeoglobales:some	==	True
+V	VH286	SH88	Ap_f_CO_deh	Gt_Methanosarcina	==	True
+V	VH287	SH88	Ap_f_CO_deh	Gt_Methanothrix	==	True
+V	VH288	SH88	Ap_f_CO_deh	Gt_Methanocaldococcus	==	True
+V	VH289	SH88	Ap_f_CO_deh	Gt_Afulgidus	==	True
+V	VH290	SH88	Ap_f_CO_deh	Gt_Fplacidus	==	True
+V	VH291	SH88	Ap_f_CO_deh	Gc_acetog_B	==	True
+V	VH292	SH88	Ap_f_CO_deh	Gc_photos_B:some	==	True
+V	VH293	SH88	Ap_f_CO_deh	Gc_sulfred_B	==	True
+V	VH294	SH89	Ap_g_cbbM	Gc_sulfiox_chemolithoa_Thiomicrospira	==	True
+V	VH295	SH89	Ap_g_cbbL	Gc_sulfiox_chemolithoa_Thiomicrospira	==	True
+V	VH296	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Hydrogenovibrio	level	high
+V	VH297	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrorhabdus	level	high
+V	VH298	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrospira	level	high
+V	VH299	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Hydrogenovibrio	level	high
+V	VH300	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Thiomicrorhabdus	level	high
+V	VH301	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Thiomicrospira	level	high
+V	VH302	SH94	Ac_p_SQR	Gt_Proteobacteria	>	1
+V	VH303	SH98	Ap_f_cbb3_cytC_ox	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
+V	VH304	SH98	Ap_f_NDH1_NADH_deh	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
+V	VH305	SH98	Ap_f_cyt_bc1	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
+V	VH306	SH99	Ap_f_hydr_1d	Gt_Gammaproteobacteria:many	==	True
+V	VH307	SH100	Ac_f_RubisCO	Gt_Hydrogenovibrio	in_range	2,3
+V	VH308	SH100	Ac_f_RubisCO	Gt_Thiomicrorhabdus	in_range	2,3
+V	VH309	SH101	Ac_p_RubisCO_IAc	Gt_Thiomicrospira:most	==	True
+V	VH310	SH101	Ap_g_cbbM	Gt_Thiomicrospira:most	==	False
+V	VH311	SH96	Ap_c_SoxABXYZ	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
+V	VH312	SH96	Ap_c_SoxABCDXYZ	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH313	SH91	Ap_r_LTR_prkin	Gt_Hhalophilus:many	==	True
+V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
+V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
+C	CH1	SH93	Ac_d_Pfam000159	Gc_Hydrogenov_Thiomicror_Thiomicros	>>	Gt_Piscirickettsiaceae
+C	CH2	SH95	AH177	Gc_Hydrogenov_Thiomicror_Thiomicros:most	>	Gt_Piscirickettsiaceae
+C	CH3	SH102	Ac_t_CRISPR	Gc_thermophilic_A	>	Gc_mesophilic_A
+C	CH4	SH102	Ac_t_CRISPR	Gc_thermophilic_B	>	Gc_mesophilic_B
+C	CH5	SH36	Ac_x_T	Gc_free_Epsilon	>	Gc_pathog_Epsilon
+C	CH6	SH36	Ac_x_T	Gc_epis_Apmpejana_Epsilon	>	Gc_pathog_Epsilon
+C	CH7	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Campylobacter
+C	CH8	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Helicobacter
+C	CH9	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Campylobacter
+C	CH10	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Helicobacter
+C	CH11	SH73	Ac_t_mobile_genetic_element	Gc_hydrvent_A	>	Gc_not_hydrvent_A
+C	CH12	SH73	Ac_t_mobile_genetic_element	Gc_hydrvent_B	>	Gc_not_hydrvent_B
