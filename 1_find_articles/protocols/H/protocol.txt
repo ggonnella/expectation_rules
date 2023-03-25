@@ -1,0 +1,26 @@
+# (1) Pubmed queries
+
+The following queries were run on the NCBI Pubmed website:
+```
+  hydrothermal vent archaea genome
+  hydrothermal vent archaea sequence
+  hydrothermal vent bacteria genome
+  hydrothermal vent bacteria sequence
+```
+
+The results (June 15th 2022) were exported to CSV,
+and converted to TSV in Numbers (MacOS),
+line ends were converted using tr and a newline
+for the last line was added using sed
+```
+  pubmed-query-hydrothermal-vent-archaea-genome.tsv
+  pubmed-query-hydrothermal-vent-archaea-sequence.tsv
+  pubmed-query-hydrothermal-vent-bacteria-genome.tsv
+  pubmed-query-hydrothermal-vent-bacteria-sequence.tsv
+```
+
+# (2) Join results
+
+Since the results were overlapping, they were joined
+using the ``join_results.sh`` script.
+The result is the file ``pubmed-queries-joined.tsv``.
