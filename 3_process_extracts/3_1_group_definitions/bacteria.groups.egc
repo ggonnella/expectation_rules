@@ -1,0 +1,208 @@
+G	Gr_copiotrophic	copiotrophic	nutrients_level_requirement	Wikipedia:Copiotroph	XR:Z:ENVO:00002224
+G	Gt_bacteria	bacteria	taxonomic	taxid:2	TR:Z:domain
+G	Gc_copiotrophic_B	copiotrophic bacteria	combined	Gr_copiotrophic & Gt_bacteria
+G	Gt_oligotrophic	oligotrophic	nutrients_level_requirement	Wikipedia:Oligotroph	XR:Z:ENVO:00002223
+G	Gc_oligotrophic_B	oligotrophic bacteria	combined	Gt_oligotrophic & Gt_bacteria
+G	Gt_Xanthomonas	Xanthomonas	taxonomic	taxid:338	TR:Z:genus
+G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
+G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
+G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
+G	Gh_rumen	rumen	habitat	Wikipedia:Rumen	XR:Z:NCIT:C98778;OMIT:0013322;ENVO:01001033
+G	Gt_Butyrivibrio	Butyrivibrio	taxonomic	taxid:830	TR:Z:genus
+G	Gt_Pseudobutyrivibrio	Pseudobutyrivibrio	taxonomic	taxid:46205	TR:Z:genus
+G	Gc_rumen_Butyrivibrio	rumen Butyrivibrio	combined	Gh_rumen & Gt_Butyrivibrio
+G	Gc_rumen_Pseudobutyrivibrio	rumen Pseudobutyrivibrio	combined	Gh_rumen & Gt_Pseudobutyrivibrio
+G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Pseudobutyrivibrio	combined	Gh_rumen & Gt_bacteria & !(Gt_Butyrivibrio|Gt_Pseudobutyrivibrio)
+G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
+G	Gx_magnetotactic	magnetotactic	taxis	sctid:115092005	XR:Z:MICRO:0000216
+G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_bacteria
+G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
+G	Gc_pathogenic_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
+G	Gt_Mtuberculosis	Mycobacterium tuberculosis	taxonomic	taxid:1773	TR:Z:species
+G	Gt_Mavium	Mycobacterium avium	taxonomic	taxid:1764	TR:Z:species
+G	Gp_chemolithoautotrophic	chemolithoautotrophic	trophic_strategy	MICRO:0001477
+G	Gt_Rickettsia	Rickettsia	taxonomic	taxid:780	TR:Z:genus
+G	Gt_Rtyphi	Rickettsia typhi	taxonomic	taxid:785	TR:Z:species
+G	Gt_Rprowazekii	Rickettsia prowazekii	taxonomic	taxid:782	TR:Z:species
+G	Gt_Rconorii	Rickettsia conorii	taxonomic	taxid:781	TR:Z:species
+G	Gr_neutrophilic	neutrophilic	pH_requirement	MICRO:0001546
+G	Gp_chemoautotrophic	chemoautotrophic	trophic_strategy	ECOCORE:00000129	XR:Z:MICRO_0001500!chemolithoautotroph;MICRO_0001505!chemoorganoautotroph	# MICRO does not define chemoautotroph, but chemotroph, then divides it first into -litho- and -organo- and then those into -hetero- and -autotroph
+G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gp_chemoautotrophic & Gt_bacteria
+G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
+G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
+G	Gp_methylotrophic	methylotrophic	trophic_strategy	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
+G	Gt_SEnteritidis	Salmonella enterica serovar Enteritidis	taxonomic	taxid:149539	TR:Z:serogroup
+G	Gh_subsurface	subsurface	habitat	def:environment located under the planetary surface and not exposed to the atmosphere	XR:Z:ENVO_01000941!planetary subsurface zone
+G	Gt_Geobacter	Geobacter	taxonomic	taxid:28231	TR:Z:genus
+G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geobacter
+G	Gt_Geobacteraceae	Geobacteraceae	taxonomic	taxid:213422	TR:Z:family
+G	Gt_Bartonella	Bartonella	taxonomic	taxid:773	TR:Z:genus
+G	Gi_predatory	predatory	biological_interaction	def:feeding by killing and eating other organisms	XR:Z:OMIT:0012199!Predatory behavior
+G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gi_predatory & Gt_bacteria & (!Gt_Maeruginosavorus)
+G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gi_predatory) & Gt_bacteria
+G	Gt_Maeruginosavorus	Micavibrio aeruginosavorus	taxonomic	taxid:349221	TR:Z:species
+G	Gi_obl_pred	obligate predatory	biological_interaction	def:always feeding by killing and eating other organisms
+G	Gi_fac_pred	facultative predatory	biological_interaction	def:sometimes feeding by killing and eating other organisms, but can also employ other feeding strategies
+G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_bacteria & Gi_obl_pred
+G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_bacteria & Gi_fac_pred
+G	Gt_Rhodobacterales	Rhodobacterales	taxonomic	taxid:204455	TR:Z:order
+G	Ga_grampos	gram-positive	gram_stain	MICRO:0000616
+G	Gc_grampos_B	gram-positive bacteria	combined	Ga_grampos & Gt_bacteria	XD:Z:MICRO:0001372
+G	Gt_Phaeobacter	Phaeobacter	taxonomic	taxid:302485	TR:Z:genus
+G	Gn_Phaeobacter	not Phaeobacter	inverted	!Gt_Phaeobacter
+G	Gt_Ecoli	Escherichia coli	taxonomic	taxid:562	TR:Z:species
+G	Gt_Roseobacter	Roseobacter	taxonomic	taxid:2433	TR:Z:genus
+G	Gt_Desulfitobacterium	Desulfitobacterium	taxonomic	taxid:36853	TR:Z:genus
+G	Gt_Dmetallireducens	Desulfitobacterium metallireducens	taxonomic	taxid:142877	TR:Z:species
+G	Gc_Desulfitob_not_metallired	Desulfitobacterium excluding Desulfitobacterium metallireducens	combined	Gt_Desulfitobacterium & !(Gt_Dmetallireducens)
+G	Gt_Ddichloroeliminans	Desulfitobacterium dichloroeliminans	taxonomic	taxid:233055	TR:Z:species
+G	Gc_Desulfitob_not_dichloroel	Desulfitobacterium spp. excluding Desulfitobacterium dichloroeliminans	combined	G68 & !(Gt_Ddichloroeliminans)
+G	Gr_psychrotrophic	psychrotrophic	temperature_requirement	def:able to grow at low temperature (< 20 degrees), but with a higher maximum growth temperature	XR:Z:pmid:3536570
+G	Gt_Bpsychrophilus	Bacillus psychrophilus	taxonomic	taxid:1476	TR:Z:species
+G	Gt_Phaloplanktis	Pseudoalteromonas haloplanktis	taxonomic	taxid:228	TR:Z:species
+G	Gt_Bacteroidota	Bacteroidota	taxonomic	taxid:976	TR:Z:phylum	SN:Z:Bacteroidetes
+G	Gh_gut	gut/enteric	habitat	ENVO:2100002!intestine environment	XR:Z:NCIT:C93019;OHMI:0000020
+G	Gc_gut_Bacteroidota	gut Bacteroidota	combined	Gt_Bacteroidota & Gh_gut
+G	Gt_Rsibirica	Rickettsia sibirica	taxonomic	taxid:35793	TR:Z:species
+G	Gt_Rfelis	Rickettsia felis	taxonomic	taxid:42862	TR:Z:species
+G	Gi_obl_intracell	obligate intracellular	biological_interaction	def:always living inside a cell of a host organism	XR:Z:GO:0005622;RO:0002640;NCIT:C28217
+G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gi_obl_intracell & Gt_bacteria	XR:Z:sctid:414922005
+G	Gi_free	free-living	biological_interaction	OMP:0007646!free-living lifestyle phenotype
+G	Gt_Atumefaciens	Agrobacterium tumefaciens	taxonomic	taxid:358	TR:Z:species
+G	Gt_Tmaritima	Thermotoga maritima	taxonomic	taxid:2336	TR:Z:species
+G	Gt_Smeliloti	Sinorhizobium meliloti	taxonomic	taxid:382	TR:Z:species
+G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
+G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
+G	Gi_fleainf	flea-infecting	biological_interaction	def:pathogen, which infects fleas	XR:Z:TRANS:0000023!flea borne transmission
+G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_bacteria
+G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_bacteria
+G	Gt_Dehalococcoides	Dehalococcoides	taxonomic	taxid:61434	TR:Z:genus
+G	Gm_asaccharolytic	asaccharolytic	metabolic	def:incapable of breaking down carbohydrates for energy
+G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_bacteria
+G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
+G	Gc_gramneg_B	gram-negative bacteria	combined	Ga_gramneg & Gt_bacteria	XD:Z:MICRO:0001373
+G	Gt_Neisseria	Neisseria	taxonomic	taxid:482	TR:Z:genus
+G	Gt_Enterobacteriaceae	Enterobacteriaceae	taxonomic	taxid:543	TR:Z:family
+G	Gt_Salmonella	Salmonella	taxonomic	taxid:590	TR:Z:genus
+G	Gt_Shigella	Shigella	taxonomic	taxid:620	TR:Z:genus
+G	Gt_Klebsiella	Klebsiella	taxonomic	taxid:570	TR:Z:genus
+G	Gt_Saureus	Staphylococcus aureus	taxonomic	taxid:1280	TR:Z:species
+G	Gt_Kpneumoniae	Klebsiella pneumoniae	taxonomic	taxid:573	TR:Z:species
+G	Gt_Vibrio	Vibrio	taxonomic	taxid:662	TR:Z:genus
+G	Gt_Pprofundum	Photobacterium profundum	taxonomic	taxid:74109	TR:Z:species
+G	Gt_Gammaproteobacteria	Gammaproteobacteria	taxonomic	taxid:1236	TR:Z:class
+G	Gr_thermophilic	thermophilic	temperature_requirement	MICRO:0000118
+G	Gr_psychrophilic	psychrophilic	temperature_requirement	MICRO:0001306
+G	Gr_mesophilic	mesophilic	temperature_requirement	MICRO:0000111
+G	Gt_Oiheyensis	Oceanobacillus iheyensis	taxonomic	taxid:182710	TR:Z:species
+G	Gc_psymes_not_Oiheyensis	psychrophilic or mesophilic excluding Oceanobacillus iheyensis	combined	(Gr_psychrophilic|Gr_mesophilic) & !(Gt_Oiheyensis)
+G	Gt_Soneidensis	Shewanella oneidensis	taxonomic	taxid:70863	TR:Z:species
+G	Gt_Dpsychrophila	Desulfotalea psychrophila	taxonomic	taxid:84980	TR:Z:species
+G	Gt_Xanthomonadales	Xanthomonadales	taxonomic	taxid:135614	TR:Z:order
+G	Gt_Pseudomonadales	Pseudomonadales	taxonomic	taxid:72274	TR:Z:order
+G	Gc_gammapr_not_Xanth_Pseud	γ-proteobacteria (ex. Xanthomonadales & Pseudomonadales)	combined	Gt_Gammaproteobacteria & !(Gt_Xanthomonadales) & !(Gt_Pseudomonadales)
+G	Gt_Agrobacterium	Agrobacterium	taxonomic	taxid:357	TR:Z:genus
+G	Gt_Bpumilus	Bacillus pumilus	taxonomic	taxid:1408	TR:Z:species
+G	Gt_Borrelia	Borrelia	taxonomic	taxid:138	TR:Z:genus
+G	Gn_Borrelia	not Borrelia	inverted	!Gt_Borrelia
+G	Gd_Lyme	Lyme disease	resultive_disease_symptom	sctid:23502006
+G	Gc_Lyme_Borrelia	(Lyme-disease) Borrelia	combined	Gt_Borrelia & Gd_Lyme
+G	Gd_relapsfever	relapsing fever	resultive_disease_symptom	sctid:420079008
+G	Gc_relapsfever_Borrelia	(relapsing fever) Borrelia	combined	Gt_Borrelia & Gd_relapsfever
+G	Gt_Legionella	Legionella	taxonomic	taxid:445	TR:Z:genus
+G	Gt_Gdiazotrophicus	Gluconacetobacter diazotrophicus	taxonomic	taxid:33996	TR:Z:species
+G	Gs_AspBH72	Azoarcus sp. BH72	strain	bacdive:140652	TS:Z:taxid:418699
+G	Gt_Acetobacteraceae	Acetobacteraceae	taxonomic	taxid:433	TR:Z:family
+G	Gt_Enterobacter	Enterobacter	taxonomic	taxid:547	TR:Z:genus
+G	Gn_Enterobacter	not Enterobacter	inverted	!Gt_Enterobacter
+G	Gd_tumor	tumor (inducing)	resultive_disease_symptom	NCRO:0000044
+G	Gc_tumor_Enterobacter	tumor-inducing Enterobacter	combined	Gt_Enterobacter & Gd_tumor
+G	Gt_Actinobacillus	Actinobacillus	taxonomic	taxid:713	TR:Z:genus
+G	Gt_Haemophilus	Haemophilus	taxonomic	taxid:724	TR:Z:genus
+G	Gt_Pasteurella	Pasteurella	taxonomic	taxid:745	TR:Z:genus
+G	Gt_Pseudomonas	Pseudomonas	taxonomic	taxid:286	TR:Z:genus
+G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
+G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
+G	Gm_amox	ammonia-oxidizing	trophic_strategy	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
+G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_amox & Gt_bacteria
+G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species
+G	Gs_BafzK78	Borrelia afzelii K78	strain	doi:10.1371/journal.pone.0108013	TS:Z:taxid:411555
+G	Gt_Cupriavidus	Cupriavidus	taxonomic	taxid:106589	TR:Z:genus
+G	Gt_Ralstonia	Ralstonia	taxonomic	taxid:48736	TR:Z:genus
+G	Gt_Betaproteobacteria	Betaproteobacteria	taxonomic	taxid:28216	TR:Z:class
+G	Gh_marine	marine	habitat	ENVO:01000320
+G	Gc_mar_olig	marine oligotroph	combined	Gt_oligotrophic & Gh_marine
+G	Gt_Chlamydiae	Chlamydiae	taxonomic	taxid:204428	TR:Z:phylum
+G	Gt_Anaplasmataceae	Anaplasmataceae	taxonomic	taxid:942	TR:Z:family
+G	Gt_Ehrlichia	Ehrlichia	taxonomic	taxid:943	TR:Z:genus
+G	Gt_Lpneumophila	Legionella pneumophila	taxonomic	taxid:446	TR:Z:species
+G	Gt_Anaplasma	Anaplasma	taxonomic	taxid:768	TR:Z:genus
+G	Gp_Rhizobia	Rhizobia	paraphyletic	Wikipedia:Rhizobia
+G	Gm_purplephot	purple photosynthetic	metabolic	Wikipedia:Purple bacteria
+G	Gc_purplephot_B	purple photosynthetic bacteria	combined	Gm_purplephot & Gt_bacteria
+G	Gt_Actinomycetales	Actinomycetales	taxonomic	taxid:2037	TR:Z:order
+G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gi_free
+G	Gt_Pseudomonadaceae	Pseudomonadaceae	taxonomic	taxid:135621	TR:Z:family
+G	Gi_vertpath	vertebrate pathogenic	biological_interaction	def:pathogen of vertebrates	XR:Z:NCIT:C80324
+G	Gt_Myxococcales	Myxococcales	taxonomic	taxid:29	TR:Z:order
+G	Gt_Deltaproteo	δ-proteobacteria	taxonomic	taxid:28221	TR:Z:class
+G	Gc_Deltapr_not_Myxococcales	non-Myxococcales δ-proteobacteria	combined	Gt_Deltaproteo & !(Gt_Myxococcales)
+G	Gt_Acinetobacter	Acinetobacter	taxonomic	taxid:469	TR:Z:genus
+G	Gt_Aasiaticus	Candidatus Amoebophilus asiaticus	taxonomic	taxid:281120	TR:Z:species
+G	Gc_intracellular_B	intracellular bacteria	combined	Gi_intracellular & Gt_bacteria
+G	Gc_not_intracell_B	bacteria excluding intracellular bacteria	combined	Gt_bacteria & !(Gc_intracellular_B)
+G	Gt_Rhizobium	Rhizobium	taxonomic	taxid:379	TR:Z:genus
+G	Gt_Serpulina	Serpulina	taxonomic	taxid:29521	TR:Z:genus
+G	Gc_path_Serpulina	pathogenic Serpulina	combined	Gi_pathogenic & Gt_Serpulina
+G	Gm_acet_ac_ox	acetic acid oxidizing	metabolic	MICRO:0000773
+G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_bacteria & Gm_acet_ac_ox
+G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
+G	Gt_Lasiaticus	Candidatus Liberibacter asiaticus	taxonomic	taxid:34021	TR:Z:species
+G	Gt_Lsolanacearum	Candidatus Liberibacter solanacearum	taxonomic	taxid:556287	TR:Z:species
+G	Gt_Lcrescens	Liberibacter crescens	taxonomic	taxid:1273132	TR:Z:species
+G	Gt_Avinelandii	Azotobacter vinelandii	taxonomic	taxid:354	TR:Z:species
+G	Gt_Salinibacter	Salinibacter	taxonomic	taxid:146918	TR:Z:genus
+G	Gr_halophilic	halophilic	salinity_requirement	MICRO:0001314	XR:Z:MICRO:0001367
+G	Gt_Rmarinus	Rhodothermus marinus	taxonomic	taxid:29549	TR:Z:species
+G	Gt_Firmicutes	Firmicutes	taxonomic	taxid:1239	TR:Z:phylum
+G	Gt_Octadecabacter	Octadecabacter	taxonomic	taxid:53945	TR:Z:genus
+G	Gt_Roseobacteraceae	Roseobacteraceae	taxonomic	taxid:2854170	TR:Z:family
+G	Gc_Roseob_not_Octad	Roseobacter excluding Octadecabacter	combined	Gt_Roseobacteraceae & !(Gt_Octadecabacter)
+G	Gt_Nazo0708	Nostoc azollae' 0708	strain	taxid:551115
+G	Gc_Cyanob_not_0708	Cyanobacteria excluding Nostoc azollae' 0708	combined	Gt_Cyanobacteria & !(Gt_Nazo0708)
+G	Gt_Deinococcus	Deinococcus	taxonomic	taxid:1298	TR:Z:genus
+G	Gt_Dgobiensis	Deinococcus gobiensis	taxonomic	taxid:502394	TR:Z:species
+G	Gc_Deinococcus_not_gobiensis	Deinococcus excluding Deinococcus gobiensis	combined	Gt_Deinococcus & !(Gt_Dgobiensis)
+G	Gt_Dradiodurans	Deinococcus radiodurans	taxonomic	taxid:1299	TR:Z:species
+G	Gt_Nitrospira	Nitrospira	taxonomic	taxid:35798	TR:Z:genus
+G	Gr_urearich	urea-rich	specific nutrient_availability	ENVO:00005753
+G	Gc_urearich_Nitrospira	Nitrospira in urea abundant environments	combined	Gt_Nitrospira & Gr_urearich
+G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
+G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
+G	Gt_Ndefluvii	Nitrospira defluvii	taxonomic	taxid:330214	TR:Z:species
+G	Gc_aerobic_B	aerobic bacteria	combined	Gr_aerobic & Gt_bacteria
+G	Gc_aerobic_B_not_Ndefluvii	aerobic bacteria excluding Nitrospira defluvii	combined	Gc_aerobic_B & !(Gt_Ndefluvii)
+G	Gt_Mtub_complex	Mycobacterium tuberculosis complex	taxonomic	taxid:77643	TR:Z:group of species
+G	Gn_Mtub_complex	not Mycobacterium tuberculosis complex	inverted	!Gt_Mtub_complex
+G	Gt_Ypalearctica	Yersinia enterocolitica subsp. palearctica	taxonomic	taxid:150053	TR:Z:subspecies
+G	Gt_Yruckeri	Yersinia ruckeri	taxonomic	taxid:29486	TR:Z:species
+G	Gt_Ypestis	Yersinia pestis	taxonomic	taxid:632	TR:Z:species
+G	Gt_Ypseudotuberculosis	Yersinia pseudotuberculosis	taxonomic	taxid:633	TR:Z:species
+G	Gt_Cglutamicum	Corynebacterium glutamicum	taxonomic	taxid:1718	TR:Z:species
+G	Gt_Thermotogales	Thermotogales	taxonomic	taxid:2419	TR:Z:order
+G	Gt_Mprima	Mesotoga prima	taxonomic	taxid:1184387	TR:Z:species
+G	Gt_Kolearia	Kosmotoga olearia	taxonomic	taxid:651457	TR:Z:species
+G	Gc_gastric_Helicobacter	gastric Helicobacter	combined	Gh_gut & Gt_Helicobacter
+G	Gc_enteric_B	enteric bacteria	combined	Gh_gut & Gt_bacteria
+G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
+G	Gc_Helicobacter_not_pylori	Helicobacter excluding Helicobacter pylori	combined	Gt_Helicobacter & !(Gt_Hpylori)
+G	Gt_Hmustelae	Helicobacter mustelae	taxonomic	taxid:217	TR:Z:species
+G	Gc_Helicobacter_not_mustelae	Helicobacter excluding Helicobacter mustelae	combined	Gt_Helicobacter & !(Gt_Hmustelae)
+G	Gt_Campylobacterales	Campylobacterales	taxonomic	taxid:213849	TR:Z:order
+G	Gc_Campylob_not_Hmustelae	Campylobacterales excluding Helicobacter mustelae	combined	Gt_Campylobacterales & !(Gt_Hmustelae)
+G	Gt_Wsuccinogenes	Wolinella succinogenes	taxonomic	taxid:844	TR:Z:species
+G	Gt_Hhepaticus	Helicobacter hepaticus	taxonomic	taxid:32025	TR:Z:species
+G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:class
+G	Gh_hydrvents	hydrothermal sea vents	habitat	OMIT:0027720
+G	Gc_hydrvents_Epsilon_not_Hpylori	Epsilonproteobacteria in sea vents excluding Helicobacter mustelae	combined	Gt_Epsilonproteobacteria & Gh_hydrvents & !(Gt_Hpylori)
+G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
