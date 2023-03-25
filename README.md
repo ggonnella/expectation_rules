@@ -17,12 +17,9 @@ https://github.com/ggonnella/egc-spec
 # Organization
 
 ```
-1_find_articles          scripts, protocols and results of
-|                        the creation of lists of articles from which to
-|                        search for expectation rules
+1_find_articles          creation of articles lists for searching expectations
 |
-|- protocols             scripts and protocols for the
-|  |                     creation of the list of scientific articles
+|- protocols             protocols / pipelines for the creation
 |  |
 |  |- H                  related to genomes of prokaryotes in hydrothermal
 |  |                     vents; done using Pubmed queries
@@ -30,25 +27,37 @@ https://github.com/ggonnella/egc-spec
 |  |- AB                 related to the bacterial (B) and archaeal (A);
 |                        from entries in the NCBI assembly database
 |
-|- results               resulting H, A and B lists of scientific articles
-|
 |- statistics            analysis of the results, e.g. basic statistics
 
-2_process_articles       protocols and results of the sentences
-|                        extraction
+2_process_articles       extraction of expectations from articles
 |
-|- protocols             protocols for the H, A and B lists
+|- protocols             protocols (scratchpad) for the H, A and B lists
 |
-|- results               partial EGC files, containing only D, S and T records
+|- results               list of processed documents;
+|                        extracted sentences/tables/paragraphs
+|
+|- validation            scripts/pipeline for results validation
 |
 |- statistics            basic statisics about the processed articles
 |                        and the results
 
-3_process_extracts       EGC files containing the complete analysis
-|                        of the expectation rules extracted in step2
+3_process_extracts       analysis of the expectation rules extracted in step2
 |
-|- results               EGC files
+|- 3_1_group_definitions     definitions of organism groups
+|  |
+|  |- statistics             statistics about the definitions
 |
-|- statistics            statistics about the results
-```
+|- 3_2_contents_definitions  definitions of genome contents
+|  |
+|  |- statistics             statistics about the definitions
+|
+|- 3_3_rules_definitions     definitions of rules based on the 3_1 and 3_2
+|  |
+|  |- statistics             statistics about the definitions
+|
 
+scripts                  scripts are contained here and linked in the
+                         protocols and statistics directories
+
+results                  final EGC files with the rules collections
+```
