@@ -1,0 +1,1 @@
+../../scripts/get_journal_names.py
