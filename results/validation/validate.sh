@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # checks:
+# - all G, V, C, D, U, A, S, T identifiers are unique
+# - all taxonomic group definitions have a different taxid
 # - equivalence of D identifiers set (PMID:...) from second column of D
 #     with set of D references in S and T records, third column
 # - equivalence of U identifiers set (U...) from second column of U
@@ -22,6 +24,14 @@ had_err=0
 for set in $sets; do
   echo "Analysing set ${set}..."
   filename=../${set}.egc
+  for rt in G V C U A T S; do
+    tabrec-validate-ids $filename $rt --quiet
+    had_err=$[$had_err + $?]
+  done
+  tabrec-validate-ids $filename D --colon --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-ids $filename G 5 --value 4:taxonomic --colon --quiet
+  had_err=$[$had_err + $?]
   tabrec-validate-refs $filename S:3,T:3 D --colon
   had_err=$[$had_err + $?]
   tabrec-validate-refs $filename A:3-4,U:4 U -R 'U.*'
