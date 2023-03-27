@@ -910,8 +910,8 @@ V	VH218	SH64	Ac_d_Pfam00990	Gt_Helicobacter	level	none_or_low
 V	VH219	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	level	high
 V	VH220	SH64	Ac_d_EAL	Gt_Campylobacter	level	none_or_low
 V	VH221	SH64	Ac_d_EAL	Gt_Helicobacter	level	none_or_low
-V	VH222	SH65	Ac_g_luxS 	Gc_hydrvent_Epsilon	level	high
-V	VH223	SH65	Ac_f_5mA_SahC_nucl 	Gc_hydrvent_Epsilon	level	high
+V	VH222	SH65	Ac_g_luxS	Gc_hydrvent_Epsilon	level	high
+V	VH223	SH65	Ac_f_5mA_SahC_nucl	Gc_hydrvent_Epsilon	level	high
 V	VH224	SH66	Ac_h_arsenate_red	Gc_hydrvent_Epsilon	>=	2
 V	VH225	SH66	Ac_h_arsenate_red	Gt_Sdenitrificans	>=	2
 V	VH226	SH66	Ac_h_arsenate_red	Gt_Abutzleri	>=	2
