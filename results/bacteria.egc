@@ -115,7 +115,6 @@ S	S62	PMID:15984913	Two R. felis–specific ORFs (RF0449 and RF0855) exhibit the
 S	S63	PMID:15984913	Altogether, flea-infecting bacteria appear to exhibit a specific evolution (i.e., more repeats, transposases, and/or integrases) compared with their non-flea-infecting neighbors.
 S	S65	PMID:19283063	The L. hongkongensis genome lacks a complete set of enzymes for glycolysis, with orthologues of glucokinase, 6-phosphofructokinase and pyruvate kinase being absent (Table S1). This is compatible with its asaccharolytic phenotype and is consistent with other asaccharolytic bacteria, such as Campylobacter jejuni, Bordetella pertussis, Bordetella parapertussis and Bordetella bronchiseptica, in that glucokinase and 6-phosphofructokinase are also absent from their genomes [18],[19].
 S	S66	PMID:19283063	Enteric bacteria use several quorum-sensing mechanisms, including the LuxR-I, LuxS/AI-2, and AI-3/epinephrine/norepinephrine systems, to recognize the host environment and communicate across species. Unlike the genomes of C. violaceum and the pathogenic Neisseria species which encode genes involved in LuxR-I and LuxS/AI-2 systems respectively, the L. hongkongensis genome does not encode genes of these 2 systems.
-S	S67	PMID:19283063	aidA and tibA encode proteins of the autotransporter family, type V protein secretion system of Gram-negative bacteria.
 S	S68	PMID:32661122	Indeed, a repeating theme in the Enterobacteriaceae family is the use of AcrAB, found in Escherichia coli, Salmonella, Shigella, Klebsiella, and other pathogens, to resist both bile salts (24) and antibiotics (30, 31), thereby making it essential for survival under extreme environmental conditions.
 S	S69	PMID:32661122	S. aureus encodes several efflux pumps, including NorA, NorB, NorC, and Tet38, that confer resistance to quinolones and tetracyclines (78).
 S	S70	PMID:32661122	(S. aureus) Finally, methicillin resistance is mediated through the mecA gene that encodes a penicillin binding protein to resist β-lactam antibiotics (81).
@@ -160,17 +159,12 @@ S	S115	PMID:24324632	The genes in this apparatus (see Fig. 14) are in line with 
 S	S116	PMID:30665414	As with all Anaplasma (Rickettsiales) species reported to date, A. ovis contains a single split operon encoding the ribosomal RNA genes, with 23S and 5S genes being transcribed as one polycistron and the 16S gene being transcribed separately.
 S	S117	PMID:30665414	VirB1 and VirB5 have not been identified for any Anaplasmaceae
 S	S119	PMID:17540897	Synthesis of the Nod-factor chitin oligomer backbone requires the activity of three specific enzymes, encoded by the nodABC genes, which are present in all rhizobia characterized thus far.
-S	S120	PMID:17540897	According to their host specificity within different species of Aeschynomene, two groups of photosynthetic Bradyrhizobium have been described (8): Group I strains contain the common nodulation genes nodABC and form nodules on all stem-nodulating Aeschynomene species (9), whereas nodulation ability in group II strains is restricted to a few species, including A. sensitiva and A. indica. The nod genes have not been detected in group II strains.
 S	S121	PMID:17540897	Most of the 1343 genes in common were homogeneously distributed on the genomes (Fig. 1), except for genes involved in photosynthesis, which were clustered in a 50-kb region. This region, designated the photosynthesis gene cluster (PGC), is common in purple photosynthetic bacteria.
 S	S122	PMID:18192393	High-G+C-content gram-positive coryneform bacteria cause economic losses in several crops worldwide, yet the relatively slow in vitro and in planta growth and general genetic intractability of these bacteria have long been deterrents to successful identification of the specific molecular mechanisms by which they cause diseases in plants.
 S	S123	PMID:18192393	The relatively high chromosomal G+C content is typical of free-living actinomycetes, as is the slightly lower G+C content of the plasmids.
-S	S124	PMID:18375554	However, several redundant enzymes that are present in these pathways in E. coli are missing in P. mirabilis, including fumAB, tktB, talA, pfkB, and gpmI.
 S	S125	PMID:26061173	One of the plasmids in Ac-8003, pAcX50c, belongs to the IncP-1 incompatability group and the genomic analysis shows it contains tra and trb gene clusters found in the IncP1-γ family of plasmids from Pseudomonads.
-S	S127	PMID:21738717	Upregulation of genes encoding the cytochrome bd oxidase (PPA0175, cydB, PPA0176, cydA), a respiratory endoxidase, which, in Escherichia coli, favors survival under low oxygen tensions [31], was detected in the EP.
-S	S130	PMID:21738717	OsmC-family proteins apparently function as peroxiredoxins [37]. PPA0581 encodes a protein with homology to Hsp31 of E. coli, which has chaperone activity [38].
 S	S131	PMID:21738717	HicB is part of a cluster, HicAB, which is predicted to be a RNA-targeting toxin-antitoxin (TA) system present in a variety of bacteria [39]; hicAB transcription in E. coli was shown to be strongly induced by nutrient starvation
 S	S132	PMID:20023012	The core proteins, the cas1 and cas2 genes, and a csn1 gene formed the CRISPR subtype Nmeni, which is associated with vertebrate pathogens and commensals
-S	S133	PMID:20023012	However, the lack of typical pathogenic type I or III secretion systems such as the hec cluster of Dickeya chrysanthemi (15) or the inv/spa system of Salmonella enterica serovar Typhimurium (13) indicated that TPSY would probably not exhibit a pathogenic lifestyle.
 S	S134	PMID:26900859	We found that several Pfam clans such as protein kinase domain [CL0016], PP-binding (CL0314), PKinase (CL0016), CoA-acyltrans (CL0149), Peptidase_PA (CL0124), GroES (CL0296), AB_hydrolase (CL0028), Thiolase (CL0046), CheY (CL0304), AMP-binding_C (CL0531), HTH (CL0123) etc. are overrepresented in order Myxococcales members by more than 200% as compared to non-Myxococcales δ-proteobacteria.
 S	S135	PMID:26900859	Besides this, many Pfam clans such as EGF (CL0001), Trefoil (CL0066), gCrystallin (CL0333), Aerolisin_ETX (CL0345), Hydrophilin (CL0385), Viral_Gag (CL0148), zf-FYVE-PHD (CL0390), HMG-box (CL0114), PLAT (CL0321), EsxAB (CL0352), Frag1-like (CL0412), Hexosaminidase (CL0546) etc. are particularly present in genus Myxococcus members and not in the non-Myxococcales δ-proteobacteria.
 S	S136	PMID:18350144	As reported in A. baylyi str. ADP1 [9], the central metabolism study of both A. baumannii strains confirms the lack of several key enzymes: a glucokinase, proteins of a phosphotransferase transport system, a 6-phosphofructokinase and a pyruvate kinase. The latter activity which exists in Pseudomonas spp. seems to be a good marker to clearly delineate both genera. Few Acinetobacter isolates are able to grow on glucose as sole carbon source and this property was early used as a main criterion to classify Acinetobacter species [32]. The Embden–Meyerhof–Parnas glycolysis can certainly not be performed in Acinetobacter spp. given the lack of the previously mentioned enzymes.
@@ -184,7 +178,6 @@ S	S146	PMID:9634230	Its genetic organization, with two clustered ketoacyl syntha
 S	S147	PMID:9634230	Mycobacteria synthesize polyketides by several different mechanisms. A modular type I system, similar to that involved in erythromycin biosynthesis23, is encoded by a very large operon,  ppsABCDE, and functions in the production of phenolphthiocerol5.
 S	S149	PMID:10688204	A member of the family of contact-dependent haemolysins found in pathogenic Serpulina and Mycobacterium species11 (Cj0588), a putative integral membrane protein with a haemolysin domain (Cj0183) and a phospholipase (pldA) were also identified.
 S	S150	PMID:26358298	There are two types of terminal oxidases in AAB: cytochrome ba3/bo3-type ubiquinol oxidase and bd-type oxidase, which consist of four subunits encoded by the cyoABCD operon (synonym: cyaBACD) and two subunits encoded by cydAB genes, respectively. Cytochrome ba3/bo3-type ubiquinol oxidase is a member of the haeme–copper oxidase superfamily, which includes cytochrome c oxidase in aerobic respiration of mitochondria and aerobes.4
-S	S151	PMID:26358298	Taken together with the phylogenetic analysis presented in Fig. 2, it appears that As. bogorensis and Ga. diazotrophicus gained an extra nuo gene, possibly by the horizontal gene transfer, and As. bogorensis and Go. oxydans lost one nuo operon that is common among AAB.
 S	S152	PMID:28223374	Despite this, however, blaNMC-A/IMI-type genes have rarely been found outside Enterobacter, which is likely due to their rarity overall, the low likelihood of being mobilized to a plasmid (via insertion sequences), and potential plasmid instability in other genera, as putatively shown for pIMI-5 in E. coli.
 S	S153	PMID:23408754	Analysis of KEGG orthology uncovered the complete inability of Candidatus L. asiaticus and Candidatus L. solanacearum to synthesize histidine, tryptophan, and thiamine, as well as a severely reduced ability to produce phenylalanine and tyrosine when compared to L. crescens. Candidatus L. asiaticus and Candidatus L. solanacearum both possess 2 out of the 12 enzymes required for phenylalanine and tyrosine biosynthesis. To compensate, all three species possess a general L-amino acid ATP-binding cassette (ABC) transporter.
 S	S154	PMID:23408754	Also, Candidatus L. asiaticus and Candidatus L. solanacearum possess a thiamine ABC transporter not found in L. crescens, presumably to compensate for the inability to synthesize thiamine.
@@ -202,7 +195,6 @@ S	S166	PMID:16330755	The existence of multiple trkA genes in Salinibacter sugges
 S	S167	PMID:16330755	Genes with significant similarity to the Salinibacter insAB have been found only in cyanobacteria, Parachlamydia, and members of two archaeal orders, Methanosarcinales and Sulfolobales.
 S	S168	PMID:16330755	The possibility that Salinibacter might also have rhodopsin genes, derived from the haloarchaea with which it lives, was one of the initial motivations behind the present work. Indeed, like Halobacterium sp. NRC-1 and Haloarcula marismortui, and unlike any other characterized bacterium, Salinibacter contains four rhodopsin genes (Fig. 4A).
 S	S169	PMID:23671678	In a preliminary genome comparison, presence of rhodopsin genes affiliated to the xanthorhodopsin group [13], [14] was reported for the Octadecabacter strains [5]. Rhodopsins are highly diverse retinal-binding and photoactive membrane proteins [15], [16].
-S	S170	PMID:23671678	This implies that rearrangements occur more frequently in the genomes of the Octadecabacter strains than in other Roseobacters. Indications for intra-genomic rearrangements were mainly found in the genome of O. arcticus 238, which contained the most transposable elements of both Octadecabacter strains.
 S	S171	PMID:23671678	In the Octadecabacter genomes, a high mutagenicity is indicated by an unusually large number of pseudogenes (411 in O. arcticus and 361 in O. antarcticus; Table 2).
 S	S172	PMID:23671678	An importance of mercury resistance in polar habitats is also indicated by the fact that the corresponding gene clusters are conserved in the Arctic and the Antarctic Octadecabacter strain but absent in many other Roseobacter clade members.
 S	S173	PMID:23148582	The percentage of IS elements in Anabaena sp. 90 (~2%) was comparable to that in other cyanobacteria, but less than in the bloom-forming hepatotoxin-producing Microcystis aeruginosa strains, in which IS elements comprised about 10% of the genomes[
@@ -232,10 +224,10 @@ T	T1	PMID:23190728	Table One & Table Two
 T	T2	PMID:26900859	Excel sheet: pone.0148593.s007
 T	T3	PMID:23671678	Table 2. General genome comparisons of Roseobacter clade members
 G	Gr_copiotrophic	copiotrophic	nutrients_level_requirement	Wikipedia:Copiotroph	XR:Z:ENVO:00002224
-G	Gt_bacteria	bacteria	taxonomic	taxid:2	TR:Z:domain
-G	Gc_copiotrophic_B	copiotrophic bacteria	combined	Gr_copiotrophic & Gt_bacteria
+G	Gt_Bacteria	bacteria	taxonomic	taxid:2	TR:Z:domain
+G	Gc_copiotrophic_B	copiotrophic bacteria	combined	Gr_copiotrophic & Gt_Bacteria
 G	Gt_oligotrophic	oligotrophic	nutrients_level_requirement	Wikipedia:Oligotroph	XR:Z:ENVO:00002223
-G	Gc_oligotrophic_B	oligotrophic bacteria	combined	Gt_oligotrophic & Gt_bacteria
+G	Gc_oligotrophic_B	oligotrophic bacteria	combined	Gt_oligotrophic & Gt_Bacteria
 G	Gt_Xanthomonas	Xanthomonas	taxonomic	taxid:338	TR:Z:genus
 G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
 G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
@@ -245,10 +237,10 @@ G	Gt_Butyrivibrio	Butyrivibrio	taxonomic	taxid:830	TR:Z:genus
 G	Gt_Pseudobutyrivibrio	Pseudobutyrivibrio	taxonomic	taxid:46205	TR:Z:genus
 G	Gc_rumen_Butyrivibrio	rumen Butyrivibrio	combined	Gh_rumen & Gt_Butyrivibrio
 G	Gc_rumen_Pseudobutyrivibrio	rumen Pseudobutyrivibrio	combined	Gh_rumen & Gt_Pseudobutyrivibrio
-G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Pseudobutyrivibrio	combined	Gh_rumen & Gt_bacteria & !(Gt_Butyrivibrio|Gt_Pseudobutyrivibrio)
+G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Pseudobutyrivibrio	combined	Gh_rumen & Gt_Bacteria & !(Gt_Butyrivibrio|Gt_Pseudobutyrivibrio)
 G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
 G	Gx_magnetotactic	magnetotactic	taxis	sctid:115092005	XR:Z:MICRO:0000216
-G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_bacteria
+G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_Bacteria
 G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
 G	Gc_pathogenic_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
 G	Gt_Mtuberculosis	Mycobacterium tuberculosis	taxonomic	taxid:1773	TR:Z:species
@@ -260,7 +252,7 @@ G	Gt_Rprowazekii	Rickettsia prowazekii	taxonomic	taxid:782	TR:Z:species
 G	Gt_Rconorii	Rickettsia conorii	taxonomic	taxid:781	TR:Z:species
 G	Gr_neutrophilic	neutrophilic	pH_requirement	MICRO:0001546
 G	Gp_chemoautotrophic	chemoautotrophic	trophic_strategy	ECOCORE:00000129	XR:Z:MICRO_0001500!chemolithoautotroph;MICRO_0001505!chemoorganoautotroph	# MICRO does not define chemoautotroph, but chemotroph, then divides it first into -litho- and -organo- and then those into -hetero- and -autotroph
-G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gp_chemoautotrophic & Gt_bacteria
+G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gp_chemoautotrophic & Gt_Bacteria
 G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
 G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
 G	Gp_methylotrophic	methylotrophic	trophic_strategy	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
@@ -270,16 +262,16 @@ G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geoba
 G	Gt_Geobacteraceae	Geobacteraceae	taxonomic	taxid:213422	TR:Z:family
 G	Gt_Bartonella	Bartonella	taxonomic	taxid:773	TR:Z:genus
 G	Gi_predatory	predatory	biological_interaction	def:feeding by killing and eating other organisms	XR:Z:OMIT:0012199!Predatory behavior
-G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gi_predatory & Gt_bacteria & (!Gt_Maeruginosavorus)
-G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gi_predatory) & Gt_bacteria
+G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gi_predatory & Gt_Bacteria & (!Gt_Maeruginosavorus)
+G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gi_predatory) & Gt_Bacteria
 G	Gt_Maeruginosavorus	Micavibrio aeruginosavorus	taxonomic	taxid:349221	TR:Z:species
 G	Gi_obl_pred	obligate predatory	biological_interaction	def:always feeding by killing and eating other organisms
 G	Gi_fac_pred	facultative predatory	biological_interaction	def:sometimes feeding by killing and eating other organisms, but can also employ other feeding strategies
-G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_bacteria & Gi_obl_pred
-G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_bacteria & Gi_fac_pred
+G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_Bacteria & Gi_obl_pred
+G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_Bacteria & Gi_fac_pred
 G	Gt_Rhodobacterales	Rhodobacterales	taxonomic	taxid:204455	TR:Z:order
 G	Ga_grampos	gram-positive	gram_stain	MICRO:0000616
-G	Gc_grampos_B	gram-positive bacteria	combined	Ga_grampos & Gt_bacteria	XD:Z:MICRO:0001372
+G	Gc_grampos_B	gram-positive bacteria	combined	Ga_grampos & Gt_Bacteria	XD:Z:MICRO:0001372
 G	Gt_Phaeobacter	Phaeobacter	taxonomic	taxid:302485	TR:Z:genus
 G	Gn_Phaeobacter	not Phaeobacter	inverted	!Gt_Phaeobacter
 G	Gt_Ecoli	Escherichia coli	taxonomic	taxid:562	TR:Z:species
@@ -298,20 +290,19 @@ G	Gc_gut_Bacteroidota	gut Bacteroidota	combined	Gt_Bacteroidota & Gh_gut
 G	Gt_Rsibirica	Rickettsia sibirica	taxonomic	taxid:35793	TR:Z:species
 G	Gt_Rfelis	Rickettsia felis	taxonomic	taxid:42862	TR:Z:species
 G	Gi_obl_intracell	obligate intracellular	biological_interaction	def:always living inside a cell of a host organism	XR:Z:GO:0005622;RO:0002640;NCIT:C28217
-G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gi_obl_intracell & Gt_bacteria	XR:Z:sctid:414922005
+G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gi_obl_intracell & Gt_Bacteria	XR:Z:sctid:414922005
 G	Gi_free	free-living	biological_interaction	OMP:0007646!free-living lifestyle phenotype
 G	Gt_Atumefaciens	Agrobacterium tumefaciens	taxonomic	taxid:358	TR:Z:species
 G	Gt_Tmaritima	Thermotoga maritima	taxonomic	taxid:2336	TR:Z:species
 G	Gt_Smeliloti	Sinorhizobium meliloti	taxonomic	taxid:382	TR:Z:species
-G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
 G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
 G	Gi_fleainf	flea-infecting	biological_interaction	def:pathogen, which infects fleas	XR:Z:TRANS:0000023!flea borne transmission
-G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_bacteria
-G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_bacteria
+G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_Bacteria
+G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_Bacteria
 G	Gm_asaccharolytic	asaccharolytic	metabolic	def:incapable of breaking down carbohydrates for energy
-G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_bacteria
+G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_Bacteria
 G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
-G	Gc_gramneg_B	gram-negative bacteria	combined	Ga_gramneg & Gt_bacteria	XD:Z:MICRO:0001373
+G	Gc_gramneg_B	gram-negative bacteria	combined	Ga_gramneg & Gt_Bacteria	XD:Z:MICRO:0001373
 G	Gt_Neisseria	Neisseria	taxonomic	taxid:482	TR:Z:genus
 G	Gt_Enterobacteriaceae	Enterobacteriaceae	taxonomic	taxid:543	TR:Z:family
 G	Gt_Salmonella	Salmonella	taxonomic	taxid:590	TR:Z:genus
@@ -354,8 +345,10 @@ G	Gt_Pasteurella	Pasteurella	taxonomic	taxid:745	TR:Z:genus
 G	Gt_Pseudomonas	Pseudomonas	taxonomic	taxid:286	TR:Z:genus
 G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
 G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
+G	Gt_Maeruginosa	Microcystis aeruginosa	taxid:1126	TR:Z:species
+G	Gt_Cyanobacteriota	Cyanobacteriota	taxid:1117	TR:Z:phylum	# cyanobacteria
 G	Gm_am_oxid	ammonia-oxidizing	metabolic	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
-G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_bacteria
+G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_Bacteria
 G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species
 G	Gs_BafzK78	Borrelia afzelii K78	strain	doi:10.1371/journal.pone.0108013	TS:Z:taxid:411555
 G	Gt_Cupriavidus	Cupriavidus	taxonomic	taxid:106589	TR:Z:genus
@@ -370,7 +363,7 @@ G	Gt_Lpneumophila	Legionella pneumophila	taxonomic	taxid:446	TR:Z:species
 G	Gt_Anaplasma	Anaplasma	taxonomic	taxid:768	TR:Z:genus
 G	Gp_Rhizobia	Rhizobia	paraphyletic	Wikipedia:Rhizobia
 G	Gm_purplephot	purple photosynthetic	metabolic	Wikipedia:Purple bacteria
-G	Gc_purplephot_B	purple photosynthetic bacteria	combined	Gm_purplephot & Gt_bacteria
+G	Gc_purplephot_B	purple photosynthetic bacteria	combined	Gm_purplephot & Gt_Bacteria
 G	Gt_Actinomycetales	Actinomycetales	taxonomic	taxid:2037	TR:Z:order
 G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gi_free
 G	Gt_Pseudomonadaceae	Pseudomonadaceae	taxonomic	taxid:135621	TR:Z:family
@@ -380,13 +373,13 @@ G	Gt_Deltaproteo	δ-proteobacteria	taxonomic	taxid:28221	TR:Z:class
 G	Gc_Deltapr_not_Myxococcales	non-Myxococcales δ-proteobacteria	combined	Gt_Deltaproteo & !(Gt_Myxococcales)
 G	Gt_Acinetobacter	Acinetobacter	taxonomic	taxid:469	TR:Z:genus
 G	Gt_Aasiaticus	Candidatus Amoebophilus asiaticus	taxonomic	taxid:281120	TR:Z:species
-G	Gc_intracellular_B	intracellular bacteria	combined	Gi_intracellular & Gt_bacteria
-G	Gc_not_intracell_B	bacteria excluding intracellular bacteria	combined	Gt_bacteria & !(Gc_intracellular_B)
+G	Gc_intracellular_B	intracellular bacteria	combined	Gi_intracellular & Gt_Bacteria
+G	Gc_not_intracell_B	bacteria excluding intracellular bacteria	combined	Gt_Bacteria & !(Gc_intracellular_B)
 G	Gt_Rhizobium	Rhizobium	taxonomic	taxid:379	TR:Z:genus
 G	Gt_Serpulina	Serpulina	taxonomic	taxid:29521	TR:Z:genus
 G	Gc_path_Serpulina	pathogenic Serpulina	combined	Gi_pathogenic & Gt_Serpulina
 G	Gm_acet_ac_ox	acetic acid oxidizing	metabolic	MICRO:0000773
-G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_bacteria & Gm_acet_ac_ox
+G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_Bacteria & Gm_acet_ac_ox
 G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
 G	Gt_Lasiaticus	Candidatus Liberibacter asiaticus	taxonomic	taxid:34021	TR:Z:species
 G	Gt_Lsolanacearum	Candidatus Liberibacter solanacearum	taxonomic	taxid:556287	TR:Z:species
@@ -399,7 +392,7 @@ G	Gt_Octadecabacter	Octadecabacter	taxonomic	taxid:53945	TR:Z:genus
 G	Gt_Roseobacteraceae	Roseobacteraceae	taxonomic	taxid:2854170	TR:Z:family
 G	Gc_Roseob_not_Octad	Roseobacter excluding Octadecabacter	combined	Gt_Roseobacteraceae & !(Gt_Octadecabacter)
 G	Gt_Nazo0708	Nostoc azollae' 0708	strain	taxid:551115
-G	Gc_Cyanob_not_0708	Cyanobacteria excluding Nostoc azollae' 0708	combined	Gt_Cyanobacteria & !(Gt_Nazo0708)
+G	Gc_Cyanob_not_0708	Cyanobacteria excluding Nostoc azollae' 0708	combined	Gt_Cyanobacteriota & !(Gt_Nazo0708)
 G	Gt_Deinococcus	Deinococcus	taxonomic	taxid:1298	TR:Z:genus
 G	Gt_Dgobiensis	Deinococcus gobiensis	taxonomic	taxid:502394	TR:Z:species
 G	Gc_Deinococcus_not_gobiensis	Deinococcus excluding Deinococcus gobiensis	combined	Gt_Deinococcus & !(Gt_Dgobiensis)
@@ -410,7 +403,7 @@ G	Gc_urearich_Nitrospira	Nitrospira in urea abundant environments	combined	Gt_Ni
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
 G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
 G	Gt_Ndefluvii	Nitrospira defluvii	taxonomic	taxid:330214	TR:Z:species
-G	Gc_aerobic_B	aerobic bacteria	combined	Gr_aerobic & Gt_bacteria
+G	Gc_aerobic_B	aerobic bacteria	combined	Gr_aerobic & Gt_Bacteria
 G	Gc_aerobic_B_not_Ndefluvii	aerobic bacteria excluding Nitrospira defluvii	combined	Gc_aerobic_B & !(Gt_Ndefluvii)
 G	Gt_Mtub_complex	Mycobacterium tuberculosis complex	taxonomic	taxid:77643	TR:Z:group of species
 G	Gn_Mtub_complex	not Mycobacterium tuberculosis complex	inverted	!Gt_Mtub_complex
@@ -423,7 +416,7 @@ G	Gt_Thermotogales	Thermotogales	taxonomic	taxid:2419	TR:Z:order
 G	Gt_Mprima	Mesotoga prima	taxonomic	taxid:1184387	TR:Z:species
 G	Gt_Kolearia	Kosmotoga olearia	taxonomic	taxid:651457	TR:Z:species
 G	Gc_gastric_Helicobacter	gastric Helicobacter	combined	Gh_gut & Gt_Helicobacter
-G	Gc_enteric_B	enteric bacteria	combined	Gh_gut & Gt_bacteria
+G	Gc_enteric_B	enteric bacteria	combined	Gh_gut & Gt_Bacteria
 G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
 G	Gc_Helicobacter_not_pylori	Helicobacter excluding Helicobacter pylori	combined	Gt_Helicobacter & !(Gt_Hpylori)
 G	Gt_Hmustelae	Helicobacter mustelae	taxonomic	taxid:217	TR:Z:species
@@ -442,6 +435,7 @@ U	Ub_C	base	.	C	cytosine
 U	Ub_G	base	.	G	guanine
 U	Ub_GC	*base	Ub_G,Ub_C	.	.
 U	Ub_N	base	.	N	any nucleic acid base
+A	Ac_genome_size	Ub_N	count
 U	Uk_N	ortholog_groups_category:COG_category	N	.	Motility
 U	Uk_Q	ortholog_groups_category:COG_category	Q	.	Secondary metabolite biosynthesis, transport, and catabolism
 U	Up_Hsp33	specific_protein	.	Hsp33	molecular chaperone Hsp33
@@ -1314,6 +1308,7 @@ A	Ap_y_NodABC	Uy_NodABC	presence
 A	Ap_c_PGC	Uc_PGC	presence
 A	Ar_pls_b_GC	Ub_GC	relative:Ub_N!replicon_type:plasmid
 A	Ar_chr_b_GC	Ub_GC	relative:Ub_N!replicon_type:chromosome
+A	Ar_b_GC	Ub_GC	relative:Ub_N
 A	Ap_pls_c_tra	Uc_tra	presence!replicon_type:plasmid
 A	Ap_pls_c_trb	Uc_trb	presence!replicon_type:plasmid
 A	Ap_t_Nmeni	Ut_Nmeni	presence
@@ -1448,7 +1443,7 @@ V	V30	S35	Ap_f_g6p_kin	Gt_Geobacteraceae:most	==	True
 V	V31	S35	Ap_f_glu_gal4_epi	Gt_Geobacteraceae:most	==	True
 V	V32	S39	Ap_p_aeGlyRS_a2dim	Gc_obl_pred_B	==	True
 V	V33	S39	Ap_p_aeGlyRS_a2dim	Gc_fac_pred_B:most	==	True
-V	V34	S39	Ap_p_aeGlyRS_a2dim	Gt_bacteria:most	==	False
+V	V34	S39	Ap_p_aeGlyRS_a2dim	Gt_Bacteria:most	==	False
 V	V35	S20	Ap_d_PPE	Gn_Mycobacterium	==	False
 V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
 V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
@@ -1535,7 +1530,7 @@ V	V117	S58	Ap_t_tox_antitox	Gi_free:many	==	True
 V	V118	S61	Ap_d_HEPN	Gt_Atumefaciens	==	True
 V	V119	S61	Ap_d_HEPN	Gt_Tmaritima	==	True
 V	V120	S61	Ap_d_HEPN	Gt_Smeliloti	==	True
-V	V121	S62	Ap_d_NACHT	Gt_Cyanobacteria	==	True
+V	V121	S62	Ap_d_NACHT	Gt_Cyanobacteriota	==	True
 V	V122	S62	Ap_d_NACHT	Gt_Streptomyces	==	True
 V	V123	S65	Ap_f_glucokinase	Gc_asaccharolytic_B	==	True
 V	V124	S66	Ap_g_aidA	Gc_gramneg_B	==	True
@@ -1587,7 +1582,7 @@ V	V169	S87	Ap_c_nif	Gt_Gdiazotrophicus	==	True
 V	V170	S87	Ap_c_nif	Gs_AspBH72	==	True
 V	V171	S87	Av_c_gum	Gt_Gdiazotrophicus	level	high
 V	V172	S87	Av_c_gum	Gs_AspBH72	level	high
-V	V173	S89	Ac_p_GroEL	Gt_bacteria:most	==	1
+V	V173	S89	Ac_p_GroEL	Gt_Bacteria:most	==	1
 V	V174	S89	Ac_p_GroEL	Gt_Gdiazotrophicus	==	2
 V	V175	S90	Ap_d_P450	Gt_Gdiazotrophicus	==	True
 V	V176	S90	Ap_d_P450	Gt_Acetobacteraceae:most	==	False
@@ -1736,7 +1731,7 @@ V	V312	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
 V	V313	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
 V	V314	S163	Ap_g_ccoO	Gt_Salinibacter	==	True
 V	V315	S163	Ap_g_ccoO	Gt_Rmarinus	==	True
-V	V309b	S163	Ap_g_ccoO	Gt_haloarchaea	==	False
+V	V315b	S163	Ap_g_ccoO	Gt_haloarchaea	==	False
 V	V316	S164	Ap_g_ccoP	Gt_Salinibacter	==	False
 V	V317	S165	Ap_f_cytC	Gt_Salinibacter	==	True
 V	V318	S166	Ap_g_trkA	Gt_Salinibacter	==	True
@@ -1758,11 +1753,11 @@ V	V333	S176	Ap_g_irrE	Gt_Dgobiensis	==	True
 V	V334	S176	Ap_g_irrE	Gt_Dradiodurans	==	True
 V	V335	S177	Ap_f_urease	Gc_urearich_Nitrospira:many	==	True
 V	V336	S178	Ap_g_ureI	Gt_Helicobacter	==	True
-V	V337	S178	Ap_g_urtA	Gt_Cyanobacteria	==	True
-V	V338	S178	Ap_g_urtB	Gt_Cyanobacteria	==	True
-V	V339	S178	Ap_g_urtC	Gt_Cyanobacteria	==	True
-V	V340	S178	Ap_g_urtD	Gt_Cyanobacteria	==	True
-V	V341	S178	Ap_g_urtE	Gt_Cyanobacteria	==	True
+V	V337	S178	Ap_g_urtA	Gt_Cyanobacteriota	==	True
+V	V338	S178	Ap_g_urtB	Gt_Cyanobacteriota	==	True
+V	V339	S178	Ap_g_urtC	Gt_Cyanobacteriota	==	True
+V	V340	S178	Ap_g_urtD	Gt_Cyanobacteriota	==	True
+V	V341	S178	Ap_g_urtE	Gt_Cyanobacteriota	==	True
 V	V342	S179	Ap_g_ureE	Gt_Helicobacter	==	True
 V	V343	S180	Ap_g_hypA	Gt_Hpylori	==	True
 V	V344	S180	Ap_g_hypB	Gt_Hpylori	==	True
@@ -1819,13 +1814,28 @@ V	V398	S196	Ap_h_ciaB	Gt_Wsuccinogenes	==	True
 V	V399	S196	Ap_h_ciaB	Gt_Hhepaticus	==	True
 V	V400	S196	Ap_h_ciaB	Gc_hydrvents_Epsilon_not_Hpylori	==	True
 V	V401	S197	Ap_h_PEB4a	Gt_Campylobacterales	==	True
-V	V402	S89	Ac_p_GroES	Gt_bacteria:most	==	1
+V	V402	S89	Ac_p_GroES	Gt_Bacteria:most	==	1
 V	V403	S89	Ac_p_GroES	Gt_Gdiazotrophicus	==	2
 V	V404	S30	Ap_d_sox	Gt_Aquificales	==	True
 V	V405	S40	Ap_w_DOXP	Gc_nonpred_B:most	==	True
 V	V406	S46	Ap_g_dsrB	Gt_Dmetallireducens	==	False
 V	V407	S46	Ap_g_dsrA	Gt_Dmetallireducens	==	False
 V	V408	S47	Ap_g_odmA	Gt_Dmetallireducens	==	False
+U	Ut_ins_seq	feature_type	SO:0000973	.	insertion sequence
+A	Arl_ins_seq	Ut_ins_seq	relative_length:Ub_N
+V	V409	S173	Arl_ins_seq	Gt_Cyanobacteriota	=~	0.02
+V	V410	S173	Arl_ins_seq	Gt_Maeruginosa	=~	0.1
+V	V411	S171	Ac_t_pseudogene	Gt_Octadecabacter	level	high
+U	Ug_hicA	specific_gene	.	hicA	mRNA interferase toxin HicA
+U	Ug_hicB	specific_gene	.	hicB	DNA-binding transcriptional repressor HicB
+U	Uc_HicAB	set:gene_cluster	Ug_hicA,Ug_hicB	HicAB	HicAB RNA-targeting toxin-antitoxin (TA) system
+A	Aall_c_HicAB	Uc_HicAB	complete
+V	V412	S131	Aall_c_HicAB	Gt_Bacteria:many	==	True
+V	V413	S124	Ac_genome_size	Gt_Enterobacteriaceae:most	>	4.0 Mb
+V	V414	S110	Ar_b_GC	Gt_Burkholderiaceae:most	>	0.6
+G	Gt_Corynebacteriaceae	Corynebacteriaceae	taxonomic	taxid:1653	# coryneform bacteria
+V	V415	S122	Ar_b_GC	Gt_Corynebacteriaceae	level	high
+G	Gt_Burkholderiaceae	Burkholderiaceae	taxonomic	taxid:119060	TR:Z:family
 C	C1	S1,T1	Ar_k_N	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C2	S1,T1	Ar_k_V	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C3	S1,T1	Ar_k_K	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
@@ -1884,3 +1894,8 @@ C	C55	S134,T2	Ac_d_CL0531	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C56	S134,T2	Ac_d_CL0123	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C57	S143	Ap_g_ankA	Gc_intracellular_B	>	Gc_not_intracell_B
 C	C58	T3	Ac_t_pseudogene	Gt_Octadecabacter	>	Gc_Roseob_not_Octad
+S	S124	PMID:18375554	The P. mirabilis chromosome is considerably smaller than the chromosomes of other Enterobacteriaceae (average, 4.6 Mb),
+G	Gt_Pmirabilis	Proteus mirabilis	taxonomic	taxid:584	TR:Z:species
+C	C59	S124	Ac_genome_size	Gt_Pmirabilis	<<	Gt_Enterobacteriaceae:most
+G	Gt_Polynucleobacter	Polynucleobacter	taxonomic	taxid:44013	TR:Z:genus
+C	C60	S110	Ac_genome_size	Gt_Polynucleobacter	<	Gt_Burkholderiaceae:most

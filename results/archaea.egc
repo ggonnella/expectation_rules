@@ -172,7 +172,6 @@ G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
 G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
 G	Gc_AOA	ammonia-oxidizing Archaea	combined	Gm_am_oxid & Gt_Archaea
 G	Gc_AOB	ammonia-oxidizing Bacteria	combined	Gm_am_oxid & Gt_Bacteria
-G	Gh_marine	marine	habitat	ENVO:01000320
 G	Gh_soil	soil	habitat	ENVO:01001044
 G	Gc_marine_AOA	marine ammonia-oxidizing Archaea	combined	Gh_marine & Gc_AOA
 G	Gc_marine_AOB	marine ammonia-oxidizing Bacteria	combined	Gh_marine & Gc_AOB
@@ -1007,7 +1006,7 @@ V	VA237	SA95	Ac_g_amoC	Gt_Ngargensis	>	1
 V	VA237b	SA96	Ac_g_amoC	Gc_soil_AOA	in_range	1,7
 V	VA237c	SA96	Ac_g_amoC	Gc_soil_AOB	in_range	1,7
 V	VA237d	SA96	Ac_g_amoC	Gc_marine_AOA:most	==	1
-V	VA237d	SA96	Ac_g_amoC	Gc_marine_AOB:most	==	1
+V	VA237e	SA96	Ac_g_amoC	Gc_marine_AOB:most	==	1
 V	VA238	SA97	Ap_f_phxyalk_syn	Gt_Thaumarchaeota:most	==	True
 V	VA239	SA98	Ap_f_myoino1ph_syn	Gt_Ngargensis	==	True
 V	VA240	SA98	Ap_f_myoino1ph_syn	Gt_Nmaritimus	==	True
