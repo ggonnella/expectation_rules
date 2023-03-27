@@ -44,7 +44,7 @@ https://github.com/ggonnella/egc-spec
 scripts                  scripts are contained here and linked in the
                          protocols and statistics directories
 
-results                  final EGC files with the rules collections
+3_process_extracts       final EGC files with the rules collections
 |
 |-validation             validation of the EGC files
 |
