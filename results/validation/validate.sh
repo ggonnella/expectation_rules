@@ -2,6 +2,9 @@
 
 # checks:
 # - all G, V, C, D, U, A, S, T identifiers are unique
+# - D identifiers have the form "PMID:\d+"
+# - D links start with https/http://
+# - Number of positional fields and non-emptyness thereof in D,T,S,G,A,U,M,V,C
 # - all taxonomic group definitions have a different taxid
 # - equivalence of D identifiers set (PMID:...) from second column of D
 #     with set of D references in S and T records, third column
@@ -28,9 +31,21 @@ for set in $sets; do
     tabrec-validate-ids $filename $rt --quiet
     had_err=$[$had_err + $?]
   done
-  tabrec-validate-ids $filename D --colon --quiet
+  tabrec-validate-ids $filename D --colon --quiet --regex 'PMID:\d+'
   had_err=$[$had_err + $?]
-  tabrec-validate-ids $filename G 5 --value 4:taxonomic --colon --quiet
+  tabrec-validate-field $filename D 3 --quiet 'https?://.*'
+  had_err=$[$had_err + $?]
+  tabrec-validate-records $filename D 3 --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-records $filename T,S,A 4 --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-records $filename G,M 5 --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-records $filename U 6 --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-records $filename V,C 7 --quiet
+  had_err=$[$had_err + $?]
+  tabrec-validate-ids $filename G 5 --select 4:taxonomic --colon --quiet
   had_err=$[$had_err + $?]
   tabrec-validate-refs $filename S:3,T:3 D --colon
   had_err=$[$had_err + $?]

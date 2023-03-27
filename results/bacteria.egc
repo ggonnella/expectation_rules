@@ -345,8 +345,8 @@ G	Gt_Pasteurella	Pasteurella	taxonomic	taxid:745	TR:Z:genus
 G	Gt_Pseudomonas	Pseudomonas	taxonomic	taxid:286	TR:Z:genus
 G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
 G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
-G	Gt_Maeruginosa	Microcystis aeruginosa	taxid:1126	TR:Z:species
-G	Gt_Cyanobacteriota	Cyanobacteriota	taxid:1117	TR:Z:phylum	# cyanobacteria
+G	Gt_Maeruginosa	Microcystis aeruginosa	taxonomic	taxid:1126	TR:Z:species
+G	Gt_Cyanobacteriota	Cyanobacteriota	taxonomic	taxid:1117	TR:Z:phylum	# cyanobacteria
 G	Gm_am_oxid	ammonia-oxidizing	metabolic	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
 G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_Bacteria
 G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species

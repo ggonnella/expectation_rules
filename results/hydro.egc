@@ -285,7 +285,7 @@ G	Gc_mesophilic_A	mesophilic archaea	combined	Gr_mesophilic & Gt_Archaea
 G	Gc_mesophilic_B	mesophilic bacteria	combined	Gr_mesophilic & Gt_Bacteria
 G	Gr_acidophilic	acidophilic	pH_requirement	Wikipedia:Acidophile
 U	Uw_rTCA	set:metabolic_pathway	.	rTCA	reverse triboxylic acid cycle
-U	Ug_mcrA	specific_gene	. mcrA	methyl coenzyme-M reductase
+U	Ug_mcrA	specific_gene	.	mcrA	methyl coenzyme-M reductase
 U	Up_F420	specific_protein	.	F420	F420-hydrogenase
 U	Uh_F420	family_or_domain:homolog	homolog:Up_F420	.	F420-hydrogenase homolog
 U	Uw_CO_ox	set:metabolic_pathway	.	.	CO oxidation
@@ -339,7 +339,7 @@ U	Ud_RTX	family_or_domain	.	RTX	RTX toxin repeat
 U	Ug_lrsB	specific_gene	.	lrsB	.
 U	Ug_luxP	specific_gene	.	luxP	.
 U	Uw_calvin	set:metabolic_pathway	.	.	Calvin cycle
-U	Uf_euk_like_hystone	function	.	eukaryotic-like histone
+U	Uf_euk_like_hystone	function	.	.	eukaryotic-like histone
 U	Uw_C1_f_methylCoM	set:metabolic_pathway	.	.	C1-pathway forming methyl-CoM
 U	Ur_16S_tRNA_23S	set:arrangement	Ug_16S,1:*(tRNA_gene),Ug_23S	.	16S rRNA; (tRNAs); 23S rRNA
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
@@ -391,7 +391,9 @@ U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
 U	Up_SorAB	set:protein_complex	Ug_sorA,Ug_sorB	SorAB	sulfite:acceptor oxidoreductase
 U	Uf_aa3_cytC_ox	function	.	.	aa3-type cytochrome c oxidase
 U	Uf_cbb3_cytC_ox	function	.	.	cbb3-type cytochrome c oxidase
-U	Uc_SulP_ion_tr	set:gene_cluster	.	.	SulP-type ion transporter - carbonic anhydrase
+U	Ud_SulP	family_or_domain	.	.	SulP-type ion transporter
+U	Uf_CarbAn	function	EC:4.2.1.1	.	carbonic anhydrase
+U	Ur_SulP_CarbAn	set:arrangement	Ud_SulP,Uf_CarbAn	.	SulP-type ion transporter adiacent to carbonic anhydrase
 U	Uog_arCOG04888	ortholog_group:arCOG	arCOG04888	.	.
 U	Uc_SoxBZYKAX	set:gene_cluster	Ug_soxB,Ug_soxZ,Ug_soxY,Ug_soxK,Ug_soxA,Ug_soxX	SoxBZYKAX	SoxBZYKAX (Sox enzyme complex)
 U	Uog_arCOG02822	ortholog_group:arCOG	arCOG02822	.	.
@@ -616,7 +618,7 @@ A	Ap_p_SQR	Up_SQR	presence
 A	Ap_p_SorAB	Up_SorAB	presence
 A	Ap_f_aa3_cytC_ox	Uf_aa3_cytC_ox	presence
 A	Ap_f_cbb3_cytC_ox	Uf_cbb3_cytC_ox	presence
-A	Ap_c_SulP_ion_tr	Uc_SulP_ion_tr	presence
+A	Ap_r_SulP_CarbAn	Ur_SulP_CarbAn	presence
 A	Ap_og_arCOG04888	Uog_arCOG04888	presence
 A	Ap_og_arCOG02822	Uog_arCOG02822	presence
 A	Ap_og_arCOG03226	Uog_arCOG03226	presence
@@ -822,8 +824,8 @@ V	VH132	SH56	Ap_f_aa3_cytC_ox	Gt_Hpylori	==	True
 V	VH133	SH56	Ap_f_cbb3_cytC_ox	Gt_Hpylori	==	False
 V	VH134	SH56	Ap_f_aa3_cytC_ox	Gs_HcruXCL2	==	True
 V	VH135	SH56	Ap_f_cbb3_cytC_ox	Gs_HcruXCL2	==	False
-V	VH136	SH59	Ap_c_SulP_ion_tr	Gt_Bacteria:most	==	True
-V	VH137	SH59	Ap_c_SulP_ion_tr	Gs_HcruXCL2	==	False	rare
+V	VH136	SH59	Ap_r_SulP_CarbAn	Gt_Bacteria:most	==	True
+V	VH137	SH59	Ap_r_SulP_CarbAn	Gs_HcruXCL2	==	False
 V	VH138	TH1,SH32	Ap_og_arCOG04888	Gc_methanog_A	==	True
 V	VH139	TH1,SH32	Ap_og_arCOG02822	Gc_methanog_A	==	True
 V	VH140	TH1,SH32	Ap_og_arCOG03226	Gc_methanog_A	==	True
