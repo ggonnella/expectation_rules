@@ -1,1 +1,0 @@
-../../scripts/validate_ST_D_refs.sh

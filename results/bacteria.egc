@@ -14,7 +14,6 @@ D	PMID:29040502	https://academic.oup.com/femsec/article/93/12/fix135/4443196
 D	PMID:29530765	https://www.sciencedirect.com/science/article/pii/S0888754318301526?via%3Dihub
 D	PMID:17579514	https://dx.plos.org/10.1371/journal.pbio.0050156
 D	PMID:15984913	https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0030248
-D	PMID:19893622	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000714
 D	PMID:19283063	https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1000416
 D	PMID:32661122	https://journals.asm.org/doi/10.1128/IAI.00865-19?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed
 D	PMID:16169927	http://genome.cshlp.org/cgi/pmidlookup?view=long&pmid=16169927
@@ -114,7 +113,6 @@ S	S58	PMID:15984913	The toxin–antitoxin modules have also been found on the ch
 S	S61	PMID:15984913	Among other bacteria, only A. tumefasciens, Thermotoga maritima, and Sinorhizobium melitoti were found to exhibit HEPN-containing genes
 S	S62	PMID:15984913	Two R. felis–specific ORFs (RF0449 and RF0855) exhibit the complete NACHT NTPase domain. In eukaryotes, this NTPase domain has been found in proteins implicated in apoptosis as well as in immune/inflammatory responses [38]. The presence of this domain in other bacterial ORFs is limited to several lineages, such as cyanobacteria and Streptomyces, and their functions are unknown.
 S	S63	PMID:15984913	Altogether, flea-infecting bacteria appear to exhibit a specific evolution (i.e., more repeats, transposases, and/or integrases) compared with their non-flea-infecting neighbors.
-S	S64	PMID:19893622	The low number of core rdhAB, contrasted with the high rdhAB numbers per genome (up to 36 in strain VS), as well as their colocalization with GEIs and other signatures for horizontal transfer, suggests that niche adaptation via organohalide respiration is a fundamental ecological strategy in Dehalococccoides.
 S	S65	PMID:19283063	The L. hongkongensis genome lacks a complete set of enzymes for glycolysis, with orthologues of glucokinase, 6-phosphofructokinase and pyruvate kinase being absent (Table S1). This is compatible with its asaccharolytic phenotype and is consistent with other asaccharolytic bacteria, such as Campylobacter jejuni, Bordetella pertussis, Bordetella parapertussis and Bordetella bronchiseptica, in that glucokinase and 6-phosphofructokinase are also absent from their genomes [18],[19].
 S	S66	PMID:19283063	Enteric bacteria use several quorum-sensing mechanisms, including the LuxR-I, LuxS/AI-2, and AI-3/epinephrine/norepinephrine systems, to recognize the host environment and communicate across species. Unlike the genomes of C. violaceum and the pathogenic Neisseria species which encode genes involved in LuxR-I and LuxS/AI-2 systems respectively, the L. hongkongensis genome does not encode genes of these 2 systems.
 S	S67	PMID:19283063	aidA and tibA encode proteins of the autotransporter family, type V protein secretion system of Gram-negative bacteria.
@@ -193,7 +191,6 @@ S	S154	PMID:23408754	Also, Candidatus L. asiaticus and Candidatus L. solanacearu
 S	S155	PMID:18364359	Since then, genome projects of bacteria have predicted that type III PKSs are distributed widely not only in Streptomyces but also other various bacteria.
 S	S156	PMID:18364359	For example, ArsB and ArsC, both of which are type III PKSs in Azotobacter vinelandii, catalyze the synthesis of alkylresorcinols and alkylpyrones, respectively, which are essential for encystment as the major lipids in the cyst membrane
 S	S157	PMID:16330755	Salinibacter has a full complement of fermentative components and genes involved in transport and degradation of organic compounds. A chitinase, two cellulases, one amylase, a pectinase, and several proteases and lipases were among the polymer-degrading enzymes encoded on the chromosome. Additionally, the plasmid encodes a 1,4-β-cellobiosidase homolog.
-S	S158	PMID:16330755	Genes related to the transport and metabolism of glycerol and glycine betaine (the most common compatible solutes found in more moderate halophiles and halotolerant species) were also present.
 S	S159	PMID:16330755	Like the haloarchaea, Salinibacter has all of the genes for a complete tricarboxylic acid cycle and a cytochrome c-containing respiratory chain.
 S	S160	PMID:16330755	It possesses a succinate dehydrogenase gene cluster (SRU_0484-0487) very similar to Actinobacteria and a second succinate dehydrogenase flavoprotein subunit, sdhA (SRU_2444), most similar to sdhA2 from H. marismortui.
 S	S161	PMID:16330755	Similarly, comparison of respiratory chain proteins in Salinibacter indicates there are two clusters of cytochrome c oxidase subunit I and II genes, the first with coxA1 and coxB1 (SRU_2099 and SRU_2100) and the second with coxA2 and coxB2 (SRU_0314 and 0313).
@@ -267,7 +264,6 @@ G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_n
 G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
 G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
 G	Gp_methylotrophic	methylotrophic	trophic_strategy	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
-G	Gt_SEnteritidis	Salmonella enterica serovar Enteritidis	taxonomic	taxid:149539	TR:Z:serogroup
 G	Gh_subsurface	subsurface	habitat	def:environment located under the planetary surface and not exposed to the atmosphere	XR:Z:ENVO_01000941!planetary subsurface zone
 G	Gt_Geobacter	Geobacter	taxonomic	taxid:28231	TR:Z:genus
 G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geobacter
@@ -292,7 +288,7 @@ G	Gt_Desulfitobacterium	Desulfitobacterium	taxonomic	taxid:36853	TR:Z:genus
 G	Gt_Dmetallireducens	Desulfitobacterium metallireducens	taxonomic	taxid:142877	TR:Z:species
 G	Gc_Desulfitob_not_metallired	Desulfitobacterium excluding Desulfitobacterium metallireducens	combined	Gt_Desulfitobacterium & !(Gt_Dmetallireducens)
 G	Gt_Ddichloroeliminans	Desulfitobacterium dichloroeliminans	taxonomic	taxid:233055	TR:Z:species
-G	Gc_Desulfitob_not_dichloroel	Desulfitobacterium spp. excluding Desulfitobacterium dichloroeliminans	combined	G68 & !(Gt_Ddichloroeliminans)
+G	Gc_Desulfitob_not_dichloroel	Desulfitobacterium spp. excluding Desulfitobacterium dichloroeliminans	combined	Gt_Desulfitobacterium & !(Gt_Ddichloroeliminans)
 G	Gr_psychrotrophic	psychrotrophic	temperature_requirement	def:able to grow at low temperature (< 20 degrees), but with a higher maximum growth temperature	XR:Z:pmid:3536570
 G	Gt_Bpsychrophilus	Bacillus psychrophilus	taxonomic	taxid:1476	TR:Z:species
 G	Gt_Phaloplanktis	Pseudoalteromonas haloplanktis	taxonomic	taxid:228	TR:Z:species
@@ -312,7 +308,6 @@ G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
 G	Gi_fleainf	flea-infecting	biological_interaction	def:pathogen, which infects fleas	XR:Z:TRANS:0000023!flea borne transmission
 G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_bacteria
 G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_bacteria
-G	Gt_Dehalococcoides	Dehalococcoides	taxonomic	taxid:61434	TR:Z:genus
 G	Gm_asaccharolytic	asaccharolytic	metabolic	def:incapable of breaking down carbohydrates for energy
 G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_bacteria
 G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
@@ -359,8 +354,8 @@ G	Gt_Pasteurella	Pasteurella	taxonomic	taxid:745	TR:Z:genus
 G	Gt_Pseudomonas	Pseudomonas	taxonomic	taxid:286	TR:Z:genus
 G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
 G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
-G	Gm_amox	ammonia-oxidizing	trophic_strategy	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
-G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_amox & Gt_bacteria
+G	Gm_am_oxid	ammonia-oxidizing	metabolic	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
+G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_bacteria
 G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species
 G	Gs_BafzK78	Borrelia afzelii K78	strain	doi:10.1371/journal.pone.0108013	TS:Z:taxid:411555
 G	Gt_Cupriavidus	Cupriavidus	taxonomic	taxid:106589	TR:Z:genus
@@ -398,7 +393,6 @@ G	Gt_Lsolanacearum	Candidatus Liberibacter solanacearum	taxonomic	taxid:556287	T
 G	Gt_Lcrescens	Liberibacter crescens	taxonomic	taxid:1273132	TR:Z:species
 G	Gt_Avinelandii	Azotobacter vinelandii	taxonomic	taxid:354	TR:Z:species
 G	Gt_Salinibacter	Salinibacter	taxonomic	taxid:146918	TR:Z:genus
-G	Gr_halophilic	halophilic	salinity_requirement	MICRO:0001314	XR:Z:MICRO:0001367
 G	Gt_Rmarinus	Rhodothermus marinus	taxonomic	taxid:29549	TR:Z:species
 G	Gt_Firmicutes	Firmicutes	taxonomic	taxid:1239	TR:Z:phylum
 G	Gt_Octadecabacter	Octadecabacter	taxonomic	taxid:53945	TR:Z:genus
@@ -442,6 +436,7 @@ G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:clas
 G	Gh_hydrvents	hydrothermal sea vents	habitat	OMIT:0027720
 G	Gc_hydrvents_Epsilon_not_Hpylori	Epsilonproteobacteria in sea vents excluding Helicobacter mustelae	combined	Gt_Epsilonproteobacteria & Gh_hydrvents & !(Gt_Hpylori)
 G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
+G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
 U	Uog_anyCOG	*ortholog_group:COG	COG:*	any_COG	assigned to at least one COG	# used to define COG proportions
 U	Ub_C	base	.	C	cytosine
 U	Ub_G	base	.	G	guanine
@@ -523,7 +518,7 @@ U	Uog_COG0179	ortholog_group:COG	COG0179	.	.
 U	Ug_dsrA	specific_gene	.	dsrA	.
 U	Ug_ssrS	specific_gene	.	ssrS	ssrS
 U	Upt_lipoprotein	protein_type	.	.	lipoprotein
-U	Up_CRASP-1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrellia family Pfam54)
+U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrellia family Pfam54)
 U	Ur_cp26_genes	set:arrangement	.	.	cp26 plasmid genes
 U	Ud_BorrelliaPfam80	family_or_domain	.	Pfam80	Bdr family, Borrelia paralogous family Pfam80
 U	Ug_visE	specific_gene	.	visE	membrane lipoprotein VlsE
@@ -616,8 +611,6 @@ U	Ug_blaIMI1	specific_gene	.	blaIMI-1	blaNMC-A/IMI-type genes (blaIMI-1)
 U	Ug_blaIMI9	specific_gene	.	blaIMI-9	blaNMC-A/IMI-type genes (blaIMI-9)
 U	Ug_blaIMI5	specific_gene	.	blaIMI-5	blaNMC-A/IMI-type genes (blaIMI-5)
 U	Ug_blaIMI6	specific_gene	.	blaIMI-6	blaNMC-A/IMI-type genes (blaIMI-6)
-U	Ug_rnfE	specific_gene	.	rnfE	.
-U	Ug_rnfA	specific_gene	.	rnfA	.
 U	Uog_COG1292	ortholog_group:COG	COG1292	.	.
 U	Ug_hpnN	specific_gene	.	hpnN	.
 U	Ug_hpnK	specific_gene	.	hpnK	.
@@ -631,8 +624,6 @@ U	Uf_thiamine_ABC_tr	function	.	.	thiamine ABC transporter
 U	Uf_t3_polyk_syn	function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
 U	Uh_14b_cellbios	family_or_domain:homolog	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
-U	Uw_glycerol	set:metabolic_pathway	.	.	metabolism of glycerol
-U	Uw_glycine_betaine	set:metabolic_pathway	.	.	metabolism of glycine betaine
 U	Uw_TAC	set:metabolic_pathway	.	.	tricarboxylic acid cycle
 U	Uw_cytC_resp	set:metabolic_pathway	.	.	cytochrome c-containing respiratory chain
 U	Uc_succ_dehy	set:gene_cluster	.	.	succinate dehydrogenase gene cluster
@@ -724,7 +715,6 @@ U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
 U	Ug_hrp	specific_gene	.	hrp	.
 U	Up_ECH	specific_protein	.	ECH	Enoyl-CoA hydratase
 U	Uy_ECH_Rnf	set:gene_system	Up_ECH,Ud_Rnf	.	.
-U	Ug_rnfD	specific_gene	.	rnfD	.
 U	Ud_Rnf	family_or_domain	.	Rnf	.
 U	Ud_PPE	family_or_domain	.	PPE	proline-proline-glutamate
 U	Up_hemerythrin	specific_protein	.	.	hemerythrin
@@ -757,7 +747,6 @@ U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
 U	Ug_hpnH	specific_gene	.	hpnH	.
 U	Uog_COG2200	ortholog_group:COG	COG2200	.	.
 U	Uc_mxa	set:gene_cluster	.	mxa	mxa gene cluster
-U	Ug_cueO	specific_gene	.	cueO	.
 U	Ug_fadE	specific_gene	.	fadE	.
 U	Uf_g6p_kin	function	.	.	glucose 6-kinase
 U	Uf_glu_gal4_epi	function	.	.	UDP-glucose/galactose 4-epimerase
@@ -777,6 +766,7 @@ U	Ud_B12bind	family_or_domain	.	.	vitamin B12-binding domain
 U	Ug_dsrB	specific_gene	.	dsrB	.
 U	Ug_odmA	specific_gene	.	odmA	.
 U	Uc_hyf_focB	set:gene_cluster	Ug_hyfA,Ug_hyfB,Ug_hyfC,Ug_hyfD,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfH,Ug_hyfI,Ug_hyfR,Ug_focB	hyfABCDEFGHIR-focB	.
+U	Uc_hyfBCEFGI	set:gene_cluster	Ug_hyfB,Ug_hyfC,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfI	hyfBCEFGI	.
 U	Ug_hyfA	specific_gene	.	hyfA	.
 U	Ug_hyfB	specific_gene	.	hyfB	.
 U	Ug_hyfC	specific_gene	.	hyfC	.
@@ -817,24 +807,6 @@ M	Up_ECH	InterPro	IPR018376	Enoyl-CoA_hyd/isom_CS	UP:Z:A0A0K2MCH9	RV:A:N
 M	Up_ECH	InterPro	IPR001753	Enoyl-CoA_hydra/iso	UP:Z:A0A0K2MCH9	RV:A:N
 M	Up_ECH	Pfam	PF00378	ECH_1	UP:Z:A0A0K2MCH9	RV:A:N
 M	Up_ECH	PROSITE	PS00166	ENOYL_COA_HYDRATASE	UP:Z:A0A0K2MCH9	RV:A:N
-M	Ug_rnfD	InterPro	IPR004338	NqrB/RnfD	UP:Z:D8GR67	RV:A:Y
-M	Ug_rnfD	InterPro	IPR011303	RnfD	UP:Z:D8GR67	RV:A:Y
-M	Ug_rnfD	Pfam	PF03116	NQR2_RnfD_RnfE	UP:Z:D8GR67	RV:A:Y
-M	Ug_rnfD	TIGRFAMs	TIGR01946	rnfD	UP:Z:D8GR67	RV:A:Y
-M	Ug_rnfE	InterPro	IPR003667	NqrDE/RnfAE	UP:Z:A0A1D9P5G3	RV:A:N
-M	Ug_rnfE	InterPro	IPR010968	RnfE	UP:Z:A0A1D9P5G3	RV:A:N
-M	Ug_rnfE	Pfam	PF02508	Rnf-Nqr	UP:Z:D4J364	RV:A:N
-M	Ug_rnfE	TIGRFAMs	TIGR01948	rnfE	UP:Z:D4J364	RV:A:N
-M	Ug_rnfA	InterPro	IPR011293	Ion_transpt_RnfA/RsxA	UP:Z:E0RYR6	RV:A:N
-M	Ug_rnfA	InterPro	IPR003667	NqrDE/RnfAE	UP:Z:E0RYR6	RV:A:N
-M	Ug_rnfA	TIGRFAMs	TIGR01943	rnfA	UP:Z:E0RYR6	RV:A:N
-M	Uf_2oxo_deh	InterPro	IPR001078	2-oxoacid_DH_actylTfrase	UP:Z:A0R2B1	RV:A:Y
-M	Uf_2oxo_deh	InterPro	IPR032106	2-oxogl_dehyd_N	UP:Z:A0R2B1	RV:A:Y
-M	Uf_2oxo_deh	InterPro	IPR011603	2oxoglutarate_DH_E1	UP:Z:A0R2B1	RV:A:Y
-M	Uf_2oxo_deh	Pfam	PF00198	2-oxoacid_dh	UP:Z:A0R2B1	RV:A:Y
-M	Uf_2oxo_deh	Pfam	PF16078	2-oxogl_dehyd_N	UP:Z:A0R2B1	RV:A:Y
-M	Uf_2oxo_deh	TIGRFAMs	TIGR00239	2oxo_dh_E1	UP:Z:A0R2B1	RV:A:Y
-M	Ug_spoT	InterPro	IPR007685	RelA_SpoT	UP:Z:Q9AKB0	RV:A:N
 M	Ug_spoT	Pfam	PF04607	RelA_SpoT	UP:Z:Q9AKB0	RV:A:N
 M	Ug_spoT	SMART	SM00954	RelA_SpoT	UP:Z:Q9AKB0	RV:A:N
 M	Ug_acrD	InterPro	IPR027463	AcrB_DN_DC_subdom	UP:Z:Q68XJ7	RV:A:N
@@ -856,13 +828,6 @@ M	Ug_hpnJ	InterPro	IPR017834	Hopanoid_synth-assoc_rSAM_HpnJ	UP:Z:A0A089NQZ9	RV:A
 M	Ug_hpnJ	TIGRFAMs	TIGR03471	HpnJ	UP:Z:A0A089NQZ9	RV:A:N
 M	Ug_hpnI	InterPro	IPR017835	Hopen-assoc_HpnI	UP:Z:A0A089NM34	RV:A:N
 M	Ug_hpnI	TIGRFAMs	TIGR03472	HpnI	UP:Z:A0A089NM34	RV:A:N
-M	Ug_cueO	InterPro	IPR001117	Cu-oxidase	UP:Z:A0A6C7HM77	RV:A:N	SM:Z:Ug_nirK
-M	Ug_cueO	InterPro	IPR011706	Cu-oxidase_2	UP:Z:A0A6C7HM77	RV:A:N
-M	Ug_cueO	InterPro	IPR011707	Cu-oxidase_3	UP:Z:A0A6C7HM77	RV:A:N
-M	Ug_cueO	InterPro	IPR002355	Cu_oxidase_Cu_BS	UP:Z:A0A6C7HM77	RV:A:N
-M	Ug_cueO	Pfam	PF00394	Cu-oxidase	UP:Z:A0A6C7HM77	RV:A:N
-M	Ug_cueO	Pfam	PF07731	Cu-oxidase_2	UP:Z:A0A6C7HM77	RV:A:N
-M	Ug_cueO	Pfam	PF07732	Cu-oxidase_3	UP:Z:A0A6C7HM77	RV:A:N
 M	Ug_fadE	InterPro	IPR006089	Acyl-CoA_DH_CS	UP:Z:B5EDE5	RV:A:N
 M	Ug_fadE	InterPro	IPR006091	Acyl-CoA_Oxase/DH_cen-dom	UP:Z:B5EDE5	RV:A:N
 M	Ug_fadE	InterPro	IPR036250	AcylCo_DH-like_C	UP:Z:B5EDE5	RV:A:N
@@ -982,12 +947,10 @@ M	Ud_P450	InterPro	IPR036396	Cyt_P450_sf	UP:Z:A9HMH0	RV:A:N
 M	Ud_P450	Pfam	PF00067	p450	UP:Z:A9HMH0	RV:A:N
 M	Ud_P450	PROSITE	PS00086	CYTOCHROME_P450	UP:Z:A9HMH0	RV:A:N
 M	Ug_nirK	InterPro	IPR001287	NO2-reductase_Cu	UP:Z:A0FK10	RV:A:N
-M	Up_CRASP-1	InterPro	IPR008421	Borrelia_lipoprotein_Pfam54/60	UP:Z:Q66ZB6	RV:A:N
-M	Up_CRASP-1	Pfam	PF05714	Pfam54_60	UP:Z:Q66ZB6	RV:A:N
+M	Up_CRASP1	InterPro	IPR008421	Borrelia_lipoprotein_Pfam54/60	UP:Z:Q66ZB6	RV:A:N
+M	Up_CRASP1	Pfam	PF05714	Pfam54_60	UP:Z:Q66ZB6	RV:A:N
 M	Ug_visE	InterPro	IPR000680	Borrelia_lipo	UP:Z:O06878	RV:A:N
 M	Uf_carb_tr	InterPro	IPR017922	UgpC	UP:Z:Q0K998	RV:A:Y
-M	U180	InterPro	IPR000763	Catalase_peroxidase	UP:Z:A4T0J1	RV:A:Y
-M	U180	TIGRFAMs	TIGR00198	cat_per_HPI	UP:Z:A4T0J1	RV:A:Y
 M	Uf_glyc_perm	InterPro	IPR003804	Lactate_perm	UP:Z:B2AHN5	RV:A:N
 M	Uf_glyc_perm	Pfam	PF02652	Lactate_perm	UP:Z:B2AHN5	RV:A:N
 M	Ug_virB2	InterPro	IPR007039	TrbC/VirB2	UP:Z:Q9R3F2	RV:A:Y
@@ -1221,9 +1184,8 @@ A	Ar_og_COG1028	Uog_COG1028	relative:Uog_anyCOG
 A	Ar_og_COG2124	Uog_COG2124	relative:Uog_anyCOG
 A	Ap_g_hrc	Ug_hrc	presence
 A	Ap_g_hrp	Ug_hrp	presence
-A	Ap_p_ECH	Up_ECH	presence
-A	Ap_g_rnfD	Ug_rnfD	presence
 A	Ap_y_ECH_Rnf	Uy_ECH_Rnf	presence
+A	Amp_y_ECH_Rnf	Uy_ECH_Rnf	members_presence
 A	Ap_d_PPE	Ud_PPE	presence
 A	Ap_p_hemerythrin	Up_hemerythrin	presence
 A	Ap_c_thiocyanate	Uc_thiocyanate	presence
@@ -1234,15 +1196,13 @@ A	Ap_op_mce3	Uop_mce3	presence
 A	Ap_f_2oxo_deh	Uf_2oxo_deh	presence
 A	Av_g_spoT	Ug_spoT	conservation
 A	Ap_r_16S_sep_23S_5S	Ur_16S_sep_23S_5S	presence
-A	Ac_294	U294	count
+A	Ac_t_pseudogene	Ut_pseudogene	count
 A	Ap_g_acrD	Ug_acrD	presence
 A	Ap_g_terC	Ug_terC	presence
 A	Ap_c_soxYZB_hyp_resB_soxAX_resC	Uc_soxYZB_hyp_resB_soxAX_resC	presence
 A	Ap_c_soxYZA_hyp_SoxB	Uc_soxYZA_hyp_SoxB	presence
 A	Ap_p_SQR	Up_SQR	presence
-A	Ap_g_hpnH	Ug_hpnH	presence
 A	Ap_c_mxa	Uc_mxa	presence
-A	Ap_g_cueO	Ug_cueO	presence
 A	Ap_g_fadE	Ug_fadE	presence
 A	Ap_f_g6p_kin	Uf_g6p_kin	presence
 A	Ap_f_glu_gal4_epi	Uf_glu_gal4_epi	presence
@@ -1261,6 +1221,7 @@ A	Ap_d_B12bind	Ud_B12bind	presence
 A	Ap_g_dsrB	Ug_dsrB	presence
 A	Ap_g_odmA	Ug_odmA	presence
 A	Ap_c_hyf_focB	Uc_hyf_focB	presence
+A	Ap_c_hyfBCEFGI	Uc_hyfBCEFGI	presence
 A	Ap_w_colabamin	Uw_colabamin	presence
 A	Ap_w_menaquininone	Uw_menaquininone	presence
 A	Ac_f_CSP	Uf_CSP	count
@@ -1285,9 +1246,6 @@ A	Ap_t_tox_antitox	Ut_tox_antitox	presence
 A	Ap_g_ankA	Ug_ankA	presence
 A	Ap_d_HEPN	Ud_HEPN	presence
 A	Ap_d_NACHT	Ud_NACHT	presence
-A	Ac_t_repeat	Ut_repeat	count
-A	Ac_d_transposase	Ud_transposase	count
-A	Ac_d_integrase	Ud_integrase	count
 A	Ac_comb_rep_transp_integr	Ucomb_rep_transp_integr	count
 A	Ap_f_glucokinase	Uf_glucokinase	presence
 A	Ap_f_6pfk	Uf_6pfk	presence
@@ -1319,14 +1277,7 @@ A	Ap_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence
 A	Ap_chr_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence!replicon_type:chromosome
 A	Ap_pls_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence!replicon_type:plasmid
 A	Ap_pls_d_BorrelliaPfam54	Ud_BorrelliaPfam54	presence!replicon_type:plasmid
-A	Ap_g_nrdE	Ug_nrdE	presence
-A	Ap_g_nrdF	Ug_nrdF	presence
-A	Ap_g_nrdI	Ug_nrdI	presence
 A	Ap_pls_y_nrdEFI	Uy_nrdEFI	presence!replicon_type:plasmid
-A	Ap_g_ospA	Ug_ospA	presence
-A	Ap_g_ospB	Ug_ospB	presence
-A	Ap_g_dbpA	Ug_dbpA	presence
-A	Ap_g_dbpB	Ug_dbpB	presence
 A	Ap_lp54_y_ospABdbpAB	Uy_ospABdbpAB	presence!plasmid:lp54
 A	Ap_p_MompS	Up_MompS	presence
 A	Ap_c_nif	Uc_nif	presence
@@ -1341,7 +1292,7 @@ A	Ap_g_dsrA	Ug_dsrA	presence
 A	Ap_g_ssrS	Ug_ssrS	presence
 A	Ac_pt_lipoprotein	Upt_lipoprotein	count
 A	Av_lp54_g_dbpA	Ug_dbpA	conservation!plasmid:lp54
-A	Av_lp54_p_CRASP-1	Up_CRASP-1	conservation!plasmid:lp54
+A	Av_lp54_p_CRASP1	Up_CRASP1	conservation!plasmid:lp54
 A	Av_r_cp26_genes	Ur_cp26_genes	conservation
 A	Ap_d_BorrelliaPfam80	Ud_BorrelliaPfam80	presence
 A	Ap_g_visE	Ug_visE	presence
@@ -1407,20 +1358,12 @@ A	Ap_op_cyoABCD	Uop_cyoABCD	presence
 A	Ap_g_cydA	Ug_cydA	presence
 A	Ap_g_cydB	Ug_cydB	presence
 A	Ap_c_blalMI	Uc_blalMI	presence
-A	Ap_g_rnfE	Ug_rnfE	presence
-A	Ap_g_rnfA	Ug_rnfA	presence
-A	Ap_g_hpnN	Ug_hpnN	presence
-A	Ap_g_hpnK	Ug_hpnK	presence
-A	Ap_g_hpnJ	Ug_hpnJ	presence
-A	Ap_g_hpnI	Ug_hpnI	presence
 A	Ap_comb_g_hpn	Ucomb_g_hpn	presence
 A	Av_lp54_g_dbpB	Ug_dbpB	conservation!plasmid:lp54
 A	Ap_y_Laa_ABC_tr	Uy_Laa_ABC_tr	presence
 A	Ap_f_thiamine_ABC_tr	Uf_thiamine_ABC_tr	presence
 A	Ap_f_t3_polyk_syn	Uf_t3_polyk_syn	presence
 A	Ap_pls_h_14b_cellbios	Uh_14b_cellbios	presence!replicon_type:plasmid
-A	Ap_w_glycerol	Uw_glycerol	presence
-A	Ap_w_glycine_betaine	Uw_glycine_betaine	presence
 A	Ap_w_TAC	Uw_TAC	presence
 A	Ap_w_cytC_resp	Uw_cytC_resp	presence
 A	Ap_c_succ_dehy	Uc_succ_dehy	presence
@@ -1484,15 +1427,10 @@ V	V4	S8	Ac_op_ribosomal	Gc_oligotrophic_B	==	1
 V	V5	S15	Ap_g_hrc	Gt_Xanthomonas	==	True
 V	V6	S15	Ap_g_hrp	Gt_Xanthomonas	==	True
 V	V7	S18	Ap_y_ECH_Rnf	Gr_anaerobic:most	==	False
-V	V8	S18	Ap_p_ECH	Gr_anaerobic:most	==	True
-V	V9	S18	A52_f	Gr_anaerobic:most	==	True
-V	V10	S18	Ap_y_ECH_Rnf	Gc_rumen_Butyrivibrio	==	True
-V	V11	S18	Ap_p_ECH	Gc_rumen_Butyrivibrio	==	True
-V	V12	S18	A52_f	Gc_rumen_Butyrivibrio	==	True
-V	V13	S18	Ap_y_ECH_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
-V	V14	S18	Ap_p_ECH	Gc_rumen_Pseudobutyrivibrio	==	True
-V	V15	S18	A52_f	Gc_rumen_Pseudobutyrivibrio	==	True
-V	V16	S19,S18	A52_f	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
+V	V8	S18	Amp_y_ECH_Rnf	Gr_anaerobic:most	==	True
+V	V10	S19	Ap_y_ECH_Rnf	Gc_rumen_Butyrivibrio	==	True
+V	V13	S19	Ap_y_ECH_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
+V	V16	S19	Ap_y_ECH_Rnf	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
 V	V17	S23	Ap_op_mce2	Gt_Mtuberculosis	==	True
 V	V18	S23	Ap_op_mce2	Gt_Mavium	==	True
 V	V19	S28	Ap_g_acrD	Gt_Rtyphi	==	True
@@ -1519,7 +1457,7 @@ V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
 V	V40	S24	Ap_f_2oxo_deh	Gp_chemolithoautotrophic	==	False
 V	V41	S25	Av_g_spoT	Gt_Rickettsia	level	high
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
-V	V43	S27	Ac_294	Gt_Rickettsia	level	high
+V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
 V	V44	S30	Ap_p_SQR	Gt_Aquificales	==	True
 V	V45	S32	Ap_c_mxa	Gp_methylotrophic	==	True
 V	V46	S34	Ap_g_fadE	Gc_subsurface_Geobacter	==	True
@@ -1545,7 +1483,7 @@ V	V65	S46	Ap_g_dsrB	Gc_Desulfitob_not_metallired	==	True
 V	V66	S46	Ap_g_dsrA	Gc_Desulfitob_not_metallired	==	True
 V	V67	S47	Ap_g_odmA	Gc_Desulfitob_not_metallired	==	True
 V	V68	S48	Ap_c_hyf_focB	Gt_Ecoli	==	True
-V	V69	S48	A90	Gt_Desulfitobacterium	==	True
+V	V69	S48	Ap_c_hyfBCEFGI	Gt_Desulfitobacterium	==	True
 V	V70	S50	Ap_w_colabamin	Gt_Desulfitobacterium	==	True
 V	V71	S51	Ap_w_menaquininone	Gc_Desulfitob_not_dichloroel	==	True
 V	V72	S52	Ac_f_CSP	Gr_psychrotrophic:some	level	high
@@ -1676,7 +1614,7 @@ V	V196	S98	Ap_g_ssrS	Gs_BafzK78	==	True
 V	V197	S99	Ac_pt_lipoprotein	Gt_Borrelia	level	high
 V	V198	S100	Av_lp54_g_dbpA	Gt_Borrelia	level	low
 V	V199	S100	Av_lp54_g_dbpB	Gt_Borrelia	level	low
-V	V200	S100	Av_lp54_p_CRASP-1	Gt_Borrelia	level	low
+V	V200	S100	Av_lp54_p_CRASP1	Gt_Borrelia	level	low
 V	V201	S101	Av_r_cp26_genes	Gt_Borrelia	level	high
 V	V202	S103	Ap_d_BorrelliaPfam80	Gt_Borrelia	==	True
 V	V203	S103	Ap_d_BorrelliaPfam80	Gn_Borrelia	==	False
@@ -1687,11 +1625,15 @@ V	V207	S106	Ap_f_carb_tr	Gt_Cupriavidus:most	==	True
 V	V208	S106	Ap_f_carb_tr	Gt_Ralstonia:most	==	True
 V	V209	S107	Ac_f_SOD	Gt_Betaproteobacteria:many	==	2
 V	V210	S107	Ac_f_catalase	Gt_Betaproteobacteria:many	==	2
-V	V211	S108	Ap_f_SOD	Gt_Cupriavidus	==	True
-V	V212	S108	Ap_f_SOD	Gt_Ralstonia	==	True
+V	V211	S108	Ap_f_glyc_perm	Gt_Cupriavidus	==	True
+V	V212	S108	Ap_f_glyc_perm	Gt_Ralstonia	==	True
 V	V213	S109	Ac_op_ribosomal	Gc_mar_olig	==	1
-V	V214	S109	A184	Gc_mar_olig	level	high
 V	V215	S109	Ar_k_N	Gc_mar_olig	level	low
+V	V389	S109	Ar_k_T	Gc_mar_olig	level	low
+V	V387	S109	Ar_k_V	Gc_mar_olig	level	low
+V	V388	S109	Ar_k_K	Gc_mar_olig	level	low
+V	V390	S109	Ar_k_Q	Gc_mar_olig	level	high
+V	V214	S109	Ar_k_I	Gc_mar_olig	level	high
 V	V216	S111	Ap_y_czc	Gt_Cupriavidus:many	==	True
 V	V217	S111	Ap_y_pbr	Gt_Cupriavidus:many	==	True
 V	V218	S111	Ap_y_chr	Gt_Cupriavidus:many	==	True
@@ -1778,20 +1720,23 @@ V	V298	S154	Ap_f_thiamine_ABC_tr	Gt_Lcrescens	==	False
 V	V299	S155	Ap_f_t3_polyk_syn	Gt_Streptomyces	==	True
 V	V300	S156	Ap_f_t3_polyk_syn	Gt_Avinelandii	==	True
 V	V301	S157	Ap_pls_h_14b_cellbios	Gt_Salinibacter	==	True
-V	V302	S158	Ap_w_glycine_betaine	Gr_halophilic	==	True
 V	V303	S159	Ap_w_cytC_resp	Gt_Salinibacter	==	True
+V	V303b	S160	Ap_c_succ_dehy	Gt_Salinibacter	==	True
 V	V304	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
 V	V305	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
+V	V305b	S161	Ap_p_coxA1B1	Gt_Salinibacter	==	True
+V	V30x1	S161	Ap_w_TAC	Gt_Salinibacter	==	True
+V	V30x2	S161	Ap_w_TAC	Gt_haloarchaea	==	True
 V	V306	S162	Ap_r_cprfnr_near_coxA2B2	Gt_Salinibacter	==	True
 V	V307	S162	Ap_r_nosZDF_near_coxA2B2	Gt_Salinibacter	==	True
 V	V308	S163	Ap_g_ccoN	Gt_Salinibacter	==	True
 V	V309	S163	Ap_g_ccoN	Gt_Rmarinus	==	True
-V	V310	S158	Ap_w_glycine_betaine	Gr_halophilic	==	True
-V	V311	S159	Ap_w_cytC_resp	Gt_Salinibacter	==	True
+V	V309b	S163	Ap_g_ccoN	Gt_haloarchaea	==	False
 V	V312	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
 V	V313	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
-V	V314	S163	Ap_g_ccoN	Gt_Salinibacter	==	True
-V	V315	S163	Ap_g_ccoN	Gt_Rmarinus	==	True
+V	V314	S163	Ap_g_ccoO	Gt_Salinibacter	==	True
+V	V315	S163	Ap_g_ccoO	Gt_Rmarinus	==	True
+V	V309b	S163	Ap_g_ccoO	Gt_haloarchaea	==	False
 V	V316	S164	Ap_g_ccoP	Gt_Salinibacter	==	False
 V	V317	S165	Ap_f_cytC	Gt_Salinibacter	==	True
 V	V318	S166	Ap_g_trkA	Gt_Salinibacter	==	True
@@ -1803,8 +1748,8 @@ V	V323	S168	Ap_f_rhodopsin	Gt_Salinibacter	==	True
 V	V324	S169	Ap_f_xanthorhodopsin	Gt_Octadecabacter	==	True
 V	V325	S172	Ap_c_hg_res	Gt_Octadecabacter	==	True
 V	V326	S172	Ap_c_hg_res	Gc_Roseob_not_Octad:many	==	False
-V	V327	S174	Ac_294	Gc_Cyanob_not_0708	level	low
-V	V328	S174	Ac_294	Gt_Nazo0708	level	high
+V	V327	S174	Ac_t_pseudogene	Gc_Cyanob_not_0708	level	low
+V	V328	S174	Ac_t_pseudogene	Gt_Nazo0708	level	high
 V	V329	S175	Ap_g_phrB	Gc_Deinococcus_not_gobiensis	==	False
 V	V330	S175	Ap_g_phrB	Gt_Dgobiensis	==	True
 V	V331	S175	Ap_g_recB	Gc_Deinococcus_not_gobiensis	==	False
@@ -1863,10 +1808,6 @@ V	V383	S193	Ap_i_cag	Gt_Hpylori	==	True
 V	V384	S194	Ac_t_CRISPR	Gt_Hmustelae	==	True
 V	V385	S194	Ac_t_CRISPR	Gt_Campylobacter	==	False
 V	V386	S194	Ac_t_CRISPR	Gc_Helicobacter_not_mustelae	==	False
-V	V387	S109	Ar_k_V	Gc_mar_olig	level	low
-V	V388	S109	Ar_k_K	Gc_mar_olig	level	low
-V	V389	S109	Ar_k_T	Gc_mar_olig	level	low
-V	V390	S109	Ar_k_Q	Gc_mar_olig	level	high
 V	V391	S195	Ap_d_PF05860	Gt_Hmustelae	==	True
 V	V392	S195	Ap_d_PF05860	Gc_Helicobacter_not_mustelae	==	False
 V	V393	S195	Ap_d_PF05860	Gc_Campylob_not_Hmustelae	==	False
@@ -1942,4 +1883,4 @@ C	C54	S134,T2	Ac_d_CL0304	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C55	S134,T2	Ac_d_CL0531	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C56	S134,T2	Ac_d_CL0123	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C57	S143	Ap_g_ankA	Gc_intracellular_B	>	Gc_not_intracell_B
-C	C58	T3	Ac_294	Gt_Octadecabacter	>	Gc_Roseob_not_Octad
+C	C58	T3	Ac_t_pseudogene	Gt_Octadecabacter	>	Gc_Roseob_not_Octad

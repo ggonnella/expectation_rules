@@ -79,7 +79,7 @@ U	Uog_COG0179	ortholog_group:COG	COG0179	.	.
 U	Ug_dsrA	specific_gene	.	dsrA	.
 U	Ug_ssrS	specific_gene	.	ssrS	ssrS
 U	Upt_lipoprotein	protein_type	.	.	lipoprotein
-U	Up_CRASP-1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrellia family Pfam54)
+U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrellia family Pfam54)
 U	Ur_cp26_genes	set:arrangement	.	.	cp26 plasmid genes
 U	Ud_BorrelliaPfam80	family_or_domain	.	Pfam80	Bdr family, Borrelia paralogous family Pfam80
 U	Ug_visE	specific_gene	.	visE	membrane lipoprotein VlsE
@@ -538,8 +538,8 @@ M	Ud_P450	InterPro	IPR036396	Cyt_P450_sf	UP:Z:A9HMH0	RV:A:N
 M	Ud_P450	Pfam	PF00067	p450	UP:Z:A9HMH0	RV:A:N
 M	Ud_P450	PROSITE	PS00086	CYTOCHROME_P450	UP:Z:A9HMH0	RV:A:N
 M	Ug_nirK	InterPro	IPR001287	NO2-reductase_Cu	UP:Z:A0FK10	RV:A:N
-M	Up_CRASP-1	InterPro	IPR008421	Borrelia_lipoprotein_Pfam54/60	UP:Z:Q66ZB6	RV:A:N
-M	Up_CRASP-1	Pfam	PF05714	Pfam54_60	UP:Z:Q66ZB6	RV:A:N
+M	Up_CRASP1	InterPro	IPR008421	Borrelia_lipoprotein_Pfam54/60	UP:Z:Q66ZB6	RV:A:N
+M	Up_CRASP1	Pfam	PF05714	Pfam54_60	UP:Z:Q66ZB6	RV:A:N
 M	Ug_visE	InterPro	IPR000680	Borrelia_lipo	UP:Z:O06878	RV:A:N
 M	Uf_carb_tr	InterPro	IPR017922	UgpC	UP:Z:Q0K998	RV:A:Y
 M	U180	InterPro	IPR000763	Catalase_peroxidase	UP:Z:A4T0J1	RV:A:Y
@@ -790,7 +790,7 @@ A	Ap_op_mce3	Uop_mce3	presence
 A	Ap_f_2oxo_deh	Uf_2oxo_deh	presence
 A	Av_g_spoT	Ug_spoT	conservation
 A	Ap_r_16S_sep_23S_5S	Ur_16S_sep_23S_5S	presence
-A	Ac_294	U294	count
+A	Ac_t_pseudogene	Ut_pseudogene	count
 A	Ap_g_acrD	Ug_acrD	presence
 A	Ap_g_terC	Ug_terC	presence
 A	Ap_c_soxYZB_hyp_resB_soxAX_resC	Uc_soxYZB_hyp_resB_soxAX_resC	presence
@@ -897,7 +897,7 @@ A	Ap_g_dsrA	Ug_dsrA	presence
 A	Ap_g_ssrS	Ug_ssrS	presence
 A	Ac_pt_lipoprotein	Upt_lipoprotein	count
 A	Av_lp54_g_dbpA	Ug_dbpA	conservation!plasmid:lp54
-A	Av_lp54_p_CRASP-1	Up_CRASP-1	conservation!plasmid:lp54
+A	Av_lp54_p_CRASP-1	Up_CRASP1	conservation!plasmid:lp54
 A	Av_r_cp26_genes	Ur_cp26_genes	conservation
 A	Ap_d_BorrelliaPfam80	Ud_BorrelliaPfam80	presence
 A	Ap_g_visE	Ug_visE	presence

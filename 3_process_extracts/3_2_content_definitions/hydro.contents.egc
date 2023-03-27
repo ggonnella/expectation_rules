@@ -43,7 +43,7 @@ U	Ug_soxK	specific_gene	.	soxK	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
-U	Ur_LTR_prkin	set:arrangement	Ut_LTR,UH113b	.	gene for a protein kinase, predeced by: long tandem repeat
+U	Ur_LTR_prkin	set:arrangement	Ut_LTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: long tandem repeat
 U	Ut_LTR	feature_type	.	.	long tandem repeat
 U	Uf_protein_kinase	function	.	.	protein kinase
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat

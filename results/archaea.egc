@@ -37,7 +37,6 @@ S	SA6	PMID:24907263	Furthermore, the genome of EN76T carries genes for proteins 
 S	SA7	PMID:25587132	As with all previously sequenced Thaumarchaeota, no hydroxylamine oxidoreductase homologs were identified.
 S	SA8	PMID:25587132	However, no homologs of norB were identified in Ca. N. brevis or in any other thaumarchaeal genome.
 S	SA9	PMID:22003381	There are only six arCOGs that are present in T. tenax but not in other Crenarchaeota. One of them is DNA uptake protein DprA (TTX_0242), which is encoded in a predicted operon with another functionally related protein ComF (TTX_0243), which was never before detected in archaeal genomes and apparently has been transferred horizontally from Bacteria.
-S	SA10	PMID:22003381	T. tenax has not lost any of the 234 arCOGs present in all Crenarchaeota, including nine that are not present in any euryarchaeal genomes. The latter set includes five genes that are shared with Eucarya: the recently described small RPB8 subunit of DNA-directed RNA polymerase (TTX_1930) [95], a Zn-finger containing protein, an apparent transcription elongation factor 1 ortholog (TTX_1715), and ribosomal proteins S25e, S26e and S30e (TTX_0177, TTX_0164, TTX_0151 and TTX_0161 (Table S7).
 S	SA11	PMID:24743558	In contrast, the cultured N. maritimus lacks the genes required for utilization of urea.
 S	SA12	PMID:24743558	The presence of urease genes within MGI SAGs confirms their potential for urea utilization in the mesopelagic
 S	SA13	PMID:22003381	Genes encoding the stable RNA components of RNaseP or the signal recognition particle (7S RNA) are absent, like in most other Thermoproteaceae
@@ -65,11 +64,9 @@ S	SA35	PMID:29945179	The NiFe-enzymes are ubiquitous and the extremely thermophi
 S	SA36	PMID:29945179	Most members of the Thermococcales contain genes encoding at least one MBH and one SH (Schut et al.2013).
 S	SA37	PMID:29945179	Two H2 production membrane complexes have been identified in the genus of T. onnurineus: formate hydrogen lyase (FHL) and carbon monoxide dehydrogenase (CODH) (Takacs et al.2008; Kim et al.2010, 2013; Kozhevnikova et al.2016).
 S	SA38	PMID:29945179	While there are no known archaea utilizing the CBB cycle, type III Rubisco enzymes are found exclusively in archaea, possibly hinting at the evolutionary heritage of this important protein (Sato, Atomi and Imanaka 2007). Thermococcus kodakarensis contains such a version of this Rubisco that is neither affected by nor inactivated by oxygen
-S	SA39	PMID:29945179	All methane-generating organisms, including those responsible for methane generation in the human gut, are archaea.
 S	SA41	PMID:29945179	A new type of oxidative stress was discovered in P. furiosus, which was subsequently found in virtually all anaerobes, involving the enzyme superoxide reductase (SOR) (Jenney et al.1999).
 S	SA42	PMID:23209209	The presence of genes involved in methanogenesis, among them the highly conserved mcrA gene, supports the experimental observations that “Ca. Methanomethylophilus alvus” is a methanogen.
 S	SA43	PMID:23209206	The absence of the hydroxylamine oxidoreductase gene indicates a novel ammonia oxidation pathway in strain AR1, as in the other AOA.
-S	SA45	PMID:20421470	The third 2dMCO (Nmar_1354), possessing a fused blue copper-containing domain, has not been found in AOB and appears to be unique to AOA. (two-domain periplasmic multicopper oxidase (2dMCO) containing a fused blue copper-containing domain)
 S	SA46	PMID:20421470	However, whereas AOB use the Calvin–Bassham–Benson cycle with the CO2-fixing enzyme ribulose bisphosphate carboxylase/oxygenase (RubisCO) as the key enzyme, the absence of genes in N. maritimus coding for RubisCO and other enzymes of this cycle points to an alternative pathway for carbon fixation
 S	SA47	PMID:20421470	The most likely mechanism supported by the genome sequence is the 3-hydroxypropionate/4-hydroxybutyrate pathway elucidated in the thermophilic crenarchaote Metallosphaera sedula and suggested as a potential pathway of carbon fixation in C. symbiosum
 S	SA48	PMID:20421470	The pathway has two parts: a sequence including two carboxylation reactions transforming acetyl-CoA to succinyl-CoA and a multistep sequence converting succinyl-CoA into two molecules of acetyl-CoA. Genes identified in the N. maritimus genome coding for key enzymes of the pathway (Fig. S3) include a biotin-dependent acetyl-CoA/propionyl-CoA carboxylase (Nmar_0272–0274), methylmalonyl-CoA epimerase and mutase (Nmar_0953, _0954, and _0958), and 4-hydroxybutyrate dehydratase (Nmar_0207). With the exception of one gene (Nmar_1608), all of the genes implicated in the 3-hydroxyproprionate/4-hydrobutyrate pathway for carbon assimilation in N. maritimus are present and show highest similarity to the genes of C. symbiosum
@@ -87,7 +84,6 @@ S	SA59	PMID:22247127	Recently, a few enzymes involved in PHA metabolism have bee
 S	SA60	PMID:22247127	With the exception of N. pharaonis, all of the species carried the phaE and phaC genes, which all were located adjacent to the phaP-homologous genes.
 S	SA61	PMID:22247127	Interestingly, a similar gene cluster composed of maoC-gap12-phaP-phaE-phaC was present in 7 of the 10 species, with the exception of H. utahensis, H. borinquense, and H. jeotgali, which harbored a PGAP gene cluster lacking the maoC gene.
 S	SA62	PMID:22247127	Notably, although many proteins are characterized as phasins in bacteria, including PhaP/PhaP1, PhaP2, PhaP3, PhaP4, PhaF, PhaI, the newly identified PhaP5 (25), and phasin-like PhaM (26), the homologous PhaP proteins of H. mediterranei (PhaPhme) only exist in haloarchaea
-S	SA63	PMID:22636780	Numerous reports have indicated that IS element transposition has led to extensive chromosomal rearrangements and lateral gene transfer (LGT) in the Pyrococcus genus (13, 16, 22, 27, 58, 60). For example, environmental isolates of Pyrococcus differ in their distribution of IS elements, suggesting a high degree of mobility (58), as has been reported for other hyperthermophilic archaea from freshwater vents
 S	SA64	PMID:22636780	The availability of a highly efficient genetically tractable strain of P. furiosus (COM1) has dramatically expanded the potential to study this model hyperthermophilic species. Its sequence not only defines the genetic platform for these future studies but has also provided novel insights into the biology of this organism, including the dynamic nature of its genome and the utility of two classical carbohydrate metabolism genes, gapn and celB.
 S	SA65	PMID:22636780	Among the seven IS annotated archaeal genomes (30), P. furiosus harbors far more IS elements (29 full, 6 partial) than does any other member of the Thermococcales but less than a quarter of the IS elements identified in the Sulfolobus solfataricus genome (146 full, 297 partial).
 S	SA66	PMID:22636780	In fact, no full-length IS elements have been identified in the genomes of Pyrococcus abyssi or Pyrococcus horikoshii, and only one full-length IS element has been identified in T. kodakarensis (30).
@@ -133,7 +129,6 @@ S	SA106	PMID:24999826	However, in contrast to Euryarchaeota, Crenarchaeota and N
 S	SA107	PMID:24999826	The gene encoding topoisomerase IB, a signature marker for Thaumarchaeota, but not for other archaeal phyla, is present in the Ca. N. evergladensis genome.
 S	SA108	PMID:24999826	Similar to other Thaumarchaeota, Ca. N. evergladensis possesses the genes needed to compress and methylate DNA. The DNA repair system of Ca. N. evergladensis includes UvrABC endonuclease, which is common in mesophilic archaea
 S	SA109	PMID:28077874	Next, to gain further insight into the emergence of eukaryotic gene content,we identified potential eukaryotic signature proteins (ESPs) in the reconstructed Asgard genomes. Notably, all Asgard lineages were found to be enriched for such ESPs, suggesting that these are widespread across the Asgard superphylum. ESPs identified in the new Asgard genomes previously identified in the composite Lokiarchaeum genome11,14 included an expanded set of the composite Lokiarchaeum genome11,14 included an expanded set of GTPases (Extended Data Fig. 3, Supplementary Table 8), eukaryotic RLC7 family proteins (Supplementary Fig. 1), actin homologues (Supplementary Fig. 2), gelsolin-domain proteins, components of eukaryotic ESCRT (I, II and III) systems including two sub-families of SNF7 proteins (Supplementary Fig. 3), ubiquitin modifier system components (Supplementary Fig. 4) and homologues of eukaryotic protein translocation and glycosylation pathways (Extended Data Table 2, Extended Data Fig. 4).
-S	SA110	PMID:28077874	Phylogenetic analyses of the thorarchaeal TRAPP domain proteins revealed that they form a monophyletic group with eukaryotic TRAPPC3 (Bet3 family), TRAPPC5 and TRAPPC6 family proteins.
 S	SA111	PMID:28077874	In addition, thorarchaeal genomes encode homologues of eukaryotic Sec23/24 family proteins, which are essential components of COPII, a protein complex responsible for vesicle-mediated ER-to-Golgi transport of protein cargo32. Protein domain and structure prediction analysis of these thorarchaeal Sec23/24 homologues indicate that they contain the zinc-finger, trunk and β-sandwich domains of eukaryotic Sec23/24 family proteins, but lack the C-terminal helical and gelsolin domains
 S	SA112	PMID:28077874	The present identification of Sec23/24 domain proteins in all our thorarchaeal genome bins, in addition to the presence of longin domain proteins in Lokiarchaeota11,14 as well as in Heimdall- and Odinarchaeota (Extended Data Table 2, Fig. 1d) prompted us to search for potential coatomer proteins.
 S	SA113	PMID:28077874	Notably, thorarchaeal genomes encode several homologues of eukaryotic membrane-trafficking machinery components, including Sec23/24 and TRAPP domains.
@@ -167,6 +162,7 @@ G	Gt_Nuzonensis	Candidatus Nitrosotenuis uzonensis	taxonomic	taxid:1407055	TR:Z:
 G	Gc_amox_Nitrosopumilus	ammonia-oziding Nitrosopumilus	combined	Gm_am_oxid & Gt_Nitrosopumilus
 G	Gt_Nitrosopumilus	Nitrosopumilus	taxonomic	taxid:338191	TR:Z:genus
 G	Gr_hyperthermophilic	hyperthermophilic	temperature_requirement	MICRO:0001294
+G	Gc_hyperthermophilic_A	hyperthermophilic Archaea	combined	Gr_hyperthermophilic & Gt_Archaea
 G	Gc_hypert_Archaeoglobus	hyperthermophilic Archaeoglobus	combined	Gt_Archaeoglobus & Gr_hyperthermophilic
 G	Gt_Pfuriosus	Pyrococcus furiosus	taxonomic	taxid:2261	TR:Z:species
 G	Gc_hypert_Pfuriosus	extremely thermophilic Pyrococcus furiosus	combined	Gr_hyperthermophilic & Gt_Pfuriosus
@@ -175,6 +171,14 @@ G	Gt_Tonnurineus	Thermococcus onnurineus	taxonomic	taxid:342948	TR:Z:species
 G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
 G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
 G	Gc_AOA	ammonia-oxidizing Archaea	combined	Gm_am_oxid & Gt_Archaea
+G	Gc_AOB	ammonia-oxidizing Bacteria	combined	Gm_am_oxid & Gt_Bacteria
+G	Gh_marine	marine	habitat	ENVO:01000320
+G	Gh_soil	soil	habitat	ENVO:01001044
+G	Gc_marine_AOA	marine ammonia-oxidizing Archaea	combined	Gh_marine & Gc_AOA
+G	Gc_marine_AOB	marine ammonia-oxidizing Bacteria	combined	Gh_marine & Gc_AOB
+G	Gc_soil_AOB	soil ammonia-oxidizing Bacteria	combined	Gh_soil & Gc_AOB
+G	Gc_soil_AOA	soil ammonia-oxidizing Archaea	combined	Gh_soil & Gc_AOA
+G	Gt_Bacteria	Bacteria	taxonomic	taxid:2	TR:Z:domain
 G	Gt_Msedula	Metallosphaera sedula	taxonomic	taxid:43687	TR:Z:species
 G	Gt_Csymbiosum	Cenarchaeum symbiosum	taxonomic	taxid:46770	TR:Z:species
 G	Gt_Hwalsbyi	Haloquadratum walsbyi	taxonomic	taxid:293091	TR:Z:species
@@ -240,6 +244,10 @@ G	Gr_mesophilic	mesophilic	temperature_requirement	MICRO:0000111
 G	Gt_Asgard	Asgard group	taxonomic	taxid:1935183
 G	Gt_Thorarchaeota	Thorarchaeota	taxonomic	taxid:1706441	TR:Z:phylum
 G	Gt_Nanoarchaeota	Nanoarchaeota	taxonomic	taxid:192989	TR:Z:phylum
+G	Gt_Heimdallarchaeota	Candidatus Heimdallarchaeota	taxonomic	taxid:1936272	TR:Z:phylum
+G	Gt_Odinarchaeota	Candidatus Odinarchaeota	taxonomic	taxid:1936271	TR:Z:phylum
+G	Gt_Lokiarchaeota	Candidatus Lokiarchaeota	taxonomic	taxid:1655434	TR:Z:phylum
+G	Gt_Tlitoralis	Thermococcus litoralis	taxonomic	taxid:2265	TR:Z:species
 U	Ub_G	base	.	G	guanine
 U	Ub_GC	*base	Ub_G,Ub_C	.	.
 U	Ub_N	base	.	N	any nucleic acid base
@@ -294,7 +302,6 @@ U	Uf_MBH	function	.	.	membrane-bound [NiFe]-hydrogenase (MBH)
 U	Uf_SH1	specific_protein	.	.	cytoplasmic [NiFe]-hydrogenase (SHI)
 U	Uf_SH2	specific_protein	.	.	cytoplasmic [NiFe]-hydrogenase (SHII)
 U	Uy_SH1_2	set:gene_system	Uf_SH1,Uf_SH2	.	cytoplasmic [NiFe]-hydrogenases SHI and SHII
-U	Up_FHL	specific_protein	.	.	formate hydrogen lyase (FHL)
 U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase (CODH)
 U	Uf_Rubisco_type3	function	.	.	type III Rubisco enzyme
 U	Uf_SOR	function	.	SOR	superoxide reductase
@@ -374,10 +381,9 @@ U	Uy_UvrABC	set:gene_system	Ug_UvrA,Ug_UvrB,Ug_UvrC	UvrABC	UvrABC endonuclease
 U	Ud_ESP	family_or_domain	.	ESP	eukaryotic signature protein
 U	Ud_Sec2324	family_or_domain	.	.	Sec23/24 domain
 U	Ud_TRAPP	family_or_domain	.	TRAPP	TRAPP
-U	Ug_aprB	specific_gene	.	aprB	adenylyl sulfate reductase
-U	Ug_dsrB	specific_gene	.	dsrB	sulfite reductase (DsrB)
-U	Ug_dsrD	specific_gene	.	dsrD	sulfite reductase (DsrD)
-U	Up_TEF1	specific_protein	.	.	transcription elongation factor 1
+U	Ud_Longin	family_or_domain	.	Longin	Longin domain
+M	Ud_Longin	InterPro	IPR010908	Longin_dom
+A	Ap_d_Longin	Ud_Longin	presence
 M	Uf_copp_ox	InterPro	IPR001117	Cu-oxidase	UP:Z:A0A7K4DSV0	RV:A:N
 M	Uf_copp_ox	InterPro	IPR011706	Cu-oxidase_2	UP:Z:A0A7K4DSV0	RV:A:N
 M	Uf_copp_ox	InterPro	IPR011707	Cu-oxidase_3	UP:Z:A0A7K4DSV0	RV:A:N
@@ -479,16 +485,8 @@ M	Uf_Sat	Pfam	PF01747	ATP-sulfurylase	UP:Z:O28606	RV:A:Y
 M	Uf_Sat	TIGRFAMs	TIGR00339	sopT	UP:Z:O28606	RV:A:Y
 M	Ug_aprA	InterPro	IPR011803	AprA	UP:Z:O28603	RV:A:N
 M	Ug_aprA	TIGRFAMs	TIGR02061	aprA	UP:Z:O28603	RV:A:N
-M	Ug_aprB	InterPro	IPR011802	AprB	UP:Z:O28604	RV:A:N
-M	Ug_aprB	InterPro	IPR022738	AprB_C	UP:Z:O28604	RV:A:N
-M	Ug_aprB	InterPro	IPR038465	APS_reduc_Bsu_C_sf	UP:Z:O28604	RV:A:N
-M	Ug_aprB	TIGRFAMs	TIGR02060	aprB	UP:Z:O28604	RV:A:N
 M	Uf_dsrA	InterPro	IPR011806	DsrA	UP:Z:Q59109	RV:A:Y
 M	Uf_dsrA	TIGRFAMs	TIGR02064	dsrA	UP:Z:Q59109	RV:A:Y
-M	Ug_dsrB	InterPro	IPR011808	DsrB	UP:Z:Q59110	RV:A:Y
-M	Ug_dsrB	TIGRFAMs	TIGR02066	dsrB	UP:Z:Q59110	RV:A:Y
-M	Ug_dsrD	InterPro	IPR014793	DsrD	UP:Z:P70742	RV:A:Y
-M	Ug_dsrD	Pfam	PF08679	DsrD	UP:Z:P70742	RV:A:Y
 M	Uf_MBH	InterPro	IPR001501	Ni-dep_hyd_lsu	UP:Z:Q8U0Z6	RV:A:Y
 M	Uf_MBH	InterPro	IPR029014	NiFe-Hase_large	UP:Z:Q8U0Z6	RV:A:Y
 M	Uf_MBH	Pfam	PF00374	NiFeSe_Hases	UP:Z:Q8U0Z6	RV:A:Y
@@ -514,9 +512,6 @@ M	Ud_TBP	InterPro	IPR030491	TBP_CS	UP:Z:A9A365	RV:A:N
 M	Ud_TBP	InterPro	IPR012295	TBP_dom_sf	UP:Z:A9A365	RV:A:N
 M	Ud_TBP	Pfam	PF00352	TBP	UP:Z:A9A365	RV:A:N
 M	Ud_TBP	PROSITE	PS00351	TFIID	UP:Z:A9A365	RV:A:N
-M	U10080	InterPro	IPR045061	FtsZ/CetZ	UP:Z:A9A1H9	RV:A:N
-M	U10080	InterPro	IPR036525	Tubulin/FtsZ_GTPase_sf	UP:Z:A9A1H9	RV:A:N
-M	U10080	InterPro	IPR003008	Tubulin_FtsZ_GTPase	UP:Z:A9A1H9	RV:A:N
 M	Uc_cdvABC	InterPro	IPR041461	CdvA_CC	UP:Z:A9A4A7	RV:A:N
 M	Uc_cdvABC	Pfam	PF18822	CdvA	UP:Z:A9A4A7	RV:A:N
 M	Uc_cdvABC	InterPro	IPR005024	Snf7_fam	UP:Z:A9A5K1	RV:A:N
@@ -642,8 +637,6 @@ M	Uf_nick_perm	Pfam	PF03824	NicO	UP:Z:A0A075MWB3	RV:A:N
 M	Ud_Sec2324	InterPro	IPR036174	Znf_Sec23_Sec24_sf	UP:Z:A0A842QF71	RV:A:N
 M	Ud_TRAPP	InterPro	IPR007194	TRAPP_component	UP:Z:A0A524GAN3	RV:A:N
 M	Ud_TRAPP	Pfam	PF04051	TRAPP	UP:Z:A0A524GAN3	RV:A:N
-M	Up_TEF1	InterPro	IPR000679	Znf_GATA	UP:Z:G4RL91	RV:A:N
-M	Up_TEF1	PROSITE	PS50114	GATA_ZN_FINGER_2	UP:Z:G4RL91	RV:A:N
 A	Ap_w_amox	Uw_amox	presence
 A	Ap_f_amm_transp	Uf_amm_transp	presence
 A	Ap_f_copp_ox	Uf_copp_ox	presence
@@ -691,11 +684,8 @@ A	Ap_g_aprA	Ug_aprA	presence
 A	Ap_f_dsrA	Uf_dsrA	presence
 A	Ap_d_FeFe_hydr	Ud_FeFe_hydr	presence
 A	Ap_f_MBH	Uf_MBH	presence
-A	Ap_f_SH1	Uf_SH1	presence
-A	Ap_f_SH2	Uf_SH2	presence
 A	Ap_y_SH1_2	Uy_SH1_2	presence
 A	Amp_y_SH1_2	Uy_SH1_2	members_presence
-A	Ap_p_FHL	Up_FHL	presence
 A	Ap_p_CODH	Up_CODH	presence
 A	Ap_f_Rubisco_type3	Uf_Rubisco_type3	presence
 A	Ap_f_SOR	Uf_SOR	presence
@@ -770,15 +760,13 @@ A	Ap_d_ESP	Ud_ESP	presence
 A	Ap_d_Sec2324	Ud_Sec2324	presence
 A	Ap_d_TRAPP	Ud_TRAPP	presence
 A	Ac_g_rpoA	Ug_rpoA	count
-A	Ap_g_aprB	Ug_aprB	presence
-A	Ap_g_dsrB	Ug_dsrB	presence
-A	Ap_g_dsrD	Ug_dsrD	presence
-A	Ap_p_TEF1	Up_TEF1	presence
 C	CA1	SA65	Ac_t_ins_seq	Gt_Pfuriosus	>	Gc_Thcoc_not_Pfuriosus
 C	CA2	SA65	Ac_t_ins_seq_part	Gt_Pfuriosus	>	Gc_Thcoc_not_Pfuriosus
 C	CA3	SA65	Ac_t_ins_seq	Gt_Pfuriosus	<<	Gt_Ssolfataricus
 C	CA4	SA65	Ac_t_ins_seq_part	Gt_Pfuriosus	<<	Gt_Ssolfataricus
 C	CA5	SA76	Ar_b_GC	Gt_Smetallicus	>	Gc_Sulfolobales_not_Smetallicus
+C	CA6	SA96	Ac_g_amoC	Gc_soil_AOA	>	Gc_marine_AOA
+C	CA7	SA96	Ac_g_amoC	Gc_soil_AOB	>	Gc_marine_AOB
 V	VA1	SA1	Ap_w_amox	Gt_Nmaritimus	==	True
 V	VA2	SA1	Ap_f_amm_transp	Gt_Nmaritimus	==	True
 V	VA3	SA1	Ap_f_copp_ox	Gt_Nmaritimus	==	True
@@ -1016,6 +1004,10 @@ V	VA234	SA95	Ac_g_amoC	Gt_Nkoreensis	==	1
 V	VA235	SA95	Ac_g_amoC	Gt_Csymbiosum	==	1
 V	VA236	SA95	Ac_g_amoC	Gt_Nuzonensis	==	1
 V	VA237	SA95	Ac_g_amoC	Gt_Ngargensis	>	1
+V	VA237b	SA96	Ac_g_amoC	Gc_soil_AOA	in_range	1,7
+V	VA237c	SA96	Ac_g_amoC	Gc_soil_AOB	in_range	1,7
+V	VA237d	SA96	Ac_g_amoC	Gc_marine_AOA:most	==	1
+V	VA237d	SA96	Ac_g_amoC	Gc_marine_AOB:most	==	1
 V	VA238	SA97	Ap_f_phxyalk_syn	Gt_Thaumarchaeota:most	==	True
 V	VA239	SA98	Ap_f_myoino1ph_syn	Gt_Ngargensis	==	True
 V	VA240	SA98	Ap_f_myoino1ph_syn	Gt_Nmaritimus	==	True
@@ -1047,7 +1039,10 @@ V	VA265	SA107	Ap_p_topoIB	Gn_Thaumarchaeota	==	False
 V	VA266	SA108	Ap_y_UvrABC	Gt_Nevergladensis	==	True
 V	VA267	SA108	Ap_y_UvrABC	Gc_arch_mesophilic	==	True
 V	VA268	SA109	Ap_d_ESP	Gt_Asgard	==	True
-V	VA269	SA111	Ap_d_Sec2324	Gt_Thorarchaeota	==	True
+V	VA269	SA111,SA112	Ap_d_Sec2324	Gt_Thorarchaeota	==	True
+V	VA269b	SA112	Ap_d_Longin	Gt_Heimdallarchaeota	==	True
+V	VA269c	SA112	Ap_d_Longin	Gt_Odinarchaeota	==	True
+V	VA269d	SA112	Ap_d_Longin	Gt_Lokiarchaeota	==	True
 V	VA270	SA113	Ap_d_TRAPP	Gt_Nanoarchaeota	==	True
 V	VA271	SA106	Ac_g_rpoA	Gt_Thaumarchaeota	==	1
 V	VA272	SA106	Ac_g_rpoA	Gt_Crenarchaeota	==	2
@@ -1064,3 +1059,21 @@ V	VA282	SA61	Ap_c_gap12_phaPEC	Gt_Hturkmenica	==	True
 V	VA283	SA61	Ap_c_gap12_phaPEC	Gt_Hxanaduensis	==	True
 V	VA284	SA61	Ap_c_gap12_phaPEC	Gt_Hwalsbyi	==	True
 V	VA285	SA61	Ap_c_gap12_phaPEC	Gt_Npharaonis	==	True
+U	Uw_TAC	set:metabolic_pathway	.	.	tricarboxylic acid cycle
+A	Aall_w_TAC	Uw_TAC	complete
+A	Ap_w_TAC	Uw_TAC	members_presence
+V	VA286	SA77	Aall_w_TAC	Gt_Thermococcales	==	False
+V	VA287	SA77	Aall_w_TAC	Gt_Ppacificus	==	False
+V	VA288	SA77	Ap_w_TAC	Gt_Thermococcales	==	True
+V	VA289	SA77	Ap_w_TAC	Gt_Ppacificus	==	True
+V	VA290	SA74	Ap_t_intein	Gt_Tlitoralis	==	True
+U	Uw_mod_EMP	set:metabolic_pathway	.	.	single-step G3P to 3-PG modified Embden–Meyerhof–Parnas glycolysis
+U	Uw_EMP	set:metabolic_pathway	.	.	Embden–Meyerhof–Parnas glycolysis
+A	Aall_w_mod_EMP	Uw_mod_EMP	complete
+A	Aall_w_EMP	Uw_EMP	complete
+V	VA291	SA77	Aall_w_mod_EMP	Gt_Thermococcales	==	True
+V	VA292	SA77	Aall_w_mod_EMP	Gt_Ppacificus	==	True
+V	VA293	SA33	Aall_w_mod_EMP	Gc_hyperthermophilic_A:most	==	True
+V	VA294	SA77	Aall_w_EMP	Gt_Thermococcales	==	False
+V	VA295	SA77	Aall_w_EMP	Gt_Ppacificus	==	False
+V	VA296	SA33	Aall_w_EMP	Gc_hyperthermophilic_A:most	==	False

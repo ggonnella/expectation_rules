@@ -77,7 +77,6 @@ S	SH57	PMID:17105352	Consistent with its microaerophilic lifestyle and inability
 S	SH58	PMID:17105352	A recent comprehensive phylogenetic analysis of the cytochrome c553 proteins, including the mono-heme cytochromes from Thiom. crunogena and Thiob. denitrificans, revealed existence of a large protein superfamily that also includes proteins in the COG4654 cytochrome c551/c552 protein family (M. G. Klotz and A. B. Hooper, unpublished data). In ammonia-oxidizing bacteria, representatives of this protein superfamily (NE0102, Neut2204, and NmulA0344 in the COG4654 protein family; and Noc0751, NE0736, and Neut1650 in the COG2863 protein family) are the key electron carriers that connect the bc1 complex with complex IV as well as NOx-detoxifying reductases (i.e., NirK and NirS) and oxidases (i.e., cytochrome P460 and cytochrome c peroxidase) involved in nitrifier denitrification ([57] and references therein).
 S	SH59	PMID:17105352	Unlike many other bacteria [67], the gene encoding the sole SulP-type ion transporter (Tcr1533) does not have a carbonic anhydrase gene adjacent to it.
 S	SH61	PMID:17105352	The lack of CBB enzyme operons in obligate autotrophs from the Alpha-. Beta-, and Gammaproteobacteria, as well as the Cyanobacteria, may reflect a lack of selective pressure for these genes to be juxtaposed in their chromosomes for ease of coordinate repression during heterotrophic growth.
-S	SH62	PMID:17105352	All of the genes necessary for an oxidative CAC are potentially present, as in some other obligate autotrophs and methanotrophs [18,78].
 S	SH64	PMID:19197347	Free-living Epsilonproteobacteria have many genes containing diguanylate cyclase (GGDEF) and phosphodiesterase (EAL) domains, whereas Campylobacter and Helicobacter genomes have only a few or none.
 S	SH65	PMID:19197347	At the time of writing, 22 out of 26 sequenced Epsilonproteobacteria have the luxS and pfs genes, with only four Campylobacter species lacking the AI-2 system. While LuxS has been shown to affect biofilm formation, motility, type III secretion, and the production of virulence factors and toxins in pathogens, it remains unclear whether AI-2 is truly a universal signal or simply a metabolic byproduct for most bacterial strains [43]–[45]. In support of the widespread nature of LuxS/Pfs in Epsilonproteobacteria, the metagenome of the A. pompejana episymbionts contains 36 luxS sequences and 49 pfs sequences [46]. The abundance of these genes in Epsilonproteobacteria at hydrothermal vents may offer a mechanism through which this group dominates episymbiont communities.
 S	SH66	PMID:19197347	All the vent Epsilonproteobacteria as well as S. denitrificans and A. butzleri contain homologs to the second arsenate reductase (GAmH_0397 in N. profundicola). W. succinogenes, Sulfurovum, Nitratiruptor, and S. denitrificans contain an apparent operon that encodes an arsenite permease and regulatory protein, ArsR [18],[31],[61], whereas both N. profundicola and C. mediatlanticus lack an arsenical permease homolog (COG1055), but contain an arsR homolog (GAmH_0374) elsewhere.
@@ -172,7 +171,6 @@ G	Gt_Methanobacteriales	Methanobacteriales	taxonomic	taxid:2158	TR:Z:order
 G	Gt_Methanopyrales	Methanopyrales	taxonomic	taxid:68985	TR:Z:order
 G	Gt_Methanomicrobiales	Methanomicrobiales	taxonomic	taxid:2191	TR:Z:order
 G	Gc_free_Epsilon	free-living Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_free
-G	Gc_hydrvent_free_Epsilon	free-living Epsilonproteobacteria in hydrothermal vents	combined	Gc_free_Epsilon & Gh_hydrvent
 G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
 G	Gc_pathog_Epsilon	pathogenic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_pathogenic
 G	Gi_episymbiont_Apompejana	episymbiont of Alvinella pompejana	biological_interaction	RO:0002632
@@ -205,7 +203,6 @@ G	Gc_obl_autotr_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gamma
 G	Gc_obl_autotr_Beta	obligate autotrophic Betaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Betaproteobacteria
 G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
 G	Gc_obl_autotr_B	obligate autotrophic bacteria	combined	Gp_obl_autotr & Gt_Bacteria
-G	Gc_methanotr_B	methanotrophic bacteria	combined	Gm_methanotrophic & Gt_Bacteria
 G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
 G	Gc_hydrvent_Epsilon	Epsilonproteobacteria in hydrothermal vents	combined	Gt_Epsilonproteobacteria & Gh_hydrvent
@@ -254,7 +251,6 @@ G	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	Zetaproteobacteria excluding Ghiorsea bivora
 G	Gt_Mariprofundus	Mariprofundus	taxonomic	taxid:377315	TR:Z:genus
 G	Gc_microaer_Fe2ox_B	microaerophilic Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gr_microaerophilic & Gm_Fe2ox
 G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
-G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
 G	Gr_microaerophilic	microaerophilic	O2_requirement	MICRO:0000515
 G	Gm_Fe2ox	Fe(II)-oxidizing	metabolic	Wikipedia:Iron-oxidizing_bacteria
 G	Gc_Fe2ox_B	Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gm_Fe2ox
@@ -284,7 +280,6 @@ G	Gc_chemolithoa_Thiomicrospira	chemolithoautotroph Thiomicrospira	combined	Gp_c
 G	Gt_Piscirickettsiaceae	Piscirickettsiaceae	taxonomic	taxid:135616	TR:Z:family
 G	Gc_Hydrogenov_Thiomicror_Thiomicros	members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira	combined	Gt_Hydrogenovibrio & Gt_Thiomicrorhabdus & Gt_Thiomicrospira
 G	Gt_Proteobacteria	Proteobacteria	taxonomic	taxid:1224	TR:Z:phylum
-G	Gc_Proteo_not_Hydrogenov_Thiomicror_Thiomicros	Proteobacteria exlcuding members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira	combined	Gt_Proteobacteria & !(Gc_Hydrogenov_Thiomicror_Thiomicros)
 G	Gt_Hhalophilus	Hydrogenovibrio halophilus	taxonomic	taxid:373391	TR:Z:species
 G	Gc_Hydrogenov_not_halophilus	Hydrogenovibrio excluding Hydrogenovibrio halophilus	combined	Gt_Hydrogenovibrio & !(Gt_Hhalophilus)
 G	Gr_thermophilic	thermophilic	temperature_requirement	MICRO:0000118
@@ -326,7 +321,7 @@ U	Uf_CO_deh	function	.	.	CO dehydrogenase
 U	Ud_Pfam00563	family_or_domain:Pfam	Pfam00563	.	EAL domain
 U	Ud_Pfam00990	family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
 U	Ud_Pfam000159	family_or_domain:Pfam	Pfam000159	.	MCP domain
-U	Up_SDH	specific_protein	.	.	flavocytochrome c sulfide dehydrogenase (SDH)
+U	Up_SDH	specific_protein	.	SDH	flavocytochrome c sulfide dehydrogenase
 U	Uf_NDH1_NADH_deh	function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase)
 U	Uf_cyt_bc1	function	.	.	cytochrome bc1 complex
 U	Uf_hydr_1d	function	.	.	group 1d hydrogenase
@@ -339,7 +334,7 @@ U	Ug_soxK	specific_gene	.	soxK	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
-U	Ur_LTR_prkin	set:arrangement	Ut_LTR,UH113b	.	gene for a protein kinase, predeced by: long tandem repeat
+U	Ur_LTR_prkin	set:arrangement	Ut_LTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: long tandem repeat
 U	Ut_LTR	feature_type	.	.	long tandem repeat
 U	Uf_protein_kinase	function	.	.	protein kinase
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
@@ -358,6 +353,8 @@ U	Up_topoVI	specific_protein	.	.	topoisomerase TopoVI
 U	Uf_bact_DNA_gyr	function	.	.	bacterial-type DNA gyrase
 U	Uf_bact_HTa_hist	function	.	.	bacterial-type HTa histone
 U	Uw_red_TCA	set:metabolic_pathway	.	.	reductive TCA cycle
+U	Uw_red_AcCoA	set:metabolic_pathway	.	.	reductive AcetylCoA
+U	Uw_wood_ljungdahl	set:metabolic_pathway	ref:Wikipedia:Wood-Ljungdahl_pathway	.	Wood–Ljungdahl pathway
 U	Ug_purK	specific_gene	.	purK	.
 U	Uog_COG0790	ortholog_group:COG	COG0790	.	TPR repeat, SEL1 subfamily
 U	Uf_Mtr	function	.	.	coenzyme M methyltransferase (Mtr) complex
@@ -431,7 +428,6 @@ U	Uop_CBB	set:operon	.	.	CBB enzyme
 U	Ug_sorA	specific_gene	.	sorA	.
 U	Ug_sorB	specific_gene	.	sorB	.
 U	Uy_SoxEF	set:gene_system	Ug_soxE,Ug_soxF	SoxEF	Flavoprotein-cytochrome c complex (SoxEF)
-U	Uw_CAC	set:metabolic_pathway	.	CAC	oxidative citric acid cycle
 U	Ud_EAL	family_or_domain	.	EAL	phosphodiesterase (EAL)
 U	Ug_luxS	specific_gene	.	luxS	S-ribosylhomocysteinase
 U	Uf_5mA_SahC_nucl	function	.	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
@@ -557,7 +553,6 @@ M	Up_cyc2	Pfam	PF00034	Cytochrom_C	UP:Z:P0C0X8
 M	Uf_CO_deh	TIGRFAMs	TIGR02416	CO_dehy_Mo_lg	UP:Z:P19913
 M	Uf_CO_deh	InterPro	IPR012780	CO_Mo_DH_lsu	UP:Z:P19913
 A	Ap_w_rTCA	Uw_rTCA	presence
-A	Amc_w_rTCA	Uw_rTCA	members_count
 A	Aall_w_calvin	Uw_calvin	complete
 A	Ap_p_PPi_PFK	Up_PPi_PFK	presence
 A	Ap_f_pt_pyrop	Uf_pt_pyrop	presence
@@ -592,6 +587,8 @@ A	Ap_p_topoVI	Up_topoVI	presence
 A	Ap_f_bact_DNA_gyr	Uf_bact_DNA_gyr	presence
 A	Ap_f_bact_HTa_hist	Uf_bact_HTa_hist	presence
 A	Aall_w_red_TCA	Uw_red_TCA	complete
+A	Amp_w_red_TCA	Uw_red_TCA	members_presence
+A	Aall_w_red_AcCoA	Uw_red_AcCoA	complete
 A	Ap_g_purK	Ug_purK	presence
 A	Ap_og_COG0790	Uog_COG0790	presence
 A	Ap_f_Mtr	Uf_Mtr	presence
@@ -650,7 +647,6 @@ A	Ap_og_arCOG01579	Uog_arCOG01579	presence
 A	Ap_og_arCOG04844	Uog_arCOG04844	presence
 A	Ap_og_arCOG04885	Uog_arCOG04885	presence
 A	Ap_op_CBB	Uop_CBB	presence
-A	Ap_w_CAC	Uw_CAC	presence
 A	Ac_d_Pfam00990	Ud_Pfam00990	count
 A	Ac_d_EAL	Ud_EAL	count
 A	Ac_g_luxS	Ug_luxS	count
@@ -680,12 +676,14 @@ A	Ap_f_CO_deh	Uf_CO_deh	presence
 A	Ac_d_Pfam00563	Ud_Pfam00563	count
 A	Ac_d_Pfam000159	Ud_Pfam000159	count
 A	Ac_p_SQR	Up_SQR	count
+A	Ap_p_SDH	Up_SDH	presence
 A	Ac_p_SDH	Up_SDH	count
 A	Ap_f_NDH1_NADH_deh	Uf_NDH1_NADH_deh	presence
 A	Ap_f_cyt_bc1	Uf_cyt_bc1	presence
 A	Ap_f_hydr_1d	Uf_hydr_1d	presence
 A	Ac_f_RubisCO	Uf_RubisCO	count
 A	Ap_r_LTR_prkin	Ur_LTR_prkin	presence
+A	Ap_w_wood_ljungdahl	Uw_wood_ljungdahl	presence
 V	VH1	SH3	Aall_w_calvin	Gh_hydrvent:some	==	True
 V	VH2	SH4	Ap_p_PPi_PFK	Gc_methanotr_Gamma	==	True
 V	VH3	SH4	Ap_p_PPi_PFK	Gc_thiotr_Gamma	==	True
@@ -752,6 +750,10 @@ V	VH63	SH27	Aall_w_red_TCA	Gc_methanog_A	==	False
 V	VH64	SH27	Aall_w_red_TCA	Gt_Malvus	==	False
 V	VH65	SH27	Aall_w_red_TCA	Gt_Mluminyensis	==	False
 V	VH66	SH27	Aall_w_red_TCA	Gt_Mintestinalis	==	False
+V	VH63b	SH27	Amp_w_red_TCA	Gc_methanog_A	==	True
+V	VH64b	SH27	Amp_w_red_TCA	Gt_Malvus	==	True
+V	VH65b	SH27	Amp_w_red_TCA	Gt_Mluminyensis	==	True
+V	VH66b	SH27	Amp_w_red_TCA	Gt_Mintestinalis	==	True
 V	VH67	SH28	Ap_g_purK	Gt_Malvus	==	False
 V	VH68	SH28	Ap_g_purK	Gt_Mluminyensis	==	False
 V	VH69	SH28	Ap_g_purK	Gt_Mintestinalis	==	False
@@ -934,8 +936,9 @@ V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_autotr_B	==	False
 V	VH246	SH72	Ap_r_RubisCO_out_CBB	Gt_Hcrunogenus	==	False
 V	VH247	SH74	Ap_w_rTCA	Gc_hydrvent_Epsilon	==	True
 V	VH248	SH74	Ap_w_rTCA	Gc_nitriox_Nitrospirae	==	True
-V	VH249	SH75	AH106	Gc_autotr_sulfred_B	==	True
-V	VH250	SH75	AH106	Gc_autotr_sulfred_A	==	True
+V	VH249	SH75	Ap_w_wood_ljungdahl	Gc_autotr_sulfred_B	==	True
+V	VH250	SH75	Ap_w_wood_ljungdahl	Gc_autotr_sulfred_A	==	True
+V	VH250b	SH75	Ap_w_wood_ljungdahl	Gc_methanog_A	==	True
 V	VH251	SH76	Ap_w_3HP4HB	Gc_autotr_thermoac_Thaumarch	==	True
 V	VH252	SH77	Ap_w_rev_sulf_red	Gc_hydroth_Gamma	==	True
 V	VH253	SH78	Ap_g_narG	Gt_Nitrospirae	==	True
@@ -968,9 +971,9 @@ V	VH279	SH84	Ap_h_cyc2	Gc_microaer_Fe2ox_B:many	==	True
 V	VH280	SH85	Ap_w_ACIII	Gt_Zetaproteobacteria:many	==	True
 V	VH281	SH85	Ap_w_ACIII	Gc_Fe2ox_B:some	==	True
 V	VH282	SH86	Ap_h_cbb3	Gt_Zetaproteobacteria:most	==	True
-V	VH283	SH87	AH106	Gc_sulfred_B:some	==	True
-V	VH284	SH87	AH106	Gc_anaer_ammox_Planctomycetes:some	==	True
-V	VH285	SH87	AH106	Gc_autotr_Archaeoglobales:some	==	True
+V	VH283	SH87	Aall_w_red_AcCoA	Gc_sulfred_B:some	==	True
+V	VH284	SH87	Aall_w_red_AcCoA	Gc_anaer_ammox_Planctomycetes:some	==	True
+V	VH285	SH87	Aall_w_red_AcCoA	Gc_autotr_Archaeoglobales:some	==	True
 V	VH286	SH88	Ap_f_CO_deh	Gt_Methanosarcina	==	True
 V	VH287	SH88	Ap_f_CO_deh	Gt_Methanothrix	==	True
 V	VH288	SH88	Ap_f_CO_deh	Gt_Methanocaldococcus	==	True
@@ -1001,8 +1004,9 @@ V	VH312	SH96	Ap_c_SoxABCDXYZ	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
 V	VH313	SH91	Ap_r_LTR_prkin	Gt_Hhalophilus:many	==	True
 V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
 V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
+V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
 C	CH1	SH93	Ac_d_Pfam000159	Gc_Hydrogenov_Thiomicror_Thiomicros	>>	Gt_Piscirickettsiaceae
-C	CH2	SH95	AH177	Gc_Hydrogenov_Thiomicror_Thiomicros:most	>	Gt_Piscirickettsiaceae
+C	CH2	SH95	Ac_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	>	Gt_Proteobacteria
 C	CH3	SH102	Ac_t_CRISPR	Gc_thermophilic_A	>	Gc_mesophilic_A
 C	CH4	SH102	Ac_t_CRISPR	Gc_thermophilic_B	>	Gc_mesophilic_B
 C	CH5	SH36	Ac_x_T	Gc_free_Epsilon	>	Gc_pathog_Epsilon
