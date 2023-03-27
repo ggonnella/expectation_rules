@@ -41,23 +41,12 @@ https://github.com/ggonnella/egc-spec
 |- statistics            basic statisics about the processed articles
 |                        and the results
 
-3_process_extracts       analysis of the expectation rules extracted in step2
-|
-|- 3_1_group_definitions     definitions of organism groups
-|  |
-|  |- statistics             statistics about the definitions
-|
-|- 3_2_contents_definitions  definitions of genome contents
-|  |
-|  |- statistics             statistics about the definitions
-|
-|- 3_3_rules_definitions     definitions of rules based on the 3_1 and 3_2
-|  |
-|  |- statistics             statistics about the definitions
-|
-
 scripts                  scripts are contained here and linked in the
                          protocols and statistics directories
 
 results                  final EGC files with the rules collections
+|
+|-validation             validation of the EGC files
+|
+|-statistics             statistics about the contents of the EGC files
 ```
