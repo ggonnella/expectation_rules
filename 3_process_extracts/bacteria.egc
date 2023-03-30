@@ -232,14 +232,14 @@ G	Gt_Xanthomonas	Xanthomonas	taxonomic	taxid:338	TR:Z:genus
 G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
 G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
 G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
-G	Gh_rumen	rumen	habitat	Wikipedia:Rumen	XR:Z:NCIT:C98778;OMIT:0013322;ENVO:01001033
+G	Gh_rumen	rumen	habitat	UBERON:0007365
 G	Gt_Butyrivibrio	Butyrivibrio	taxonomic	taxid:830	TR:Z:genus
 G	Gt_Pseudobutyrivibrio	Pseudobutyrivibrio	taxonomic	taxid:46205	TR:Z:genus
 G	Gc_rumen_Butyrivibrio	rumen Butyrivibrio	combined	Gh_rumen & Gt_Butyrivibrio
 G	Gc_rumen_Pseudobutyrivibrio	rumen Pseudobutyrivibrio	combined	Gh_rumen & Gt_Pseudobutyrivibrio
 G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Pseudobutyrivibrio	combined	Gh_rumen & Gt_Bacteria & !(Gt_Butyrivibrio|Gt_Pseudobutyrivibrio)
 G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
-G	Gx_magnetotactic	magnetotactic	taxis	sctid:115092005	XR:Z:MICRO:0000216
+G	Gx_magnetotactic	magnetotactic	taxis	MICRO:0000619
 G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_Bacteria
 G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
 G	Gc_pathogenic_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
@@ -255,8 +255,8 @@ G	Gp_chemoautotrophic	chemoautotrophic	trophic_strategy	ECOCORE:00000129	XR:Z:MI
 G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gp_chemoautotrophic & Gt_Bacteria
 G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
 G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
-G	Gp_methylotrophic	methylotrophic	trophic_strategy	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
-G	Gh_subsurface	subsurface	habitat	def:environment located under the planetary surface and not exposed to the atmosphere	XR:Z:ENVO_01000941!planetary subsurface zone
+G	Gm_1C_troph	methylotrophic	metabolic	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
+G	Gh_subsurface	subsurface	habitat	ENVO:01001776
 G	Gt_Geobacter	Geobacter	taxonomic	taxid:28231	TR:Z:genus
 G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geobacter
 G	Gt_Geobacteraceae	Geobacteraceae	taxonomic	taxid:213422	TR:Z:family
@@ -281,7 +281,7 @@ G	Gt_Dmetallireducens	Desulfitobacterium metallireducens	taxonomic	taxid:142877	
 G	Gc_Desulfitob_not_metallired	Desulfitobacterium excluding Desulfitobacterium metallireducens	combined	Gt_Desulfitobacterium & !(Gt_Dmetallireducens)
 G	Gt_Ddichloroeliminans	Desulfitobacterium dichloroeliminans	taxonomic	taxid:233055	TR:Z:species
 G	Gc_Desulfitob_not_dichloroel	Desulfitobacterium spp. excluding Desulfitobacterium dichloroeliminans	combined	Gt_Desulfitobacterium & !(Gt_Ddichloroeliminans)
-G	Gr_psychrotrophic	psychrotrophic	temperature_requirement	def:able to grow at low temperature (< 20 degrees), but with a higher maximum growth temperature	XR:Z:pmid:3536570
+G	Gr_psychrotrophic	psychrotrophic	temperature_requirement	OMP:0005006
 G	Gt_Bpsychrophilus	Bacillus psychrophilus	taxonomic	taxid:1476	TR:Z:species
 G	Gt_Phaloplanktis	Pseudoalteromonas haloplanktis	taxonomic	taxid:228	TR:Z:species
 G	Gt_Bacteroidota	Bacteroidota	taxonomic	taxid:976	TR:Z:phylum	SN:Z:Bacteroidetes
@@ -299,7 +299,7 @@ G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
 G	Gi_fleainf	flea-infecting	biological_interaction	def:pathogen, which infects fleas	XR:Z:TRANS:0000023!flea borne transmission
 G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_Bacteria
 G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_Bacteria
-G	Gm_asaccharolytic	asaccharolytic	metabolic	def:incapable of breaking down carbohydrates for energy
+G	Gm_asaccharolytic	asaccharolytic	metabolic	Wiktionary:asaccharolytic
 G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_Bacteria
 G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
 G	Gc_gramneg_B	gram-negative bacteria	combined	Ga_gramneg & Gt_Bacteria	XD:Z:MICRO:0001373
@@ -347,8 +347,8 @@ G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
 G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
 G	Gt_Maeruginosa	Microcystis aeruginosa	taxonomic	taxid:1126	TR:Z:species
 G	Gt_Cyanobacteriota	Cyanobacteriota	taxonomic	taxid:1117	TR:Z:phylum	# cyanobacteria
-G	Gm_am_oxid	ammonia-oxidizing	metabolic	def:generating energy by the oxidation of ammonia to nitrite	XR:Z:GO:0019329!ammonia oxidation
-G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_Bacteria
+G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
+G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_NH3_ox & Gt_Bacteria
 G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species
 G	Gs_BafzK78	Borrelia afzelii K78	strain	doi:10.1371/journal.pone.0108013	TS:Z:taxid:411555
 G	Gt_Cupriavidus	Cupriavidus	taxonomic	taxid:106589	TR:Z:genus
@@ -361,9 +361,9 @@ G	Gt_Anaplasmataceae	Anaplasmataceae	taxonomic	taxid:942	TR:Z:family
 G	Gt_Ehrlichia	Ehrlichia	taxonomic	taxid:943	TR:Z:genus
 G	Gt_Lpneumophila	Legionella pneumophila	taxonomic	taxid:446	TR:Z:species
 G	Gt_Anaplasma	Anaplasma	taxonomic	taxid:768	TR:Z:genus
-G	Gp_Rhizobia	Rhizobia	paraphyletic	Wikipedia:Rhizobia
-G	Gm_purplephot	purple photosynthetic	metabolic	Wikipedia:Purple bacteria
-G	Gc_purplephot_B	purple photosynthetic bacteria	combined	Gm_purplephot & Gt_Bacteria
+G	Gpt_Rhizobia	Rhizobia	paraphyletic	Wikipedia:Rhizobia
+G	Gm_purple_photosyn	purple photosynthetic	metabolic	Wikipedia:Purple bacteria
+G	Gc_purple_photosyn_B	purple photosynthetic bacteria	combined	Gm_purple_photosyn & Gt_Bacteria
 G	Gt_Actinomycetales	Actinomycetales	taxonomic	taxid:2037	TR:Z:order
 G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gi_free
 G	Gt_Pseudomonadaceae	Pseudomonadaceae	taxonomic	taxid:135621	TR:Z:family
@@ -378,8 +378,8 @@ G	Gc_not_intracell_B	bacteria excluding intracellular bacteria	combined	Gt_Bacte
 G	Gt_Rhizobium	Rhizobium	taxonomic	taxid:379	TR:Z:genus
 G	Gt_Serpulina	Serpulina	taxonomic	taxid:29521	TR:Z:genus
 G	Gc_path_Serpulina	pathogenic Serpulina	combined	Gi_pathogenic & Gt_Serpulina
-G	Gm_acet_ac_ox	acetic acid oxidizing	metabolic	MICRO:0000773
-G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_Bacteria & Gm_acet_ac_ox
+G	Gm_ac_ox	acetic acid oxidizing	metabolic	MICRO:0000773
+G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_Bacteria & Gm_ac_ox
 G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
 G	Gt_Lasiaticus	Candidatus Liberibacter asiaticus	taxonomic	taxid:34021	TR:Z:species
 G	Gt_Lsolanacearum	Candidatus Liberibacter solanacearum	taxonomic	taxid:556287	TR:Z:species
@@ -398,7 +398,7 @@ G	Gt_Dgobiensis	Deinococcus gobiensis	taxonomic	taxid:502394	TR:Z:species
 G	Gc_Deinococcus_not_gobiensis	Deinococcus excluding Deinococcus gobiensis	combined	Gt_Deinococcus & !(Gt_Dgobiensis)
 G	Gt_Dradiodurans	Deinococcus radiodurans	taxonomic	taxid:1299	TR:Z:species
 G	Gt_Nitrospira	Nitrospira	taxonomic	taxid:35798	TR:Z:genus
-G	Gr_urearich	urea-rich	specific nutrient_availability	ENVO:00005753
+G	Gr_urearich	urea-rich	specific_nutrient_availability	CHEBI:16199
 G	Gc_urearich_Nitrospira	Nitrospira in urea abundant environments	combined	Gt_Nitrospira & Gr_urearich
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
 G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
@@ -426,7 +426,7 @@ G	Gc_Campylob_not_Hmustelae	Campylobacterales excluding Helicobacter mustelae	co
 G	Gt_Wsuccinogenes	Wolinella succinogenes	taxonomic	taxid:844	TR:Z:species
 G	Gt_Hhepaticus	Helicobacter hepaticus	taxonomic	taxid:32025	TR:Z:species
 G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:class
-G	Gh_hydrvents	hydrothermal sea vents	habitat	OMIT:0027720
+G	Gh_hydrvents	marine hydrothermal vents	habitat	ENVO:01000122
 G	Gc_hydrvents_Epsilon_not_Hpylori	Epsilonproteobacteria in sea vents excluding Helicobacter mustelae	combined	Gt_Epsilonproteobacteria & Gh_hydrvents & !(Gt_Hpylori)
 G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
 G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
@@ -1454,7 +1454,7 @@ V	V41	S25	Av_g_spoT	Gt_Rickettsia	level	high
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
 V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
 V	V44	S30	Ap_p_SQR	Gt_Aquificales	==	True
-V	V45	S32	Ap_c_mxa	Gp_methylotrophic	==	True
+V	V45	S32	Ap_c_mxa	Gm_1C_troph	==	True
 V	V46	S34	Ap_g_fadE	Gc_subsurface_Geobacter	==	True
 V	V47	S36	Ap_f_FeSO_hybrid	Gt_Geobacteraceae	==	True
 V	V48	S37	Ap_f_HBP	Gt_Bartonella	==	True
@@ -1646,8 +1646,8 @@ V	V229	S115	Ap_h_virB7	Gt_Anaplasmataceae	==	False
 V	V230	S116	Ap_r_16S_sep_23S_5S	Gt_Anaplasma	==	True
 V	V231	S117	Ap_h_virB1	Gt_Anaplasma	==	False
 V	V232	S117	Ap_h_virB5	Gt_Anaplasma	==	False
-V	V233	S119	Ap_y_NodABC	Gp_Rhizobia	==	True
-V	V234	S121	Ap_c_PGC	Gc_purplephot_B	==	True
+V	V233	S119	Ap_y_NodABC	Gpt_Rhizobia	==	True
+V	V234	S121	Ap_c_PGC	Gc_purple_photosyn_B	==	True
 V	V235	S123	Ar_pls_b_GC	Gc_free_actinomycetes	level	high
 V	V236	S125	Ap_pls_c_tra	Gt_Pseudomonadaceae	==	True
 V	V237	S125	Ap_pls_c_trb	Gt_Pseudomonadaceae	==	True

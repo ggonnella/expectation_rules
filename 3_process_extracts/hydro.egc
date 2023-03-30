@@ -111,24 +111,26 @@ S	SH102	PMID:21410492	Closer examination of this trend shows that thermophilic s
 T	TH1	PMID:25124552	Table 5 Core proteins of methanogenesis
 G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:class
 G	Gi_free	free-living	biological_interaction	OMP:0007646
-G	Gh_hydrvent	hydrothermal vents	habitat	OMIT:0027720
-G	Gm_methanotrophic	methanotrophic	metabolic	Wikipedia:Methanotroph	XR:Z:GO:0044227
-G	Gm_thiotrophic	thiotrophic	metabolic	doi:10.1007/978-1-4020-9212-1_206#Thiotrophic Bacteria	XR:Z:GO:0019417
+G	Gh_hydrvents	marine hydrothermal vents	habitat	ENVO:01000122
+G	Gm_CH4_troph	methanotrophic	metabolic	Wikipedia:Methanotroph	XR:Z:GO:0044227
+G	Gm_S_troph	thiotrophic	metabolic	doi:10.1007/978-1-4020-9212-1_206#Thiotrophic Bacteria	XR:Z:GO:0019417
 G	Gt_Gammaproteobacteria	Gammaproteobacteria	taxonomic	taxid:1236	TR:Z:class
-G	Gc_methanotr_Gamma	methanotrophic Gammaproteobacteria	combined	Gm_methanotrophic & Gt_Gammaproteobacteria
-G	Gc_thiotr_Gamma	thiotrophic Gammaproteobacteria	combined	Gm_thiotrophic & Gt_Gammaproteobacteria
-G	Gi_Calyptogena_endosym	Calyptogena endosymbionts	biological_interaction	def:endosymbiont of Calyptogena
-G	Gc_thiotr_Gamma_Calyptogena_endosym	thiotrophic Gammaproteobacteria in Calyptogena endosymbionts	combined	Gm_thiotrophic & Gt_Gammaproteobacteria & Gi_Calyptogena_endosym
+G	Gc_CH4_tr_Gamma	methanotrophic Gammaproteobacteria	combined	Gm_CH4_troph & Gt_Gammaproteobacteria
+G	Gc_S_troph_Gamma	thiotrophic Gammaproteobacteria	combined	Gm_S_troph & Gt_Gammaproteobacteria
+G	Gc_Calyptogena_endosym	Calyptogena endosymbionts	combined	Gip_Calyptogena & Gi_endosymbiont
+G	Gip_Calyptogena	interacting with Calyptogena	biological_interaction_partner_taxonomy	taxid:6589	TR:Z:genus
+G	Gi_endosymbiont	Calyptogena endosymbionts	biological_interaction	def:endosymbiont
+G	Gc_S_troph_Gamma_Calyptogena_endosym	thiotrophic Gammaproteobacteria in Calyptogena endosymbionts	combined	Gm_S_troph & Gt_Gammaproteobacteria & Gc_Calyptogena_endosym
 G	Gt_Aehrlichei	Alkalilimnicola ehrlichei	taxonomic	taxid:351052	TR:Z:species
 G	Gs_TspK90mix	Thioalkalivibrio strain K90mix	strain	taxid:396595
 G	Gt_Hhalophila	Halorhodospira halophila	taxonomic	taxid:1053	TR:Z:species
 G	Gt_Chromatiaceae	Chromatiaceae	taxonomic	taxid:1046	TR:Z:family
 G	Gt_Hcrunogenus	Thiomicrospira crunogena	taxonomic	taxid:39765	TR:Z:species
 G	Gt_Methanococcoides	Methanococcoides	taxonomic	taxid:2225	TR:Z:genus
-G	Gm_methanogenic	methanogenic	metabolic	MICRO:0000166
+G	Gm_CH4_gen	methanogenic	metabolic	MICRO:0000166
 G	Gt_ANME	ANME group	taxonomic	taxid:588816	TR:Z:clade
 G	Gt_Archaea	Archaea	taxonomic	taxid:2157	TR:Z:superkingdom
-G	Gc_methanog_A	methanogenic archaea	combined	Gt_Archaea & Gm_methanogenic
+G	Gc_CH4_gen_A	methanogenic archaea	combined	Gt_Archaea & Gm_CH4_gen
 G	Gt_Nanoarchaeota	Nanoarchaeota	taxonomic	taxid:192989	TR:Z:phylum
 G	Gb_cultured	cultured	cultiviability	def:already cultivated in a laboratory
 G	Gc_cultured_Nanoarch	cultured Nanoarchaeota	combined	Gt_Nanoarchaeota & Gb_cultured
@@ -153,7 +155,7 @@ G	Gt_DHVE2	DHVE2 group	taxonomic	taxid:1803510	TR:Z:clade
 G	Gt_MG2	Marine Group II (MG-II)	taxonomic	taxid:133814	TR:Z:order
 G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
 G	Gt_Mluminyensis	Methanomassiliicoccus luminyensis	taxonomic	taxid:1080712	TR:Z:species
-G	Gc_methanog_A_not_Mlumin_Malvus	methanogenic archaea excluding Methanomassiliicoccus luminyensis & Candidatus Methanomethylophilus alvus	combined	Gc_methanog_A & !(Gt_Malvus) & !(Gt_Mluminyensis)
+G	Gc_CH4_gen_A_not_Mlumin_Malvus	methanogenic archaea excluding Methanomassiliicoccus luminyensis & Candidatus Methanomethylophilus alvus	combined	Gc_CH4_gen_A & !(Gt_Malvus) & !(Gt_Mluminyensis)
 G	Gt_Aboonei	Aciduliprofundum boonei	taxonomic	taxid:379547	TR:Z:species
 G	Gt_Mintestinalis	Candidatus Methanomassiliicoccus intestinalis	taxonomic	taxid:1406512	TR:Z:species
 G	Gb_uncultured	uncultured	cultiviability	def:not yet cultivated in a laboratory
@@ -166,19 +168,21 @@ G	Gt_Methanomicrobiales	Methanomicrobiales	taxonomic	taxid:2191	TR:Z:order
 G	Gc_free_Epsilon	free-living Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_free
 G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
 G	Gc_pathog_Epsilon	pathogenic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_pathogenic
-G	Gi_episymbiont_Apompejana	episymbiont of Alvinella pompejana	biological_interaction	RO:0002632
-G	Gc_epis_Apmpejana_Epsilon	Epsilonproteobacteria & episymbiont of Alvinella pompejana	combined	Gt_Epsilonproteobacteria & Gi_episymbiont_Apompejana
+G	Gi_episymbiont	episymbiont	biological_interaction	RO:0002632
+G	Gip_Apompejana	interacting with Alvinella pompejana	biological_interaction_partner_taxonomy	taxid:6376	TR:Z:species
+G	Gc_epis_Apompejana	interacting with Alvinella pompejana	combined	Gip_Apompejana & Gi_episymbiont
+G	Gc_epis_Apompejana_Epsilon	Epsilonproteobacteria & episymbiont of Alvinella pompejana	combined	Gt_Epsilonproteobacteria & Gc_epis_Apompejana
 G	Gt_Alphaproteobacteria	Alphaproteobacteria	taxonomic	taxid:28211	TR:Z:class
 G	Gt_Betaproteobacteria	Betaproteobacteria	taxonomic	taxid:28216	TR:Z:class
 G	Gt_Chlorobi	Chlorobi	taxonomic	taxid:1090	TR:Z:phylum
-G	Gc_SRA	sulfate-reducing Archaea	combined	Gm_sulfred & Gt_Archaea
-G	Gm_sulfred	sulfate-reducing	metabolic	Wikipedia:Sulfate-reducing_microorganism	XR:Z:GO:0019419
-G	Gm_sulfox	sulfur-oxidizing	metabolic	def:capable of oxidation of sulfur	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
-G	Gc_SOA	sulfur-oxidizing Archaea	combined	Gm_sulfox & Gt_Archaea
+G	Gc_SRA	sulfate-reducing Archaea	combined	Gm_SO4_red & Gt_Archaea
+G	Gm_SO4_red	sulfate-reducing	metabolic	GO:0019419	XR:Z:Wikipedia:Sulfate-reducing_microorganism
+G	Gm_S_ox	sulfur-oxidizing	metabolic	GO:0019417
+G	Gc_SOA	sulfur-oxidizing Archaea	combined	Gm_S_ox & Gt_Archaea
 G	Gc_autotr_Epsilon	Autotrophic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gp_autotrophic
 G	Gp_autotrophic	autotrophic	trophic_strategy	MICRO:0001456
-G	Gc_SOB	sulfur-oxidizing Bacteria	combined	Gt_Bacteria & Gm_sulfox
-G	Gc_SRB	sulfate-reducing Bacteria	combined	Gt_Bacteria & Gm_sulfred
+G	Gc_SOB	sulfur-oxidizing Bacteria	combined	Gt_Bacteria & Gm_S_ox
+G	Gc_SRB	sulfate-reducing Bacteria	combined	Gt_Bacteria & Gm_SO4_red
 G	Gp_phototrophic	phototrophic	trophic_strategy	MICRO:0001457	XR:Z:MICRO:0001452;MICRO:0000498
 G	Gp_chemotrophic	chemotrophic	trophic_strategy	MICRO:0001458	XR:Z:MICRO:0000496;MICRO:0001494
 G	Gc_phototrophic_B	phototrophic Bacteria	combined	Gp_phototrophic & Gt_Bacteria
@@ -187,10 +191,10 @@ G	Gt_Rcapsulatus	Rhodobacter capsulatus	taxonomic	taxid:1061	TR:Z:species
 G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
 G	Gs_HcruXCL2	Thiomicrospira crunogena XCL-2	strain	taxid:317025
 G	Gt_Methanomassiliicoccales	Methanomassiliicoccales	taxonomic	taxid:1235850	TR:Z:genus
-G	Gm_not_methanogenic	non-methanogenic	inverted	!Gm_methanogenic
-G	Gc_not_methanog_A	non-methanogenic Archaea	combined	Gt_Archaea & Gm_not_methanogenic
-G	Gc_meth_A_not_Methanomas	methanogenic archaea excluding Methanomassiliicoccales	combined	Gc_methanog_A & !(Gt_Methanomassiliicoccales)
-G	Gc_not_methanog_A_plus_Methanomas	Archaea excluding methanogenic archaea except Methanomassiliicoccales	combined	Gt_Archaea & !(Gc_meth_A_not_Methanomas)
+G	Gm_not_CH4_gen	non-methanogenic	inverted	!Gm_CH4_gen
+G	Gc_not_CH4_gen_A	non-methanogenic Archaea	combined	Gt_Archaea & Gm_not_CH4_gen
+G	Gc_meth_A_not_Methanomas	methanogenic archaea excluding Methanomassiliicoccales	combined	Gc_CH4_gen_A & !(Gt_Methanomassiliicoccales)
+G	Gc_not_CH4_gen_A_plus_Methanomas	Archaea excluding methanogenic archaea except Methanomassiliicoccales	combined	Gt_Archaea & !(Gc_meth_A_not_Methanomas)
 G	Gp_obl_autotr	obligate autotrophic	trophic_strategy	def: always having an autotrophic lifestyle (MICRO:0001456), contrasted to facultative autotrophs
 G	Gc_obl_autotr_Gamma	obligate autotrophic Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gp_obl_autotr
 G	Gc_obl_autotr_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Alphaproteobacteria
@@ -199,7 +203,7 @@ G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
 G	Gc_obl_autotr_B	obligate autotrophic bacteria	combined	Gp_obl_autotr & Gt_Bacteria
 G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
-G	Gc_hydrvent_Epsilon	Epsilonproteobacteria in hydrothermal vents	combined	Gt_Epsilonproteobacteria & Gh_hydrvent
+G	Gc_hydrvents_Epsilon	Epsilonproteobacteria in hydrothermal vents	combined	Gt_Epsilonproteobacteria & Gh_hydrvents
 G	Gc_free_Epsilon_not_Campylo_Helico	free-living Epsilonproteobacteria excluding Campylobacter & Helicobacter	combined	Gc_free_Epsilon & !(Gt_Campylobacter) & !(Gt_Helicobacter)
 G	Gt_Sdenitrificans	Sulfurimonas denitrificans	taxonomic	taxid:39766	TR:Z:species
 G	Gt_Abutzleri	Arcobacter butzleri	taxonomic	taxid:28197	TR:Z:species
@@ -209,29 +213,29 @@ G	Gt_Nitratiruptor	Nitratiruptor	taxonomic	taxid:269258	TR:Z:genus
 G	Gt_Cmediatlanticus	Caminibacter mediatlanticus	taxonomic	taxid:291048	TR:Z:species
 G	Gt_Nprofundicola	Nautilia profundicola	taxonomic	taxid:244787	TR:Z:species
 G	Gt_Thermococcus	Thermococcus	taxonomic	taxid:2263	TR:Z:genus
-G	Gc_hydrvent_Thermococcus	Thermococcus in hydrothermal vents	combined	Gt_Thermococcus & Gh_hydrvent
+G	Gc_hydrvents_Thermococcus	Thermococcus in hydrothermal vents	combined	Gt_Thermococcus & Gh_hydrvents
 G	Gt_Thermococcales	Thermococcales	taxonomic	taxid:2258	TR:Z:order
 G	Gp_lithoheterotrophic	lithoheterotrophic	combined	Gp_heterotrophic & Gp_lithotrophic
 G	Gc_lithoheterotr_B	lithoheterotrophic bacteria	combined	Gt_Bacteria & Gp_lithoheterotrophic
 G	Gs_TonnNA1	Thermococcus onnurineus NA1	strain	taxid:523850
 G	Gp_heterotrophic	heterotrophic	trophic_strategy	MICRO:0001474
 G	Gp_lithotrophic	lithotrophic	trophic_strategy	MICRO:0001459
-G	Gc_hydrvent_A	archaea in hydrothermal vents	combined	Gh_hydrvent & Gt_Archaea
-G	Gc_hydrvent_B	bacteria in hydrothermal vents	combined	Gh_hydrvent & Gt_Bacteria
-G	Gc_not_hydrvent_A	archaea excluding archaea in hydrothermal vents	combined	Gt_Archaea & !(Gc_hydrvent_A)
-G	Gc_not_hydrvent_B	bacteria excluding bacteria in hydrothermal vents	combined	Gt_Bacteria & !(Gc_hydrvent_B)
+G	Gc_hydrvents_A	archaea in hydrothermal vents	combined	Gh_hydrvents & Gt_Archaea
+G	Gc_hydrvents_B	bacteria in hydrothermal vents	combined	Gh_hydrvents & Gt_Bacteria
+G	Gc_not_hydrvent_A	archaea excluding archaea in hydrothermal vents	combined	Gt_Archaea & !(Gc_hydrvents_A)
+G	Gc_not_hydrvent_B	bacteria excluding bacteria in hydrothermal vents	combined	Gt_Bacteria & !(Gc_hydrvents_B)
 G	Gt_Nitrospirae	Nitrospirae	taxonomic	taxid:40117	TR:Z:phylum
-G	Gm_nitriox	nitrite-oxidizing	metabolic	def:capable of oxidizing nitrite	XR:Z:Wikipedia:Nitrifying_bacteria
-G	Gc_nitriox_Nitrospirae	nitrite-oxidizing Nitrospirae	combined	Gt_Nitrospirae & Gm_nitriox
-G	Gc_autotr_sulfred_B	autotrophic sulfate-reducing bacteria	combined	Gp_autotrophic & Gc_SRB
-G	Gc_autotr_sulfred_A	autotrophic sulfate-reducing archaea	combined	Gm_sulfred & Gt_Archaea & Gp_autotrophic
+G	Gm_NO2_ox	nitrite-oxidizing	metabolic	GO:0019332
+G	Gc_NO2_ox_Nitrospirae	nitrite-oxidizing Nitrospirae	combined	Gt_Nitrospirae & Gm_NO2_ox
+G	Gc_autotr_SO4_red_B	autotrophic sulfate-reducing bacteria	combined	Gm_SO4_red & Gt_Bacteria & Gp_autotrophic
+G	Gc_autotr_SO4_red_A	autotrophic sulfate-reducing archaea	combined	Gm_SO4_red & Gt_Archaea & Gp_autotrophic
 G	Gt_Thaumarchaeota	Thaumarchaeota	taxonomic	taxid:651137	TR:Z:phylum
 G	Gc_thermoacidophilic	thermoacidophilic	combined	Gr_thermophilic & Gr_acidophilic
 G	Gc_autotr_thermoac_Thaumarch	autotrophic thermoacidophilic Thaumarchaeota	combined	Gp_autotrophic & Gt_Thaumarchaeota & Gc_thermoacidophilic
-G	Gc_hydroth_Gamma	hydrothermal Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gh_hydrvent
+G	Gc_hydroth_Gamma	hydrothermal Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gh_hydrvents
 G	Gt_Nitrospinae	Nitrospinae	taxonomic	taxid:1293497	TR:Z:phylum
-G	Gc_aer_methox_B	aerobic methane-oxidizing bacteria	combined	Gt_Bacteria & Gm_aer_methox
-G	Gm_aer_methox	aerobic methane-oxidizing	metabolic	doi:10.1007/978-1-4020-9212-1_139#Methane Oxidation (Aerobic)	# anaerobic and aerobic methane oxidation are very distinct processes
+G	Gc_CH4_ox_aer_B	aerobic methane-oxidizing bacteria	combined	Gt_Bacteria & Gm_CH4_ox_aer
+G	Gm_CH4_ox_aer	aerobic methane-oxidizing	metabolic	doi:10.1007/978-1-4020-9212-1_139#Methane Oxidation (Aerobic)	# anaerobic and aerobic methane oxidation are very distinct processes
 G	Gt_Sulfurimonas	Sulfurimonas	taxonomic	taxid:202746	TR:Z:genus
 G	Gt_Arcobacter	Arcobacter	taxonomic	taxid:28196	TR:Z:genus
 G	Gg_Irina2	Irina II	geographical	https://vents-data.interridge.org/ventfield/logatchev-1
@@ -243,29 +247,29 @@ G	Gs_GbivTAG1	Ghiorsea bivora TAG-1	strain	dsmz:DSM-103937	TS:Z:taxid:1485545
 G	Gs_ZetaAB602C20	zeta proteobacterium SCGC AB-602-C20	strain	taxid:1131287
 G	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	Zetaproteobacteria excluding Ghiorsea bivora TAG-1 & zeta proteobacterium SCGC AB-602-C20	combined	Gt_Zetaproteobacteria & !(Gs_GbivTAG1) & !(Gs_ZetaAB602C20)
 G	Gt_Mariprofundus	Mariprofundus	taxonomic	taxid:377315	TR:Z:genus
-G	Gc_microaer_Fe2ox_B	microaerophilic Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gr_microaerophilic & Gm_Fe2ox
+G	Gc_microaer_Fe2_ox_B	microaerophilic Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gr_microaerophilic & Gm_Fe2_ox
 G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
 G	Gr_microaerophilic	microaerophilic	O2_requirement	MICRO:0000515
-G	Gm_Fe2ox	Fe(II)-oxidizing	metabolic	Wikipedia:Iron-oxidizing_bacteria
-G	Gc_Fe2ox_B	Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gm_Fe2ox
-G	Gc_anaer_ammox_Planctomycetes	anaerobic ammonia-oxidizing Planctomycetes	combined	Gr_anaerobic & Gm_am_oxid & Gt_Planctomycetes
+G	Gm_Fe2_ox	Fe(II)-oxidizing	metabolic	GO:0019411
+G	Gc_Fe2_ox_B	Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gm_Fe2_ox	XR:Z:Wikipedia:Iron-oxidizing_bacteria
+G	Gc_anaer_ammox_Planctomycetes	anaerobic ammonia-oxidizing Planctomycetes	combined	Gr_anaerobic & Gm_NH3_ox & Gt_Planctomycetes
 G	Gc_autotr_Archaeoglobales	autotrophic Archaeoglobales	combined	Gp_autotrophic & Gt_Archaeoglobales
 G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
 G	Gt_Archaeoglobales	Archaeoglobales	taxonomic	taxid:2231	TR:Z:order
-G	Gm_am_oxid	ammonia-oxidizing	metabolic	def:capable of oxidizing ammonia	XR:Z:Wikipedia:Nitrifying_bacteria;XR:Z:GO:0019329
-G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_am_oxid & Gt_Bacteria
-G	Gc_acetog_B	acetogenic bacteria	combined	Gt_Bacteria & Gm_acetogenic
-G	Gc_photos_B	photosynthetic bacteria	combined	Gt_Bacteria & Gp_photosynthetic
-G	Gm_acetogenic	acetogenic	metabolic	Wikipedia:Acetogenesis
-G	Gp_photosynthetic	photosynthetic	trophic_strategy	Wikipedia:Photosynthesis	XR:Z:GO:0034357
+G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
+G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_NH3_ox & Gt_Bacteria
+G	Gc_ac_gen_B	acetogenic bacteria	combined	Gt_Bacteria & Gm_ac_gen
+G	Gc_photosyn_B	photosynthetic bacteria	combined	Gt_Bacteria & Gm_photosyn
+G	Gm_ac_gen	acetogenic	metabolic	Wikipedia:Acetogenesis
+G	Gm_photosyn	photosynthetic	metabolic	GO:0015979
 G	Gt_Methanosarcina	Methanosarcina	taxonomic	taxid:2207	TR:Z:genus
 G	Gt_Methanothrix	Methanothrix	taxonomic	taxid:2222	TR:Z:genus
 G	Gt_Methanocaldococcus	Methanocaldococcus	taxonomic	taxid:196118	TR:Z:genus
 G	Gt_Afulgidus	Archeoglobus fulgidus	taxonomic	taxid:2234	TR:Z:species
 G	Gt_Fplacidus	Ferroglobus placidus	taxonomic	taxid:54261	TR:Z:species
 G	Gt_Thiomicrospira	Thiomicrospira	taxonomic	taxid:933	TR:Z:genus
-G	Gc_sulfiox_chemolithoa_Thiomicrospira	sulfide-oxidizing chemolithoautotroph Thiomicrospira	combined	Gt_Thiomicrospira & Gm_sulfiox & Gp_chemolithoautotrophic
-G	Gm_sulfiox	sulfide-oxidizing	metabolic	def:capable of ozidizing sulfide	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
+G	Gc_H2S_ox_chemolithoa_Thiomicrospira	sulfide-oxidizing chemolithoautotroph Thiomicrospira	combined	Gt_Thiomicrospira & Gm_H2S_ox & Gp_chemolithoautotrophic
+G	Gm_H2S_ox	sulfide-oxidizing	metabolic	GO:0019418	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
 G	Gp_chemolithoautotrophic	chemolithoautotrophic	trophic_strategy	MICRO:0001477
 G	Gt_Hydrogenovibrio	Hydrogenovibrio	taxonomic	taxid:28884	TR:Z:genus
 G	Gt_Thiomicrorhabdus	Thiomicrorhabdus	taxonomic	taxid:2039723	TR:Z:genus
@@ -283,7 +287,7 @@ G	Gc_thermophilic_A	thermophilic archaea	combined	Gr_thermophilic & Gt_Archaea
 G	Gc_thermophilic_B	thermophilic bacteria	combined	Gr_thermophilic & Gt_Bacteria
 G	Gc_mesophilic_A	mesophilic archaea	combined	Gr_mesophilic & Gt_Archaea
 G	Gc_mesophilic_B	mesophilic bacteria	combined	Gr_mesophilic & Gt_Bacteria
-G	Gr_acidophilic	acidophilic	pH_requirement	Wikipedia:Acidophile
+G	Gr_acidophilic	acidophilic	pH_requirement	MICRO:0001390
 U	Uw_rTCA	set:metabolic_pathway	.	rTCA	reverse triboxylic acid cycle
 U	Ug_mcrA	specific_gene	.	mcrA	methyl coenzyme-M reductase
 U	Up_F420	specific_protein	.	F420	F420-hydrogenase
@@ -295,7 +299,7 @@ U	Ur_RubisCO_out_CBB	set:arrangement	Uf_RubisCO,<>,Uc_CBB	.	RubisCO genes locate
 U	Uc_CBB	set:gene_cluster	.	CBB	Calvin-Benson-Bassham cluster
 U	Ut_mobile_genetic_element	feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_3HP4HB	set:metabolic_pathway	.	.	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
-U	Uw_rev_sulf_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway
+U	Uw_rev_SO4_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway
 U	Ug_narG	specific_gene	.	narG	.
 U	Ut_split_pcgene	feature_type	.	.	split protein-coding gene
 U	Ug_narH	specific_gene	.	narH	.
@@ -664,7 +668,7 @@ A	Ac_d_NiFe_hydr	Ud_NiFe_hydr	count
 A	Ap_r_RubisCO_out_CBB	Ur_RubisCO_out_CBB	presence
 A	Ac_t_mobile_genetic_element	Ut_mobile_genetic_element	count
 A	Ap_w_3HP4HB	Uw_3HP4HB	presence
-A	Ap_w_rev_sulf_red	Uw_rev_sulf_red	presence
+A	Ap_w_rev_SO4_red	Uw_rev_SO4_red	presence
 A	Ap_g_narG	Ug_narG	presence
 A	Ap_g_narH	Ug_narH	presence
 A	Ap_g_pmoA	Ug_pmoA	presence
@@ -685,26 +689,26 @@ A	Ap_f_hydr_1d	Uf_hydr_1d	presence
 A	Ac_f_RubisCO	Uf_RubisCO	count
 A	Ap_r_LTR_prkin	Ur_LTR_prkin	presence
 A	Ap_w_wood_ljungdahl	Uw_wood_ljungdahl	presence
-V	VH1	SH3	Aall_w_calvin	Gh_hydrvent:some	==	True
-V	VH2	SH4	Ap_p_PPi_PFK	Gc_methanotr_Gamma	==	True
-V	VH3	SH4	Ap_p_PPi_PFK	Gc_thiotr_Gamma	==	True
-V	VH4	SH4	Ap_f_pt_pyrop	Gc_methanotr_Gamma	==	True
-V	VH5	SH4	Ap_f_pt_pyrop	Gc_thiotr_Gamma	==	True
-V	VH6	SH5	Av_w_pentp_oxbranch	Gc_thiotr_Gamma	level	high
-V	VH7	SH5	Ap_w_pentp_oxbranch	Gc_thiotr_Gamma_Calyptogena_endosym	==	False
+V	VH1	SH3	Aall_w_calvin	Gh_hydrvents:some	==	True
+V	VH2	SH4	Ap_p_PPi_PFK	Gc_CH4_tr_Gamma	==	True
+V	VH3	SH4	Ap_p_PPi_PFK	Gc_S_troph_Gamma	==	True
+V	VH4	SH4	Ap_f_pt_pyrop	Gc_CH4_tr_Gamma	==	True
+V	VH5	SH4	Ap_f_pt_pyrop	Gc_S_troph_Gamma	==	True
+V	VH6	SH5	Av_w_pentp_oxbranch	Gc_S_troph_Gamma	level	high
+V	VH7	SH5	Ap_w_pentp_oxbranch	Gc_S_troph_Gamma_Calyptogena_endosym	==	False
 V	VH8	SH5	Ap_w_pentp_oxbranch	Gt_Aehrlichei	==	False
 V	VH9	SH5	Ap_w_pentp_oxbranch	Gs_TspK90mix	==	False
 V	VH10	SH5	Ap_w_pentp_oxbranch	Gt_Hhalophila	==	False
-V	VH11	SH6	Ap_c_SoxBZYKAX	Gc_thiotr_Gamma:some	==	True
-V	VH12	SH6	Ap_g_soxC	Gc_thiotr_Gamma:some	==	False
-V	VH13	SH6	Ap_g_soxD	Gc_thiotr_Gamma:some	==	False
-V	VH14	SH6	Ap_g_sorA	Gc_thiotr_Gamma:some	==	False
-V	VH15	SH6	Ap_g_sorB	Gc_thiotr_Gamma:some	==	False
-V	VH16	SH7	Ap_y_SoxEF	Gc_thiotr_Gamma_Calyptogena_endosym	==	False
+V	VH11	SH6	Ap_c_SoxBZYKAX	Gc_S_troph_Gamma:some	==	True
+V	VH12	SH6	Ap_g_soxC	Gc_S_troph_Gamma:some	==	False
+V	VH13	SH6	Ap_g_soxD	Gc_S_troph_Gamma:some	==	False
+V	VH14	SH6	Ap_g_sorA	Gc_S_troph_Gamma:some	==	False
+V	VH15	SH6	Ap_g_sorB	Gc_S_troph_Gamma:some	==	False
+V	VH16	SH7	Ap_y_SoxEF	Gc_S_troph_Gamma_Calyptogena_endosym	==	False
 V	VH17	SH7	Ap_y_SoxEF	Gt_Chromatiaceae	==	True
 V	VH18	SH7	Ap_y_SoxEF	Gt_Hcrunogenus	==	False
 V	VH19	SH8	Ap_g_mcrA	Gt_Methanococcoides	==	True
-V	VH20	SH9	Ap_g_mcrA	Gc_methanog_A	==	True
+V	VH20	SH9	Ap_g_mcrA	Gc_CH4_gen_A	==	True
 V	VH21	SH9	Ap_g_mcrA	Gt_ANME	==	True
 V	VH22	SH10	Ap_t_split_pcgene	Gc_cultured_Nanoarch	==	True
 V	VH23	SH12	Ap_f_tyr_tr	Gc_cultured_Nanoarch	==	False
@@ -724,7 +728,7 @@ V	VH36	SH22	Ap_f_euk_like_hystone	Gt_Euryarchaeota:most	==	True
 V	VH37	SH22	Ap_f_euk_like_hystone	Gt_Thermoplasmatales	==	True
 V	VH38	SH22	Ap_f_euk_like_hystone	Gt_DHVE2	==	True
 V	VH39	SH22	Ap_f_euk_like_hystone	Gt_MG2	==	True
-V	VH40	SH23	Aall_w_C1_f_methylCoM	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH40	SH23	Aall_w_C1_f_methylCoM	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
 V	VH41	SH23	Aall_w_C1_f_methylCoM	Gt_Malvus	==	False
 V	VH42	SH23	Aall_w_C1_f_methylCoM	Gt_Malvus	==	False
 V	VH43	SH24	Ap_r_16S_tRNA_23S	Gc_uncultured_MG2	==	False
@@ -747,45 +751,45 @@ V	VH59	SH26	Ap_f_bact_HTa_hist	Gt_Malvus	==	False
 V	VH60	SH26	Ap_f_bact_HTa_hist	Gt_Mluminyensis	==	False
 V	VH61	SH26	Ap_f_bact_HTa_hist	Gt_Mintestinalis	==	False
 V	VH62	SH26	Ap_f_bact_HTa_hist	Gt_MG2	==	False
-V	VH63	SH27	Aall_w_red_TCA	Gc_methanog_A	==	False
+V	VH63	SH27	Aall_w_red_TCA	Gc_CH4_gen_A	==	False
 V	VH64	SH27	Aall_w_red_TCA	Gt_Malvus	==	False
 V	VH65	SH27	Aall_w_red_TCA	Gt_Mluminyensis	==	False
 V	VH66	SH27	Aall_w_red_TCA	Gt_Mintestinalis	==	False
-V	VH63b	SH27	Amp_w_red_TCA	Gc_methanog_A	==	True
+V	VH63b	SH27	Amp_w_red_TCA	Gc_CH4_gen_A	==	True
 V	VH64b	SH27	Amp_w_red_TCA	Gt_Malvus	==	True
 V	VH65b	SH27	Amp_w_red_TCA	Gt_Mluminyensis	==	True
 V	VH66b	SH27	Amp_w_red_TCA	Gt_Mintestinalis	==	True
 V	VH67	SH28	Ap_g_purK	Gt_Malvus	==	False
 V	VH68	SH28	Ap_g_purK	Gt_Mluminyensis	==	False
 V	VH69	SH28	Ap_g_purK	Gt_Mintestinalis	==	False
-V	VH70	SH28	Ap_g_purK	Gc_methanog_A	==	False
+V	VH70	SH28	Ap_g_purK	Gc_CH4_gen_A	==	False
 V	VH71	SH28	Ap_g_purK	Gt_Thermoplasmatales	==	True
 V	VH72	SH29	Ap_og_COG0790	Gt_Malvus	==	True
 V	VH73	SH29	Ap_og_COG0790	Gt_Mluminyensis	==	True
 V	VH74	SH29	Ap_og_COG0790	Gt_Mintestinalis	==	True
-V	VH75	SH30	Ap_f_Mtr	Gc_methanog_A_not_Mlumin_Malvus	==	True
-V	VH76	SH30	Ap_f_meth_coe_red	Gc_methanog_A	==	True
+V	VH75	SH30	Ap_f_Mtr	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
+V	VH76	SH30	Ap_f_meth_coe_red	Gc_CH4_gen_A	==	True
 V	VH77	SH30	Ap_f_Mtr	Gt_Malvus	==	False
 V	VH78	SH30	Ap_f_Mtr	Gt_Mluminyensis	==	False
 V	VH79	SH30	Ap_f_Mtr	Gt_Mintestinalis	==	False
-V	VH80	SH31	Ap_og_arCOG00950	Gc_methanog_A_not_Mlumin_Malvus	==	True
-V	VH81	SH31	Ap_og_arCOG00950	Gc_not_methanog_A	==	False
+V	VH80	SH31	Ap_og_arCOG00950	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
+V	VH81	SH31	Ap_og_arCOG00950	Gc_not_CH4_gen_A	==	False
 V	VH82	SH31	Ap_og_arCOG00950	Gt_Malvus	==	False
 V	VH83	SH31	Ap_og_arCOG00950	Gt_Mluminyensis	==	False
 V	VH84	SH31	Ap_og_arCOG00950	Gt_Mintestinalis	==	False
-V	VH85	SH31	Ap_og_arCOG04866	Gc_methanog_A_not_Mlumin_Malvus	==	True
-V	VH86	SH31	Ap_og_arCOG04866	Gc_not_methanog_A	==	False
+V	VH85	SH31	Ap_og_arCOG04866	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
+V	VH86	SH31	Ap_og_arCOG04866	Gc_not_CH4_gen_A	==	False
 V	VH87	SH31	Ap_og_arCOG04866	Gt_Malvus	==	False
 V	VH88	SH31	Ap_og_arCOG04866	Gt_Mluminyensis	==	False
 V	VH89	SH31	Ap_og_arCOG04866	Gt_Mintestinalis	==	False
-V	VH90	SH33	Ap_g_hdrA	Gc_methanog_A	==	True
-V	VH91	SH33	Ap_g_hdrB	Gc_methanog_A	==	True
-V	VH92	SH33	Ap_g_hdrC	Gc_methanog_A	==	True
-V	VH93	SH33	Ap_g_hdrD	Gc_methanog_A	==	True
+V	VH90	SH33	Ap_g_hdrA	Gc_CH4_gen_A	==	True
+V	VH91	SH33	Ap_g_hdrB	Gc_CH4_gen_A	==	True
+V	VH92	SH33	Ap_g_hdrC	Gc_CH4_gen_A	==	True
+V	VH93	SH33	Ap_g_hdrD	Gc_CH4_gen_A	==	True
 V	VH94	SH33	Ap_g_hdrE	Gt_Malvus	==	False
 V	VH95	SH33	Ap_g_hdrE	Gt_Mluminyensis	==	False
 V	VH96	SH33	Ap_g_hdrE	Gt_Mintestinalis	==	False
-V	VH97	SH33	Ap_g_hdrE	Gc_methanog_A_not_Mlumin_Malvus	==	True
+V	VH97	SH33	Ap_g_hdrE	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
 V	VH98	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
 V	VH99	SH34	Ap_r_hdrBC_far_A	Gt_Methanobacteriales	==	True
 V	VH100	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
@@ -799,10 +803,10 @@ V	VH107	SH37	Ap_f_6pg_deh	Gc_pathog_Epsilon	==	True
 V	VH108	SH37	Ap_f_2k3d6pg_ald	Gc_free_Epsilon	==	False
 V	VH109	SH37	Ap_f_2k3d6pg_ald	Gc_pathog_Epsilon	==	True
 V	VH110	SH43	Ac_op_ribosomal	Gt_Epsilonproteobacteria:most	in_range	3,4
-V	VH111	SH37	Ap_f_6pg_deh	Gc_epis_Apmpejana_Epsilon	==	False
-V	VH112	SH37	Ap_f_2k3d6pg_ald	Gc_epis_Apmpejana_Epsilon	==	False
-V	VH113	SH44	Ac_x_M	Gc_epis_Apmpejana_Epsilon	level	high
-V	VH114	SH45	Ar_f_ATP_cytr_ly	Gc_epis_Apmpejana_Epsilon	>	1
+V	VH111	SH37	Ap_f_6pg_deh	Gc_epis_Apompejana_Epsilon	==	False
+V	VH112	SH37	Ap_f_2k3d6pg_ald	Gc_epis_Apompejana_Epsilon	==	False
+V	VH113	SH44	Ac_x_M	Gc_epis_Apompejana_Epsilon	level	high
+V	VH114	SH45	Ar_f_ATP_cytr_ly	Gc_epis_Apompejana_Epsilon	>	1
 V	VH115	SH46	Ap_g_soxB	Gt_Epsilonproteobacteria:some	==	True
 V	VH116	SH46	Ap_g_soxB	Gt_Gammaproteobacteria	==	True
 V	VH117	SH46	Ap_g_soxB	Gt_Alphaproteobacteria	==	True
@@ -826,50 +830,50 @@ V	VH134	SH56	Ap_f_aa3_cytC_ox	Gs_HcruXCL2	==	True
 V	VH135	SH56	Ap_f_cbb3_cytC_ox	Gs_HcruXCL2	==	False
 V	VH136	SH59	Ap_r_SulP_CarbAn	Gt_Bacteria:most	==	True
 V	VH137	SH59	Ap_r_SulP_CarbAn	Gs_HcruXCL2	==	False
-V	VH138	TH1,SH32	Ap_og_arCOG04888	Gc_methanog_A	==	True
-V	VH139	TH1,SH32	Ap_og_arCOG02822	Gc_methanog_A	==	True
-V	VH140	TH1,SH32	Ap_og_arCOG03226	Gc_methanog_A	==	True
-V	VH141	TH1,SH32	Ap_og_arCOG04904	Gc_methanog_A	==	True
-V	VH142	TH1,SH32	Ap_og_arCOG02679	Gc_methanog_A	==	True
-V	VH143	TH1,SH32	Ap_og_arCOG04903	Gc_methanog_A	==	True
-V	VH144	TH1,SH32	Ap_og_arCOG04901	Gc_methanog_A	==	True
-V	VH145	TH1,SH32	Ap_og_arCOG04900	Gc_methanog_A	==	True
-V	VH146	TH1,SH32	Ap_og_arCOG03225	Gc_methanog_A	==	True
-V	VH147	TH1,SH32	Ap_og_arCOG00185	Gc_methanog_A	==	True
-V	VH148	TH1,SH32	Ap_og_arCOG04860	Gc_methanog_A	==	True
-V	VH149	TH1,SH32	Ap_og_arCOG04859	Gc_methanog_A	==	True
-V	VH150	TH1,SH32	Ap_og_arCOG04858	Gc_methanog_A	==	True
-V	VH151	TH1,SH32	Ap_og_arCOG04857	Gc_methanog_A	==	True
-V	VH152	TH1,SH32	Ap_og_arCOG04846	Gc_methanog_A	==	True
-V	VH153	TH1,SH32	Ap_og_arCOG04888	Gc_not_methanog_A	==	False
-V	VH154	TH1,SH32	Ap_og_arCOG02822	Gc_not_methanog_A	==	False
-V	VH155	TH1,SH32	Ap_og_arCOG03226	Gc_not_methanog_A	==	False
-V	VH156	TH1,SH32	Ap_og_arCOG04904	Gc_not_methanog_A	==	False
-V	VH157	TH1,SH32	Ap_og_arCOG02679	Gc_not_methanog_A	==	False
-V	VH158	TH1,SH32	Ap_og_arCOG04903	Gc_not_methanog_A	==	False
-V	VH159	TH1,SH32	Ap_og_arCOG04901	Gc_not_methanog_A	==	False
-V	VH160	TH1,SH32	Ap_og_arCOG04900	Gc_not_methanog_A	==	False
-V	VH161	TH1,SH32	Ap_og_arCOG03225	Gc_not_methanog_A	==	False
-V	VH162	TH1,SH32	Ap_og_arCOG00185	Gc_not_methanog_A	==	False
-V	VH163	TH1,SH32	Ap_og_arCOG04860	Gc_not_methanog_A	==	False
-V	VH164	TH1,SH32	Ap_og_arCOG04859	Gc_not_methanog_A	==	False
-V	VH165	TH1,SH32	Ap_og_arCOG04858	Gc_not_methanog_A	==	False
-V	VH166	TH1,SH32	Ap_og_arCOG04857	Gc_not_methanog_A	==	False
-V	VH167	TH1,SH32	Ap_og_arCOG04846	Gc_not_methanog_A	==	False
-V	VH168	TH1	Ap_og_arCOG02882	Gc_methanog_A:most	==	True
-V	VH169	TH1	Ap_og_arCOG00640	Gc_methanog_A:most	==	True
-V	VH170	TH1	Ap_og_arCOG01116	Gc_methanog_A:most	==	True
-V	VH171	TH1	Ap_og_arCOG00854	Gc_methanog_A:most	==	True
-V	VH172	TH1	Ap_og_arCOG02882	Gc_not_methanog_A:>95%	==	False
-V	VH173	TH1	Ap_og_arCOG00640	Gc_not_methanog_A:>95%	==	False
-V	VH174	TH1	Ap_og_arCOG01116	Gc_not_methanog_A:>95%	==	False
-V	VH175	TH1	Ap_og_arCOG00854	Gc_not_methanog_A:>95%	==	False
+V	VH138	TH1,SH32	Ap_og_arCOG04888	Gc_CH4_gen_A	==	True
+V	VH139	TH1,SH32	Ap_og_arCOG02822	Gc_CH4_gen_A	==	True
+V	VH140	TH1,SH32	Ap_og_arCOG03226	Gc_CH4_gen_A	==	True
+V	VH141	TH1,SH32	Ap_og_arCOG04904	Gc_CH4_gen_A	==	True
+V	VH142	TH1,SH32	Ap_og_arCOG02679	Gc_CH4_gen_A	==	True
+V	VH143	TH1,SH32	Ap_og_arCOG04903	Gc_CH4_gen_A	==	True
+V	VH144	TH1,SH32	Ap_og_arCOG04901	Gc_CH4_gen_A	==	True
+V	VH145	TH1,SH32	Ap_og_arCOG04900	Gc_CH4_gen_A	==	True
+V	VH146	TH1,SH32	Ap_og_arCOG03225	Gc_CH4_gen_A	==	True
+V	VH147	TH1,SH32	Ap_og_arCOG00185	Gc_CH4_gen_A	==	True
+V	VH148	TH1,SH32	Ap_og_arCOG04860	Gc_CH4_gen_A	==	True
+V	VH149	TH1,SH32	Ap_og_arCOG04859	Gc_CH4_gen_A	==	True
+V	VH150	TH1,SH32	Ap_og_arCOG04858	Gc_CH4_gen_A	==	True
+V	VH151	TH1,SH32	Ap_og_arCOG04857	Gc_CH4_gen_A	==	True
+V	VH152	TH1,SH32	Ap_og_arCOG04846	Gc_CH4_gen_A	==	True
+V	VH153	TH1,SH32	Ap_og_arCOG04888	Gc_not_CH4_gen_A	==	False
+V	VH154	TH1,SH32	Ap_og_arCOG02822	Gc_not_CH4_gen_A	==	False
+V	VH155	TH1,SH32	Ap_og_arCOG03226	Gc_not_CH4_gen_A	==	False
+V	VH156	TH1,SH32	Ap_og_arCOG04904	Gc_not_CH4_gen_A	==	False
+V	VH157	TH1,SH32	Ap_og_arCOG02679	Gc_not_CH4_gen_A	==	False
+V	VH158	TH1,SH32	Ap_og_arCOG04903	Gc_not_CH4_gen_A	==	False
+V	VH159	TH1,SH32	Ap_og_arCOG04901	Gc_not_CH4_gen_A	==	False
+V	VH160	TH1,SH32	Ap_og_arCOG04900	Gc_not_CH4_gen_A	==	False
+V	VH161	TH1,SH32	Ap_og_arCOG03225	Gc_not_CH4_gen_A	==	False
+V	VH162	TH1,SH32	Ap_og_arCOG00185	Gc_not_CH4_gen_A	==	False
+V	VH163	TH1,SH32	Ap_og_arCOG04860	Gc_not_CH4_gen_A	==	False
+V	VH164	TH1,SH32	Ap_og_arCOG04859	Gc_not_CH4_gen_A	==	False
+V	VH165	TH1,SH32	Ap_og_arCOG04858	Gc_not_CH4_gen_A	==	False
+V	VH166	TH1,SH32	Ap_og_arCOG04857	Gc_not_CH4_gen_A	==	False
+V	VH167	TH1,SH32	Ap_og_arCOG04846	Gc_not_CH4_gen_A	==	False
+V	VH168	TH1	Ap_og_arCOG02882	Gc_CH4_gen_A:most	==	True
+V	VH169	TH1	Ap_og_arCOG00640	Gc_CH4_gen_A:most	==	True
+V	VH170	TH1	Ap_og_arCOG01116	Gc_CH4_gen_A:most	==	True
+V	VH171	TH1	Ap_og_arCOG00854	Gc_CH4_gen_A:most	==	True
+V	VH172	TH1	Ap_og_arCOG02882	Gc_not_CH4_gen_A:>95%	==	False
+V	VH173	TH1	Ap_og_arCOG00640	Gc_not_CH4_gen_A:>95%	==	False
+V	VH174	TH1	Ap_og_arCOG01116	Gc_not_CH4_gen_A:>95%	==	False
+V	VH175	TH1	Ap_og_arCOG00854	Gc_not_CH4_gen_A:>95%	==	False
 V	VH176	TH1	Ap_og_arCOG00854	Gt_Methanomassiliicoccales	==	True
 V	VH177	TH1	Ap_og_arCOG04893	Gt_Methanomassiliicoccales	==	True
-V	VH178	TH1	Ap_og_arCOG04893	Gc_methanog_A:>90%	==	True
-V	VH179	TH1	Ap_og_arCOG00854	Gc_methanog_A:>90%	==	True
-V	VH180	TH1	Ap_og_arCOG00854	Gc_not_methanog_A:>95%	==	False
-V	VH181	TH1	Ap_og_arCOG04893	Gc_not_methanog_A:>95%	==	False
+V	VH178	TH1	Ap_og_arCOG04893	Gc_CH4_gen_A:>90%	==	True
+V	VH179	TH1	Ap_og_arCOG00854	Gc_CH4_gen_A:>90%	==	True
+V	VH180	TH1	Ap_og_arCOG00854	Gc_not_CH4_gen_A:>95%	==	False
+V	VH181	TH1	Ap_og_arCOG04893	Gc_not_CH4_gen_A:>95%	==	False
 V	VH182	TH1	Ap_og_arCOG00950	Gt_Methanomassiliicoccales	==	False
 V	VH183	TH1	Ap_og_arCOG04866	Gt_Methanomassiliicoccales	==	False
 V	VH184	TH1	Ap_og_arCOG03221	Gt_Methanomassiliicoccales	==	False
@@ -884,22 +888,22 @@ V	VH192	TH1	Ap_og_arCOG04867	Gc_meth_A_not_Methanomas	==	True
 V	VH193	TH1	Ap_og_arCOG04868	Gc_meth_A_not_Methanomas	==	True
 V	VH194	TH1	Ap_og_arCOG04869	Gc_meth_A_not_Methanomas	==	True
 V	VH195	TH1	Ap_og_arCOG04870	Gc_meth_A_not_Methanomas	==	True
-V	VH196	TH1	Ap_og_arCOG00950	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH197	TH1	Ap_og_arCOG04866	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH198	TH1	Ap_og_arCOG03221	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH199	TH1	Ap_og_arCOG04867	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH200	TH1	Ap_og_arCOG04868	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH201	TH1	Ap_og_arCOG04869	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH202	TH1	Ap_og_arCOG04870	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH196	TH1	Ap_og_arCOG00950	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH197	TH1	Ap_og_arCOG04866	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH198	TH1	Ap_og_arCOG03221	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH199	TH1	Ap_og_arCOG04867	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH200	TH1	Ap_og_arCOG04868	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH201	TH1	Ap_og_arCOG04869	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH202	TH1	Ap_og_arCOG04870	Gc_not_CH4_gen_A_plus_Methanomas	==	False
 V	VH203	TH1	Ap_og_arCOG01579	Gt_Methanomassiliicoccales	==	False
 V	VH204	TH1	Ap_og_arCOG04844	Gt_Methanomassiliicoccales	==	False
 V	VH205	TH1	Ap_og_arCOG01579	Gc_meth_A_not_Methanomas:>90%	==	True
 V	VH206	TH1	Ap_og_arCOG04844	Gc_meth_A_not_Methanomas:>90%	==	True
-V	VH207	TH1	Ap_og_arCOG01579	Gc_not_methanog_A_plus_Methanomas	==	False
-V	VH208	TH1	Ap_og_arCOG04844	Gc_not_methanog_A_plus_Methanomas	==	False
+V	VH207	TH1	Ap_og_arCOG01579	Gc_not_CH4_gen_A_plus_Methanomas	==	False
+V	VH208	TH1	Ap_og_arCOG04844	Gc_not_CH4_gen_A_plus_Methanomas	==	False
 V	VH209	TH1	Ap_og_arCOG04885	Gt_Methanomassiliicoccales	==	False
 V	VH210	TH1	Ap_og_arCOG04885	Gc_meth_A_not_Methanomas:>90%	==	True
-V	VH211	TH1	Ap_og_arCOG04885	Gc_not_methanog_A_plus_Methanomas:>95%	==	False
+V	VH211	TH1	Ap_og_arCOG04885	Gc_not_CH4_gen_A_plus_Methanomas:>95%	==	False
 V	VH212	SH61	Ap_op_CBB	Gc_obl_autotr_Gamma	==	True
 V	VH213	SH61	Ap_op_CBB	Gc_obl_autotr_Alpha	==	True
 V	VH214	SH61	Ap_op_CBB	Gc_obl_autotr_Beta	==	True
@@ -910,9 +914,9 @@ V	VH218	SH64	Ac_d_Pfam00990	Gt_Helicobacter	level	none_or_low
 V	VH219	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	level	high
 V	VH220	SH64	Ac_d_EAL	Gt_Campylobacter	level	none_or_low
 V	VH221	SH64	Ac_d_EAL	Gt_Helicobacter	level	none_or_low
-V	VH222	SH65	Ac_g_luxS	Gc_hydrvent_Epsilon	level	high
-V	VH223	SH65	Ac_f_5mA_SahC_nucl	Gc_hydrvent_Epsilon	level	high
-V	VH224	SH66	Ac_h_arsenate_red	Gc_hydrvent_Epsilon	>=	2
+V	VH222	SH65	Ac_g_luxS	Gc_hydrvents_Epsilon	level	high
+V	VH223	SH65	Ac_f_5mA_SahC_nucl	Gc_hydrvents_Epsilon	level	high
+V	VH224	SH66	Ac_h_arsenate_red	Gc_hydrvents_Epsilon	>=	2
 V	VH225	SH66	Ac_h_arsenate_red	Gt_Sdenitrificans	>=	2
 V	VH226	SH66	Ac_h_arsenate_red	Gt_Abutzleri	>=	2
 V	VH227	SH66	Ap_g_arsR	Gt_Sdenitrificans	==	True
@@ -924,9 +928,9 @@ V	VH232	SH66	Ap_og_COG1055	Gt_Nprofundicola	==	False
 V	VH233	SH66	Ap_g_arsR	Gt_Cmediatlanticus	==	True
 V	VH234	SH66	Ap_g_arsR	Gt_Nprofundicola	==	True
 V	VH235	SH67	Ap_f_ADP_rib_pyr	Gc_pathog_Epsilon	==	False
-V	VH236	SH67	Ap_f_ADP_rib_pyr	Gc_hydrvent_Epsilon:some	==	True
+V	VH236	SH67	Ap_f_ADP_rib_pyr	Gc_hydrvents_Epsilon:some	==	True
 V	VH237	SH67	Ap_f_ADP_rib_pyr	Gt_Abutzleri	==	True
-V	VH238	SH68	Ap_p_CODH	Gc_hydrvent_Thermococcus:some	==	True
+V	VH238	SH68	Ap_p_CODH	Gc_hydrvents_Thermococcus:some	==	True
 V	VH239	SH69	Ap_h_F420	Gt_Thermococcales	==	False
 V	VH240	SH70	Ap_w_CO_ox	Gc_lithoheterotr_B	==	False
 V	VH241	SH70	Ap_w_CO_ox	Gs_TonnNA1	==	True
@@ -935,18 +939,18 @@ V	VH243	SH70	Ap_w_CO2_fix	Gs_TonnNA1	==	True
 V	VH244	SH71	Ac_d_NiFe_hydr	Gt_Thermococcus:most	>	1
 V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_autotr_B	==	False
 V	VH246	SH72	Ap_r_RubisCO_out_CBB	Gt_Hcrunogenus	==	False
-V	VH247	SH74	Ap_w_rTCA	Gc_hydrvent_Epsilon	==	True
-V	VH248	SH74	Ap_w_rTCA	Gc_nitriox_Nitrospirae	==	True
-V	VH249	SH75	Ap_w_wood_ljungdahl	Gc_autotr_sulfred_B	==	True
-V	VH250	SH75	Ap_w_wood_ljungdahl	Gc_autotr_sulfred_A	==	True
-V	VH250b	SH75	Ap_w_wood_ljungdahl	Gc_methanog_A	==	True
+V	VH247	SH74	Ap_w_rTCA	Gc_hydrvents_Epsilon	==	True
+V	VH248	SH74	Ap_w_rTCA	Gc_NO2_ox_Nitrospirae	==	True
+V	VH249	SH75	Ap_w_wood_ljungdahl	Gc_autotr_SO4_red_B	==	True
+V	VH250	SH75	Ap_w_wood_ljungdahl	Gc_autotr_SO4_red_A	==	True
+V	VH250b	SH75	Ap_w_wood_ljungdahl	Gc_CH4_gen_A	==	True
 V	VH251	SH76	Ap_w_3HP4HB	Gc_autotr_thermoac_Thaumarch	==	True
-V	VH252	SH77	Ap_w_rev_sulf_red	Gc_hydroth_Gamma	==	True
+V	VH252	SH77	Ap_w_rev_SO4_red	Gc_hydroth_Gamma	==	True
 V	VH253	SH78	Ap_g_narG	Gt_Nitrospirae	==	True
 V	VH254	SH78	Ap_g_narG	Gt_Nitrospinae	==	True
 V	VH255	SH78	Ap_g_narH	Gt_Nitrospirae	==	True
 V	VH256	SH78	Ap_g_narH	Gt_Nitrospinae	==	True
-V	VH257	SH79	Ap_g_pmoA	Gc_aer_methox_B	==	True
+V	VH257	SH79	Ap_g_pmoA	Gc_CH4_ox_aer_B	==	True
 V	VH258	SH80	Ap_c_SoxABXYZ	Gt_Sulfurovum	==	True
 V	VH259	SH80	Ap_c_SoxABXYZ	Gt_Nitratiruptor	==	True
 V	VH260	SH80	Ap_c_SoxABXYZ	Gt_Sulfurimonas	==	True
@@ -968,9 +972,9 @@ V	VH275	SH81	Ap_y_PcoAB	Gs_ZetaAB602C20	==	True
 V	VH276	SH81	Ap_y_PcoAB	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	==	False
 V	VH277	SH82	Ap_g_cbbM	Gt_Mariprofundus	==	True
 V	VH278	SH83	Ap_g_cbbL	Gt_Zetaproteobacteria	==	False
-V	VH279	SH84	Ap_h_cyc2	Gc_microaer_Fe2ox_B:many	==	True
+V	VH279	SH84	Ap_h_cyc2	Gc_microaer_Fe2_ox_B:many	==	True
 V	VH280	SH85	Ap_w_ACIII	Gt_Zetaproteobacteria:many	==	True
-V	VH281	SH85	Ap_w_ACIII	Gc_Fe2ox_B:some	==	True
+V	VH281	SH85	Ap_w_ACIII	Gc_Fe2_ox_B:some	==	True
 V	VH282	SH86	Ap_h_cbb3	Gt_Zetaproteobacteria:most	==	True
 V	VH283	SH87	Aall_w_red_AcCoA	Gc_SRB:some	==	True
 V	VH284	SH87	Aall_w_red_AcCoA	Gc_anaer_ammox_Planctomycetes:some	==	True
@@ -980,11 +984,11 @@ V	VH287	SH88	Ap_f_CO_deh	Gt_Methanothrix	==	True
 V	VH288	SH88	Ap_f_CO_deh	Gt_Methanocaldococcus	==	True
 V	VH289	SH88	Ap_f_CO_deh	Gt_Afulgidus	==	True
 V	VH290	SH88	Ap_f_CO_deh	Gt_Fplacidus	==	True
-V	VH291	SH88	Ap_f_CO_deh	Gc_acetog_B	==	True
-V	VH292	SH88	Ap_f_CO_deh	Gc_photos_B:some	==	True
+V	VH291	SH88	Ap_f_CO_deh	Gc_ac_gen_B	==	True
+V	VH292	SH88	Ap_f_CO_deh	Gc_photosyn_B:some	==	True
 V	VH293	SH88	Ap_f_CO_deh	Gc_SRB	==	True
-V	VH294	SH89	Ap_g_cbbM	Gc_sulfiox_chemolithoa_Thiomicrospira	==	True
-V	VH295	SH89	Ap_g_cbbL	Gc_sulfiox_chemolithoa_Thiomicrospira	==	True
+V	VH294	SH89	Ap_g_cbbM	Gc_H2S_ox_chemolithoa_Thiomicrospira	==	True
+V	VH295	SH89	Ap_g_cbbL	Gc_H2S_ox_chemolithoa_Thiomicrospira	==	True
 V	VH296	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Hydrogenovibrio	level	high
 V	VH297	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrorhabdus	level	high
 V	VH298	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrospira	level	high
@@ -1006,7 +1010,7 @@ V	VH313	SH91	Ap_r_LTR_prkin	Gt_Hhalophilus:many	==	True
 V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
 V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
 V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
-G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gp_photosynthetic & Gc_SOB
+G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gm_photosyn & Gc_SOB
 G	Gc_chemolithoa_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chemolithoautotrophic
 U	Uf_dsr	function	EC:1.8.99.5	DSR	dissimilatory sulfite reductase
 A	Ap_f_dsr	Uf_dsr	presence
@@ -1030,17 +1034,17 @@ V	VH325	SH97	Ap_p_AprBA	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
 V	VH326	SH97	Aall_p_AprBA	Gt_Proteobacteria:many	==	True
 V	VH327	SH58	Ap_og_COG4654	Gc_AOB	==	True
 V	VH328	SH58	Ap_og_COG2863	Gc_AOB	==	True
-V	VH329	SH42	Ap_g_mcrA	Gm_methanogenic	==	True
-V	VH330	SH42	Ap_g_mcrA	Gm_not_methanogenic	==	False
+V	VH329	SH42	Ap_g_mcrA	Gm_CH4_gen	==	True
+V	VH330	SH42	Ap_g_mcrA	Gm_not_CH4_gen	==	False
 C	CH1	SH93	Ac_d_Pfam000159	Gc_Hydrogenov_Thiomicror_Thiomicros	>>	Gt_Piscirickettsiaceae
 C	CH2	SH95	Ac_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	>	Gt_Proteobacteria
 C	CH3	SH102	Ac_t_CRISPR	Gc_thermophilic_A	>	Gc_mesophilic_A
 C	CH4	SH102	Ac_t_CRISPR	Gc_thermophilic_B	>	Gc_mesophilic_B
 C	CH5	SH36	Ac_x_T	Gc_free_Epsilon	>	Gc_pathog_Epsilon
-C	CH6	SH36	Ac_x_T	Gc_epis_Apmpejana_Epsilon	>	Gc_pathog_Epsilon
+C	CH6	SH36	Ac_x_T	Gc_epis_Apompejana_Epsilon	>	Gc_pathog_Epsilon
 C	CH7	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Campylobacter
 C	CH8	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Helicobacter
 C	CH9	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Campylobacter
 C	CH10	SH64	Ac_d_EAL	Gc_free_Epsilon_not_Campylo_Helico	>	Gt_Helicobacter
-C	CH11	SH73	Ac_t_mobile_genetic_element	Gc_hydrvent_A	>	Gc_not_hydrvent_A
-C	CH12	SH73	Ac_t_mobile_genetic_element	Gc_hydrvent_B	>	Gc_not_hydrvent_B
+C	CH11	SH73	Ac_t_mobile_genetic_element	Gc_hydrvents_A	>	Gc_not_hydrvent_A
+C	CH12	SH73	Ac_t_mobile_genetic_element	Gc_hydrvents_B	>	Gc_not_hydrvent_B

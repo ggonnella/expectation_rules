@@ -139,7 +139,7 @@ G	Gt_Nitrososphaeria	Nitrososphaeria	taxonomic	taxid:1643678	TR:Z:class
 G	Gt_Crenarchaeota	Crenarchaeota	taxonomic	taxid:28889	TR:Z:phylum
 G	Gt_Archaea	Archaea	taxonomic	taxid:2157	TR:Z:superkingdom
 G	Gt_MGI_Thaumarchaeota	Marine Group I (MGI) Thaumarchaeota	taxonomic	taxid:905826
-G	Gg_arctic	Arctic	geographical	sctid:284564007	XR:Z:ENVO:00000112
+G	Gg_arctic	Arctic	geographical	geonames:10941926
 G	Gh_marine	marine waters	habitat	ENVO:01000320
 G	Gc_arc_mar_MGI	Marine Group I (MGI) Thaumarchaeota [arctic marine waters]	combined	Gt_MGI_Thaumarchaeota & Gg_arctic & Gh_marine
 G	Gh_mesopelagic	mesopelagic	habitat	ENVO:00000213
@@ -154,12 +154,12 @@ G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
 G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
 G	Gt_Archaeoglobus	Archaeoglobus	taxonomic	taxid:2233	TR:Z:genus
 G	Gt_Thermoproteus	Thermoproteus	taxonomic	taxid:2270	TR:Z:genus
-G	Gm_am_oxid	ammonia-oxidizer	metabolic	GO:0019409
+G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
 G	Gt_Ngargensis	Candidatus Nitrososphaera gargensis	taxonomic	taxid:497727	TR:Z:species
 G	Gt_Nevergladensis	Candidatus Nitrososphaera evergladensis	taxonomic	taxid:1459637	TR:Z:species
 G	Gn_Nevergladensis	not Candidatus Nitrososphaera evergladensis	inverted	!Gt_Nevergladensis
 G	Gt_Nuzonensis	Candidatus Nitrosotenuis uzonensis	taxonomic	taxid:1407055	TR:Z:species
-G	Gc_amox_Nitrosopumilus	ammonia-oziding Nitrosopumilus	combined	Gm_am_oxid & Gt_Nitrosopumilus
+G	Gc_amox_Nitrosopumilus	ammonia-oziding Nitrosopumilus	combined	Gm_NH3_ox & Gt_Nitrosopumilus
 G	Gt_Nitrosopumilus	Nitrosopumilus	taxonomic	taxid:338191	TR:Z:genus
 G	Gr_hyperthermophilic	hyperthermophilic	temperature_requirement	MICRO:0001294
 G	Gc_hyperthermophilic_A	hyperthermophilic Archaea	combined	Gr_hyperthermophilic & Gt_Archaea
@@ -170,8 +170,8 @@ G	Gt_Thermococcales	Thermococcales	taxonomic	taxid:2258	TR:Z:order
 G	Gt_Tonnurineus	Thermococcus onnurineus	taxonomic	taxid:342948	TR:Z:species
 G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
 G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
-G	Gc_AOA	ammonia-oxidizing Archaea	combined	Gm_am_oxid & Gt_Archaea
-G	Gc_AOB	ammonia-oxidizing Bacteria	combined	Gm_am_oxid & Gt_Bacteria
+G	Gc_AOA	ammonia-oxidizing Archaea	combined	Gm_NH3_ox & Gt_Archaea
+G	Gc_AOB	ammonia-oxidizing Bacteria	combined	Gm_NH3_ox & Gt_Bacteria
 G	Gh_soil	soil	habitat	ENVO:01001044
 G	Gc_marine_AOA	marine ammonia-oxidizing Archaea	combined	Gh_marine & Gc_AOA
 G	Gc_marine_AOB	marine ammonia-oxidizing Bacteria	combined	Gh_marine & Gc_AOB
@@ -208,9 +208,9 @@ G	Gr_halophilic	halophilic	salinity_requirement	MICRO:0001314	XR:Z:MICRO:0001367
 G	Gc_arch_halophilic	halophilic Archaea	combined	Gr_halophilic & Gt_Archaea
 G	Gt_Methanocellales	Methanocellales	taxonomic	taxid:570264	TR:Z:order
 G	Gs_MconHZ254	Methanocella conradii HZ254	strain	taxid:1041930
-G	Gm_hydrogenotrophic	hydrogenotrophic	metabolic	Wikipedia:Hydrogenotroph
-G	Gm_methanogenic	methanogenic	metabolic	MICRO:0000166
-G	Gc_methanogen_not_MbarCM1	hydrogenotrophic methanogen excluding Methanosarcina barkeri CM1	combined	Gm_hydrogenotrophic & Gm_methanogenic & !Gs_MbarCM1
+G	Gm_H_troph	hydrogenotrophic	metabolic	Wikipedia:Hydrogenotroph
+G	Gm_CH4_gen	methanogenic	metabolic	MICRO:0000166
+G	Gc_CH4_gen_not_MbarCM1	hydrogenotrophic methanogen excluding Methanosarcina barkeri CM1	combined	Gm_H_troph & Gm_CH4_gen & !Gs_MbarCM1
 G	Gs_MbarCM1	Methanosarcina barkeri CM1	strain	taxid:796385
 G	Gt_Smetallicus	Sulfolobus metallicus	taxonomic	taxid:47303	TR:Z:species
 G	Gt_Sulfolobales	Sulfolobales	taxonomic	taxid:2281	TR:Z:order
@@ -232,7 +232,7 @@ G	Gc_chemolithotrophic_AOA	chemolithotrophic AOA	combined	Gp_chemolithotrophic &
 G	Gt_Nitrososphaera	Nitrososphaera	taxonomic	taxid:497726	TR:Z:genus
 G	Gt_Thermoprotei	Thermoprotei	taxonomic	taxid:183924	TR:Z:class
 G	Gc_Thaumarch_not_Ngargensis	Thaumarchaeota excluding Candidatus Nitrososphaera gargensis	combined	Gt_Thaumarchaeota & !Gt_Ngargensis
-G	Gc_arch_methanogens	archaeal methanogens	combined	Gt_Archaea & Gm_methanogenic
+G	Gc_CH4_gen_A	archaeal methanogens	combined	Gt_Archaea & Gm_CH4_gen
 G	Gt_Nsediminis	Candidatus Nitrosopumilus sediminis	taxonomic	taxid:1229909	TR:Z:species
 G	Gt_Nsalaria	Candidatus Nitrosopumilus salaria	taxonomic	taxid:1170320	TR:Z:species
 G	Gt_Nlimnia	Candidatus Nitrosoarchaeum limnia	taxonomic	taxid:1007084	TR:Z:species
@@ -809,9 +809,9 @@ V	VA40	SA23	Ap_f_SOD	Gr_aerobic	==	True
 V	VA41	SA24	Ap_g_amoA	Gt_Thaumarchaeota	==	True
 V	VA42	SA24	Ap_g_amoB	Gt_Thaumarchaeota	==	True
 V	VA43	SA24	Ap_g_amoC	Gt_Thaumarchaeota	==	True
-V	VA44	SA26	Ap_g_amoA	Gm_am_oxid	==	True
-V	VA45	SA27	Ap_f_urease	Gm_am_oxid:some	==	True
-V	VA46	SA27	Ap_f_urea_tr	Gm_am_oxid:some	==	True
+V	VA44	SA26	Ap_g_amoA	Gm_NH3_ox	==	True
+V	VA45	SA27	Ap_f_urease	Gm_NH3_ox:some	==	True
+V	VA46	SA27	Ap_f_urea_tr	Gm_NH3_ox:some	==	True
 V	VA47	SA28	Ap_g_ectB	Gt_Nmaritimus	==	True
 V	VA48	SA28	Ap_g_ectA	Gt_Nmaritimus	==	True
 V	VA49	SA28	Ap_g_ectC	Gt_Nmaritimus	==	True
@@ -947,13 +947,13 @@ V	VA178	SA72	Ar_b_GC	Gt_Hlacusprofundi	level	high
 V	VA179	SA72	Ar_b_GC	Gc_arch_halophilic	level	high
 V	VA180	SA73	Ap_f_aconitase	Gt_Methanocellales	==	False
 V	VA181	SA73	Ap_f_aconitase	Gs_MconHZ254	==	True
-V	VA182	SA75	Ap_p_nmd	Gc_methanogen_not_MbarCM1	==	True
+V	VA182	SA75	Ap_p_nmd	Gc_CH4_gen_not_MbarCM1	==	True
 V	VA183	SA75	Ap_p_nmd	Gs_MbarCM1	==	False
 V	VA184	SA78	Ap_i_saccharolytic	Gt_Pyrococcus	==	True
 V	VA185	SA78	Ap_i_saccharolytic	Gt_Ppacificus	==	False
 V	VA186	SA78	Ap_i_saccharolytic	Gt_Tsibiricus	==	True
 V	VA187	SA78	Ap_i_saccharolytic	Gc_Thermococcus_not_Tsibiricus	==	False
-V	VA188	SA75	Ap_p_mrt	Gc_methanogen_not_MbarCM1	==	True
+V	VA188	SA75	Ap_p_mrt	Gc_CH4_gen_not_MbarCM1	==	True
 V	VA189	SA75	Ap_p_mrt	Gs_MbarCM1	==	False
 V	VA190	SA78	Ap_f_malt_treh_degr	Gt_Pyrococcus	==	True
 V	VA191	SA78	Ap_f_malt_treh_degr	Gt_Ppacificus	==	False
@@ -994,7 +994,7 @@ V	VA225	SA92	Ap_h_pyr_dik	Gt_Thermoprotei	==	True
 V	VA226	SA93	Ap_f_6pg_deh	Gc_Thaumarch_not_Ngargensis	==	False
 V	VA227	SA93	Ap_f_6pg_deh	Gt_Nevergladensis	==	False
 V	VA228	SA93	Ap_f_6pg_deh	Gt_Ngargensis	==	True
-V	VA229	SA94	Ap_f_f420_oxr	Gc_arch_methanogens	==	True
+V	VA229	SA94	Ap_f_f420_oxr	Gc_CH4_gen_A	==	True
 V	VA230	SA95	Ac_g_amoC	Gt_Nmaritimus	==	1
 V	VA231	SA95	Ac_g_amoC	Gt_Nsediminis	==	1
 V	VA232	SA95	Ac_g_amoC	Gt_Nsalaria	==	1
