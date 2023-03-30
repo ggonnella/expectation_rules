@@ -227,8 +227,8 @@ G	Gc_Nanohaloarchaea_not_HspLC1Hm	Nanohaloarchaea excluding Halomicrobium sp. LC
 G	Gc_hyperthermophilic_Crenarchaeota	hyperthermophilic Crenarchaeota	combined	Gr_hyperthermophilic & Gt_Crenarchaeota
 G	Gt_Kcryptofilum	Candidatus Korarchaeum cryptofilum	taxonomic	taxid:498846	TR:Z:species
 G	Gt_Euryarchaeota	Euryarchaeota	taxonomic	taxid:28890	TR:Z:phylum
-G	Gp_chemolithotrophic	chemolithotrophic	trophic_strategy	MICRO:0001476
-G	Gc_chemolithotrophic_AOA	chemolithotrophic AOA	combined	Gp_chemolithotrophic & Gc_AOA
+G	Gp_chm_lth_troph	chemolithotrophic	trophic_strategy	MICRO:0001476
+G	Gc_chm_lth_troph_AOA	chemolithotrophic AOA	combined	Gp_chm_lth_troph & Gc_AOA
 G	Gt_Nitrososphaera	Nitrososphaera	taxonomic	taxid:497726	TR:Z:genus
 G	Gt_Thermoprotei	Thermoprotei	taxonomic	taxid:183924	TR:Z:class
 G	Gc_Thaumarch_not_Ngargensis	Thaumarchaeota excluding Candidatus Nitrososphaera gargensis	combined	Gt_Thaumarchaeota & !Gt_Ngargensis
@@ -984,7 +984,7 @@ V	VA215	SA87	Ap_p_L13e	Gt_Euryarchaeota	==	False
 V	VA216	SA88	Ap_d_t2_DNApol	Gt_Csymbiosum	==	True
 V	VA217	SA88	Ap_h_ftsZ	Gt_Csymbiosum	==	True
 V	VA218	SA89	Ap_w_3HP4HP_mod	Gt_Nevergladensis	==	True
-V	VA219	SA89	Ap_w_3HP4HP_mod	Gc_chemolithotrophic_AOA	==	True
+V	VA219	SA89	Ap_w_3HP4HP_mod	Gc_chm_lth_troph_AOA	==	True
 V	VA220	SA90	Ap_f_ribokinase	Gt_Nevergladensis	==	True
 V	VA221	SA91	Ap_f_met_phglc_iso	Gt_Euryarchaeota	==	True
 V	VA222	SA91	Ap_f_met_phglc_iso	Gt_Nitrososphaera	==	True

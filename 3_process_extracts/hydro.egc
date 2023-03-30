@@ -119,7 +119,7 @@ G	Gc_CH4_tr_Gamma	methanotrophic Gammaproteobacteria	combined	Gm_CH4_troph & Gt_
 G	Gc_S_troph_Gamma	thiotrophic Gammaproteobacteria	combined	Gm_S_troph & Gt_Gammaproteobacteria
 G	Gc_Calyptogena_endosym	Calyptogena endosymbionts	combined	Gip_Calyptogena & Gi_endosymbiont
 G	Gip_Calyptogena	interacting with Calyptogena	biological_interaction_partner_taxonomy	taxid:6589	TR:Z:genus
-G	Gi_endosymbiont	Calyptogena endosymbionts	biological_interaction	def:endosymbiont
+G	Gi_endosymbiont	endosymbiont	biological_interaction	Wikipedia:Endosymbiont
 G	Gc_S_troph_Gamma_Calyptogena_endosym	thiotrophic Gammaproteobacteria in Calyptogena endosymbionts	combined	Gm_S_troph & Gt_Gammaproteobacteria & Gc_Calyptogena_endosym
 G	Gt_Aehrlichei	Alkalilimnicola ehrlichei	taxonomic	taxid:351052	TR:Z:species
 G	Gs_TspK90mix	Thioalkalivibrio strain K90mix	strain	taxid:396595
@@ -166,9 +166,9 @@ G	Gt_Methanobacteriales	Methanobacteriales	taxonomic	taxid:2158	TR:Z:order
 G	Gt_Methanopyrales	Methanopyrales	taxonomic	taxid:68985	TR:Z:order
 G	Gt_Methanomicrobiales	Methanomicrobiales	taxonomic	taxid:2191	TR:Z:order
 G	Gc_free_Epsilon	free-living Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_free
-G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
+G	Gi_pathogenic	pathogenic	biological_interaction	RO:0002556
 G	Gc_pathog_Epsilon	pathogenic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gi_pathogenic
-G	Gi_episymbiont	episymbiont	biological_interaction	RO:0002632
+G	Gi_episymbiont	episymbiont	biological_interaction	Wiktionary:episymbiont
 G	Gip_Apompejana	interacting with Alvinella pompejana	biological_interaction_partner_taxonomy	taxid:6376	TR:Z:species
 G	Gc_epis_Apompejana	interacting with Alvinella pompejana	combined	Gip_Apompejana & Gi_episymbiont
 G	Gc_epis_Apompejana_Epsilon	Epsilonproteobacteria & episymbiont of Alvinella pompejana	combined	Gt_Epsilonproteobacteria & Gc_epis_Apompejana
@@ -179,14 +179,14 @@ G	Gc_SRA	sulfate-reducing Archaea	combined	Gm_SO4_red & Gt_Archaea
 G	Gm_SO4_red	sulfate-reducing	metabolic	GO:0019419	XR:Z:Wikipedia:Sulfate-reducing_microorganism
 G	Gm_S_ox	sulfur-oxidizing	metabolic	GO:0019417
 G	Gc_SOA	sulfur-oxidizing Archaea	combined	Gm_S_ox & Gt_Archaea
-G	Gc_autotr_Epsilon	Autotrophic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gp_autotrophic
-G	Gp_autotrophic	autotrophic	trophic_strategy	MICRO:0001456
+G	Gc_a_troph_Epsilon	Autotrophic Epsilonproteobacteria	combined	Gt_Epsilonproteobacteria & Gp_a_troph
+G	Gp_a_troph	autotrophic	trophic_strategy	MICRO:0001456
 G	Gc_SOB	sulfur-oxidizing Bacteria	combined	Gt_Bacteria & Gm_S_ox
 G	Gc_SRB	sulfate-reducing Bacteria	combined	Gt_Bacteria & Gm_SO4_red
-G	Gp_phototrophic	phototrophic	trophic_strategy	MICRO:0001457	XR:Z:MICRO:0001452;MICRO:0000498
-G	Gp_chemotrophic	chemotrophic	trophic_strategy	MICRO:0001458	XR:Z:MICRO:0000496;MICRO:0001494
-G	Gc_phototrophic_B	phototrophic Bacteria	combined	Gp_phototrophic & Gt_Bacteria
-G	Gc_chemotrophic_B	chemotrophic Bacteria	combined	Gp_chemotrophic & Gt_Bacteria
+G	Gp_pht_troph	phototrophic	trophic_strategy	MICRO:0001457	XR:Z:MICRO:0001452;MICRO:0000498
+G	Gp_chm_troph	chemotrophic	trophic_strategy	MICRO:0001458	XR:Z:MICRO:0000496;MICRO:0001494
+G	Gc_pht_troph_B	phototrophic Bacteria	combined	Gp_pht_troph & Gt_Bacteria
+G	Gc_chm_troph_B	chemotrophic Bacteria	combined	Gp_chm_troph & Gt_Bacteria
 G	Gt_Rcapsulatus	Rhodobacter capsulatus	taxonomic	taxid:1061	TR:Z:species
 G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
 G	Gs_HcruXCL2	Thiomicrospira crunogena XCL-2	strain	taxid:317025
@@ -195,12 +195,12 @@ G	Gm_not_CH4_gen	non-methanogenic	inverted	!Gm_CH4_gen
 G	Gc_not_CH4_gen_A	non-methanogenic Archaea	combined	Gt_Archaea & Gm_not_CH4_gen
 G	Gc_meth_A_not_Methanomas	methanogenic archaea excluding Methanomassiliicoccales	combined	Gc_CH4_gen_A & !(Gt_Methanomassiliicoccales)
 G	Gc_not_CH4_gen_A_plus_Methanomas	Archaea excluding methanogenic archaea except Methanomassiliicoccales	combined	Gt_Archaea & !(Gc_meth_A_not_Methanomas)
-G	Gp_obl_autotr	obligate autotrophic	trophic_strategy	def: always having an autotrophic lifestyle (MICRO:0001456), contrasted to facultative autotrophs
-G	Gc_obl_autotr_Gamma	obligate autotrophic Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gp_obl_autotr
-G	Gc_obl_autotr_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Alphaproteobacteria
-G	Gc_obl_autotr_Beta	obligate autotrophic Betaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Betaproteobacteria
+G	Gp_obl_a_troph	obligate autotrophic	trophic_strategy	derived:Gp_a_troph:obligate
+G	Gc_obl_a_troph_Gamma	obligate autotrophic Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gp_obl_a_troph
+G	Gc_obl_a_troph_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Alphaproteobacteria
+G	Gc_obl_a_troph_Beta	obligate autotrophic Betaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Betaproteobacteria
 G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
-G	Gc_obl_autotr_B	obligate autotrophic bacteria	combined	Gp_obl_autotr & Gt_Bacteria
+G	Gc_obl_a_troph_B	obligate autotrophic bacteria	combined	Gp_obl_a_troph & Gt_Bacteria
 G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
 G	Gc_hydrvents_Epsilon	Epsilonproteobacteria in hydrothermal vents	combined	Gt_Epsilonproteobacteria & Gh_hydrvents
@@ -215,11 +215,11 @@ G	Gt_Nprofundicola	Nautilia profundicola	taxonomic	taxid:244787	TR:Z:species
 G	Gt_Thermococcus	Thermococcus	taxonomic	taxid:2263	TR:Z:genus
 G	Gc_hydrvents_Thermococcus	Thermococcus in hydrothermal vents	combined	Gt_Thermococcus & Gh_hydrvents
 G	Gt_Thermococcales	Thermococcales	taxonomic	taxid:2258	TR:Z:order
-G	Gp_lithoheterotrophic	lithoheterotrophic	combined	Gp_heterotrophic & Gp_lithotrophic
-G	Gc_lithoheterotr_B	lithoheterotrophic bacteria	combined	Gt_Bacteria & Gp_lithoheterotrophic
+G	Gp_ltr_h_troph	lithoheterotrophic	combined	Gp_h_troph & Gp_lth_troph
+G	Gc_lth_h_troph_B	lithoheterotrophic bacteria	combined	Gt_Bacteria & Gp_ltr_h_troph
 G	Gs_TonnNA1	Thermococcus onnurineus NA1	strain	taxid:523850
-G	Gp_heterotrophic	heterotrophic	trophic_strategy	MICRO:0001474
-G	Gp_lithotrophic	lithotrophic	trophic_strategy	MICRO:0001459
+G	Gp_h_troph	heterotrophic	trophic_strategy	MICRO:0001474
+G	Gp_lth_troph	lithotrophic	trophic_strategy	MICRO:0001459
 G	Gc_hydrvents_A	archaea in hydrothermal vents	combined	Gh_hydrvents & Gt_Archaea
 G	Gc_hydrvents_B	bacteria in hydrothermal vents	combined	Gh_hydrvents & Gt_Bacteria
 G	Gc_not_hydrvent_A	archaea excluding archaea in hydrothermal vents	combined	Gt_Archaea & !(Gc_hydrvents_A)
@@ -227,11 +227,11 @@ G	Gc_not_hydrvent_B	bacteria excluding bacteria in hydrothermal vents	combined	G
 G	Gt_Nitrospirae	Nitrospirae	taxonomic	taxid:40117	TR:Z:phylum
 G	Gm_NO2_ox	nitrite-oxidizing	metabolic	GO:0019332
 G	Gc_NO2_ox_Nitrospirae	nitrite-oxidizing Nitrospirae	combined	Gt_Nitrospirae & Gm_NO2_ox
-G	Gc_autotr_SO4_red_B	autotrophic sulfate-reducing bacteria	combined	Gm_SO4_red & Gt_Bacteria & Gp_autotrophic
-G	Gc_autotr_SO4_red_A	autotrophic sulfate-reducing archaea	combined	Gm_SO4_red & Gt_Archaea & Gp_autotrophic
+G	Gc_a_troph_SO4_red_B	autotrophic sulfate-reducing bacteria	combined	Gm_SO4_red & Gt_Bacteria & Gp_a_troph
+G	Gc_a_troph_SO4_red_A	autotrophic sulfate-reducing archaea	combined	Gm_SO4_red & Gt_Archaea & Gp_a_troph
 G	Gt_Thaumarchaeota	Thaumarchaeota	taxonomic	taxid:651137	TR:Z:phylum
 G	Gc_thermoacidophilic	thermoacidophilic	combined	Gr_thermophilic & Gr_acidophilic
-G	Gc_autotr_thermoac_Thaumarch	autotrophic thermoacidophilic Thaumarchaeota	combined	Gp_autotrophic & Gt_Thaumarchaeota & Gc_thermoacidophilic
+G	Gc_a_troph_thermoac_Thaumarch	autotrophic thermoacidophilic Thaumarchaeota	combined	Gp_a_troph & Gt_Thaumarchaeota & Gc_thermoacidophilic
 G	Gc_hydroth_Gamma	hydrothermal Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gh_hydrvents
 G	Gt_Nitrospinae	Nitrospinae	taxonomic	taxid:1293497	TR:Z:phylum
 G	Gc_CH4_ox_aer_B	aerobic methane-oxidizing bacteria	combined	Gt_Bacteria & Gm_CH4_ox_aer
@@ -252,8 +252,8 @@ G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
 G	Gr_microaerophilic	microaerophilic	O2_requirement	MICRO:0000515
 G	Gm_Fe2_ox	Fe(II)-oxidizing	metabolic	GO:0019411
 G	Gc_Fe2_ox_B	Fe(II)-oxidizing bacteria	combined	Gt_Bacteria & Gm_Fe2_ox	XR:Z:Wikipedia:Iron-oxidizing_bacteria
-G	Gc_anaer_ammox_Planctomycetes	anaerobic ammonia-oxidizing Planctomycetes	combined	Gr_anaerobic & Gm_NH3_ox & Gt_Planctomycetes
-G	Gc_autotr_Archaeoglobales	autotrophic Archaeoglobales	combined	Gp_autotrophic & Gt_Archaeoglobales
+G	Gc_anaer_NH3_ox_Planctomycetes	anaerobic ammonia-oxidizing Planctomycetes	combined	Gr_anaerobic & Gm_NH3_ox & Gt_Planctomycetes
+G	Gc_a_troph_Archaeoglobales	autotrophic Archaeoglobales	combined	Gp_a_troph & Gt_Archaeoglobales
 G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
 G	Gt_Archaeoglobales	Archaeoglobales	taxonomic	taxid:2231	TR:Z:order
 G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
@@ -268,14 +268,14 @@ G	Gt_Methanocaldococcus	Methanocaldococcus	taxonomic	taxid:196118	TR:Z:genus
 G	Gt_Afulgidus	Archeoglobus fulgidus	taxonomic	taxid:2234	TR:Z:species
 G	Gt_Fplacidus	Ferroglobus placidus	taxonomic	taxid:54261	TR:Z:species
 G	Gt_Thiomicrospira	Thiomicrospira	taxonomic	taxid:933	TR:Z:genus
-G	Gc_H2S_ox_chemolithoa_Thiomicrospira	sulfide-oxidizing chemolithoautotroph Thiomicrospira	combined	Gt_Thiomicrospira & Gm_H2S_ox & Gp_chemolithoautotrophic
+G	Gc_H2S_ox_chm_lth_a_Thiomicrospira	sulfide-oxidizing chemolithoautotroph Thiomicrospira	combined	Gt_Thiomicrospira & Gm_H2S_ox & Gp_chm_lth_a_troph
 G	Gm_H2S_ox	sulfide-oxidizing	metabolic	GO:0019418	XR:Z:Wikipedia:Microbial_oxidation_of_sulfur
-G	Gp_chemolithoautotrophic	chemolithoautotrophic	trophic_strategy	MICRO:0001477
+G	Gp_chm_lth_a_troph	chemolithoautotrophic	trophic_strategy	MICRO:0001477
 G	Gt_Hydrogenovibrio	Hydrogenovibrio	taxonomic	taxid:28884	TR:Z:genus
 G	Gt_Thiomicrorhabdus	Thiomicrorhabdus	taxonomic	taxid:2039723	TR:Z:genus
-G	Gc_chemolithoa_Hydrogenovibrio	chemolithoautotroph Hydrogenovibrio	combined	Gp_chemolithoautotrophic & Gt_Hydrogenovibrio
-G	Gc_chemolithoa_Thiomicrorhabdus	chemolithoautotroph Thiomicrorhabdus	combined	Gp_chemolithoautotrophic & Gt_Thiomicrorhabdus
-G	Gc_chemolithoa_Thiomicrospira	chemolithoautotroph Thiomicrospira	combined	Gp_chemolithoautotrophic & Gt_Thiomicrospira
+G	Gc_chm_lth_a_Hydrogenovibrio	chemolithoautotroph Hydrogenovibrio	combined	Gp_chm_lth_a_troph & Gt_Hydrogenovibrio
+G	Gc_chm_lth_a_Thiomicrorhabdus	chemolithoautotroph Thiomicrorhabdus	combined	Gp_chm_lth_a_troph & Gt_Thiomicrorhabdus
+G	Gc_chm_lth_a_Thiomicrospira	chemolithoautotroph Thiomicrospira	combined	Gp_chm_lth_a_troph & Gt_Thiomicrospira
 G	Gt_Piscirickettsiaceae	Piscirickettsiaceae	taxonomic	taxid:135616	TR:Z:family
 G	Gc_Hydrogenov_Thiomicror_Thiomicros	members of Hydrogenovibrio, Thiomicrorhabdus and Thiomicrospira	combined	Gt_Hydrogenovibrio & Gt_Thiomicrorhabdus & Gt_Thiomicrospira
 G	Gt_Proteobacteria	Proteobacteria	taxonomic	taxid:1224	TR:Z:phylum
@@ -815,13 +815,13 @@ V	VH119	SH46	Ap_g_soxB	Gt_Chlorobi	==	True
 V	VH120	SH47	Ap_p_AprBA	Gc_SRA	==	True
 V	VH121	SH47	Ap_p_AprBA	Gc_SOA:some	==	True
 V	VH122	SH48	Ap_d_sox	Gc_Irina2_Nautiliaceae	==	False
-V	VH123	SH49	Ap_g_aclB	Gc_autotr_Epsilon	==	True
+V	VH123	SH49	Ap_g_aclB	Gc_a_troph_Epsilon	==	True
 V	VH124	SH49	Ap_g_aclB	Gc_Irina2_Nautiliaceae	==	True
 V	VH125	SH50	Ap_g_aprA	Gc_SOB	==	True
 V	VH126	SH50	Ap_g_aprA	Gc_SRB	==	True
 V	VH127	SH52	Ap_g_cbbM	Gt_Gammaproteobacteria:some	==	True
-V	VH128	SH54	Ap_p_SQR	Gc_phototrophic_B:some	==	True
-V	VH129	SH54	Ap_p_SQR	Gc_chemotrophic_B:some	==	True
+V	VH128	SH54	Ap_p_SQR	Gc_pht_troph_B:some	==	True
+V	VH129	SH54	Ap_p_SQR	Gc_chm_troph_B:some	==	True
 V	VH130	SH54	Ap_p_SQR	Gt_Rcapsulatus	==	True
 V	VH131	SH55	Ap_p_SorAB	Gc_SOB:most	==	True
 V	VH132	SH56	Ap_f_aa3_cytC_ox	Gt_Hpylori	==	True
@@ -904,9 +904,9 @@ V	VH208	TH1	Ap_og_arCOG04844	Gc_not_CH4_gen_A_plus_Methanomas	==	False
 V	VH209	TH1	Ap_og_arCOG04885	Gt_Methanomassiliicoccales	==	False
 V	VH210	TH1	Ap_og_arCOG04885	Gc_meth_A_not_Methanomas:>90%	==	True
 V	VH211	TH1	Ap_og_arCOG04885	Gc_not_CH4_gen_A_plus_Methanomas:>95%	==	False
-V	VH212	SH61	Ap_op_CBB	Gc_obl_autotr_Gamma	==	True
-V	VH213	SH61	Ap_op_CBB	Gc_obl_autotr_Alpha	==	True
-V	VH214	SH61	Ap_op_CBB	Gc_obl_autotr_Beta	==	True
+V	VH212	SH61	Ap_op_CBB	Gc_obl_a_troph_Gamma	==	True
+V	VH213	SH61	Ap_op_CBB	Gc_obl_a_troph_Alpha	==	True
+V	VH214	SH61	Ap_op_CBB	Gc_obl_a_troph_Beta	==	True
 V	VH215	SH61	Ap_op_CBB	Gt_Cyanobacteria	==	True
 V	VH216	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	level	high
 V	VH217	SH64	Ac_d_Pfam00990	Gt_Campylobacter	level	none_or_low
@@ -932,19 +932,19 @@ V	VH236	SH67	Ap_f_ADP_rib_pyr	Gc_hydrvents_Epsilon:some	==	True
 V	VH237	SH67	Ap_f_ADP_rib_pyr	Gt_Abutzleri	==	True
 V	VH238	SH68	Ap_p_CODH	Gc_hydrvents_Thermococcus:some	==	True
 V	VH239	SH69	Ap_h_F420	Gt_Thermococcales	==	False
-V	VH240	SH70	Ap_w_CO_ox	Gc_lithoheterotr_B	==	False
+V	VH240	SH70	Ap_w_CO_ox	Gc_lth_h_troph_B	==	False
 V	VH241	SH70	Ap_w_CO_ox	Gs_TonnNA1	==	True
-V	VH242	SH70	Ap_w_CO2_fix	Gc_lithoheterotr_B	==	False
+V	VH242	SH70	Ap_w_CO2_fix	Gc_lth_h_troph_B	==	False
 V	VH243	SH70	Ap_w_CO2_fix	Gs_TonnNA1	==	True
 V	VH244	SH71	Ac_d_NiFe_hydr	Gt_Thermococcus:most	>	1
-V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_autotr_B	==	False
+V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_a_troph_B	==	False
 V	VH246	SH72	Ap_r_RubisCO_out_CBB	Gt_Hcrunogenus	==	False
 V	VH247	SH74	Ap_w_rTCA	Gc_hydrvents_Epsilon	==	True
 V	VH248	SH74	Ap_w_rTCA	Gc_NO2_ox_Nitrospirae	==	True
-V	VH249	SH75	Ap_w_wood_ljungdahl	Gc_autotr_SO4_red_B	==	True
-V	VH250	SH75	Ap_w_wood_ljungdahl	Gc_autotr_SO4_red_A	==	True
+V	VH249	SH75	Ap_w_wood_ljungdahl	Gc_a_troph_SO4_red_B	==	True
+V	VH250	SH75	Ap_w_wood_ljungdahl	Gc_a_troph_SO4_red_A	==	True
 V	VH250b	SH75	Ap_w_wood_ljungdahl	Gc_CH4_gen_A	==	True
-V	VH251	SH76	Ap_w_3HP4HB	Gc_autotr_thermoac_Thaumarch	==	True
+V	VH251	SH76	Ap_w_3HP4HB	Gc_a_troph_thermoac_Thaumarch	==	True
 V	VH252	SH77	Ap_w_rev_SO4_red	Gc_hydroth_Gamma	==	True
 V	VH253	SH78	Ap_g_narG	Gt_Nitrospirae	==	True
 V	VH254	SH78	Ap_g_narG	Gt_Nitrospinae	==	True
@@ -977,8 +977,8 @@ V	VH280	SH85	Ap_w_ACIII	Gt_Zetaproteobacteria:many	==	True
 V	VH281	SH85	Ap_w_ACIII	Gc_Fe2_ox_B:some	==	True
 V	VH282	SH86	Ap_h_cbb3	Gt_Zetaproteobacteria:most	==	True
 V	VH283	SH87	Aall_w_red_AcCoA	Gc_SRB:some	==	True
-V	VH284	SH87	Aall_w_red_AcCoA	Gc_anaer_ammox_Planctomycetes:some	==	True
-V	VH285	SH87	Aall_w_red_AcCoA	Gc_autotr_Archaeoglobales:some	==	True
+V	VH284	SH87	Aall_w_red_AcCoA	Gc_anaer_NH3_ox_Planctomycetes:some	==	True
+V	VH285	SH87	Aall_w_red_AcCoA	Gc_a_troph_Archaeoglobales:some	==	True
 V	VH286	SH88	Ap_f_CO_deh	Gt_Methanosarcina	==	True
 V	VH287	SH88	Ap_f_CO_deh	Gt_Methanothrix	==	True
 V	VH288	SH88	Ap_f_CO_deh	Gt_Methanocaldococcus	==	True
@@ -987,14 +987,14 @@ V	VH290	SH88	Ap_f_CO_deh	Gt_Fplacidus	==	True
 V	VH291	SH88	Ap_f_CO_deh	Gc_ac_gen_B	==	True
 V	VH292	SH88	Ap_f_CO_deh	Gc_photosyn_B:some	==	True
 V	VH293	SH88	Ap_f_CO_deh	Gc_SRB	==	True
-V	VH294	SH89	Ap_g_cbbM	Gc_H2S_ox_chemolithoa_Thiomicrospira	==	True
-V	VH295	SH89	Ap_g_cbbL	Gc_H2S_ox_chemolithoa_Thiomicrospira	==	True
-V	VH296	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Hydrogenovibrio	level	high
-V	VH297	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrorhabdus	level	high
-V	VH298	SH90	Ac_d_Pfam00563	Gc_chemolithoa_Thiomicrospira	level	high
-V	VH299	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Hydrogenovibrio	level	high
-V	VH300	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Thiomicrorhabdus	level	high
-V	VH301	SH90	Ac_d_Pfam00990	Gc_chemolithoa_Thiomicrospira	level	high
+V	VH294	SH89	Ap_g_cbbM	Gc_H2S_ox_chm_lth_a_Thiomicrospira	==	True
+V	VH295	SH89	Ap_g_cbbL	Gc_H2S_ox_chm_lth_a_Thiomicrospira	==	True
+V	VH296	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Hydrogenovibrio	level	high
+V	VH297	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Thiomicrorhabdus	level	high
+V	VH298	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Thiomicrospira	level	high
+V	VH299	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Hydrogenovibrio	level	high
+V	VH300	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Thiomicrorhabdus	level	high
+V	VH301	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Thiomicrospira	level	high
 V	VH302	SH94	Ac_p_SQR	Gt_Proteobacteria	>	1
 V	VH303	SH98	Ap_f_cbb3_cytC_ox	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
 V	VH304	SH98	Ap_f_NDH1_NADH_deh	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
@@ -1011,12 +1011,12 @@ V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
 V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
 V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
 G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gm_photosyn & Gc_SOB
-G	Gc_chemolithoa_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chemolithoautotrophic
+G	Gc_chm_lth_a_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chm_lth_a_troph
 U	Uf_dsr	function	EC:1.8.99.5	DSR	dissimilatory sulfite reductase
 A	Ap_f_dsr	Uf_dsr	presence
 V	VH317	SH97	Ap_f_dsr	Gc_photosyn_SOB:many	==	True
-V	VH318	SH97	Ap_f_dsr	Gc_chemolithoa_Proteo:many	==	True
-V	VH319	SH97	Ap_f_dsr	Gc_chemolithoa_Proteo:many	==	True
+V	VH318	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
+V	VH319	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
 V	VH320	SH97	Ap_f_dsr	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
 U	Ug_soeA	specific_gene	.	soeA	sulfite dehydrogenase (quinone) gene A
 U	Ug_soeB	specific_gene	.	soeB	sulfite dehydrogenase (quinone) gene B

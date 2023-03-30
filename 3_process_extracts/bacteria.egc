@@ -241,18 +241,19 @@ G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Ps
 G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
 G	Gx_magnetotactic	magnetotactic	taxis	MICRO:0000619
 G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_Bacteria
-G	Gi_pathogenic	pathogenic	biological_interaction	MICRO:0000441
+G	Gi_pathogenic	pathogenic	biological_interaction	RO:0002556
 G	Gc_pathogenic_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
 G	Gt_Mtuberculosis	Mycobacterium tuberculosis	taxonomic	taxid:1773	TR:Z:species
 G	Gt_Mavium	Mycobacterium avium	taxonomic	taxid:1764	TR:Z:species
-G	Gp_chemolithoautotrophic	chemolithoautotrophic	trophic_strategy	MICRO:0001477
+G	Gp_chm_lth_a_troph	chemolithoautotrophic	trophic_strategy	MICRO:0001477
+G	Gp_chm_org_a_troph	chemoorganoautotrophic	trophic_strategy	MICRO:0001480
+G	Gc_chm_a_troph	chemoautotrophic	combined	Gp_chm_lth_a_troph | Gp_chm_org_a_troph
 G	Gt_Rickettsia	Rickettsia	taxonomic	taxid:780	TR:Z:genus
 G	Gt_Rtyphi	Rickettsia typhi	taxonomic	taxid:785	TR:Z:species
 G	Gt_Rprowazekii	Rickettsia prowazekii	taxonomic	taxid:782	TR:Z:species
 G	Gt_Rconorii	Rickettsia conorii	taxonomic	taxid:781	TR:Z:species
 G	Gr_neutrophilic	neutrophilic	pH_requirement	MICRO:0001546
-G	Gp_chemoautotrophic	chemoautotrophic	trophic_strategy	ECOCORE:00000129	XR:Z:MICRO_0001500!chemolithoautotroph;MICRO_0001505!chemoorganoautotroph	# MICRO does not define chemoautotroph, but chemotroph, then divides it first into -litho- and -organo- and then those into -hetero- and -autotroph
-G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gp_chemoautotrophic & Gt_Bacteria
+G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gc_chm_a_troph & Gt_Bacteria
 G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
 G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
 G	Gm_1C_troph	methylotrophic	metabolic	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
@@ -261,12 +262,12 @@ G	Gt_Geobacter	Geobacter	taxonomic	taxid:28231	TR:Z:genus
 G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geobacter
 G	Gt_Geobacteraceae	Geobacteraceae	taxonomic	taxid:213422	TR:Z:family
 G	Gt_Bartonella	Bartonella	taxonomic	taxid:773	TR:Z:genus
-G	Gi_predatory	predatory	biological_interaction	def:feeding by killing and eating other organisms	XR:Z:OMIT:0012199!Predatory behavior
+G	Gi_predatory	predatory	biological_interaction	RO:0002439
 G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gi_predatory & Gt_Bacteria & (!Gt_Maeruginosavorus)
 G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gi_predatory) & Gt_Bacteria
 G	Gt_Maeruginosavorus	Micavibrio aeruginosavorus	taxonomic	taxid:349221	TR:Z:species
-G	Gi_obl_pred	obligate predatory	biological_interaction	def:always feeding by killing and eating other organisms
-G	Gi_fac_pred	facultative predatory	biological_interaction	def:sometimes feeding by killing and eating other organisms, but can also employ other feeding strategies
+G	Gi_obl_pred	obligate predatory	biological_interaction	derived:Gi_predatory:obligate
+G	Gi_fac_pred	facultative predatory	biological_interaction	derived:Gi_predatory:facultative
 G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_Bacteria & Gi_obl_pred
 G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_Bacteria & Gi_fac_pred
 G	Gt_Rhodobacterales	Rhodobacterales	taxonomic	taxid:204455	TR:Z:order
@@ -289,16 +290,16 @@ G	Gh_gut	gut/enteric	habitat	ENVO:2100002!intestine environment	XR:Z:NCIT:C93019
 G	Gc_gut_Bacteroidota	gut Bacteroidota	combined	Gt_Bacteroidota & Gh_gut
 G	Gt_Rsibirica	Rickettsia sibirica	taxonomic	taxid:35793	TR:Z:species
 G	Gt_Rfelis	Rickettsia felis	taxonomic	taxid:42862	TR:Z:species
-G	Gi_obl_intracell	obligate intracellular	biological_interaction	def:always living inside a cell of a host organism	XR:Z:GO:0005622;RO:0002640;NCIT:C28217
+G	Gi_obl_intracell	obligate intracellular	biological_interaction	derived:Gi_intracellular:obligate
 G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gi_obl_intracell & Gt_Bacteria	XR:Z:sctid:414922005
 G	Gi_free	free-living	biological_interaction	OMP:0007646!free-living lifestyle phenotype
 G	Gt_Atumefaciens	Agrobacterium tumefaciens	taxonomic	taxid:358	TR:Z:species
 G	Gt_Tmaritima	Thermotoga maritima	taxonomic	taxid:2336	TR:Z:species
 G	Gt_Smeliloti	Sinorhizobium meliloti	taxonomic	taxid:382	TR:Z:species
 G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
-G	Gi_fleainf	flea-infecting	biological_interaction	def:pathogen, which infects fleas	XR:Z:TRANS:0000023!flea borne transmission
-G	Gc_fleainf_B	flea-infecting bacteria	combined	Gi_fleainf & Gt_Bacteria
-G	Gc_nonfleainf_B	non flea-infecting bacteria	combined	(!Gi_fleainf) & Gt_Bacteria
+G	Gc_flea_path	flea-infecting	combined	Gi_pathogenic & Gip_siphonaptera
+G	Gc_flea_path_B	flea-infecting bacteria	combined	Gc_flea_path & Gt_Bacteria
+G	Gc_non_flea_path_B	non flea-infecting bacteria	combined	(!Gc_flea_path) & Gt_Bacteria
 G	Gm_asaccharolytic	asaccharolytic	metabolic	Wiktionary:asaccharolytic
 G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_Bacteria
 G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
@@ -337,7 +338,7 @@ G	Gs_AspBH72	Azoarcus sp. BH72	strain	bacdive:140652	TS:Z:taxid:418699
 G	Gt_Acetobacteraceae	Acetobacteraceae	taxonomic	taxid:433	TR:Z:family
 G	Gt_Enterobacter	Enterobacter	taxonomic	taxid:547	TR:Z:genus
 G	Gn_Enterobacter	not Enterobacter	inverted	!Gt_Enterobacter
-G	Gd_tumor	tumor (inducing)	resultive_disease_symptom	NCRO:0000044
+G	Gd_tumor	tumor	resultive_disease_symptom	sctid:108369006
 G	Gc_tumor_Enterobacter	tumor-inducing Enterobacter	combined	Gt_Enterobacter & Gd_tumor
 G	Gt_Actinobacillus	Actinobacillus	taxonomic	taxid:713	TR:Z:genus
 G	Gt_Haemophilus	Haemophilus	taxonomic	taxid:724	TR:Z:genus
@@ -367,7 +368,7 @@ G	Gc_purple_photosyn_B	purple photosynthetic bacteria	combined	Gm_purple_photosy
 G	Gt_Actinomycetales	Actinomycetales	taxonomic	taxid:2037	TR:Z:order
 G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gi_free
 G	Gt_Pseudomonadaceae	Pseudomonadaceae	taxonomic	taxid:135621	TR:Z:family
-G	Gi_vertpath	vertebrate pathogenic	biological_interaction	def:pathogen of vertebrates	XR:Z:NCIT:C80324
+G	Gc_vert_path	vertebrate pathogenic	combined	Gi_pathogenic & Gip_vertebrata
 G	Gt_Myxococcales	Myxococcales	taxonomic	taxid:29	TR:Z:order
 G	Gt_Deltaproteo	δ-proteobacteria	taxonomic	taxid:28221	TR:Z:class
 G	Gc_Deltapr_not_Myxococcales	non-Myxococcales δ-proteobacteria	combined	Gt_Deltaproteo & !(Gt_Myxococcales)
@@ -430,6 +431,8 @@ G	Gh_hydrvents	marine hydrothermal vents	habitat	ENVO:01000122
 G	Gc_hydrvents_Epsilon_not_Hpylori	Epsilonproteobacteria in sea vents excluding Helicobacter mustelae	combined	Gt_Epsilonproteobacteria & Gh_hydrvents & !(Gt_Hpylori)
 G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
 G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
+G	Gip_siphonaptera	interacting with Siphonaptera (fleas)	biological_interaction_partner_taxonomy	taxid:7509	TR:Z:order
+G	Gip_vertebrata	interacting with Vertebrata (vertebrates)	biological_interaction_partner_taxonomy	taxid:7742
 U	Uog_anyCOG	*ortholog_group:COG	COG:*	any_COG	assigned to at least one COG	# used to define COG proportions
 U	Ub_C	base	.	C	cytosine
 U	Ub_G	base	.	G	guanine
@@ -1449,7 +1452,7 @@ V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
 V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
 V	V38	S23	Ap_d_PE_PPE	Gt_Mycobacterium	==	True
 V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
-V	V40	S24	Ap_f_2oxo_deh	Gp_chemolithoautotrophic	==	False
+V	V40	S24	Ap_f_2oxo_deh	Gp_chm_lth_a_troph	==	False
 V	V41	S25	Av_g_spoT	Gt_Rickettsia	level	high
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
 V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
@@ -1651,7 +1654,7 @@ V	V234	S121	Ap_c_PGC	Gc_purple_photosyn_B	==	True
 V	V235	S123	Ar_pls_b_GC	Gc_free_actinomycetes	level	high
 V	V236	S125	Ap_pls_c_tra	Gt_Pseudomonadaceae	==	True
 V	V237	S125	Ap_pls_c_trb	Gt_Pseudomonadaceae	==	True
-V	V238	S132	Ap_t_Nmeni	Gi_vertpath	==	True
+V	V238	S132	Ap_t_Nmeni	Gc_vert_path	==	True
 V	V239	S135,T2	Ap_d_CL0001	Gt_Myxococcales	==	True
 V	V240	S135,T2	Ap_d_CL0066	Gt_Myxococcales	==	True
 V	V241	S135,T2	Ap_d_CL0333	Gt_Myxococcales	==	True
@@ -1880,7 +1883,7 @@ C	C41	S12	Ar_og_COG2207	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C42	S12	Ar_og_COG3710	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C43	S13	Ar_og_COG1028	Gc_copiotrophic_B	<<	Gc_oligotrophic_B
 C	C44	S14	Ar_og_COG2124	Gc_copiotrophic_B	<<	Gc_oligotrophic_B
-C	C45	S63	Ac_comb_rep_transp_integr	Gc_fleainf_B	>	Gc_nonfleainf_B
+C	C45	S63	Ac_comb_rep_transp_integr	Gc_flea_path_B	>	Gc_non_flea_path_B
 C	C46	S123	Ar_pls_b_GC,Ar_chr_b_GC	Gc_free_actinomycetes	>~	Gc_free_actinomycetes
 C	C47	S134,T2	Ac_d_CL0314	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
 C	C48	S134,T2	Ac_d_CL0016	Gt_Myxococcales	>>	Gc_Deltapr_not_Myxococcales
