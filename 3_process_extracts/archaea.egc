@@ -263,9 +263,9 @@ U	Uf_4hyxbutCoA_deh	function	.	.	4-hydroxybutyryl-CoA dehydratase
 U	Uf_methmalCoa_mut	function	.	.	methylmalonyl-CoA mutase
 U	Ud_ferritin_Dps	family_or_domain	.	.	ferritin/Dps domain
 U	Up_hydr_am_oxr	specific_protein	.	.	hydroxylamine oxidoreductase
-U	Uh_hydr_am_oxr	family_or_domain:homolog	homolog:Up_hydr_am_oxr	.	hydroxylamine oxidoreductase homolog
+U	Uh_hydr_am_oxr	homolog_protein	homolog:Up_hydr_am_oxr	.	hydroxylamine oxidoreductase homolog
 U	Ug_norB	specific_gene	.	norB	.
-U	Uh_norB	family_or_domain:homolog	homolog:Ug_norB	.	norB homolog
+U	Uh_norB	homolog_gene	homolog:Ug_norB	.	norB homolog
 U	Ug_dprA	specific_gene	.	dprA	.
 U	Ug_comF	specific_gene	.	comF	.
 U	Uf_urease	function	.	.	urease
@@ -300,7 +300,7 @@ U	Ud_FeFe_hydr	family_or_domain	.	.	[FeFe] hydrogenase
 U	Uf_MBH	function	.	.	membrane-bound [NiFe]-hydrogenase (MBH)
 U	Uf_SH1	specific_protein	.	.	cytoplasmic [NiFe]-hydrogenase (SHI)
 U	Uf_SH2	specific_protein	.	.	cytoplasmic [NiFe]-hydrogenase (SHII)
-U	Uy_SH1_2	set:gene_system	Uf_SH1,Uf_SH2	.	cytoplasmic [NiFe]-hydrogenases SHI and SHII
+U	Uy_SH1_2	set!:gene_system	Uf_SH1,Uf_SH2	.	cytoplasmic [NiFe]-hydrogenases SHI and SHII
 U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase (CODH)
 U	Uf_Rubisco_type3	function	.	.	type III Rubisco enzyme
 U	Uf_SOR	function	.	SOR	superoxide reductase
@@ -316,15 +316,15 @@ U	Ud_TBP	family_or_domain	.	TBP	TATA-box binding protein
 U	Ug_cdvA	specific_gene	.	cdvA	.
 U	Ug_cdvB	specific_gene	.	cdvB	.
 U	Ug_cdvC	specific_gene	.	cdvC	.
-U	Uc_cdvABC	set:gene_cluster	Ug_cdvA,Ug_cdvB,Ug_cdvC	.	cdvABC cell-division system
-U	Um_cdv_ftsZ	set:multiple_genes	Uc_cdvABC,Ug_ftsZ	.	.
+U	Uc_cdvABC	set!:gene_cluster	Ug_cdvA,Ug_cdvB,Ug_cdvC	.	cdvABC cell-division system
+U	Um_cdv_ftsZ	set!:+specific_gene	Uc_cdvABC,Ug_ftsZ	.	.
 U	Ug_phaE	specific_gene	.	phaE	PHA synthase gene phaE
 U	Ug_phaB	specific_gene	.	phaB	.
 U	Ug_phaC	specific_gene	.	phaC	PHA synthase gene phaC
 U	Ug_phaP	specific_gene	.	phaP	.
-U	Uc_maoCgap12phaPEC	set:gene_cluster	Ug_maoC,Ug_gap12,Ug_phaP,Ug_phaE,Ug_phaC	.	maoC-gap12-phaP-phaE-phaC
+U	Uc_maoCgap12phaPEC	set!:gene_cluster	Ug_maoC,Ug_gap12,Ug_phaP,Ug_phaE,Ug_phaC	.	maoC-gap12-phaP-phaE-phaC
 U	Ug_maoC	specific_gene	.	maoC	.
-U	Uc_gap12_phaPEC	set:gene_cluster	Ug_gap12,Ug_phaP,Ug_phaE,Ug_phaC	.	gap12-phaP-phaE-phaC
+U	Uc_gap12_phaPEC	set!:gene_cluster	Ug_gap12,Ug_phaP,Ug_phaE,Ug_phaC	.	gap12-phaP-phaE-phaC
 U	Ug_gap12	specific_gene	.	gap12	.
 U	Up_PhaP5	specific_protein	.	PhaP5	phasin PhaP5
 U	Ug_phaM	specific_gene	.	phaM	phasin-like PhaM
@@ -356,13 +356,13 @@ U	Up_S26e	specific_protein	.	S26e	ribosomal protein S26e
 U	Up_L13e	specific_protein	.	L13e	ribosomal protein L13e
 U	Ud_t2_DNApol	function	.	.	type II DNA polymerase
 U	Ug_ftsZ	specific_gene	.	ftsZ	.
-U	Uh_ftsZ	family_or_domain:homolog	homolog:Ug_ftsZ	.	ftsZ homolog
+U	Uh_ftsZ	homolog_gene	homolog:Ug_ftsZ	.	ftsZ homolog
 U	Uw_3HP4HP_mod	set:metabolic_pathway	.	.	modified 3-hydroxypropionate/4-hydroxybutyrate cycle
 U	Uf_ribokinase	function	.	.	ribokinase
 U	Uf_met_phglc_iso	function	.	.	metal-dependent phosphoglucose isomerase
 U	Up_bf_pgm_iso	specific_protein	.	.	bifunctional phosphoglucose/phosphomannose isomerase
 U	Up_pyr_dik	specific_protein	.	.	pyruvate dikinase
-U	Uh_pyr_dik	family_or_domain:homolog	homolog:Up_pyr_dik	.	pyruvate dikinase homolog
+U	Uh_pyr_dik	homolog_protein	homolog:Up_pyr_dik	.	pyruvate dikinase homolog
 U	Uf_6pg_deh	function	.	.	6-phosphogluconate dehydrogenase
 U	Uf_f420_oxr	function	.	.	F420-dependent oxidoreductase
 U	Uf_phxyalk_syn	function	.	.	Polyhydroxyalkanoate synthase
@@ -376,7 +376,7 @@ U	Ud_LXa	family_or_domain	.	LXa	ribosomal-protein family LXa
 U	Ug_UvrA	specific_gene	.	UvrA	.
 U	Ug_UvrB	specific_gene	.	UvrB	.
 U	Ug_UvrC	specific_gene	.	UvrC	.
-U	Uy_UvrABC	set:gene_system	Ug_UvrA,Ug_UvrB,Ug_UvrC	UvrABC	UvrABC endonuclease
+U	Uy_UvrABC	set!:gene_system	Ug_UvrA,Ug_UvrB,Ug_UvrC	UvrABC	UvrABC endonuclease
 U	Ud_ESP	family_or_domain	.	ESP	eukaryotic signature protein
 U	Ud_Sec2324	family_or_domain	.	.	Sec23/24 domain
 U	Ud_TRAPP	family_or_domain	.	TRAPP	TRAPP

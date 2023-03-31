@@ -76,7 +76,7 @@ S	S19	PMID:29225728	a recent analysis of rumen prokaryotic genomes identified Bu
 S	S20	PMID:22965120	The presence of PPE gene family is unique to mycobacteria among prokaryotes
 S	S21	PMID:22965120	The prevalence of ‘Hr’ proteins strongly suggests the preference of MIP to inhabit water-columns or sediments, where they reside predominantly at oxic–anoxic interface (OAI) and in the anoxic regions of the marine habitat or both as reported in the case of magnetotactic bacteria, which are also endowed with the abundance of hemerythrins ( 62 ).
 S	S22	PMID:22965120	Notably, thiocyanate gene cluster is absent from all the pathogenic mycobacteria analyzed in this study (including M. abscessus and the opportunists of MAC ).
-S	S23	PMID:22965120	Thus, despite having PE-PPE genes and mce1 operon, which enable mycobacteria to invade the host cell, MIP lacks both mce2 and mce3 operons, which are essential for causing macrophage infections by M. tuberculosi s and M. avium
+S	S23	PMID:22965120	Thus, despite having PE-PPE genes and mce1 operon, which enable mycobacteria to invade the host cell, MIP lacks both mce2 and mce3 operons, which are essential for causing macrophage infections by M. tuberculosis and M. avium
 S	S24	PMID:19617360	As in the case of A. ferrooxidans ATCC 23270 and other chemolithoautotrophic representatives, an incomplete tricarboxylic acid (TCA) cycle was detected, in which genes for the 2-oxogluatarate dehydrogenase enzyme complex were absent.
 S	S25	PMID:15317790	Further support of SpoT functionality is the high level of conservation of the genes among the Rickettsia species.
 S	S26	PMID:15317790	As in the other rickettsiae, the 16S rRNA gene was separated from the 23S and 5S rRNA genes.
@@ -484,6 +484,7 @@ U	Uaa_L	amino_acid	SO:0001437	L	leucine
 U	Uaa_Q	amino_acid	SO:0001448	Q	glutamine
 U	Uog_COG1804	ortholog_group:COG	COG1804	.	.
 U	Uaa_A	amino_acid	SO:0001435	A	alanine
+U	Uaa_X	amino_acid	SO:0001237	X	any amino acid
 U	Ug_hns	specific_gene	.	hns	DNA-binding protein H-NS
 U	Uw_MtnN_LuxS	set:metabolic_pathway	.	.	MtnN(Pfs)/LuxS pathway
 U	Ug_attC	specific_gene	.	attC	.
@@ -495,9 +496,9 @@ U	Uf_ppc	function	.	ppc	phosphoenolpyruvate carboxylase (ppc)
 U	Ud_BorrelliaPfam48	family_or_domain	.	Pfam48	Borrellia paralogous family Pfam49	# Pfam here does not refer to the Pfam database
 U	Ud_BorrelliaPfam54	family_or_domain	.	Pfam54	Borrellia paralogous family Pfam54	# Pfam here does not refer to the Pfam database
 U	Ug_nrdE	specific_gene	.	nrdE	.
-U	Uy_nrdEFI	set:gene_system	Ug_nrdE,Ug_nrdF,Ug_nrdI	.	.
+U	Uy_nrdEFI	set!:gene_system	Ug_nrdE,Ug_nrdF,Ug_nrdI	.	.
 U	Ug_ospA	specific_gene	.	ospA	.
-U	Uy_ospABdbpAB	set:gene_system	Ug_ospA,Ug_ospB,Ug_dbpA,Ug_dbpB	.	.
+U	Uy_ospABdbpAB	set!:gene_system	Ug_ospA,Ug_ospB,Ug_dbpA,Ug_dbpB	.	.
 U	Ug_ospB	specific_gene	.	ospB	.
 U	Ug_dbpA	specific_gene	.	dbpA	decorin binding protein A
 U	Ug_dbpB	specific_gene	.	dbpB	decorin binding protein B
@@ -532,15 +533,15 @@ U	Ug_ftsZ	specific_gene	.	ftsZ	.
 U	Uw_LPS_syn	set:metabolic_pathway	.	.	LPS biosynthetic pathway
 U	Uy_flagella	set:gene_system	.	.	flagella assembly
 U	Ug_virB1	specific_gene	.	virB1	.
-U	Uh_virB1	family_or_domain:homolog	homolog:Ug_virB1	.	virB1 homolog
+U	Uh_virB1	homolog_gene	homolog:Ug_virB1	.	virB1 homolog
 U	Ug_virB2	specific_gene	.	virB2	.
-U	Uh_virB2	family_or_domain:homolog	homolog:Ug_virB2	.	virB2 homolog
+U	Uh_virB2	homolog_gene	homolog:Ug_virB2	.	virB2 homolog
 U	Ug_virB5	specific_gene	.	virB5	.
-U	Uh_virB5	family_or_domain:homolog	homolog:Ug_virB5	.	virB5 homolog
+U	Uh_virB5	homolog_gene	homolog:Ug_virB5	.	virB5 homolog
 U	Ug_virB7	specific_gene	.	virB7	.
-U	Uh_virB7	family_or_domain:homolog	homolog:Ug_virB7	.	virB7 homolog
+U	Uh_virB7	homolog_gene	homolog:Ug_virB7	.	virB7 homolog
 U	Ug_nodA	specific_gene	.	nodA	.
-U	Uy_NodABC	set:gene_system	Ug_nodA,Ug_nodB,Ug_nodC	NodABC	.
+U	Uy_NodABC	set!:gene_system	Ug_nodA,Ug_nodB,Ug_nodC	NodABC	.
 U	Ug_nodB	specific_gene	.	nodB	.
 U	Uk_V	ortholog_groups_category:COG_category	V	.	Defense mechanisms
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
@@ -588,13 +589,13 @@ U	Up_FAS2	specific_protein	.	.	fatty acid synthase (FAS) II
 U	Uc_actinorhodin	set:gene_cluster	.	.	type II aromatic polyketide biosynthetic gene cluster (actinorhodin)
 U	Uc_tetracycline	set:gene_cluster	.	.	type II aromatic polyketide biosynthetic gene cluster (tetracycline)
 U	Uc_tetracenomycin	set:gene_cluster	.	.	type II aromatic polyketide biosynthetic gene cluster (tetracenomycin)
-U	Uop_ppsABCDE	set:operon	Ug_ppsA,Ug_ppsB,Ug_ppsC,Ug_ppsD,Ug_ppsE	ppsABCDE	.
+U	Uop_ppsABCDE	set!:operon	Ug_ppsA,Ug_ppsB,Ug_ppsC,Ug_ppsD,Ug_ppsE	ppsABCDE	.
 U	Ug_ppsB	specific_gene	.	ppsB	.
 U	Ug_ppsC	specific_gene	.	ppsC	.
 U	Ug_ppsD	specific_gene	.	ppsD	.
 U	Ug_ppsE	specific_gene	.	ppsE	.
 U	Uf_haemolys	function	.	.	Putative haemolysin
-U	Uop_cyoABCD	set:operon	Ug_cyoA,Ug_cyoB,Ug_cyoC,Ug_cyoD	cyoABCD	cytochrome ba3/bo3-type ubiquinol oxidase (cyoABCD operon)
+U	Uop_cyoABCD	set!:operon	Ug_cyoA,Ug_cyoB,Ug_cyoC,Ug_cyoD	cyoABCD	cytochrome ba3/bo3-type ubiquinol oxidase (cyoABCD operon)
 U	Ug_cyoA	specific_gene	.	cyoA	.
 U	Ug_cyoB	specific_gene	.	cyoB	.
 U	Ug_cyoC	specific_gene	.	cyoC	.
@@ -603,7 +604,7 @@ U	Uog_COG0697	ortholog_group:COG	COG0697	.	.
 U	Ug_cydA	specific_gene	.	cydA	cytochrome bd-type oxidase (cydA)
 U	Ug_cydB	specific_gene	.	cydB	cytochrome bd-type oxidase (cydB)
 U	Ug_blaNMC_A	specific_gene	.	blaNMC-A	blaNMC-A/IMI-type genes (blaNMC-A)
-U	Uc_blalMI	set:gene_cluster	Ug_blaNMC_A,Ug_blaIMI1,Ug_blaIMI9,Ug_blaIMI5,Ug_blaIMI6	.	.
+U	Uc_blalMI	set!:gene_cluster	Ug_blaNMC_A,Ug_blaIMI1,Ug_blaIMI9,Ug_blaIMI5,Ug_blaIMI6	.	.
 U	Ug_blaIMI1	specific_gene	.	blaIMI-1	blaNMC-A/IMI-type genes (blaIMI-1)
 U	Ug_blaIMI9	specific_gene	.	blaIMI-9	blaNMC-A/IMI-type genes (blaIMI-9)
 U	Ug_blaIMI5	specific_gene	.	blaIMI-5	blaNMC-A/IMI-type genes (blaIMI-5)
@@ -620,25 +621,25 @@ U	Uog_COG2116	ortholog_group:COG	COG2116	.	.
 U	Uf_thiamine_ABC_tr	function	.	.	thiamine ABC transporter
 U	Uf_t3_polyk_syn	function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
-U	Uh_14b_cellbios	family_or_domain:homolog	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
+U	Uh_14b_cellbios	homolog_protein	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
 U	Uw_TAC	set:metabolic_pathway	.	.	tricarboxylic acid cycle
 U	Uw_cytC_resp	set:metabolic_pathway	.	.	cytochrome c-containing respiratory chain
 U	Uc_succ_dehy	set:gene_cluster	.	.	succinate dehydrogenase gene cluster
 U	Ug_sdhA	specific_gene	.	sdhA	succinate dehydrogenase flavoprotein subunit, sdhA
-U	Up_coxA1B1	set:protein_complex	Ug_coxA1,Ug_coxB1	.	cytochrome c oxidase subunit I (coxA1 & coxB1)
+U	Up_coxA1B1	set!:protein_complex	Ug_coxA1,Ug_coxB1	.	cytochrome c oxidase subunit I (coxA1 & coxB1)
 U	Ug_coxA1	specific_gene	.	coxA1	.
 U	Ug_coxB1	specific_gene	.	coxB1	.
 U	Uog_COG2704	ortholog_group:COG	COG2704	.	.
-U	Up_coxA2B2	set:protein_complex	Ug_coxA2,Ug_coxB2	.	cytochrome c oxidase subunit II (coxA2 & coxB2)
+U	Up_coxA2B2	set!:protein_complex	Ug_coxA2,Ug_coxB2	.	cytochrome c oxidase subunit II (coxA2 & coxB2)
 U	Ug_coxA2	specific_gene	.	coxA2	.
 U	Ug_coxB2	specific_gene	.	coxB2	.
 U	Ug_nosD	specific_gene	.	nosD	.
 U	Ug_nosF	specific_gene	.	nosF	.
 U	Ug_nosZ	specific_gene	.	nosZ	.
-U	Uc_nosZDF	set:gene_cluster	Ug_nosZ,Ug_nosD,Ug_nosF	nosZDF	.
+U	Uc_nosZDF	set!:gene_cluster	Ug_nosZ,Ug_nosD,Ug_nosF	nosZDF	.
 U	Uf_cprfnr	function	.	.	oxygen-sensitive Cpr/Fnr-type transcription regulator
-U	Ur_nosZDF_near_coxA2B2	set:arrangement	Uc_nosZDF,><,Up_coxA2B2	.	nosZDF cluster cytochrome c oxidase subunit II genes
-U	Ur_cprfnr_near_coxA2B2	set:arrangement	Uf_cprfnr,><,Up_coxA2B2	.	oxygen-sensitive Cpr/Fnr-type transcription regulator near cytochrome c oxidase subunit II genes
+U	Ur_nosZDF_near_coxA2B2	set!:arrangement	Uc_nosZDF,><,Up_coxA2B2	.	nosZDF cluster cytochrome c oxidase subunit II genes
+U	Ur_cprfnr_near_coxA2B2	set!:arrangement	Uf_cprfnr,><,Up_coxA2B2	.	oxygen-sensitive Cpr/Fnr-type transcription regulator near cytochrome c oxidase subunit II genes
 U	Ug_ccoO	specific_gene	.	ccoO	cbb3-type cytochrome oxidase (ccoO)
 U	Ug_ccoN	specific_gene	.	ccoN	cbb3-type cytochrome oxidase (ccoN)
 U	Ug_ccoP	specific_gene	.	ccoP	.
@@ -682,16 +683,16 @@ U	Ug_argE	specific_gene	.	argE	.
 U	Ug_argJ	specific_gene	.	argJ	.
 U	Uog_COG840	ortholog_group:COG	COG840	.	.
 U	Up_Theba1253	specific_protein	.	Theba_1253	Theba_1253
-U	Uh_Theba1253	family_or_domain:homolog	homolog:Up_Theba1253	.	Theba_1253 homolog
+U	Uh_Theba1253	homolog_protein	homolog:Up_Theba1253	.	Theba_1253 homolog
 U	Uf_TS	function	.	.	threonine synthase (TS)
 U	Uog_COG1972	ortholog_group:COG	COG1972	.	.
 U	Ui_cag	set:genomic_island	.	cag	cag pathogenicity island
 U	Ud_PF05860	family_or_domain:Pfam	PF05860	.	.
 U	Ud_PF05594	family_or_domain:Pfam	PF05594	.	.
 U	Ug_ciaB	specific_gene	.	ciaB	.
-U	Uh_ciaB	family_or_domain:homolog	homolog:Ug_ciaB	.	ciaB homolog
+U	Uh_ciaB	homolog_gene	homolog:Ug_ciaB	.	ciaB homolog
 U	Up_PEB4a	specific_protein	.	PEB4a	PEB4a
-U	Uh_PEB4a	family_or_domain:homolog	homolog:Up_PEB4a	.	PEB4a homolog
+U	Uh_PEB4a	homolog_protein	homolog:Up_PEB4a	.	PEB4a homolog
 U	Ud_sox	family_or_domain	.	sox	sox genes
 U	Uog_COG2271	ortholog_group:COG	COG2271	.	.
 U	Uog_COG3104	ortholog_group:COG	COG3104	.	.
@@ -710,27 +711,55 @@ U	Uog_COG2124	ortholog_group:COG	COG2124	.	.
 U	Ug_hrc	specific_gene	.	hrc	.
 U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
 U	Ug_hrp	specific_gene	.	hrp	.
-U	Up_ECH	specific_protein	.	ECH	Enoyl-CoA hydratase
-U	Uy_ECH_Rnf	set:gene_system	Up_ECH,Ud_Rnf	.	.
-U	Ud_Rnf	family_or_domain	.	Rnf	.
+U	Up_Ech	set:protein_complex	doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
+U	Uy_Ech_Rnf	set!:+protein_complex	Up_Ech,Up_Rnf	.	.
+U	Up_Rnf	set:protein_complex	doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
 U	Ud_PPE	family_or_domain	.	PPE	proline-proline-glutamate
 U	Up_hemerythrin	specific_protein	.	.	hemerythrin
 U	Uc_thiocyanate	set:gene_cluster	.	.	thiocyanate
 U	Ud_PE_PPE	family_or_domain	.	PE-PPE	proline-glutamate (PE) - proline-proline-glutamate (PPE)
-U	Uop_mce1	set:operon	.	mce1	.
-U	Uop_mce2	set:operon	.	mce2	.
-U	Uop_mce3	set:operon	.	mce3	.
+U	Ug_fadD5	specific_gene	.	fadD5	fadD5 predicted fatty-acid-CoA ligase	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1R	specific_gene	.	mce1R	mce1 operon proximal transcription regulator	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE1A	specific_gene	.	yrbE1A	mce1 operon integral membrane protein yrbEA	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE1B	specific_gene	.	yrbE1B	mce1 operon integral membrane protein yrbEB	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1A	specific_gene	.	mce1A	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1B	specific_gene	.	mce1B	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1C	specific_gene	.	mce1C	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1D	specific_gene	.	mce1D	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1E	specific_gene	.	mce1E	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce1F	specific_gene	.	mce1F	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Uop_mce1	set!:operon	Ug_mce1R,Ug_fadD5,Ug_yrbE1A,Ug_yrbE1B,Ug_mce1A,Ug_mce1B,Ug_mce1C,Ug_mce1D,Ug_mce1E,Ug_mce1F	mce1	Mycobacterium mammalian cell entry operon 1	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2R	specific_gene	.	mce2R	mce2 operon proximal transcription regulator	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE2A	specific_gene	.	yrbE2A	mce2 operon integral membrane protein yrbEA	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE2B	specific_gene	.	yrbE2B	mce2 operon integral membrane protein yrbEB	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2A	specific_gene	.	mce2A	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2B	specific_gene	.	mce2B	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2C	specific_gene	.	mce2C	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2D	specific_gene	.	mce2D	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2E	specific_gene	.	mce2E	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce2F	specific_gene	.	mce2F	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Uop_mce2	set!:operon	Ug_mce2R,Ug_yrbE2A,Ug_yrbE2B,Ug_mce2A,Ug_mce2B,Ug_mce2C,Ug_mce2D,Ug_mce2E,Ug_mce2F	mce2	Mycobacterium mammalian cell entry operon 2	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3R	specific_gene	.	mce3R	mce3 operon proximal transcription regulator	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE3A	specific_gene	.	yrbE3A	mce3 operon integral membrane protein yrbEA	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_yrbE3B	specific_gene	.	yrbE3B	mce3 operon integral membrane protein yrbEB	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3A	specific_gene	.	mce3A	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3B	specific_gene	.	mce3B	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3C	specific_gene	.	mce3C	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3D	specific_gene	.	mce3D	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3E	specific_gene	.	mce3E	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Ug_mce3F	specific_gene	.	mce3F	.	XD:Z:doi:10.1007/s11010-011-0733-5
+U	Uop_mce3	set!:operon	Ug_mce3R,Ug_yrbE3A,Ug_yrbE3B,Ug_mce3A,Ug_mce3B,Ug_mce3C,Ug_mce3D,Ug_mce3E,Ug_mce3F	mce3	Mycobacterium mammalian cell entry operon 3	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Uog_COG2199	ortholog_group:COG	COG2199	.	.
 U	Uf_2oxo_deh	function	.	.	2-oxogluatarate dehydrogenase enzyme complex
 U	Ug_spoT	specific_gene	.	spoT	.
-U	Ur_16S_sep_23S_5S	set:arrangement	Ug_16S,<>,Ug_23S,><,Ug_5S	.	16S rRNA separated from 23s rRNA gene and 5S rRNA gene
+U	Ur_16S_sep_23S_5S	set!:arrangement	Ug_16S,<>,Ug_23S,><,Ug_5S	.	16S rRNA separated from 23s rRNA gene and 5S rRNA gene
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
 U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
 U	Ug_5S	specific_gene	.	5S_rRNA	5S rRNA gene
 U	Ut_pseudogene	feature_type	SO:0000336	pseudogene	.
 U	Ug_acrD	specific_gene	.	acrD	.
 U	Ug_terC	specific_gene	.	terC	.
-U	Uc_soxYZB_hyp_resB_soxAX_resC	set:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxB,Ug_resB,Ug_soxA,Ug_soxX,Ug_resC	soxYZB-hyp-resB-soxAX-resC	.
+U	Uc_soxYZB_hyp_resB_soxAX_resC	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxB,Ug_resB,Ug_soxA,Ug_soxX,Ug_resC	soxYZB-hyp-resB-soxAX-resC	.
 U	Ug_soxA	specific_gene	.	soxA	.
 U	Ug_soxB	specific_gene	.	soxB	.
 U	Ug_hyp	specific_gene	.	hyp	.
@@ -739,7 +768,7 @@ U	Ug_resC	specific_gene	.	resC	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
-U	Uc_soxYZA_hyp_SoxB	set:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxA,Ug_hyp,Ug_soxB	soxYZA-hyp-SoxB	.
+U	Uc_soxYZA_hyp_SoxB	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxA,Ug_hyp,Ug_soxB	soxYZA-hyp-SoxB	.
 U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
 U	Ug_hpnH	specific_gene	.	hpnH	.
 U	Uog_COG2200	ortholog_group:COG	COG2200	.	.
@@ -755,15 +784,15 @@ U	Up_aeGlyRS_a2dim	set:protein_complex	.	.	archeal-eukaryotic GlyRS α2 dimer
 U	Uog_COG0110	ortholog_group:COG	COG0110	.	.
 U	Uf_a2b2tetramer	function	.	.	α2/β2 tetramer
 U	Ut_gta_like	feature_type	ref:PMID:22717884	GTA-like	structure similar to a gene transfer agent (GTA)
-U	Uop_dlt	set:operon	.	dlt	.
-U	Ug_dltA	specific_gene	.	dltA	.
+U	Uop_dlt	set:operon	.	dlt	 D-alanylation of lipoteichoic acid (dlt) operon
+U	Ug_dltA	specific_gene	.	dltA	dlt operon gene dltA
 U	Ug_metH	specific_gene	.	metH	.
 U	Ud_PF04055	family_or_domain:Pfam	PF04055	.	radical SAM domain
 U	Ud_B12bind	family_or_domain	.	.	vitamin B12-binding domain
 U	Ug_dsrB	specific_gene	.	dsrB	.
 U	Ug_odmA	specific_gene	.	odmA	.
-U	Uc_hyf_focB	set:gene_cluster	Ug_hyfA,Ug_hyfB,Ug_hyfC,Ug_hyfD,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfH,Ug_hyfI,Ug_hyfR,Ug_focB	hyfABCDEFGHIR-focB	.
-U	Uc_hyfBCEFGI	set:gene_cluster	Ug_hyfB,Ug_hyfC,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfI	hyfBCEFGI	.
+U	Uc_hyf_focB	set!:gene_cluster	Ug_hyfA,Ug_hyfB,Ug_hyfC,Ug_hyfD,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfH,Ug_hyfI,Ug_hyfR,Ug_focB	hyfABCDEFGHIR-focB	.
+U	Uc_hyfBCEFGI	set!:gene_cluster	Ug_hyfB,Ug_hyfC,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfI	hyfBCEFGI	.
 U	Ug_hyfA	specific_gene	.	hyfA	.
 U	Ug_hyfB	specific_gene	.	hyfB	.
 U	Ug_hyfC	specific_gene	.	hyfC	.
@@ -777,7 +806,7 @@ U	Ug_focB	specific_gene	.	focB	.
 U	Ug_hyfR	specific_gene	.	hyfR	.
 U	Uk_I	ortholog_groups_category:COG_category	I	.	Lipid transport and metabolism
 U	Uw_colabamin	set:metabolic_pathway	.	.	cobalamin synthesis
-U	Uw_menaquininone	set:metabolic_pathway	Ug_menF,Ug_menD,Ug_menH,Ug_menC,Ug_menE,Ug_menB,Ug_menI,Ug_menA,Ug_menG	menFDHCEBIAG	Menaquininone (MK) synthesis pathway
+U	Uw_menaquininone	set!:metabolic_pathway	Ug_menF,Ug_menD,Ug_menH,Ug_menC,Ug_menE,Ug_menB,Ug_menI,Ug_menA,Ug_menG	menFDHCEBIAG	Menaquininone (MK) synthesis pathway
 U	Ug_menA	specific_gene	.	menA	.
 U	Ug_menB	specific_gene	.	menB	.
 U	Ug_menC	specific_gene	.	menC	.
@@ -792,18 +821,14 @@ U	Ug_cspD	specific_gene	.	cspD	.
 U	Ug_clpB	specific_gene	.	clpB	.
 U	Up_GroEL	specific_protein	.	GroEL	.
 U	Up_GroES	specific_protein	.	GroES	.
-U	Uy_HscAB	set:gene_system	Ug_hscA,Ug_hscB	HscAB	.
+U	Uy_HscAB	set!:gene_system	Ug_hscA,Ug_hscB	HscAB	.
 U	Ug_hscA	specific_gene	.	hscA	iron-sulfur cluster biosynthesis chaperone HscA
 U	Ug_hscB	specific_gene	.	hscB	[Fe-S] cluster biosynthesis co-chaperone HscB
-U	Ucomb_g_hpn	*gene	Ug_hpnH,Ug_hpnN,Ug_hpnK,Ug_hpnJ,Ug_hpnI	hpn	.
+U	Ucomb_g_hpn	*specific_gene	Ug_hpnH,Ug_hpnN,Ug_hpnK,Ug_hpnJ,Ug_hpnI	hpn	.
 M	Uy_T3SS	InterPro	IPR005714	ATPase_T3SS_FliI/YscN	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	InterPro	IPR013380	ATPase_T3SS_H-transp	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	InterPro	IPR040627	T3SS_ATPase_C	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	Pfam	PF18269	T3SS_ATPase_C	UP:Z:P80153	RV:Z:Y
-M	Up_ECH	InterPro	IPR018376	Enoyl-CoA_hyd/isom_CS	UP:Z:A0A0K2MCH9	RV:Z:N
-M	Up_ECH	InterPro	IPR001753	Enoyl-CoA_hydra/iso	UP:Z:A0A0K2MCH9	RV:Z:N
-M	Up_ECH	Pfam	PF00378	ECH_1	UP:Z:A0A0K2MCH9	RV:Z:N
-M	Up_ECH	PROSITE	PS00166	ENOYL_COA_HYDRATASE	UP:Z:A0A0K2MCH9	RV:Z:N
 M	Ug_spoT	Pfam	PF04607	RelA_SpoT	UP:Z:Q9AKB0	RV:Z:N
 M	Ug_spoT	SMART	SM00954	RelA_SpoT	UP:Z:Q9AKB0	RV:Z:N
 M	Ug_acrD	InterPro	IPR027463	AcrB_DN_DC_subdom	UP:Z:Q68XJ7	RV:Z:N
@@ -1181,8 +1206,8 @@ A	Ar_og_COG1028	Uog_COG1028	relative:Uog_anyCOG
 A	Ar_og_COG2124	Uog_COG2124	relative:Uog_anyCOG
 A	Ap_g_hrc	Ug_hrc	presence
 A	Ap_g_hrp	Ug_hrp	presence
-A	Ap_y_ECH_Rnf	Uy_ECH_Rnf	presence
-A	Amp_y_ECH_Rnf	Uy_ECH_Rnf	members_presence
+A	Ap_y_Ech_Rnf	Uy_Ech_Rnf	complete
+A	Amp_y_Ech_Rnf	Uy_Ech_Rnf	members_presence
 A	Ap_d_PPE	Ud_PPE	presence
 A	Ap_p_hemerythrin	Up_hemerythrin	presence
 A	Ap_c_thiocyanate	Uc_thiocyanate	presence
@@ -1260,9 +1285,9 @@ A	Ap_g_kexD	Ug_kexD	presence
 A	Ap_g_kdeA	Ug_kdeA	presence
 A	Ap_g_kmrA	Ug_kmrA	presence
 A	Ac_t_tRNA	Ut_tRNA	count
-A	Ac_aa_L	Uaa_L	count
-A	Ac_aa_Q	Uaa_Q	count
-A	Ac_aa_A	Uaa_A	count
+A	Ar_aa_L	Uaa_L	relative:Uaa_X
+A	Ar_aa_Q	Uaa_Q	relative:Uaa_X
+A	Ar_aa_A	Uaa_A	relative:Uaa_X
 A	Ap_g_hns	Ug_hns	presence
 A	Ap_w_MtnN_LuxS	Uw_MtnN_LuxS	presence
 A	Ap_g_attC	Ug_attC	presence
@@ -1424,11 +1449,11 @@ V	V3	T1	Ac_op_ribosomal	Gc_copiotrophic_B	==	9
 V	V4	S8	Ac_op_ribosomal	Gc_oligotrophic_B	==	1
 V	V5	S15	Ap_g_hrc	Gt_Xanthomonas	==	True
 V	V6	S15	Ap_g_hrp	Gt_Xanthomonas	==	True
-V	V7	S18	Ap_y_ECH_Rnf	Gr_anaerobic:most	==	False
-V	V8	S18	Amp_y_ECH_Rnf	Gr_anaerobic:most	==	True
-V	V10	S19	Ap_y_ECH_Rnf	Gc_rumen_Butyrivibrio	==	True
-V	V13	S19	Ap_y_ECH_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
-V	V16	S19	Ap_y_ECH_Rnf	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
+V	V7	S18	Ap_y_Ech_Rnf	Gr_anaerobic:most	==	False
+V	V8	S18	Amp_y_Ech_Rnf	Gr_anaerobic:most	==	True
+V	V10	S19	Ap_y_Ech_Rnf	Gc_rumen_Butyrivibrio	==	True
+V	V13	S19	Ap_y_Ech_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
+V	V16	S19	Ap_y_Ech_Rnf	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
 V	V17	S23	Ap_op_mce2	Gt_Mtuberculosis	==	True
 V	V18	S23	Ap_op_mce2	Gt_Mavium	==	True
 V	V19	S28	Ap_g_acrD	Gt_Rtyphi	==	True
@@ -1560,9 +1585,9 @@ V	V144	S71	Ap_g_kdeA	Gt_Kpneumoniae	==	True
 V	V145	S71	Ap_g_kmrA	Gt_Kpneumoniae	==	True
 V	V146	S72	Ac_t_tRNA	Gt_Vibrio	level	high
 V	V147	S72	Ac_t_tRNA	Gt_Pprofundum	level	high
-V	V148	S73	Ac_aa_L	Gt_Gammaproteobacteria:most	level	high
-V	V149	S73	Ac_aa_Q	Gr_thermophilic:most	level	low
-V	V150	S73	Ac_aa_A	Gc_psymes_not_Oiheyensis:most	level	high
+V	V148	S73	Ar_aa_L	Gt_Gammaproteobacteria:most	level	high
+V	V149	S73	Ar_aa_Q	Gr_thermophilic:most	level	low
+V	V150	S73	Ar_aa_A	Gc_psymes_not_Oiheyensis:most	level	high
 V	V151	S74	Ap_g_hns	Gt_Gammaproteobacteria:most	==	True
 V	V152	S75	Ap_g_hns	Gt_Soneidensis	==	True
 V	V153	S75	Ap_g_hns	Gt_Dpsychrophila	==	True
@@ -1831,7 +1856,7 @@ V	V410	S173	Arl_ins_seq	Gt_Maeruginosa	=~	0.1
 V	V411	S171	Ac_t_pseudogene	Gt_Octadecabacter	level	high
 U	Ug_hicA	specific_gene	.	hicA	mRNA interferase toxin HicA
 U	Ug_hicB	specific_gene	.	hicB	DNA-binding transcriptional repressor HicB
-U	Uc_HicAB	set:gene_cluster	Ug_hicA,Ug_hicB	HicAB	HicAB RNA-targeting toxin-antitoxin (TA) system
+U	Uc_HicAB	set!:gene_cluster	Ug_hicA,Ug_hicB	HicAB	HicAB RNA-targeting toxin-antitoxin (TA) system
 A	Aall_c_HicAB	Uc_HicAB	complete
 V	V412	S131	Aall_c_HicAB	Gt_Bacteria:many	==	True
 V	V413	S124	Ac_genome_size	Gt_Enterobacteriaceae:most	>	4.0 Mb
