@@ -391,7 +391,7 @@ G	Gt_Rmarinus	Rhodothermus marinus	taxonomic	taxid:29549	TR:Z:species
 G	Gt_Firmicutes	Firmicutes	taxonomic	taxid:1239	TR:Z:phylum
 G	Gt_Octadecabacter	Octadecabacter	taxonomic	taxid:53945	TR:Z:genus
 G	Gt_Roseobacteraceae	Roseobacteraceae	taxonomic	taxid:2854170	TR:Z:family
-G	Gc_Roseob_not_Octad	Roseobacter excluding Octadecabacter	combined	Gt_Roseobacteraceae & !(Gt_Octadecabacter)
+G	Gc_Roseob_not_Octad	Roseobacteraceae excluding Octadecabacter	combined	Gt_Roseobacteraceae & !(Gt_Octadecabacter)
 G	Gt_Nazo0708	Nostoc azollae' 0708	strain	taxid:551115
 G	Gc_Cyanob_not_0708	Cyanobacteria excluding Nostoc azollae' 0708	combined	Gt_Cyanobacteriota & !(Gt_Nazo0708)
 G	Gt_Deinococcus	Deinococcus	taxonomic	taxid:1298	TR:Z:genus
