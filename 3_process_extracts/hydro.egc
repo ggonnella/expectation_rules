@@ -1007,17 +1007,17 @@ V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
 V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
 V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
 V	VH317	SH75	Ap_w_WL	Gc_CH4_gen_A:some	==	True
-V VH318	SH51	Ap_w_SOX	Gt_Beggiatoa	==	False
-V	VH319	SH50	Ap_g_aprA	Gc_Beggiatoa	==	True
+V	VH318	SH51	Ap_w_SOX	Gt_Beggiatoa	==	False
+V	VH319	SH50	Ap_g_aprA	Gt_Beggiatoa	==	True
 V	VH320	SH75	Ap_w_WL	Gm_ac_gen:some	==	True
 G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gm_photosyn & Gc_SOB
 G	Gc_chm_lth_a_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chm_lth_a_troph
 U	Uf_dsr	function	EC:1.8.99.5	DSR	dissimilatory sulfite reductase
 A	Ap_f_dsr	Uf_dsr	presence
-V	VH317	SH97	Ap_f_dsr	Gc_photosyn_SOB:many	==	True
-V	VH318	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
-V	VH319	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
-V	VH320	SH97	Ap_f_dsr	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH321	SH97	Ap_f_dsr	Gc_photosyn_SOB:many	==	True
+V	VH322	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
+V	VH323	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
+V	VH324	SH97	Ap_f_dsr	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
 U	Ug_soeA	specific_gene	.	soeA	sulfite dehydrogenase (quinone) gene A
 U	Ug_soeB	specific_gene	.	soeB	sulfite dehydrogenase (quinone) gene B
 U	Ug_soeC	specific_gene	.	soeC	sulfite dehydrogenase (quinone) gene C
@@ -1026,16 +1026,16 @@ A	Aall_p_SorAB	Up_SorAB	members_presence
 A	Aall_p_AprBA	Up_AprBA	members_presence
 A	Aall_p_SoeABC	Up_SoeABC	complete
 A	Ap_p_SoeABC	Up_SoeABC	members_presence
-V	VH321	SH97	Ap_p_SoeABC	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH322	SH97	Aall_p_SoeABC	Gt_Proteobacteria:many	==	True
-V	VH323	SH97	Ap_p_SorAB	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH324	SH97	Aall_p_SorAB	Gt_Proteobacteria:many	==	True
-V	VH325	SH97	Ap_p_AprBA	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH326	SH97	Aall_p_AprBA	Gt_Proteobacteria:many	==	True
-V	VH327	SH58	Ap_og_COG4654	Gc_AOB	==	True
-V	VH328	SH58	Ap_og_COG2863	Gc_AOB	==	True
-V	VH329	SH42	Ap_g_mcrA	Gm_CH4_gen	==	True
-V	VH330	SH42	Ap_g_mcrA	Gm_not_CH4_gen	==	False
+V	VH325	SH97	Ap_p_SoeABC	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH326	SH97	Aall_p_SoeABC	Gt_Proteobacteria:many	==	True
+V	VH327	SH97	Ap_p_SorAB	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH328	SH97	Aall_p_SorAB	Gt_Proteobacteria:many	==	True
+V	VH329	SH97	Ap_p_AprBA	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH330	SH97	Aall_p_AprBA	Gt_Proteobacteria:many	==	True
+V	VH331	SH58	Ap_og_COG4654	Gc_AOB	==	True
+V	VH332	SH58	Ap_og_COG2863	Gc_AOB	==	True
+V	VH333	SH42	Ap_g_mcrA	Gm_CH4_gen	==	True
+V	VH334	SH42	Ap_g_mcrA	Gm_not_CH4_gen	==	False
 C	CH1	SH93	Ac_d_Pfam000159	Gc_Hydrogenov_Thiomicror_Thiomicros	>>	Gt_Piscirickettsiaceae
 C	CH2	SH95	Ac_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	>	Gt_Proteobacteria
 C	CH3	SH102	Ac_t_CRISPR	Gc_thermophilic_A	>	Gc_mesophilic_A
