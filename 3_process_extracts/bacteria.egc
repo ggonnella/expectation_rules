@@ -486,7 +486,7 @@ U	Uog_COG1804	ortholog_group:COG	COG1804	.	.
 U	Uaa_A	amino_acid	SO:0001435	A	alanine
 U	Uaa_X	amino_acid	SO:0001237	X	any amino acid
 U	Ug_hns	specific_gene	.	hns	DNA-binding protein H-NS
-U	Uw_MtnN_LuxS	set:metabolic_pathway	.	.	MtnN(Pfs)/LuxS pathway
+U	Uw_MtnN_LuxS	set:metabolic_pathway	KEGG:M00609	.	MtnN(Pfs)/LuxS pathway
 U	Ug_attC	specific_gene	.	attC	.
 U	Ug_attG	specific_gene	.	attG	.
 U	Ur_dnaA_to_metS	set:arrangement	.	.	genes in range dnaA to metS (metG)
@@ -520,7 +520,7 @@ U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface pr
 U	Ur_cp26_genes	set:arrangement	.	.	cp26 plasmid genes
 U	Ud_BorrelliaPfam80	family_or_domain	.	Pfam80	Bdr family, Borrelia paralogous family Pfam80
 U	Ug_visE	specific_gene	.	visE	membrane lipoprotein VlsE
-U	Uw_SOX	set:metabolic_pathway	KEGG:M00595	.	sulfur oxidation pathway
+U	Uw_SOX	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
 U	Uf_carb_tr	function	GO:0015144	.	carbohydrate transporter
 U	Uog_COG1680	ortholog_group:COG	COG1680	.	.
 U	Uf_glyc_perm	function	.	.	glycolate permease
@@ -530,7 +530,7 @@ U	Uy_chr	set:gene_system	.	chr	chr metal resistance
 U	Uy_cus	set:gene_system	.	cus	cus metal resistance
 U	Uog_COG3485	ortholog_group:COG	COG3485	.	.
 U	Ug_ftsZ	specific_gene	.	ftsZ	.
-U	Uw_LPS_syn	set:metabolic_pathway	.	.	LPS biosynthetic pathway
+U	Uw_LPS_syn	set:+metabolic_pathway	KEGG:map00540	.	Lipopolysaccharide biosynthesis
 U	Uy_flagella	set:gene_system	.	.	flagella assembly
 U	Ug_virB1	specific_gene	.	virB1	.
 U	Uh_virB1	homolog_gene	homolog:Ug_virB1	.	virB1 homolog
@@ -622,8 +622,7 @@ U	Ud_thiamine_ABC_tr	family_or_domain	IPR005948	.	thiamine ABC transporter
 U	Uf_t3_polyk_syn	function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
 U	Uh_14b_cellbios	homolog_protein	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
-U	Uw_TAC	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
-U	Uw_cytC_resp	set:metabolic_pathway	.	.	cytochrome c-containing respiratory chain
+U	Uw_TCA	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
 U	Uc_succ_dehy	set:gene_cluster	.	.	succinate dehydrogenase gene cluster
 U	Ug_sdhA	specific_gene	.	sdhA	succinate dehydrogenase flavoprotein subunit, sdhA
 U	Up_coxA1B1	set!:protein_complex	Ug_coxA1,Ug_coxB1	.	cytochrome c oxidase subunit I (coxA1 & coxB1)
@@ -778,13 +777,13 @@ U	Uf_g6p_kin	function	.	.	glucose 6-kinase
 U	Uf_glu_gal4_epi	function	.	.	UDP-glucose/galactose 4-epimerase
 U	Uf_FeSO_hybrid	function	.	.	iron-sulfur-oxygen hybrid cluster protein
 U	Uf_HBP	function	.	HBP	hemin-binding protein
-U	Uw_mevalonate	set:metabolic_pathway	 KEGG:M00095	.	mevalonate pathway
+U	Uw_mevalonate	set:metabolic_pathway	KEGG:M00095	.	mevalonate pathway
 U	Uw_DOXP	set:metabolic_pathway	KEGG:M00096	.	DOXP pathway (1-deoxy-d-xylulose-5-phosphate)
 U	Up_aeGlyRS_a2dim	set:protein_complex	.	.	archeal-eukaryotic GlyRS α2 dimer
 U	Uog_COG0110	ortholog_group:COG	COG0110	.	.
 U	Uf_a2b2tetramer	function	.	.	α2/β2 tetramer
 U	Ut_gta_like	feature_type	ref:PMID:22717884	GTA-like	structure similar to a gene transfer agent (GTA)
-U	Uop_dlt	set:operon	.	dlt	 D-alanylation of lipoteichoic acid (dlt) operon
+U	Uop_dlt	set:operon	.	dlt	D-alanylation of lipoteichoic acid (dlt) operon
 U	Ug_dltA	specific_gene	.	dltA	dlt operon gene dltA
 U	Ug_metH	specific_gene	.	metH	.
 U	Ud_PF04055	family_or_domain:Pfam	PF04055	.	radical SAM domain
@@ -805,7 +804,7 @@ U	Ug_hyfI	specific_gene	.	hyfI	.
 U	Ug_focB	specific_gene	.	focB	.
 U	Ug_hyfR	specific_gene	.	hyfR	.
 U	Uk_I	ortholog_groups_category:COG_category	I	.	Lipid transport and metabolism
-U	Uw_cobalamin	set:metabolic_pathway	 KEGG:M00924+KEGG:M00122	.	cobalamin (vitamin B12) biosynthesis (anaerobic)
+U	Uw_cobalamin	set:+metabolic_pathway	KEGG:M00924,KEGG:M00122	.	cobalamin (vitamin B12) biosynthesis (anaerobic)
 U	Uw_menaquininone	set!:metabolic_pathway	Ug_menF,Ug_menD,Ug_menH,Ug_menC,Ug_menE,Ug_menB,Ug_menI,Ug_menA,Ug_menG	menFDHCEBIAG	Menaquininone (MK) synthesis pathway
 U	Ug_menA	specific_gene	.	menA	.
 U	Ug_menB	specific_gene	.	menB	.
@@ -1387,8 +1386,7 @@ A	Ap_y_Laa_ABC_tr	Uy_Laa_ABC_tr	presence
 A	Ap_d_thiamine_ABC_tr	Ud_thiamine_ABC_tr	presence
 A	Ap_f_t3_polyk_syn	Uf_t3_polyk_syn	presence
 A	Ap_pls_h_14b_cellbios	Uh_14b_cellbios	presence!replicon_type:plasmid
-A	Ap_w_TAC	Uw_TAC	presence
-A	Ap_w_cytC_resp	Uw_cytC_resp	presence
+A	Ap_w_TCA	Uw_TCA	presence
 A	Ap_c_succ_dehy	Uc_succ_dehy	presence
 A	Ap_g_sdhA	Ug_sdhA	presence
 A	Ap_p_coxA1B1	Up_coxA1B1	presence
@@ -1743,13 +1741,12 @@ V	V298	S154	Ap_d_thiamine_ABC_tr	Gt_Lcrescens	==	False
 V	V299	S155	Ap_f_t3_polyk_syn	Gt_Streptomyces	==	True
 V	V300	S156	Ap_f_t3_polyk_syn	Gt_Avinelandii	==	True
 V	V301	S157	Ap_pls_h_14b_cellbios	Gt_Salinibacter	==	True
-V	V303	S159	Ap_w_cytC_resp	Gt_Salinibacter	==	True
-V	V303b	S160	Ap_c_succ_dehy	Gt_Salinibacter	==	True
+V	V302	S159,S161	Ap_w_TCA	Gt_Salinibacter	==	True
+V	V303	S159,S161	Ap_w_TCA	Gt_haloarchaea	==	True
 V	V304	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
+V	V304b	S160	Ap_c_succ_dehy	Gt_Salinibacter	==	True
 V	V305	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
 V	V305b	S161	Ap_p_coxA1B1	Gt_Salinibacter	==	True
-V	V30x1	S161	Ap_w_TAC	Gt_Salinibacter	==	True
-V	V30x2	S161	Ap_w_TAC	Gt_haloarchaea	==	True
 V	V306	S162	Ap_r_cprfnr_near_coxA2B2	Gt_Salinibacter	==	True
 V	V307	S162	Ap_r_nosZDF_near_coxA2B2	Gt_Salinibacter	==	True
 V	V308	S163	Ap_g_ccoN	Gt_Salinibacter	==	True
