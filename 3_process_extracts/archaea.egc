@@ -251,8 +251,8 @@ U	Ub_G	base	.	G	guanine
 U	Ub_GC	*base	Ub_G,Ub_C	.	.
 U	Ub_N	base	.	N	any nucleic acid base
 U	Ub_C	base	.	C	cytosine
-U	Uw_amox	set:metabolic_pathway	.	.	ammonia oxidation
-U	Uf_amm_transp	function	.	.	ammonium transporter
+U	Uw_amox	set:metabolic_pathway	KEGG:M00528	.	ammonia oxidation
+U	Uf_amm_tr	function	GO:0072488	.	ammonium transporter
 U	Uf_copp_ox	function	.	.	multicopper oxidase
 U	Ud_blue_copp	family_or_domain	.	.	blue copper domain- containing protein
 U	Up_topoIB	specific_protein	.	.	topoisomerase IB
@@ -274,7 +274,7 @@ U	Uf_CPE	function	.	.	Capsular Polysaccharide Exporter
 U	Ug_pseG	specific_gene	.	pseG	.
 U	Ut_large_replicon	feature_type	.	.	large replicon (>100 kbp)
 U	Ut_intein	feature_type	.	.	intein	XR:Z:SO:0000728
-U	Uf_urea_tr	function	.	.	urea transporter
+U	Uf_urea_tr	function	GO:0071918	.	urea transporter
 U	Up_respcompl1	set:protein_complex	.	.	Respiratory Complex I
 U	Uf_citC_ox	function	.	.	cytochrome c-oxidase
 U	Ug_nuoG	specific_gene	.	nuoG	.
@@ -288,7 +288,7 @@ U	Ug_ectA	specific_gene	.	ectA	L-2,4-diaminobutyrate acetyltransferase
 U	Ug_ectD	specific_gene	.	ectD	.
 U	Uf_MPGS	function	.	.	MPGS (mannosyl-3-phosphoglycerate synthase)
 U	Uf_MPGP	function	.	.	MPGP (mannosyl-3-phosphoglycerate phosphatase)
-U	Uw_MscL_ch	set:metabolic_pathway	.	.	MscL channel
+U	Ud_MscL_ch	family_or_domain	TC:1.A.22	MscL	Large Conductance Mechanosensitive Ion Channel (MscL) Family
 U	Uy_flagella	set:gene_system	.	.	flagella assembly
 U	Uy_pili	set:gene_system	.	.	pili
 U	Ug_nuoE	specific_gene	.	nuoE	.
@@ -305,8 +305,8 @@ U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase (CODH)
 U	Uf_Rubisco_type3	function	.	.	type III Rubisco enzyme
 U	Uf_SOR	function	.	SOR	superoxide reductase
 U	Ug_mcrA	specific_gene	.	mcrA	.
-U	Uw_CBB_wR	set:metabolic_pathway	.	.	Calvin–Bassham–Benson cycle with RubisCO
-U	Uw_3HP4HP	set:metabolic_pathway	.	.	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
+U	Uw_CBB	set:metabolic_pathway	 KEGG:M00165	.	Calvin–Bassham–Benson cycle
+U	Uw_3HP4HP	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
 U	Uf_AMPf_3HPCoA_s	function	.	.	AMP-forming 3-hydroxypropionyl-CoA synthetase
 U	Uf_ADPf_acylCoA_s	function	.	.	ADP-forming acyl-CoA synthetase
 U	Uf_ATP_citr_ly	function	.	.	citrate-cleaving enzyme (ATP citrate lyase)
@@ -340,12 +340,12 @@ U	Up_mrt	set:protein_complex	.	mrt	methyl coenzyme M reductase II (mrt)
 U	Ui_saccharolytic	set:genomic_island	.	.	saccharolytic gene island
 U	Uf_malt_treh_degr	function	.	.	maltose and trehalose degradation
 U	Ut_MGE	feature_type	SO:0001037	mobile_genetic_element	.
-U	Uw_xenorh_biosy	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis
+U	Uw_XeR_bs	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis	XD:Z:doi:10.1186/1745-6150-6-52
 U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement
 U	Uf_SPEARE	function	.	.	SPEARE proteins
 U	Ud_laminin_glb	family_or_domain	.	.	laminin globular domain
 U	Ud_conA_like	family_or_domain	.	.	ConA-like domain
-U	Uw_entner_doud	set:metabolic_pathway	.	.	Entner-Doudoroff pathway
+U	Uw_ED	set:metabolic_pathway	KEGG:M00008	.	Entner-Doudoroff pathway
 U	Uf_reverse_gyr	function	.	.	reverse gyrase
 U	Ug_rpoA	specific_gene	.	rpoA	DNA-dependent RNA polymerase (RNAP) (rpoA)
 U	Ug_rpoB	specific_gene	.	rpoB	DNA-dependent RNA polymerase (RNAP) (rpoB)
@@ -357,7 +357,7 @@ U	Up_L13e	specific_protein	.	L13e	ribosomal protein L13e
 U	Ud_t2_DNApol	function	.	.	type II DNA polymerase
 U	Ug_ftsZ	specific_gene	.	ftsZ	.
 U	Uh_ftsZ	homolog_gene	homolog:Ug_ftsZ	.	ftsZ homolog
-U	Uw_3HP4HP_mod	set:metabolic_pathway	.	.	modified 3-hydroxypropionate/4-hydroxybutyrate cycle
+U	Uw_3HP4HP_mod	set:metabolic_pathway	.	.	modified 3-hydroxypropionate/4-hydroxybutyrate cycle	XD:Z:doi:10.1371/journal.pbio.0040095
 U	Uf_ribokinase	function	.	.	ribokinase
 U	Uf_met_phglc_iso	function	.	.	metal-dependent phosphoglucose isomerase
 U	Up_bf_pgm_iso	specific_protein	.	.	bifunctional phosphoglucose/phosphomannose isomerase
@@ -637,7 +637,7 @@ M	Ud_Sec2324	InterPro	IPR036174	Znf_Sec23_Sec24_sf	UP:Z:A0A842QF71	RV:Z:N
 M	Ud_TRAPP	InterPro	IPR007194	TRAPP_component	UP:Z:A0A524GAN3	RV:Z:N
 M	Ud_TRAPP	Pfam	PF04051	TRAPP	UP:Z:A0A524GAN3	RV:Z:N
 A	Ap_w_amox	Uw_amox	presence
-A	Ap_f_amm_transp	Uf_amm_transp	presence
+A	Ap_f_amm_tr	Uf_amm_tr	presence
 A	Ap_f_copp_ox	Uf_copp_ox	presence
 A	Ap_d_blue_copp	Ud_blue_copp	presence
 A	Ap_p_topoIB	Up_topoIB	presence
@@ -673,7 +673,7 @@ A	Ap_g_ectC	Ug_ectC	presence
 A	Ap_g_ectD	Ug_ectD	presence
 A	Ap_f_MPGS	Uf_MPGS	presence
 A	Ap_f_MPGP	Uf_MPGP	presence
-A	Ap_w_MscL_ch	Uw_MscL_ch	presence
+A	Ap_d_MscL_ch	Ud_MscL_ch	presence
 A	Ap_y_flagella	Uy_flagella	presence
 A	Ap_y_pili	Uy_pili	presence
 A	Ap_g_nuoE	Ug_nuoE	presence
@@ -689,7 +689,7 @@ A	Ap_p_CODH	Up_CODH	presence
 A	Ap_f_Rubisco_type3	Uf_Rubisco_type3	presence
 A	Ap_f_SOR	Uf_SOR	presence
 A	Ap_g_mcrA	Ug_mcrA	presence
-A	Ap_w_CBB_wR	Uw_CBB_wR	presence
+A	Ap_w_CBB	Uw_CBB	presence
 A	Ap_w_3HP4HP	Uw_3HP4HP	presence
 A	Ap_f_AMPf_3HPCoA_s	Uf_AMPf_3HPCoA_s	presence
 A	Ap_f_ADPf_acylCoA_s	Uf_ADPf_acylCoA_s	presence
@@ -721,12 +721,12 @@ A	Ap_p_mrt	Up_mrt	presence
 A	Ap_i_saccharolytic	Ui_saccharolytic	presence
 A	Ap_f_malt_treh_degr	Uf_malt_treh_degr	presence
 A	Ap_t_MGE	Ut_MGE	presence
-A	Ap_w_xenorh_biosy	Uw_xenorh_biosy	presence
+A	Ap_w_XeR_bs	Uw_XeR_bs	presence
 A	Ap_t_DGR	Ut_DGR	presence
 A	Ap_f_SPEARE	Uf_SPEARE	presence
 A	Ap_d_laminin_glb	Ud_laminin_glb	presence
 A	Ap_d_conA_like	Ud_conA_like	presence
-A	Ap_w_entner_doud	Uw_entner_doud	presence
+A	Ap_w_ED	Uw_ED	presence
 A	Ap_f_reverse_gyr	Uf_reverse_gyr	presence
 A	Ap_g_rpoA	Ug_rpoA	presence
 A	Ap_g_rpoB	Ug_rpoB	presence
@@ -767,7 +767,7 @@ C	CA5	SA76	Ar_b_GC	Gt_Smetallicus	>	Gc_Sulfolobales_not_Smetallicus
 C	CA6	SA96	Ac_g_amoC	Gc_soil_AOA	>	Gc_marine_AOA
 C	CA7	SA96	Ac_g_amoC	Gc_soil_AOB	>	Gc_marine_AOB
 V	VA1	SA1	Ap_w_amox	Gt_Nmaritimus	==	True
-V	VA2	SA1	Ap_f_amm_transp	Gt_Nmaritimus	==	True
+V	VA2	SA1	Ap_f_amm_tr	Gt_Nmaritimus	==	True
 V	VA3	SA1	Ap_f_copp_ox	Gt_Nmaritimus	==	True
 V	VA4	SA1	Ap_d_blue_copp	Gt_Nmaritimus	==	True
 V	VA5	SA2	Ap_h_ftsZ	Gt_Thaumarchaeota	==	True
@@ -820,7 +820,7 @@ V	VA51	SA29	Ap_f_MPGS	Gt_Ngargensis	==	True
 V	VA52	SA29	Ap_f_MPGS	Gt_Nevergladensis	==	True
 V	VA53	SA29	Ap_f_MPGP	Gt_Ngargensis	==	True
 V	VA54	SA29	Ap_f_MPGP	Gt_Nevergladensis	==	True
-V	VA55	SA30	Ap_w_MscL_ch	Gt_Nuzonensis	==	True
+V	VA55	SA30	Ap_d_MscL_ch	Gt_Nuzonensis	==	True
 V	VA56	SA31	Ap_y_flagella	Gc_amox_Nitrosopumilus	==	False
 V	VA57	SA31	Ap_y_pili	Gc_amox_Nitrosopumilus	==	False
 V	VA58	SA22	Ap_g_nuoF	Gr_anaerobic:rare	==	True
@@ -830,7 +830,7 @@ V	VA61	SA32	Ap_g_aprA	Gc_hypert_Archaeoglobus	==	True
 V	VA62	SA32	Ap_f_dsrA	Gc_hypert_Archaeoglobus	==	True
 V	VA63	SA32	Ap_f_MPGS	Gc_hypert_Archaeoglobus	==	True
 V	VA64	SA32	Ap_f_MPGP	Gc_hypert_Archaeoglobus	==	True
-V	VA65	SA32	Ap_w_MscL_ch	Gc_hypert_Archaeoglobus	==	True
+V	VA65	SA32	Ap_d_MscL_ch	Gc_hypert_Archaeoglobus	==	True
 V	VA66	SA34	Ap_d_FeFe_hydr	Gt_Archaea	==	False
 V	VA67	SA35	Ap_f_MBH	Gc_hypert_Pfuriosus	==	True
 V	VA68	SA35	Ap_y_SH1_2	Gc_hypert_Pfuriosus	==	True
@@ -845,7 +845,7 @@ V	VA76	SA41	Ap_f_SOR	Gr_anaerobic:most	==	True
 V	VA77	SA42	Ap_g_mcrA	Gt_Malvus	==	True
 V	VA78	SA43	Ap_w_amox	Gc_AOA	==	True
 V	VA79	SA43	Ap_p_hydr_am_oxr	Gc_AOA	==	False
-V	VA80	SA46	Ap_w_CBB_wR	Gt_Nmaritimus	==	True
+V	VA80	SA46	Ap_w_CBB	Gt_Nmaritimus	==	True
 V	VA81	SA47	Ap_w_3HP4HP	Gt_Msedula	==	True
 V	VA82	SA48	Ap_w_3HP4HP	Gt_Csymbiosum:most	==	True
 V	VA83	SA48	Ap_w_3HP4HP	Gt_Nmaritimus:most	==	True
@@ -960,7 +960,7 @@ V	VA191	SA78	Ap_f_malt_treh_degr	Gt_Ppacificus	==	False
 V	VA192	SA78	Ap_f_malt_treh_degr	Gt_Tsibiricus	==	True
 V	VA193	SA78	Ap_f_malt_treh_degr	Gc_Thermococcus_not_Tsibiricus	==	False
 V	VA194	SA79	Ap_t_MGE	Gt_Ppacificus	==	False
-V	VA195	SA80	Ap_w_xenorh_biosy	Gt_Nanohaloarchaea:some	==	True
+V	VA195	SA80	Ap_w_XeR_bs	Gt_Nanohaloarchaea:some	==	True
 V	VA196	SA81	Ap_t_DGR	Gc_Nanohaloarchaea_not_HspLC1Hm	==	False
 V	VA197	SA81	Ap_t_DGR	Gs_HspLC1Hm	==	True
 V	VA198	SA82	Ap_f_SPEARE	Gt_Nanohaloarchaea:many	==	True
@@ -968,7 +968,7 @@ V	VA199	SA82	Ap_f_SPEARE	Gt_Nanohalobium	==	False
 V	VA200	SA82	Ap_t_DGR	Gt_Nanohalobium	==	True
 V	VA201	SA83	Ap_d_laminin_glb	Gt_Nanohaloarchaea	==	True
 V	VA202	SA83	Ap_d_conA_like	Gt_Nanohaloarchaea	==	True
-V	VA203	SA84	Ap_w_entner_doud	Gt_Crenarchaeota	==	True
+V	VA203	SA84	Ap_w_ED	Gt_Crenarchaeota	==	True
 V	VA204	SA85	Ap_f_reverse_gyr	Gr_hyperthermophilic	==	True
 V	VA205	SA86	Ap_g_rpoA	Gt_Kcryptofilum	==	True
 V	VA206	SA86	Ap_g_rpoB	Gt_Kcryptofilum	==	True
@@ -1058,7 +1058,7 @@ V	VA282	SA61	Ap_c_gap12_phaPEC	Gt_Hturkmenica	==	True
 V	VA283	SA61	Ap_c_gap12_phaPEC	Gt_Hxanaduensis	==	True
 V	VA284	SA61	Ap_c_gap12_phaPEC	Gt_Hwalsbyi	==	True
 V	VA285	SA61	Ap_c_gap12_phaPEC	Gt_Npharaonis	==	True
-U	Uw_TAC	set:metabolic_pathway	.	.	tricarboxylic acid cycle
+U	Uw_TAC	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
 A	Aall_w_TAC	Uw_TAC	complete
 A	Ap_w_TAC	Uw_TAC	members_presence
 V	VA286	SA77	Aall_w_TAC	Gt_Thermococcales	==	False
@@ -1066,13 +1066,13 @@ V	VA287	SA77	Aall_w_TAC	Gt_Ppacificus	==	False
 V	VA288	SA77	Ap_w_TAC	Gt_Thermococcales	==	True
 V	VA289	SA77	Ap_w_TAC	Gt_Ppacificus	==	True
 V	VA290	SA74	Ap_t_intein	Gt_Tlitoralis	==	True
-U	Uw_mod_EMP	set:metabolic_pathway	.	.	single-step G3P to 3-PG modified Embden–Meyerhof–Parnas glycolysis
-U	Uw_EMP	set:metabolic_pathway	.	.	Embden–Meyerhof–Parnas glycolysis
-A	Aall_w_mod_EMP	Uw_mod_EMP	complete
+U	Uw_EMP_mod	set:metabolic_pathway	.	.	Thermococcales modified Embden–Meyerhof–Parnas glycolysis	XD:Z:doi:10.1128/MMBR.00041-13
+U	Uw_EMP	set:metabolic_pathway	KEGG:M00001	EMP	Embden–Meyerhof–Parnas glycolysis
+A	Aall_w_EMP_mod	Uw_EMP_mod	complete
 A	Aall_w_EMP	Uw_EMP	complete
-V	VA291	SA77	Aall_w_mod_EMP	Gt_Thermococcales	==	True
-V	VA292	SA77	Aall_w_mod_EMP	Gt_Ppacificus	==	True
-V	VA293	SA33	Aall_w_mod_EMP	Gc_hyperthermophilic_A:most	==	True
+V	VA291	SA77	Aall_w_EMP_mod	Gt_Thermococcales	==	True
+V	VA292	SA77	Aall_w_EMP_mod	Gt_Ppacificus	==	True
+V	VA293	SA33	Aall_w_EMP_mod	Gc_hyperthermophilic_A:most	==	True
 V	VA294	SA77	Aall_w_EMP	Gt_Thermococcales	==	False
 V	VA295	SA77	Aall_w_EMP	Gt_Ppacificus	==	False
 V	VA296	SA33	Aall_w_EMP	Gc_hyperthermophilic_A:most	==	False
