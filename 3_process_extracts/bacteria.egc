@@ -78,7 +78,6 @@ S	S21	PMID:22965120	The prevalence of ‘Hr’ proteins strongly suggests the pr
 S	S22	PMID:22965120	Notably, thiocyanate gene cluster is absent from all the pathogenic mycobacteria analyzed in this study (including M. abscessus and the opportunists of MAC ).
 S	S23	PMID:22965120	Thus, despite having PE-PPE genes and mce1 operon, which enable mycobacteria to invade the host cell, MIP lacks both mce2 and mce3 operons, which are essential for causing macrophage infections by M. tuberculosis and M. avium
 S	S24	PMID:19617360	As in the case of A. ferrooxidans ATCC 23270 and other chemolithoautotrophic representatives, an incomplete tricarboxylic acid (TCA) cycle was detected, in which genes for the 2-oxogluatarate dehydrogenase enzyme complex were absent.
-S	S25	PMID:15317790	Further support of SpoT functionality is the high level of conservation of the genes among the Rickettsia species.
 S	S26	PMID:15317790	As in the other rickettsiae, the 16S rRNA gene was separated from the 23S and 5S rRNA genes.
 S	S27	PMID:15317790	Rickettsial organisms have comparatively small genomes (1.1 to 1.3 Mb) that have arisen through reductive evolution as they developed dependence on the host cell for necessary functions (6). As a result, their genomes are littered with pseudogenes.
 S	S28	PMID:15317790	Two other possible resistance genes, the acriflavin resistance gene (acrD, RT0161) and a tellurite resistance gene (terC, RT0774) were found in the R. typhi genome. These two genes are also present in R. prowazekii and R. conorii
@@ -104,9 +103,9 @@ S	S48	PMID:29040502	A cytoplasmic membrane-bound Ni-Fe hydrogenase (Hyf), found 
 S	S50	PMID:29040502	We found that all analyzed genomes from Desulfitobacterium spp. encode intact cobalamin synthesis pathways, indicating that this is a general trait of this genus (Table 3). The synthesis pathway is organized similarly in all analyzed desulfitobacteria. It consists of three clusters (I–III) located separately in the genomes (Fig. 5). Cluster I encodes the proteins needed for synthesis of the basic ring structure from glutamyl-tRNA to sirohydrochlorin (also called factor II); cluster II encodes the steps starting from cobalt insertion until adenosyl cobinamide; and finally cluster III encodes all proteins needed for insertion of the lower ligand leading to cobalamin, with the exception of cobC that is located elsewhere in the genome
 S	S51	PMID:29040502	All analyzed genomes of Desulfitobacterium spp. with the exception of D. dichloroeliminans encode one copy of the menFDHCEBIAG MK synthesis pathway
 S	S52	PMID:29530765	Bacteria have evolved to adapt to temperature downshift primarily through the production of nucleic acid chaperons known as cold-shock proteins (Csps) [42]. Genome analysis of ERDD5:01 showed occurrence of multiple copies of genes encoding for cold active chaperons and cold-shock inducible proteins (CspD, ClpB, GroEL, GroES, HscA/HscB, Hsp33, SurA, FliS, SecB, HtpG) (Table 2). Presence of such genes for Csps in higher copy number has been observed in other psychrotrophic bacteria such as Pseudoalteromonas haloplanktis; Arthrobacter sp., and Bacillus psychrophilus
-S	S53	PMID:17579514	The two most prominently represented COG categories in each of the gut-associated Bacteroidetes proteomes are G (carbohydrate transport and metabolism) and M (cell wall/membrane/envelope biogenesis). The two most prominent COG categories in their shared proteome are E (amino acid transport and metabolism) and J (translation, ribosomal structure, and biogenesis)
+S	S53	PMID:17579514	The two most prominently represented COG categories in each of the gut-associated Bacteroidetes proteomes are G (carbohydrate transport and metabolism) and M (cell wall/membrane/envelope biogenesis).
 S	S54	PMID:15984913	Besides long repeats, Rickettsia genomes are known to contain a number of small palindromic repeats (Rickettsia palindromic elements [RPEs]) capable of invading both coding and noncoding regions [16].
-S	S55	PMID:15984913	The genomes of five Rickettsia species (R. prowazekii, R. typhi, R. conorii, R. sibirica, and R. felis) exhibit chromosomal patatin-like phospholipase gene (pat1). Gene organization around pat1 is similar between these Rickettsia.
+S	S55	PMID:15984913	The genomes of five Rickettsia species (R. prowazekii, R. typhi, R. conorii, R. sibirica, and R. felis) exhibit chromosomal patatin-like phospholipase gene (pat1).
 S	S56	PMID:15984913	The sca family is one of the largest paralogous gene families in Rickettsia [8].
 S	S57	PMID:15984913	Only ompB and sca4 are conserved in all available Rickettsia genomes [19], remaining members being degraded or absent in one or more species.
 S	S58	PMID:15984913	The toxin–antitoxin modules have also been found on the chromosomes of many free-living prokaryotes, but have rarely been found in obligate intracellular bacteria
@@ -302,8 +301,6 @@ G	Gc_flea_path_B	flea-infecting bacteria	combined	Gc_flea_path & Gt_Bacteria
 G	Gc_non_flea_path_B	non flea-infecting bacteria	combined	(!Gc_flea_path) & Gt_Bacteria
 G	Gm_asaccharolytic	asaccharolytic	metabolic	Wiktionary:asaccharolytic
 G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_Bacteria
-G	Ga_gramneg	gram-negative	gram_stain	MICRO:0000617
-G	Gc_gramneg_B	gram-negative bacteria	combined	Ga_gramneg & Gt_Bacteria	XD:Z:MICRO:0001373
 G	Gt_Neisseria	Neisseria	taxonomic	taxid:482	TR:Z:genus
 G	Gt_Enterobacteriaceae	Enterobacteriaceae	taxonomic	taxid:543	TR:Z:family
 G	Gt_Salmonella	Salmonella	taxonomic	taxid:590	TR:Z:genus
@@ -433,7 +430,7 @@ G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
 G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
 G	Gip_siphonaptera	interacting with Siphonaptera (fleas)	biological_interaction_partner_taxonomy	taxid:7509	TR:Z:order
 G	Gip_vertebrata	interacting with Vertebrata (vertebrates)	biological_interaction_partner_taxonomy	taxid:7742
-U	Uog_anyCOG	*ortholog_group:COG	COG:*	any_COG	assigned to at least one COG	# used to define COG proportions
+U	Uog_anyCOG	*ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 U	Ub_C	base	.	C	cytosine
 U	Ub_G	base	.	G	guanine
 U	Ub_GC	*base	Ub_G,Ub_C	.	.
@@ -446,28 +443,26 @@ U	Ug_surA	specific_gene	.	surA	.
 U	Ug_fliS	specific_gene	.	fliS	.
 U	Ug_secB	specific_gene	.	secB	.
 U	Ug_htpG	specific_gene	.	htpG	chaperone protein HtpG
-U	Ut_RPE	feature_type	.	RPE	Rickettsia palindromic elements
+U	Ut_RPE	feature_type	.	RPE	Rickettsia palindromic elements	XD:Z:doi:10.1126/science.290.5490.347
 U	Uk_G	ortholog_groups_category:COG_category	G	.	Carbohydrate transport and metabolism
 U	Uk_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
 U	Ug_pat1	specific_gene	.	pat1	chromosomal patatin-like phospholipase gene (pat1)
-U	Ud_sca	family_or_domain	.	sca	sca family
+U	Ud_sca	family_or_domain	.	sca	surface cell antigen / autotransporter family
 U	Uog_COG0183	ortholog_group:COG	COG0183	.	.
 U	Ug_ompB	specific_gene	.	ompB	.
 U	Ug_sca4	specific_gene	.	sca4	sca4
 U	Ut_tox_antitox	feature_type	.	.	toxin–antitoxin gene pair modules
 U	Ug_ankA	specific_gene	.	ankA	Ankyrin-repeat protein AnkA
-U	Ud_HEPN	family_or_domain	.	HEPN	HEPN
-U	Ud_NACHT	family_or_domain	.	.	NACHT NTPase
+U	Ud_HEPN	family_or_domain:Pfam	PF05168	HEPN	Higher Eukaryotes and Prokaryotes Nucleotide-binding domain	XD:Z:doi:10.1186/1745-6150-8-15
+U	Ud_NACHT	family_or_domain:Pfam	PF05729	NACHT	NACHT NTPase
 U	Ut_repeat	feature_type	SO:0000726	repeat	.
-U	Ucomb_rep_transp_integr	*unit	Ut_repeat,Ud_transposase,Ud_integrase	.	.
-U	Ud_transposase	family_or_domain	.	.	transposase
-U	Ud_integrase	family_or_domain	.	.	integrase
+U	Ucomb_rep_transp_integr	*unit	Ut_repeat,Uf_transposase,Uf_integrase	.	.
+U	Uf_transposase	function	BRENDA:EC2.7.7.B22	.	transposase
+U	Uf_integrase	function	.	.	retroviral integrase	XD:Z:doi:10.1146/annurev-virology-100114-055043
 U	Uog_COG0318	ortholog_group:COG	COG0318	.	.
-U	Uf_glucokinase	function	.	.	glucokinase
-U	Uf_6pfk	function	.	.	6-phosphofructokinase
-U	Uy_LuxS_AI2	set:gene_system	.	.	LuxS/AI-2 system
-U	Ug_aidA	specific_gene	.	aidA	.
-U	Ug_tibA	specific_gene	.	tibA	.
+U	Uf_glucokinase	function	EC:2.7.1.2	.	glucokinase
+U	Uf_6pfk	function	EC:2.7.1.11	.	6-phosphofructokinase
+U	Uy_LuxS_AI2	set:gene_system	.	.	LuxS/AI-2 quorum sensing system	XR:Z:KEGG:map02024
 U	Ug_acrA	specific_gene	.	acrA	.
 U	Ug_acrB	specific_gene	.	acrB	.
 U	Ug_norA	specific_gene	.	norA	.
@@ -508,7 +503,7 @@ U	Uc_nif	set:gene_cluster	.	nif	nif cluster
 U	Uc_gum	set:gene_cluster	.	.	gum cluster
 U	Ud_P450	family_or_domain	.	.	cytochrome P450
 U	Ur_traI_first	set:arrangement	.	.	traI first_in_operon	# no way to express this with fardes
-U	Uy_Flp	set:gene_system	.	.	Flp (fimbrial low-molecular-weight protein) pili
+U	Uf_Flp	function	.	.	Flp (fimbrial low-molecular-weight protein) pili assembly
 U	Uf_TonB	function	.	.	TonB receptor
 U	Ug_nirK	specific_gene	.	nirK	.
 U	Ug_ffs	specific_gene	.	ffs	signal recognition particle 4.5S RNA
@@ -707,9 +702,9 @@ U	Uog_COG2207	ortholog_group:COG	COG2207	.	.
 U	Uog_COG3710	ortholog_group:COG	COG3710	.	.
 U	Uog_COG1028	ortholog_group:COG	COG1028	.	.
 U	Uog_COG2124	ortholog_group:COG	COG2124	.	.
-U	Ug_hrc	specific_gene	.	hrc	.
+U	Uy_hrc	set:gene_system	.	hrc	injectisome genes	XD:Z:doi.org/10.1093/femsle/fny201
+U	Uy_hrp	set:gene_system	.	hrp	host plant defence response suppressor
 U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
-U	Ug_hrp	specific_gene	.	hrp	.
 U	Up_Ech	set:protein_complex	doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
 U	Uy_Ech_Rnf	set!:+protein_complex	Up_Ech,Up_Rnf	.	.
 U	Up_Rnf	set:protein_complex	doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
@@ -750,7 +745,6 @@ U	Ug_mce3F	specific_gene	.	mce3F	.	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Uop_mce3	set!:operon	Ug_mce3R,Ug_yrbE3A,Ug_yrbE3B,Ug_mce3A,Ug_mce3B,Ug_mce3C,Ug_mce3D,Ug_mce3E,Ug_mce3F	mce3	Mycobacterium mammalian cell entry operon 3	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Uog_COG2199	ortholog_group:COG	COG2199	.	.
 U	Uf_2oxo_deh	function	.	.	2-oxogluatarate dehydrogenase enzyme complex
-U	Ug_spoT	specific_gene	.	spoT	.
 U	Ur_16S_sep_23S_5S	set!:arrangement	Ug_16S,<>,Ug_23S,><,Ug_5S	.	16S rRNA separated from 23s rRNA gene and 5S rRNA gene
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
 U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
@@ -789,7 +783,7 @@ U	Ug_metH	specific_gene	.	metH	.
 U	Ud_PF04055	family_or_domain:Pfam	PF04055	.	radical SAM domain
 U	Ud_B12bind	family_or_domain	.	.	vitamin B12-binding domain
 U	Ug_dsrB	specific_gene	.	dsrB	.
-U	Ug_odmA	specific_gene	.	odmA	.
+U	Ug_odmA	specific_gene	.	odmA	O-demethylase
 U	Uc_hyf_focB	set!:gene_cluster	Ug_hyfA,Ug_hyfB,Ug_hyfC,Ug_hyfD,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfH,Ug_hyfI,Ug_hyfR,Ug_focB	hyfABCDEFGHIR-focB	.
 U	Uc_hyfBCEFGI	set!:gene_cluster	Ug_hyfB,Ug_hyfC,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfI	hyfBCEFGI	.
 U	Ug_hyfA	specific_gene	.	hyfA	.
@@ -828,8 +822,6 @@ M	Uy_T3SS	InterPro	IPR005714	ATPase_T3SS_FliI/YscN	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	InterPro	IPR013380	ATPase_T3SS_H-transp	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	InterPro	IPR040627	T3SS_ATPase_C	UP:Z:P80153	RV:Z:Y
 M	Uy_T3SS	Pfam	PF18269	T3SS_ATPase_C	UP:Z:P80153	RV:Z:Y
-M	Ug_spoT	Pfam	PF04607	RelA_SpoT	UP:Z:Q9AKB0	RV:Z:N
-M	Ug_spoT	SMART	SM00954	RelA_SpoT	UP:Z:Q9AKB0	RV:Z:N
 M	Ug_acrD	InterPro	IPR027463	AcrB_DN_DC_subdom	UP:Z:Q68XJ7	RV:Z:N
 M	Ug_acrD	InterPro	IPR001036	Acrflvin-R	UP:Z:Q68XJ7	RV:Z:N
 M	Ug_acrD	Pfam	PF00873	ACR_tran	UP:Z:Q68XJ7	RV:Z:N
@@ -930,9 +922,6 @@ M	Uf_6pfk	InterPro	IPR015912	Phosphofructokinase_CS	UP:Z:P0A796	RV:Z:Y
 M	Uf_6pfk	InterPro	IPR000023	Phosphofructokinase_dom	UP:Z:P0A796	RV:Z:Y
 M	Uf_6pfk	Pfam	PF00365	PFK	UP:Z:P0A796	RV:Z:Y
 M	Uf_6pfk	PROSITE	PS00433	PHOSPHOFRUCTOKINASE	UP:Z:P0A796	RV:Z:Y
-M	Ug_aidA	InterPro	IPR030930	AIDA	UP:Z:Q03155	RV:Z:Y
-M	Ug_aidA	Pfam	PF16168	AIDA	UP:Z:Q03155	RV:Z:Y
-M	Ug_tibA	InterPro	IPR005546	Autotransporte_beta	UP:Z:Q9XD84	RV:Z:Y
 M	Ug_acrB	InterPro	IPR027463	AcrB_DN_DC_subdom	UP:Z:P31224	RV:Z:Y
 M	Ug_acrB	Pfam	PF00873	ACR_tran	UP:Z:P31224	RV:Z:Y
 M	Ug_mecA	InterPro	IPR038471	MecA_C_sf	UP:Z:Q6GI87	RV:Z:Y
@@ -1203,8 +1192,8 @@ A	Ar_og_COG2207	Uog_COG2207	relative:Uog_anyCOG
 A	Ar_og_COG3710	Uog_COG3710	relative:Uog_anyCOG
 A	Ar_og_COG1028	Uog_COG1028	relative:Uog_anyCOG
 A	Ar_og_COG2124	Uog_COG2124	relative:Uog_anyCOG
-A	Ap_g_hrc	Ug_hrc	presence
-A	Ap_g_hrp	Ug_hrp	presence
+A	Ap_y_hrc	Uy_hrc	presence
+A	Ap_y_hrp	Uy_hrp	presence
 A	Ap_y_Ech_Rnf	Uy_Ech_Rnf	complete
 A	Amp_y_Ech_Rnf	Uy_Ech_Rnf	members_presence
 A	Ap_d_PPE	Ud_PPE	presence
@@ -1215,7 +1204,6 @@ A	Ap_op_mce1	Uop_mce1	presence
 A	Ap_op_mce2	Uop_mce2	presence
 A	Ap_op_mce3	Uop_mce3	presence
 A	Ap_f_2oxo_deh	Uf_2oxo_deh	presence
-A	Av_g_spoT	Ug_spoT	conservation
 A	Ap_r_16S_sep_23S_5S	Ur_16S_sep_23S_5S	presence
 A	Ac_t_pseudogene	Ut_pseudogene	count
 A	Ap_g_acrD	Ug_acrD	presence
@@ -1271,8 +1259,6 @@ A	Ac_comb_rep_transp_integr	Ucomb_rep_transp_integr	count
 A	Ap_f_glucokinase	Uf_glucokinase	presence
 A	Ap_f_6pfk	Uf_6pfk	presence
 A	Ap_y_LuxS_AI2	Uy_LuxS_AI2	presence
-A	Ap_g_aidA	Ug_aidA	presence
-A	Ap_g_tibA	Ug_tibA	presence
 A	Ap_g_acrA	Ug_acrA	presence
 A	Ap_g_acrB	Ug_acrB	presence
 A	Ap_g_norA	Ug_norA	presence
@@ -1305,7 +1291,7 @@ A	Ap_c_nif	Uc_nif	presence
 A	Av_c_gum	Uc_gum	conservation
 A	Ap_d_P450	Ud_P450	presence
 A	Ap_R751_r_traI_first	Ur_traI_first	presence!plasmid:R751
-A	Ap_y_Flp	Uy_Flp	presence
+A	Ap_f_Flp	Uf_Flp	presence
 A	Ac_f_TonB	Uf_TonB	count
 A	Ap_g_nirK	Ug_nirK	presence
 A	Ap_g_ffs	Ug_ffs	presence
@@ -1445,8 +1431,8 @@ V	V1	S16	Ap_y_T3SS	Gt_Xanthomonas:most	==	True
 V	V2	S8	Ac_op_ribosomal	Gt_Planctomycetes	==	1
 V	V3	T1	Ac_op_ribosomal	Gc_copiotrophic_B	==	9
 V	V4	S8	Ac_op_ribosomal	Gc_oligotrophic_B	==	1
-V	V5	S15	Ap_g_hrc	Gt_Xanthomonas	==	True
-V	V6	S15	Ap_g_hrp	Gt_Xanthomonas	==	True
+V	V5	S15	Ap_y_hrc	Gt_Xanthomonas	==	True
+V	V6	S15	Ap_y_hrp	Gt_Xanthomonas	==	True
 V	V7	S18	Ap_y_Ech_Rnf	Gr_anaerobic:most	==	False
 V	V8	S18	Amp_y_Ech_Rnf	Gr_anaerobic:most	==	True
 V	V10	S19	Ap_y_Ech_Rnf	Gc_rumen_Butyrivibrio	==	True
@@ -1476,7 +1462,6 @@ V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
 V	V38	S23	Ap_d_PE_PPE	Gt_Mycobacterium	==	True
 V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
 V	V40	S24	Ap_f_2oxo_deh	Gp_chm_lth_a_troph	==	False
-V	V41	S25	Av_g_spoT	Gt_Rickettsia	level	high
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
 V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
 V	V44	S30	Ap_p_SQR	Gt_Aquificales	==	True
@@ -1549,8 +1534,8 @@ V	V110	S55	Ap_g_pat1	Gt_Rtyphi	==	True
 V	V111	S55	Ap_g_pat1	Gt_Rprowazekii	==	True
 V	V112	S55	Ap_g_pat1	Gt_Rconorii	==	True
 V	V113	S56	Ac_d_sca	Gt_Rickettsia	level	high
-V	V114	S57	Ap_g_ompB	Gt_Rickettsia:most	==	True
-V	V115	S57	Ap_g_sca4	Gt_Rickettsia:most	==	True
+V	V114	S57	Ap_g_ompB	Gt_Rickettsia	==	True
+V	V115	S57	Ap_g_sca4	Gt_Rickettsia	==	True
 V	V116	S58	Ap_t_tox_antitox	Gc_obl_intracell_B:rare	==	True
 V	V117	S58	Ap_t_tox_antitox	Gi_free:many	==	True
 V	V118	S61	Ap_d_HEPN	Gt_Atumefaciens	==	True
@@ -1559,13 +1544,11 @@ V	V120	S61	Ap_d_HEPN	Gt_Smeliloti	==	True
 V	V121	S62	Ap_d_NACHT	Gt_Cyanobacteriota	==	True
 V	V122	S62	Ap_d_NACHT	Gt_Streptomyces	==	True
 V	V123	S65	Ap_f_glucokinase	Gc_asaccharolytic_B	==	True
-V	V124	S66	Ap_g_aidA	Gc_gramneg_B	==	True
 V	V125	S68	Ap_g_acrA	Gt_Salmonella	==	True
 V	V126	S68	Ap_g_acrA	Gt_Shigella	==	True
 V	V127	S68	Ap_g_acrA	Gt_Klebsiella	==	True
 V	V128	S68	Ap_g_acrB	Gt_Ecoli	==	True
 V	V129	S65	Ap_f_6pfk	Gc_asaccharolytic_B	==	True
-V	V130	S66	Ap_g_tibA	Gc_gramneg_B	==	True
 V	V131	S68	Ap_g_acrB	Gt_Salmonella	==	True
 V	V132	S68	Ap_g_acrB	Gt_Shigella	==	True
 V	V133	S68	Ap_g_acrB	Gt_Klebsiella	==	True
@@ -1614,12 +1597,12 @@ V	V175	S90	Ap_d_P450	Gt_Gdiazotrophicus	==	True
 V	V176	S90	Ap_d_P450	Gt_Acetobacteraceae:most	==	False
 V	V177	S93	Ap_R751_r_traI_first	Gt_Atumefaciens	==	True
 V	V178	S93	Ap_R751_r_traI_first	Gc_tumor_Enterobacter	==	True
-V	V179	S94	Ap_y_Flp	Gt_Actinobacillus	==	True
-V	V180	S94	Ap_y_Flp	Gt_Haemophilus	==	True
-V	V181	S94	Ap_y_Flp	Gt_Pasteurella	==	True
-V	V182	S94	Ap_y_Flp	Gt_Pseudomonas	==	True
-V	V183	S94	Ap_y_Flp	Gt_Yersinia	==	True
-V	V184	S94	Ap_y_Flp	Gt_Caulobacter	==	True
+V	V179	S94	Ap_f_Flp	Gt_Actinobacillus	==	True
+V	V180	S94	Ap_f_Flp	Gt_Haemophilus	==	True
+V	V181	S94	Ap_f_Flp	Gt_Pasteurella	==	True
+V	V182	S94	Ap_f_Flp	Gt_Pseudomonas	==	True
+V	V183	S94	Ap_f_Flp	Gt_Yersinia	==	True
+V	V184	S94	Ap_f_Flp	Gt_Caulobacter	==	True
 V	V185	S95	Ac_f_TonB	Gt_Gdiazotrophicus	level	high
 V	V186	S95	Ac_f_TonB	Gs_AspBH72	level	high
 V	V187	S97	Ap_g_nirK	Gc_AOB	==	True
@@ -1863,8 +1846,8 @@ V	V415	S122	Ar_b_GC	Gt_Corynebacteriaceae	level	high
 G	Gt_Burkholderiaceae	Burkholderiaceae	taxonomic	taxid:119060	TR:Z:family
 C	C1	S1,T1	Ar_k_N	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C2	S1,T1	Ar_k_V	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
-C	C3	S1,T1	Ar_k_K	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
-C	C4	S1,T1	Ar_k_T	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
+C	C3	S1,T1,S12	Ar_k_K	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
+C	C4	S1,T1,S12	Ar_k_T	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C5	S2	Ar_og_COG2199	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C6	S2	Ar_og_COG2200	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
 C	C7	S3	Ar_og_COG0110	Gc_copiotrophic_B	>>	Gc_oligotrophic_B
@@ -1924,3 +1907,5 @@ G	Gt_Pmirabilis	Proteus mirabilis	taxonomic	taxid:584	TR:Z:species
 C	C59	S124	Ac_genome_size	Gt_Pmirabilis	<<	Gt_Enterobacteriaceae:most
 G	Gt_Polynucleobacter	Polynucleobacter	taxonomic	taxid:44013	TR:Z:genus
 C	C60	S110	Ac_genome_size	Gt_Polynucleobacter	<	Gt_Burkholderiaceae:most
+C	Cx1	S8	Ac_genome_size	Gc_copiotrophic_B	>	Gc_oligotrophic_B
+C	Cx2	S8	Ac_genome_size	Gt_Planctomycetes	>	Gc_oligotrophic_B

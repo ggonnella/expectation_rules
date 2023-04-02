@@ -289,8 +289,8 @@ U	Ug_ectD	specific_gene	.	ectD	.
 U	Uf_MPGS	function	.	.	MPGS (mannosyl-3-phosphoglycerate synthase)
 U	Uf_MPGP	function	.	.	MPGP (mannosyl-3-phosphoglycerate phosphatase)
 U	Ud_MscL_ch	family_or_domain	TC:1.A.22	MscL	Large Conductance Mechanosensitive Ion Channel (MscL) Family
-U	Uy_flagella	set:gene_system	.	.	flagella assembly
-U	Uy_pili	set:gene_system	.	.	pili
+U	Uf_flagella	function	.	.	flagella assembly
+U	Uf_pili	function	.	.	pili assembly
 U	Ug_nuoE	specific_gene	.	nuoE	.
 U	Ug_nuoF	specific_gene	.	nuoF	.
 U	Uf_Sat	function	.	.	Sulfate adenylyltransferase (Sat)
@@ -370,7 +370,7 @@ U	Uf_myoino1ph_syn	function	.	.	myo-inositol-1-phosphate synthase
 U	Uf_man3phgly	function	.	.	Mannosyl-3-phosphoglycerate
 U	Up_ppl_divcattol	specific_protein	.	.	Periplasmic divalent cation tolerance protein
 U	Uf_nick_perm	function	.	.	nickel high affinity permease
-U	Uy_ars_pump	set:gene_system	.	.	arsenic pump
+U	Uf_As_pump	function	.	.	arsenic pump
 U	Uf_glu_syn	function	.	.	Glutamate synthase
 U	Ud_LXa	family_or_domain	.	LXa	ribosomal-protein family LXa
 U	Ug_UvrA	specific_gene	.	UvrA	.
@@ -674,8 +674,8 @@ A	Ap_g_ectD	Ug_ectD	presence
 A	Ap_f_MPGS	Uf_MPGS	presence
 A	Ap_f_MPGP	Uf_MPGP	presence
 A	Ap_d_MscL_ch	Ud_MscL_ch	presence
-A	Ap_y_flagella	Uy_flagella	presence
-A	Ap_y_pili	Uy_pili	presence
+A	Ap_f_flagella	Uf_flagella	presence
+A	Ap_f_pili	Uf_pili	presence
 A	Ap_g_nuoE	Ug_nuoE	presence
 A	Ap_g_nuoF	Ug_nuoF	presence
 A	Ap_f_Sat	Uf_Sat	presence
@@ -751,7 +751,7 @@ A	Ap_f_myoino1ph_syn	Uf_myoino1ph_syn	presence
 A	Ap_f_man3phgly	Uf_man3phgly	presence
 A	Ap_p_ppl_divcattol	Up_ppl_divcattol	presence
 A	Ap_f_nick_perm	Uf_nick_perm	presence
-A	Ap_y_ars_pump	Uy_ars_pump	presence
+A	Ap_f_As_pump	Uf_As_pump	presence
 A	Ap_f_glu_syn	Uf_glu_syn	presence
 A	Ap_d_LXa	Ud_LXa	presence
 A	Ap_y_UvrABC	Uy_UvrABC	presence
@@ -821,8 +821,8 @@ V	VA52	SA29	Ap_f_MPGS	Gt_Nevergladensis	==	True
 V	VA53	SA29	Ap_f_MPGP	Gt_Ngargensis	==	True
 V	VA54	SA29	Ap_f_MPGP	Gt_Nevergladensis	==	True
 V	VA55	SA30	Ap_d_MscL_ch	Gt_Nuzonensis	==	True
-V	VA56	SA31	Ap_y_flagella	Gc_amox_Nitrosopumilus	==	False
-V	VA57	SA31	Ap_y_pili	Gc_amox_Nitrosopumilus	==	False
+V	VA56	SA31	Ap_f_flagella	Gc_amox_Nitrosopumilus	==	False
+V	VA57	SA31	Ap_f_pili	Gc_amox_Nitrosopumilus	==	False
 V	VA58	SA22	Ap_g_nuoF	Gr_anaerobic:rare	==	True
 V	VA59	SA22	Ap_g_nuoE	Gr_anaerobic:rare	==	True
 V	VA60	SA32	Ap_f_Sat	Gc_hypert_Archaeoglobus	==	True
@@ -1028,8 +1028,8 @@ V	VA255	SA99	Ap_f_copp_ox	Gc_AOA	==	True
 V	VA256	SA100	Ap_p_ppl_divcattol	Gc_AOA:most	==	True
 V	VA257	SA102	Ap_f_nick_perm	Gt_Nevergladensis	==	True
 V	VA258	SA102	Ap_f_nick_perm	Gn_Nevergladensis	==	False
-V	VA259	SA103	Ap_y_ars_pump	Gt_Nitrosopumilus	==	False
-V	VA260	SA103	Ap_y_ars_pump	Gt_Nitrososphaera	==	True
+V	VA259	SA103	Ap_f_As_pump	Gt_Nitrosopumilus	==	False
+V	VA260	SA103	Ap_f_As_pump	Gt_Nitrososphaera	==	True
 V	VA261	SA104	Ap_f_glu_syn	Gt_Nevergladensis	==	True
 V	VA262	SA104	Ap_f_glu_syn	Gc_AOA_not_Never	==	False
 V	VA263	SA105	Ap_d_LXa	Gt_Thaumarchaeota	==	False

@@ -603,7 +603,7 @@ A	Ap_g_hdrD	Ug_hdrD	presence
 A	Ap_g_hdrE	Ug_hdrE	presence
 A	Ap_r_hdrBC_far_A	Ur_hdrBC_far_A	presence
 A	Ap_p_mvhDGA	Up_mvhDGA	presence
-U	Uog_anyCOG	*ortholog_group:COG	COG:*	any_COG	assigned to at least one COG	# used to define COG proportions
+U	Uog_anyCOG	*ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 A	Ar_k_T	Uk_T	relative:Uog_anyCOG
 A	Ap_f_6pg_deh	Uf_6pg_deh	presence
 A	Ap_f_2k3d6pg_ald	Uf_2k3d6pg_ald	presence
