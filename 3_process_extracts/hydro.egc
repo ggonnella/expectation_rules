@@ -72,7 +72,8 @@ S	SH59	PMID:17105352	Unlike many other bacteria [67], the gene encoding the sole
 S	SH61	PMID:17105352	The lack of CBB enzyme operons in obligate autotrophs from the Alpha-. Beta-, and Gammaproteobacteria, as well as the Cyanobacteria, may reflect a lack of selective pressure for these genes to be juxtaposed in their chromosomes for ease of coordinate repression during heterotrophic growth.
 S	SH64	PMID:19197347	Free-living Epsilonproteobacteria have many genes containing diguanylate cyclase (GGDEF) and phosphodiesterase (EAL) domains, whereas Campylobacter and Helicobacter genomes have only a few or none.
 S	SH65	PMID:19197347	At the time of writing, 22 out of 26 sequenced Epsilonproteobacteria have the luxS and pfs genes, with only four Campylobacter species lacking the AI-2 system. While LuxS has been shown to affect biofilm formation, motility, type III secretion, and the production of virulence factors and toxins in pathogens, it remains unclear whether AI-2 is truly a universal signal or simply a metabolic byproduct for most bacterial strains [43]–[45]. In support of the widespread nature of LuxS/Pfs in Epsilonproteobacteria, the metagenome of the A. pompejana episymbionts contains 36 luxS sequences and 49 pfs sequences [46]. The abundance of these genes in Epsilonproteobacteria at hydrothermal vents may offer a mechanism through which this group dominates episymbiont communities.
-S	SH66	PMID:19197347	All the vent Epsilonproteobacteria as well as S. denitrificans and A. butzleri contain homologs to the second arsenate reductase (GAmH_0397 in N. profundicola). W. succinogenes, Sulfurovum, Nitratiruptor, and S. denitrificans contain an apparent operon that encodes an arsenite permease and regulatory protein, ArsR [18],[31],[61], whereas both N. profundicola and C. mediatlanticus lack an arsenical permease homolog (COG1055), but contain an arsR homolog (GAmH_0374) elsewhere.
+S	SH66a	PMID:19197347	All the vent Epsilonproteobacteria as well as S. denitrificans and A. butzleri contain homologs to the second arsenate reductase (GAmH_0397 in N. profundicola).
+S	SH66b	PMID:19197347	W. succinogenes, Sulfurovum, Nitratiruptor, and S. denitrificans contain an apparent operon that encodes an arsenite permease and regulatory protein, ArsR [18],[31],[61], whereas both N. profundicola and C. mediatlanticus lack an arsenical permease homolog (COG1055), but contain an arsR homolog (GAmH_0374) elsewhere.
 S	SH67	PMID:19197347	There are several genes in N. profundicola and other vent Epsilonproteobacteria that encode proteins directly or peripherally involved in resistance to toxins. One of these is a member of the Nudix family of proteins that clean the cell of toxic nucleotide metabolites [56]. This gene (GAmH_1363) is predicted to encode ADP-ribose pyrophosphatase and is found only in the vent epsiloproteobacterial and Arcobacter butzleri genomes and not in pathogenic Epsilonproteobacteria [18],[57].
 S	SH68	PMID:18790866	To determine how widely carboxydotrophy was distributed within the genus Thermococcus growing in hydrothermal vents, the presence of the CODH-encoding gene in seven Thermococcus species isolated from a solfataric acid field or hydrothermal vent was investigated. PCR products of CODH were not detected in any of the strains tested (data not shown). It is therefore suggested that CODH is restricted to only a few Thermococcus spp.
 S	SH69	PMID:18790866	No F420-hydrogenase homologues from the Thermococcales have been reported, to our knowledge.
@@ -294,7 +295,7 @@ U	Up_F420	specific_protein	.	F420	F420-hydrogenase
 U	Uh_F420	homolog_protein	homolog:Up_F420	.	F420-hydrogenase homolog
 U	Uf_CO_ox	function	.	.	oxidation of carbon monoxide (CO)
 U	Uw_CO2_fix	set:+metabolic_pathway	KEGG:map00720	.	CO2 fixation
-U	Ud_NiFe_hydr	family_or_domain	.	.	[Ni-Fe] hydrogenase
+U	Upc_NiFe_hydr	set:protein_complex	.	.	[Ni-Fe] hydrogenase
 U	Ur_RubisCO_out_CBB	set!:arrangement	Uf_RubisCO,<>,Uc_CBB	.	RubisCO genes located outside Calvin-Benson-Bassham cluster
 U	Uc_CBB	set:gene_cluster	.	CBB	Calvin-Benson-Bassham cluster
 U	Uw_CBB	set:metabolic_pathway	KEGG:M00165	.	Calvin–Bassham–Benson cycle
@@ -305,20 +306,18 @@ U	Ug_narG	specific_gene	.	narG	.
 U	Ut_split_pcgene	feature_type	.	.	split protein-coding gene
 U	Ug_narH	specific_gene	.	narH	.
 U	Ug_pmoA	specific_gene	.	pmoA	particulate methane monooxygenase (pMMO)
-U	Uc_SoxABXYZ	set!:gene_cluster	Ug_soxA,Ug_soxB,Ug_soxX,Ug_soxY,Ug_soxZ	SoxABXYZ	SoxABXYZ (Sox enzyme complex)
-U	Uw_SOX	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
 U	Uy_PcoAB	set!:gene_system	Ug_pcoA,Ug_pcoB	PcoAB	multicopper oxidase
 U	Ug_pcoA	specific_gene	.	pcoA	copper resistance protein A
 U	Ug_pcoB	specific_gene	.	pcoB	copper resistance protein B
 U	Ug_cbbL	specific_gene	.	cbbL	form I RuBisCo (cbbL)
 U	Up_cyc2	specific_protein	.	cyc2	outer membrane cytochrome protein (Cyc2)
 U	Uh_cyc2	homolog_protein	homolog:Up_cyc2	.	outer membrane cytochrome protein (Cyc2) homolog
-U	Up_ACIII	set:protein_complex	.	ACIII	alternative respiratory complex III
+U	Upc_ACIII	set:protein_complex	.	ACIII	alternative respiratory complex III
 U	Ug_cbb3	specific_gene	.	cbb3	cbb3-type oxidase
 U	Uh_cbb3	homolog_gene	homolog:Ug_cbb3	.	cbb3-type oxidase homolog
-U	Uf_tyr_tr	function	GO:0015828	.	tyrosine-specific transporter
-U	Uf_CODH	function	EC:1.2.7.4	CODH	Carbon monoxide dehydrogenase
-U	Ud_Pfam00563	family_or_domain:Pfam	Pfam00563	.	EAL domain
+U	Uf_tyr_tr	function:GO	0015828	.	tyrosine-specific transporter
+U	Uf_CODH	function:EC	1.2.7.4	CODH	Carbon monoxide dehydrogenase
+U	Ud_EAL	family_or_domain:Pfam	Pfam00563	EAL	phosphodiesterase (EAL) domain
 U	Ud_Pfam00990	family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
 U	Ud_Pfam000159	family_or_domain:Pfam	Pfam000159	.	MCP domain
 U	Up_SDH	specific_protein	.	SDH	flavocytochrome c sulfide dehydrogenase
@@ -326,10 +325,20 @@ U	Uf_NDH1_NADH_deh	function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH deh
 U	Uf_cyt_bc1	function	.	.	cytochrome bc1 complex
 U	Uf_hydr_1d	function	.	.	group 1d hydrogenase
 U	Uf_RubisCO	function	.	RubisCO	Ribulose bisphosphate carboxylase
-U	Uw_5BP	set:metabolic_pathway	KEGG:M00968	.	pentose biphosphate pathway
 U	Up_RubisCO_IAc	specific_protein	.	.	carboxysomal RubisCO (form IAc)
+U	Uw_5BP	set:metabolic_pathway	KEGG:M00968	.	pentose biphosphate pathway
+U	Uw_Sox	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
+U	Uy_Sox	set:gene_system	.	Sox	Sox enzyme system	XR:Z:doi:10.1016/j.resmic.2009.07.003
+U	Uc_SoxBZYKAX	set!:gene_cluster	Ug_soxB,Ug_soxZ,Ug_soxY,Ug_soxK,Ug_soxA,Ug_soxX	SoxBZYKAX	SoxBZYKAX (Sox enzyme complex)
+U	Uy_SoxEF	set!:gene_system	Ug_soxE,Ug_soxF	SoxEF	Flavoprotein-cytochrome c complex (SoxEF)
 U	Uc_SoxABCDXYZ	set!:gene_cluster	Ug_soxA,Ug_soxB,Ug_soxC,Ug_soxD,Ug_soxX,Ug_soxY,Ug_soxZ	SoxABCDXYZ	SoxABCDXYZ (Sox enzyme complex)
+U	Uc_SoxABXYZ	set!:gene_cluster	Ug_soxA,Ug_soxB,Ug_soxX,Ug_soxY,Ug_soxZ	SoxABXYZ	SoxABXYZ (Sox enzyme complex)
 U	Ug_soxA	specific_gene	.	soxA	.
+U	Ug_soxB	specific_gene	.	soxB	.
+U	Ug_soxC	specific_gene	.	soxC	.
+U	Ug_soxD	specific_gene	.	soxD	.
+U	Ug_soxE	specific_gene	.	soxE	.
+U	Ug_soxF	specific_gene	.	soxF	.
 U	Ug_soxK	specific_gene	.	soxK	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
@@ -339,8 +348,8 @@ U	Ut_LTR	feature_type	.	.	long tandem repeat
 U	Uf_protein_kinase	function	.	.	protein kinase
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
 U	Up_MARTX	specific_protein	.	MARTX	Multifunctional autoprocessing RTX toxin
-U	Ud_rhs	family_or_domain	.	rhs	rhs genes (YD repeat toxins)
-U	Ud_RTX	family_or_domain	.	RTX	RTX toxin repeat
+U	Ud_RHS_repeat	family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats
+U	Ud_RTX	family_or_domain:InterPro	IPR013550	RTX	Repeat-In-Toxin family
 U	Ug_lrsB	specific_gene	.	lrsB	.
 U	Ug_luxP	specific_gene	.	luxP	.
 U	Uf_euk_like_hystone	function	.	.	eukaryotic-like histone
@@ -370,7 +379,7 @@ U	Ug_hdrC	specific_gene	.	hdrC	.
 U	Ug_hdrD	specific_gene	.	hdrD	.
 U	Ug_hdrE	specific_gene	.	hdrE	.
 U	Ur_hdrBC_far_A	set!:arrangement	Ug_hdrB,><,Ug_hdrC,<>,Ug_hdrA	.	(hdrB-hdrC cluster) & hdrA separated
-U	Up_mvhDGA	set!:protein_complex	Ug_mvhD,Ug_mvhG,Ug_mvhA	.	cytoplasmic F420-non-reducing hydrogenase (mvhDGA)
+U	Upc_mvhDGA	set!:protein_complex	Ug_mvhD,Ug_mvhG,Ug_mvhA	.	cytoplasmic F420-non-reducing hydrogenase (mvhDGA)
 U	Ug_mvhA	specific_gene	.	mvhA	.
 U	Ug_mvhD	specific_gene	.	mvhD	.
 U	Ug_mvhG	specific_gene	.	mvhG	.
@@ -382,23 +391,20 @@ U	Uop_ribosomal	set:operon	.	ribosomal	.
 U	Uk_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
 U	Uf_ATP_cytr_ly	function	.	.	ATP citrate lyase subunits
 U	Uf_citr_syn	function	.	.	citrate synthase
-U	Ug_soxB	specific_gene	.	soxB	.
-U	Up_AprBA	set!:protein_complex	Ug_aprB,Ug_aprA	AprBA	dissimilatory adenylyl-sulfate reductase
+U	Upc_AprBA	set!:protein_complex	Ug_aprB,Ug_aprA	AprBA	dissimilatory adenylyl-sulfate reductase
 U	Ug_aprB	specific_gene	.	aprB	.
 U	Uw_5p_ox	set:metabolic_pathway	KEGG:M00006	.	pentose phosphate pathway, oxidative branch
-U	Ud_sox	family_or_domain	.	sox	sox genes
 U	Ug_aclB	specific_gene	.	aclB	.
 U	Ug_aprA	specific_gene	.	aprA	.
 U	Ug_cbbM	specific_gene	.	cbbM	form II ribulose 1,5-bisphosphate carboxylase (RuBisCo) large subunit (cbbM)
 U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
-U	Up_SorAB	set!:protein_complex	Ug_sorA,Ug_sorB	SorAB	sulfite:acceptor oxidoreductase
+U	Upc_SorAB	set!:protein_complex	Ug_sorA,Ug_sorB	SorAB	sulfite:acceptor oxidoreductase
 U	Uf_aa3_cytC_ox	function	.	.	aa3-type cytochrome c oxidase
 U	Uf_cbb3_cytC_ox	function	.	.	cbb3-type cytochrome c oxidase
-U	Ud_SulP	family_or_domain	.	.	SulP-type ion transporter
-U	Uf_CarbAn	function	EC:4.2.1.1	.	carbonic anhydrase
+U	Ud_SulP	family_or_domain:InterPro	IPR001902	SLC26A/SulP_fam	SLC26A/SulP transporter
+U	Uf_CarbAn	function:EC	4.2.1.1	.	carbonic anhydrase
 U	Ur_SulP_CarbAn	set!:arrangement	Ud_SulP,Uf_CarbAn	.	SulP-type ion transporter adiacent to carbonic anhydrase
 U	Uog_arCOG04888	ortholog_group:arCOG	arCOG04888	.	.
-U	Uc_SoxBZYKAX	set!:gene_cluster	Ug_soxB,Ug_soxZ,Ug_soxY,Ug_soxK,Ug_soxA,Ug_soxX	SoxBZYKAX	SoxBZYKAX (Sox enzyme complex)
 U	Uog_arCOG02822	ortholog_group:arCOG	arCOG02822	.	.
 U	Uog_arCOG03226	ortholog_group:arCOG	arCOG03226	.	.
 U	Uog_arCOG04904	ortholog_group:arCOG	arCOG04904	.	.
@@ -418,8 +424,6 @@ U	Uog_arCOG00640	ortholog_group:arCOG	arCOG00640	.	.
 U	Uog_arCOG01116	ortholog_group:arCOG	arCOG01116	.	.
 U	Uog_arCOG00854	ortholog_group:arCOG	arCOG00854	.	.
 U	Uog_arCOG04893	ortholog_group:arCOG	arCOG04893	.	.
-U	Ug_soxC	specific_gene	.	soxC	.
-U	Ug_soxD	specific_gene	.	soxD	.
 U	Uog_arCOG03221	ortholog_group:arCOG	arCOG03221	.	.
 U	Uog_arCOG04867	ortholog_group:arCOG	arCOG04867	.	.
 U	Uog_arCOG04868	ortholog_group:arCOG	arCOG04868	.	.
@@ -431,18 +435,13 @@ U	Uog_arCOG04885	ortholog_group:arCOG	arCOG04885	.	.
 U	Uop_CBB	set:operon	.	.	CBB enzyme
 U	Ug_sorA	specific_gene	.	sorA	.
 U	Ug_sorB	specific_gene	.	sorB	.
-U	Uy_SoxEF	set!:gene_system	Ug_soxE,Ug_soxF	SoxEF	Flavoprotein-cytochrome c complex (SoxEF)
-U	Ud_EAL	family_or_domain	.	EAL	phosphodiesterase (EAL)
 U	Ug_luxS	specific_gene	.	luxS	S-ribosylhomocysteinase
 U	Uf_5mA_SahC_nucl	function	.	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
-U	Up_arsenate_red	specific_protein	.	.	arsenate reductase
-U	Uh_arsenate_red	homolog_protein	homolog:Up_arsenate_red	.	arsenate reductase homolog
+U	Ud_LMWP_ArsC	family_or_domain:CDD	cd16345	LMWP_ArsC	arsenate reductase of the LMWP family
 U	Ug_arsR	specific_gene	.	arsR	.
 U	Uog_COG1055	ortholog_group:COG	COG1055	.	arsenical permease
-U	Uf_ADP_rib_pyr	function	EC:2.7.7.96	.	ADP-ribose pyrophosphatase
+U	Uf_ADP_rib_pyr	function:EC	2.7.7.96	.	ADP-ribose pyrophosphatase
 U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase
-U	Ug_soxE	specific_gene	.	soxE	.
-U	Ug_soxF	specific_gene	.	soxF	.
 M	Up_PPi_PFK	InterPro	IPR011404	PPi-PFK_XF0274	UP:Z:Q609I3
 M	Uf_pt_pyrop	InterPro	IPR004131	PPase-energised_H-pump	UP:Z:Q8P5M6
 M	Uf_pt_pyrop	Pfam	PF03030	H_PPase	UP:Z:Q8P5M6
@@ -513,21 +512,11 @@ M	Uf_cbb3_cytC_ox	InterPro	IPR004678	Cyt_c_oxidase_cbb3_su3	UP:Z:Q31E70
 M	Ud_Pfam00990	InterPro	IPR000160	GGDEF_dom	UP:Z:A0A377JTX8
 M	Ud_Pfam00990	SMART	SM00267	GGDEF	UP:Z:A0A377JTX8
 M	Ud_Pfam00990	Pfam	PF00990	GGDEF	UP:Z:A0A377JTX8
-M	Ud_EAL	InterPro	IPR001633	EAL_dom	UP:Z:B9L7D8
-M	Ud_EAL	InterPro	IPR035919	EAL_sf	UP:Z:B9L7D8
-M	Ud_EAL	Pfam	PF00563	EAL	UP:Z:B9L7D8
-M	Ud_EAL	SMART	SM00052	EAL	UP:Z:B9L7D8
-M	Ud_EAL	PROSITE	PS50883	EAL	UP:Z:B9L7D8
 M	Ug_luxS	InterPro	IPR037005	LuxS_sf	UP:Z:Q9ZMW8
 M	Ug_luxS	InterPro	IPR011249	Metalloenz_LuxS/M16	UP:Z:Q9ZMW8
 M	Ug_luxS	InterPro	IPR003815	S-ribosylhomocysteinase	UP:Z:Q9ZMW8
 M	Ug_luxS	Pfam	PF02664	LuxS	UP:Z:Q9ZMW8
 M	Uf_5mA_SahC_nucl	InterPro	IPR010049	MTA_SAH_Nsdase	UP:Z:Q0PC20
-M	Up_arsenate_red	InterPro	IPR006659	Arsenate_reductase	UP:Z:A0A661I2B4
-M	Up_arsenate_red	InterPro	IPR006660	Arsenate_reductase-like	UP:Z:A0A661I2B4
-M	Up_arsenate_red	PROSITE	PS51353	ARSC	UP:Z:A0A661I2B4
-M	Up_arsenate_red	Pfam	PF03960	ArsC	UP:Z:A0A661I2B4
-M	Up_arsenate_red	TIGRFAMs	TIGR00014	arsC	UP:Z:A0A661I2B4
 M	Ug_arsR	InterPro	IPR011991	ArsR-like_HTH	UP:Z:A0A6M8N2C7
 M	Ug_arsR	InterPro	IPR018334	ArsR_HTH	UP:Z:A0A6M8N2C7
 M	Ug_arsR	InterPro	IPR001845	HTH_ArsR_DNA-bd_dom	UP:Z:A0A6M8N2C7
@@ -538,9 +527,9 @@ M	Up_CODH	InterPro	IPR016101	CO_DH_a-bundle	UP:Z:A0A7D3UQY9
 M	Up_CODH	InterPro	IPR010047	CODH	UP:Z:A0A7D3UQY9
 M	Up_CODH	InterPro	IPR004137	HCP/CODH	UP:Z:A0A7D3UQY9
 M	Up_F420	InterPro	IPR007516	Co_F420_Hydgase/DH_bsu_N	UP:Z:A0A0K1HGQ7
-M	Ud_NiFe_hydr	InterPro	IPR037148	NiFe-Hase_small_C_sf	UP:Z:A0A518XYK5
-M	Ud_NiFe_hydr	InterPro	IPR037024	NiFe_Hase_small_N_sf	UP:Z:A0A518XYK5
-M	Ud_NiFe_hydr	Pfam	PF14720	NiFe_hyd_SSU_C	UP:Z:A0A518XYK5
+M	Upc_NiFe_hydr	InterPro	IPR037148	NiFe-Hase_small_C_sf	UP:Z:A0A518XYK5
+M	Upc_NiFe_hydr	InterPro	IPR037024	NiFe_Hase_small_N_sf	UP:Z:A0A518XYK5
+M	Upc_NiFe_hydr	Pfam	PF14720	NiFe_hyd_SSU_C	UP:Z:A0A518XYK5
 M	Ug_narG	InterPro	IPR006468	NarG	UP:Z:A0A2E6DC43
 M	Ug_narG	InterPro	IPR037943	MopB_CT_Nitrate-R-NarG-like	UP:Z:A0A2E6DC43
 M	Ug_narH	TIGRFAMs	TIGR01660	narH	UP:Z:A0A2E6DC38
@@ -569,7 +558,7 @@ A	Ac_p_RubisCO_IAc	Up_RubisCO_IAc	count
 A	Ap_c_SoxBZYKAX	Uc_SoxBZYKAX	presence
 A	Ap_c_SoxABXYZ	Uc_SoxABXYZ	presence
 A	Ap_c_SoxABCDXYZ	Uc_SoxABCDXYZ	presence
-A	Ap_w_SOX	Uw_SOX	presence
+A	Ap_w_Sox	Uw_Sox	presence
 A	Ap_y_SoxEF	Uy_SoxEF	presence
 A	Ap_g_mcrA	Ug_mcrA	presence
 A	Ap_t_split_pcgene	Ut_split_pcgene	presence
@@ -578,7 +567,7 @@ A	Aall_w_5BP	Uw_5BP	complete
 A	Ap_t_CRISPR	Ut_CRISPR	presence
 A	Ac_t_CRISPR	Ut_CRISPR	count
 A	Ac_p_MARTX	Up_MARTX	count
-A	Ac_d_rhs	Ud_rhs	count
+A	Ac_d_RHS_repeat	Ud_RHS_repeat	count
 A	Ac_d_RTX	Ud_RTX	count
 A	Ap_g_lrsB	Ug_lrsB	presence
 A	Ap_g_luxP	Ug_luxP	presence
@@ -602,7 +591,7 @@ A	Ap_g_hdrC	Ug_hdrC	presence
 A	Ap_g_hdrD	Ug_hdrD	presence
 A	Ap_g_hdrE	Ug_hdrE	presence
 A	Ap_r_hdrBC_far_A	Ur_hdrBC_far_A	presence
-A	Ap_p_mvhDGA	Up_mvhDGA	presence
+A	Ap_pc_mvhDGA	Upc_mvhDGA	presence
 U	Uog_anyCOG	*ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 A	Ar_k_T	Uk_T	relative:Uog_anyCOG
 A	Ap_f_6pg_deh	Uf_6pg_deh	presence
@@ -610,13 +599,13 @@ A	Ap_f_2k3d6pg_ald	Uf_2k3d6pg_ald	presence
 A	Ac_op_ribosomal	Uop_ribosomal	count
 A	Ar_k_M	Uk_M	relative:Uog_anyCOG
 A	Ar_f_ATP_cytr_ly	Uf_ATP_cytr_ly	relative:Uf_citr_syn
-A	Ap_p_AprBA	Up_AprBA	presence
-A	Ap_d_sox	Ud_sox	presence
+A	Ap_pc_AprBA	Upc_AprBA	presence
+A	Ap_y_Sox	Uy_Sox	presence
 A	Ap_g_aclB	Ug_aclB	presence
 A	Ap_g_aprA	Ug_aprA	presence
 A	Ap_g_cbbM	Ug_cbbM	presence
 A	Ap_p_SQR	Up_SQR	presence
-A	Ap_p_SorAB	Up_SorAB	presence
+A	Ap_pc_SorAB	Upc_SorAB	presence
 A	Ap_f_aa3_cytC_ox	Uf_aa3_cytC_ox	presence
 A	Ap_f_cbb3_cytC_ox	Uf_cbb3_cytC_ox	presence
 A	Ap_r_SulP_CarbAn	Ur_SulP_CarbAn	presence
@@ -653,7 +642,7 @@ A	Ac_d_Pfam00990	Ud_Pfam00990	count
 A	Ac_d_EAL	Ud_EAL	count
 A	Ac_g_luxS	Ug_luxS	count
 A	Ac_f_5mA_SahC_nucl	Uf_5mA_SahC_nucl	count
-A	Ac_h_arsenate_red	Uh_arsenate_red	count
+A	Ap_d_LMWP_ArsC	Ud_LMWP_ArsC	presence
 A	Ap_g_arsR	Ug_arsR	presence
 A	Ap_og_COG1055	Uog_COG1055	presence
 A	Ap_f_ADP_rib_pyr	Uf_ADP_rib_pyr	presence
@@ -661,7 +650,7 @@ A	Ap_p_CODH	Up_CODH	presence
 A	Ap_h_F420	Uh_F420	presence
 A	Ap_f_CO_ox	Uf_CO_ox	presence
 A	Ap_w_CO2_fix	Uw_CO2_fix	members_presence
-A	Ac_d_NiFe_hydr	Ud_NiFe_hydr	count
+A	Ac_pc_NiFe_hydr	Upc_NiFe_hydr	count
 A	Ap_r_RubisCO_out_CBB	Ur_RubisCO_out_CBB	presence
 A	Ac_t_mobile_genetic_element	Ut_mobile_genetic_element	count
 A	Ap_w_3HP4HB	Uw_3HP4HB	presence
@@ -672,10 +661,9 @@ A	Ap_g_pmoA	Ug_pmoA	presence
 A	Ap_y_PcoAB	Uy_PcoAB	presence
 A	Ap_g_cbbL	Ug_cbbL	presence
 A	Ap_h_cyc2	Uh_cyc2	presence
-A	Ap_p_ACIII	Up_ACIII	presence
+A	Ap_pc_ACIII	Upc_ACIII	presence
 A	Ap_h_cbb3	Uh_cbb3	presence
 A	Ap_f_CODH	Uf_CODH	presence
-A	Ac_d_Pfam00563	Ud_Pfam00563	count
 A	Ac_d_Pfam000159	Ud_Pfam000159	count
 A	Ac_p_SQR	Up_SQR	count
 A	Ap_p_SDH	Up_SDH	presence
@@ -715,7 +703,7 @@ V	VH26	SH14	Aall_w_5BP	Gl_NarcMC1	==	True
 V	VH27	SH14	Aall_w_5BP	Gc_cultured_Nanoarch	==	False
 V	VH28	SH15	Ap_t_CRISPR	Gt_Nanoarchaeota	==	True
 V	VH29	SH16,SH17	Ac_p_MARTX	Gc_hashost_B	level	high
-V	VH30	SH16	Ac_d_rhs	Gc_intracellular_B	level	high
+V	VH30	SH16	Ac_d_RHS_repeat	Gc_intracellular_B	level	high
 V	VH31	SH19	Ac_d_RTX	Gc_mar_Roseob:most	level	high
 V	VH32	SH18	Ac_d_RTX	Gc_hashost_B	level	low
 V	VH33	SH18	Ac_d_RTX	Gc_free_B	level	high
@@ -790,11 +778,11 @@ V	VH97	SH33	Ap_g_hdrE	Gc_CH4_gen_A_not_Mlumin_Malvus	==	True
 V	VH98	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
 V	VH99	SH34	Ap_r_hdrBC_far_A	Gt_Methanobacteriales	==	True
 V	VH100	SH34	Ap_r_hdrBC_far_A	Gt_Methanococcales	==	True
-V	VH101	SH34	Ap_p_mvhDGA	Gt_Methanobacteriales	==	True
-V	VH102	SH34	Ap_p_mvhDGA	Gt_Methanopyrales	==	True
-V	VH103	SH34	Ap_p_mvhDGA	Gt_Methanopyrales	==	True
-V	VH104	SH34	Ap_p_mvhDGA	Gt_Methanosarcinales	==	False
-V	VH105	SH34	Ap_p_mvhDGA	Gt_Methanomicrobiales:some	==	False
+V	VH101	SH34	Ap_pc_mvhDGA	Gt_Methanobacteriales	==	True
+V	VH102	SH34	Ap_pc_mvhDGA	Gt_Methanopyrales	==	True
+V	VH103	SH34	Ap_pc_mvhDGA	Gt_Methanopyrales	==	True
+V	VH104	SH34	Ap_pc_mvhDGA	Gt_Methanosarcinales	==	False
+V	VH105	SH34	Ap_pc_mvhDGA	Gt_Methanomicrobiales:some	==	False
 V	VH106	SH37	Ap_f_6pg_deh	Gc_free_Epsilon	==	False
 V	VH107	SH37	Ap_f_6pg_deh	Gc_pathog_Epsilon	==	True
 V	VH108	SH37	Ap_f_2k3d6pg_ald	Gc_free_Epsilon	==	False
@@ -809,9 +797,9 @@ V	VH116	SH46	Ap_g_soxB	Gt_Gammaproteobacteria	==	True
 V	VH117	SH46	Ap_g_soxB	Gt_Alphaproteobacteria	==	True
 V	VH118	SH46	Ap_g_soxB	Gt_Betaproteobacteria	==	True
 V	VH119	SH46	Ap_g_soxB	Gt_Chlorobi	==	True
-V	VH120	SH47	Ap_p_AprBA	Gc_SRA	==	True
-V	VH121	SH47	Ap_p_AprBA	Gc_SOA:some	==	True
-V	VH122	SH48	Ap_d_sox	Gc_Irina2_Nautiliaceae	==	False
+V	VH120	SH47	Ap_pc_AprBA	Gc_SRA	==	True
+V	VH121	SH47	Ap_pc_AprBA	Gc_SOA:some	==	True
+V	VH122	SH48	Ap_y_Sox	Gc_Irina2_Nautiliaceae	==	False
 V	VH123	SH49	Ap_g_aclB	Gc_a_troph_Epsilon	==	True
 V	VH124	SH49	Ap_g_aclB	Gc_Irina2_Nautiliaceae	==	True
 V	VH125	SH50	Ap_g_aprA	Gc_SOB	==	True
@@ -820,7 +808,7 @@ V	VH127	SH52	Ap_g_cbbM	Gt_Gammaproteobacteria:some	==	True
 V	VH128	SH54	Ap_p_SQR	Gc_pht_troph_B:some	==	True
 V	VH129	SH54	Ap_p_SQR	Gc_chm_troph_B:some	==	True
 V	VH130	SH54	Ap_p_SQR	Gt_Rcapsulatus	==	True
-V	VH131	SH55	Ap_p_SorAB	Gc_SOB:most	==	True
+V	VH131	SH55	Ap_pc_SorAB	Gc_SOB:most	==	True
 V	VH132	SH56	Ap_f_aa3_cytC_ox	Gt_Hpylori	==	True
 V	VH133	SH56	Ap_f_cbb3_cytC_ox	Gt_Hpylori	==	False
 V	VH134	SH56	Ap_f_aa3_cytC_ox	Gs_HcruXCL2	==	True
@@ -913,17 +901,21 @@ V	VH220	SH64	Ac_d_EAL	Gt_Campylobacter	level	none_or_low
 V	VH221	SH64	Ac_d_EAL	Gt_Helicobacter	level	none_or_low
 V	VH222	SH65	Ac_g_luxS	Gc_hydrvents_Epsilon	level	high
 V	VH223	SH65	Ac_f_5mA_SahC_nucl	Gc_hydrvents_Epsilon	level	high
-V	VH224	SH66	Ac_h_arsenate_red	Gc_hydrvents_Epsilon	>=	2
-V	VH225	SH66	Ac_h_arsenate_red	Gt_Sdenitrificans	>=	2
-V	VH226	SH66	Ac_h_arsenate_red	Gt_Abutzleri	>=	2
-V	VH227	SH66	Ap_g_arsR	Gt_Sdenitrificans	==	True
-V	VH228	SH66	Ap_g_arsR	Gt_Wsuccinogenes	==	True
-V	VH229	SH66	Ap_g_arsR	Gt_Sulfurovum	==	True
-V	VH230	SH66	Ap_g_arsR	Gt_Nitratiruptor	==	True
-V	VH231	SH66	Ap_og_COG1055	Gt_Cmediatlanticus	==	False
-V	VH232	SH66	Ap_og_COG1055	Gt_Nprofundicola	==	False
-V	VH233	SH66	Ap_g_arsR	Gt_Cmediatlanticus	==	True
-V	VH234	SH66	Ap_g_arsR	Gt_Nprofundicola	==	True
+V	VH224	SH66a	Ap_d_LMWP_ArsC	Gc_hydrvents_Epsilon	==	True
+V	VH225	SH66a	Ap_d_LMWP_ArsC	Gt_Sdenitrificans	==	True
+V	VH226	SH66a	Ap_d_LMWP_ArsC	Gt_Abutzleri	==	True
+V	VH227	SH66b	Ap_g_arsR	Gt_Sdenitrificans	==	True
+V	VH228	SH66b	Ap_g_arsR	Gt_Wsuccinogenes	==	True
+V	VH229	SH66b	Ap_g_arsR	Gt_Sulfurovum	==	True
+V	VH230	SH66b	Ap_g_arsR	Gt_Nitratiruptor	==	True
+V	VH227b	SH66b	Ap_og_COG1055	Gt_Sdenitrificans	==	True
+V	VH228b	SH66b	Ap_og_COG1055	Gt_Wsuccinogenes	==	True
+V	VH229b	SH66b	Ap_og_COG1055	Gt_Sulfurovum	==	True
+V	VH230b	SH66b	Ap_og_COG1055	Gt_Nitratiruptor	==	True
+V	VH231	SH66b	Ap_og_COG1055	Gt_Cmediatlanticus	==	False
+V	VH232	SH66b	Ap_og_COG1055	Gt_Nprofundicola	==	False
+V	VH233	SH66b	Ap_g_arsR	Gt_Cmediatlanticus	==	True
+V	VH234	SH66b	Ap_g_arsR	Gt_Nprofundicola	==	True
 V	VH235	SH67	Ap_f_ADP_rib_pyr	Gc_pathog_Epsilon	==	False
 V	VH236	SH67	Ap_f_ADP_rib_pyr	Gc_hydrvents_Epsilon:some	==	True
 V	VH237	SH67	Ap_f_ADP_rib_pyr	Gt_Abutzleri	==	True
@@ -933,7 +925,7 @@ V	VH240	SH70	Ap_f_CO_ox	Gc_lth_h_troph_B	==	False
 V	VH241	SH70	Ap_f_CO_ox	Gs_TonnNA1	==	True
 V	VH242	SH70	Ap_w_CO2_fix	Gc_lth_h_troph_B	==	False
 V	VH243	SH70	Ap_w_CO2_fix	Gs_TonnNA1	==	True
-V	VH244	SH71	Ac_d_NiFe_hydr	Gt_Thermococcus:most	>	1
+V	VH244	SH71	Ac_pc_NiFe_hydr	Gt_Thermococcus:most	>	1
 V	VH245	SH72	Ap_r_RubisCO_out_CBB	Gc_obl_a_troph_B	==	False
 V	VH246	SH72	Ap_r_RubisCO_out_CBB	Gt_Hcrunogenus	==	False
 V	VH247	SH74	Ap_w_rTCA	Gc_hydrvents_Epsilon	==	True
@@ -959,18 +951,18 @@ V	VH266	SH80	Ap_g_soxD	Gt_Sulfurovum	==	True
 V	VH267	SH80	Ap_g_soxD	Gt_Nitratiruptor	==	True
 V	VH268	SH80	Ap_g_soxD	Gt_Sulfurimonas	==	True
 V	VH269	SH80	Ap_g_soxD	Gt_Arcobacter	==	True
-V	VH270	SH51	Ap_w_SOX	Gc_Irina2_Gamma:many	==	False
+V	VH270	SH51	Ap_w_Sox	Gc_Irina2_Gamma:many	==	False
 V	VH271	SH51	Ap_g_aprA	Gc_Irina2_Gamma:many	==	True
-V	VH272	SH47	Ap_p_AprBA	Gc_SRB	==	True
-V	VH273	SH47	Ap_p_AprBA	Gc_SOB:some	==	True
+V	VH272	SH47	Ap_pc_AprBA	Gc_SRB	==	True
+V	VH273	SH47	Ap_pc_AprBA	Gc_SOB:some	==	True
 V	VH274	SH81	Ap_y_PcoAB	Gs_GbivTAG1	==	True
 V	VH275	SH81	Ap_y_PcoAB	Gs_ZetaAB602C20	==	True
 V	VH276	SH81	Ap_y_PcoAB	Gc_Zeta_not_GbivTAG1_ZetaAB602C20	==	False
 V	VH277	SH82	Ap_g_cbbM	Gt_Mariprofundus	==	True
 V	VH278	SH83	Ap_g_cbbL	Gt_Zetaproteobacteria	==	False
 V	VH279	SH84	Ap_h_cyc2	Gc_microaer_Fe2_ox_B:many	==	True
-V	VH280	SH85	Ap_p_ACIII	Gt_Zetaproteobacteria:many	==	True
-V	VH281	SH85	Ap_p_ACIII	Gc_Fe2_ox_B:some	==	True
+V	VH280	SH85	Ap_pc_ACIII	Gt_Zetaproteobacteria:many	==	True
+V	VH281	SH85	Ap_pc_ACIII	Gc_Fe2_ox_B:some	==	True
 V	VH282	SH86	Ap_h_cbb3	Gt_Zetaproteobacteria:most	==	True
 V	VH283	SH87	Ap_w_WL	Gc_SRB:some	==	True
 V	VH284	SH87	Ap_w_WL	Gc_anaer_NH3_ox_Planctomycetes:some	==	True
@@ -985,9 +977,9 @@ V	VH292	SH88	Ap_f_CODH	Gc_photosyn_B:some	==	True
 V	VH293	SH88	Ap_f_CODH	Gc_SRB	==	True
 V	VH294	SH89	Ap_g_cbbM	Gc_H2S_ox_chm_lth_a_Thiomicrospira	==	True
 V	VH295	SH89	Ap_g_cbbL	Gc_H2S_ox_chm_lth_a_Thiomicrospira	==	True
-V	VH296	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Hydrogenovibrio	level	high
-V	VH297	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Thiomicrorhabdus	level	high
-V	VH298	SH90	Ac_d_Pfam00563	Gc_chm_lth_a_Thiomicrospira	level	high
+V	VH296	SH90	Ac_d_EAL	Gc_chm_lth_a_Hydrogenovibrio	level	high
+V	VH297	SH90	Ac_d_EAL	Gc_chm_lth_a_Thiomicrorhabdus	level	high
+V	VH298	SH90	Ac_d_EAL	Gc_chm_lth_a_Thiomicrospira	level	high
 V	VH299	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Hydrogenovibrio	level	high
 V	VH300	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Thiomicrorhabdus	level	high
 V	VH301	SH90	Ac_d_Pfam00990	Gc_chm_lth_a_Thiomicrospira	level	high
@@ -1007,12 +999,12 @@ V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
 V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
 V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
 V	VH317	SH75	Ap_w_WL	Gc_CH4_gen_A:some	==	True
-V	VH318	SH51	Ap_w_SOX	Gt_Beggiatoa	==	False
+V	VH318	SH51	Ap_w_Sox	Gt_Beggiatoa	==	False
 V	VH319	SH50	Ap_g_aprA	Gt_Beggiatoa	==	True
 V	VH320	SH75	Ap_w_WL	Gm_ac_gen:some	==	True
 G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gm_photosyn & Gc_SOB
 G	Gc_chm_lth_a_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chm_lth_a_troph
-U	Uf_dsr	function	EC:1.8.99.5	DSR	dissimilatory sulfite reductase
+U	Uf_dsr	function:EC	1.8.99.5	DSR	dissimilatory sulfite reductase
 A	Ap_f_dsr	Uf_dsr	presence
 V	VH321	SH97	Ap_f_dsr	Gc_photosyn_SOB:many	==	True
 V	VH322	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True
@@ -1021,17 +1013,17 @@ V	VH324	SH97	Ap_f_dsr	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
 U	Ug_soeA	specific_gene	.	soeA	sulfite dehydrogenase (quinone) gene A
 U	Ug_soeB	specific_gene	.	soeB	sulfite dehydrogenase (quinone) gene B
 U	Ug_soeC	specific_gene	.	soeC	sulfite dehydrogenase (quinone) gene C
-U	Up_SoeABC	set!:protein_complex	Ug_soeA,Ug_soeB,Ug_soeC	SoeABC	polysulfide reductase-like iron-sulfur molybdoprotein
-A	Aall_p_SorAB	Up_SorAB	members_presence
-A	Aall_p_AprBA	Up_AprBA	members_presence
-A	Aall_p_SoeABC	Up_SoeABC	complete
-A	Ap_p_SoeABC	Up_SoeABC	members_presence
-V	VH325	SH97	Ap_p_SoeABC	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH326	SH97	Aall_p_SoeABC	Gt_Proteobacteria:many	==	True
-V	VH327	SH97	Ap_p_SorAB	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH328	SH97	Aall_p_SorAB	Gt_Proteobacteria:many	==	True
-V	VH329	SH97	Ap_p_AprBA	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH330	SH97	Aall_p_AprBA	Gt_Proteobacteria:many	==	True
+U	Upc_SoeABC	set!:protein_complex	Ug_soeA,Ug_soeB,Ug_soeC	SoeABC	polysulfide reductase-like iron-sulfur molybdoprotein
+A	Aall_pc_SorAB	Upc_SorAB	members_presence
+A	Aall_pc_AprBA	Upc_AprBA	members_presence
+A	Aall_pc_SoeABC	Upc_SoeABC	complete
+A	Ap_pc_SoeABC	Upc_SoeABC	members_presence
+V	VH325	SH97	Ap_pc_SoeABC	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH326	SH97	Aall_pc_SoeABC	Gt_Proteobacteria:many	==	True
+V	VH327	SH97	Ap_pc_SorAB	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH328	SH97	Aall_pc_SorAB	Gt_Proteobacteria:many	==	True
+V	VH329	SH97	Ap_pc_AprBA	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
+V	VH330	SH97	Aall_pc_AprBA	Gt_Proteobacteria:many	==	True
 V	VH331	SH58	Ap_og_COG4654	Gc_AOB	==	True
 V	VH332	SH58	Ap_og_COG2863	Gc_AOB	==	True
 V	VH333	SH42	Ap_g_mcrA	Gm_CH4_gen	==	True

@@ -106,7 +106,6 @@ S	S52	PMID:29530765	Bacteria have evolved to adapt to temperature downshift prim
 S	S53	PMID:17579514	The two most prominently represented COG categories in each of the gut-associated Bacteroidetes proteomes are G (carbohydrate transport and metabolism) and M (cell wall/membrane/envelope biogenesis).
 S	S54	PMID:15984913	Besides long repeats, Rickettsia genomes are known to contain a number of small palindromic repeats (Rickettsia palindromic elements [RPEs]) capable of invading both coding and noncoding regions [16].
 S	S55	PMID:15984913	The genomes of five Rickettsia species (R. prowazekii, R. typhi, R. conorii, R. sibirica, and R. felis) exhibit chromosomal patatin-like phospholipase gene (pat1).
-S	S56	PMID:15984913	The sca family is one of the largest paralogous gene families in Rickettsia [8].
 S	S57	PMID:15984913	Only ompB and sca4 are conserved in all available Rickettsia genomes [19], remaining members being degraded or absent in one or more species.
 S	S58	PMID:15984913	The toxin–antitoxin modules have also been found on the chromosomes of many free-living prokaryotes, but have rarely been found in obligate intracellular bacteria
 S	S61	PMID:15984913	Among other bacteria, only A. tumefasciens, Thermotoga maritima, and Sinorhizobium melitoti were found to exhibit HEPN-containing genes
@@ -447,7 +446,6 @@ U	Ut_RPE	feature_type	.	RPE	Rickettsia palindromic elements	XD:Z:doi:10.1126/sci
 U	Uk_G	ortholog_groups_category:COG_category	G	.	Carbohydrate transport and metabolism
 U	Uk_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
 U	Ug_pat1	specific_gene	.	pat1	chromosomal patatin-like phospholipase gene (pat1)
-U	Ud_sca	family_or_domain	.	sca	surface cell antigen / autotransporter family
 U	Uog_COG0183	ortholog_group:COG	COG0183	.	.
 U	Ug_ompB	specific_gene	.	ompB	.
 U	Ug_sca4	specific_gene	.	sca4	sca4
@@ -457,11 +455,11 @@ U	Ud_HEPN	family_or_domain:Pfam	PF05168	HEPN	Higher Eukaryotes and Prokaryotes N
 U	Ud_NACHT	family_or_domain:Pfam	PF05729	NACHT	NACHT NTPase
 U	Ut_repeat	feature_type	SO:0000726	repeat	.
 U	Ucomb_rep_transp_integr	*unit	Ut_repeat,Uf_transposase,Uf_integrase	.	.
-U	Uf_transposase	function	BRENDA:EC2.7.7.B22	.	transposase
+U	Uf_transposase	function:BRENDA_EC	2.7.7.B22	.	transposase
 U	Uf_integrase	function	.	.	retroviral integrase	XD:Z:doi:10.1146/annurev-virology-100114-055043
 U	Uog_COG0318	ortholog_group:COG	COG0318	.	.
-U	Uf_glucokinase	function	EC:2.7.1.2	.	glucokinase
-U	Uf_6pfk	function	EC:2.7.1.11	.	6-phosphofructokinase
+U	Uf_glucokinase	function:EC	2.7.1.2	.	glucokinase
+U	Uf_6pfk	function:EC	2.7.1.11	.	6-phosphofructokinase
 U	Uy_LuxS_AI2	set:gene_system	.	.	LuxS/AI-2 quorum sensing system	XR:Z:KEGG:map02024
 U	Ug_acrA	specific_gene	.	acrA	.
 U	Ug_acrB	specific_gene	.	acrB	.
@@ -488,8 +486,9 @@ U	Ur_dnaA_to_metS	set:arrangement	.	.	genes in range dnaA to metS (metG)
 U	Uog_COG1960	ortholog_group:COG	COG1960	.	.
 U	Ug_ppsA	specific_gene	.	ppsA	phosphoenolpyruvate synthase (ppsA)
 U	Uf_ppc	function	.	ppc	phosphoenolpyruvate carboxylase (ppc)
-U	Ud_BorrelliaPfam48	family_or_domain	.	Pfam48	Borrellia paralogous family Pfam49	# Pfam here does not refer to the Pfam database
-U	Ud_BorrelliaPfam54	family_or_domain	.	Pfam54	Borrellia paralogous family Pfam54	# Pfam here does not refer to the Pfam database
+U	Ud_BorreliaPfam48	family_or_domain	.	Pfam48	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
+U	Ud_BorreliaPfam54	family_or_domain	.	Pfam54	Borrelia paralogous gene family 54	# Pfam54 is not an ID of the Pfam database
+U	Ud_BorreliaPfam80	family_or_domain	.	Pfam80	Borrelia paralogous gene family 80: Bdr family	# Pfam80 is not an ID of the Pfam database
 U	Ug_nrdE	specific_gene	.	nrdE	.
 U	Uy_nrdEFI	set!:gene_system	Ug_nrdE,Ug_nrdF,Ug_nrdI	.	.
 U	Ug_ospA	specific_gene	.	ospA	.
@@ -501,7 +500,7 @@ U	Up_MompS	specific_protein	.	MompS	Major outer membrane porin S
 U	Uog_COG0625	ortholog_group:COG	COG0625	.	.
 U	Uc_nif	set:gene_cluster	.	nif	nif cluster
 U	Uc_gum	set:gene_cluster	.	.	gum cluster
-U	Ud_P450	family_or_domain	.	.	cytochrome P450
+U	Ud_P450	family_or_domain:InterPro	IPR036396	Cyt_P450	cytochrome P450
 U	Ur_traI_first	set:arrangement	.	.	traI first_in_operon	# no way to express this with fardes
 U	Uf_Flp	function	.	.	Flp (fimbrial low-molecular-weight protein) pili assembly
 U	Uf_TonB	function	.	.	TonB receptor
@@ -511,12 +510,11 @@ U	Uog_COG0179	ortholog_group:COG	COG0179	.	.
 U	Ug_dsrA	specific_gene	.	dsrA	.
 U	Ug_ssrS	specific_gene	.	ssrS	ssrS
 U	Upt_lipoprotein	protein_type	.	.	lipoprotein
-U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrellia family Pfam54)
+U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrelia family Pfam54)
 U	Ur_cp26_genes	set:arrangement	.	.	cp26 plasmid genes
-U	Ud_BorrelliaPfam80	family_or_domain	.	Pfam80	Bdr family, Borrelia paralogous family Pfam80
 U	Ug_visE	specific_gene	.	visE	membrane lipoprotein VlsE
-U	Uw_SOX	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
-U	Uf_carb_tr	function	GO:0015144	.	carbohydrate transporter
+U	Uw_Sox	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
+U	Uf_carb_tr	function:GO	0015144	.	carbohydrate transporter
 U	Uog_COG1680	ortholog_group:COG	COG1680	.	.
 U	Uf_glyc_perm	function	.	.	glycolate permease
 U	Uy_czc	set:gene_system	.	czc	czc metal resistance
@@ -613,18 +611,18 @@ U	Ug_nrdF	specific_gene	.	nrdF	.
 U	Ug_nrdI	specific_gene	.	nrdI	.
 U	Uy_Laa_ABC_tr	set:gene_system	.	.	L-amino acid ATP-binding cassette (ABC) transporter
 U	Uog_COG2116	ortholog_group:COG	COG2116	.	.
-U	Ud_thiamine_ABC_tr	family_or_domain	IPR005948	.	thiamine ABC transporter
+U	Uy_thiamine_ABC_tr	set:gene_system	.	thiBPQ	thiamine ABC transporter thiBPQ
 U	Uf_t3_polyk_syn	function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
 U	Uh_14b_cellbios	homolog_protein	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
 U	Uw_TCA	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
 U	Uc_succ_dehy	set:gene_cluster	.	.	succinate dehydrogenase gene cluster
 U	Ug_sdhA	specific_gene	.	sdhA	succinate dehydrogenase flavoprotein subunit, sdhA
-U	Up_coxA1B1	set!:protein_complex	Ug_coxA1,Ug_coxB1	.	cytochrome c oxidase subunit I (coxA1 & coxB1)
+U	Upc_CoxA1B1	set!:protein_complex	Ug_coxA1,Ug_coxB1	.	cytochrome c oxidase subunit I (coxA1 & coxB1)
 U	Ug_coxA1	specific_gene	.	coxA1	.
 U	Ug_coxB1	specific_gene	.	coxB1	.
 U	Uog_COG2704	ortholog_group:COG	COG2704	.	.
-U	Up_coxA2B2	set!:protein_complex	Ug_coxA2,Ug_coxB2	.	cytochrome c oxidase subunit II (coxA2 & coxB2)
+U	Upc_CoxA2B2	set!:protein_complex	Ug_coxA2,Ug_coxB2	.	cytochrome c oxidase subunit II (coxA2 & coxB2)
 U	Ug_coxA2	specific_gene	.	coxA2	.
 U	Ug_coxB2	specific_gene	.	coxB2	.
 U	Ug_nosD	specific_gene	.	nosD	.
@@ -632,8 +630,8 @@ U	Ug_nosF	specific_gene	.	nosF	.
 U	Ug_nosZ	specific_gene	.	nosZ	.
 U	Uc_nosZDF	set!:gene_cluster	Ug_nosZ,Ug_nosD,Ug_nosF	nosZDF	.
 U	Uf_cprfnr	function	.	.	oxygen-sensitive Cpr/Fnr-type transcription regulator
-U	Ur_nosZDF_near_coxA2B2	set!:arrangement	Uc_nosZDF,><,Up_coxA2B2	.	nosZDF cluster cytochrome c oxidase subunit II genes
-U	Ur_cprfnr_near_coxA2B2	set!:arrangement	Uf_cprfnr,><,Up_coxA2B2	.	oxygen-sensitive Cpr/Fnr-type transcription regulator near cytochrome c oxidase subunit II genes
+U	Ur_nosZDF_near_coxA2B2	set!:arrangement	Uc_nosZDF,><,Upc_CoxA2B2	.	nosZDF cluster cytochrome c oxidase subunit II genes
+U	Ur_cprfnr_near_coxA2B2	set!:arrangement	Uf_cprfnr,><,Upc_CoxA2B2	.	oxygen-sensitive Cpr/Fnr-type transcription regulator near cytochrome c oxidase subunit II genes
 U	Ug_ccoO	specific_gene	.	ccoO	cbb3-type cytochrome oxidase (ccoO)
 U	Ug_ccoN	specific_gene	.	ccoN	cbb3-type cytochrome oxidase (ccoN)
 U	Ug_ccoP	specific_gene	.	ccoP	.
@@ -662,7 +660,7 @@ U	Ug_hypA	specific_gene	.	hypA	.
 U	Ug_hypB	specific_gene	.	hypB	.
 U	Uog_COG1114	ortholog_group:COG	COG1114	.	.
 U	Uf_SOD	function	.	SOD	superoxide dismutase
-U	Uf_catalase	function	EC:1.11.1.7	.	catalase
+U	Uf_catalase	function:EC	1.11.1.7	.	catalase
 U	Uf_SOR	function	.	SOR	superoxide reductase
 U	Up_phiRv1	specific_protein	.	phiRv1	PhiRv1 integrase
 U	Up_phiRv2	specific_protein	.	phiRv2	PhiRv2 integrase
@@ -687,7 +685,7 @@ U	Ug_ciaB	specific_gene	.	ciaB	.
 U	Uh_ciaB	homolog_gene	homolog:Ug_ciaB	.	ciaB homolog
 U	Up_PEB4a	specific_protein	.	PEB4a	PEB4a
 U	Uh_PEB4a	homolog_protein	homolog:Up_PEB4a	.	PEB4a homolog
-U	Ud_sox	family_or_domain	.	sox	sox genes
+U	Uy_Sox	set:gene_system	.	Sox	Sox enzyme system	XR:Z:doi:10.1016/j.resmic.2009.07.003
 U	Uog_COG2271	ortholog_group:COG	COG2271	.	.
 U	Uog_COG3104	ortholog_group:COG	COG3104	.	.
 U	Uog_COG3325	ortholog_group:COG	COG3325	.	.
@@ -705,13 +703,13 @@ U	Uog_COG2124	ortholog_group:COG	COG2124	.	.
 U	Uy_hrc	set:gene_system	.	hrc	injectisome genes	XD:Z:doi.org/10.1093/femsle/fny201
 U	Uy_hrp	set:gene_system	.	hrp	host plant defence response suppressor
 U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
-U	Up_Ech	set:protein_complex	doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
-U	Uy_Ech_Rnf	set!:+protein_complex	Up_Ech,Up_Rnf	.	.
-U	Up_Rnf	set:protein_complex	doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
-U	Ud_PPE	family_or_domain	.	PPE	proline-proline-glutamate
+U	Upc_Ech	set:protein_complex	doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
+U	Upc_Ech_Rnf	set!:+protein_complex	Upc_Ech,Upc_Rnf	.	.
+U	Upc_Rnf	set:protein_complex	doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
+U	Ud_PPE	family_or_domain:Pfam	PF00823	PPE	proline-proline-glutamate
+U	Ud_PE_PPE	family_or_domain:Pfam	PF08237	PE-PPE	proline-glutamate (PE) - proline-proline-glutamate (PPE)
 U	Up_hemerythrin	specific_protein	.	.	hemerythrin
 U	Uc_thiocyanate	set:gene_cluster	.	.	thiocyanate
-U	Ud_PE_PPE	family_or_domain	.	PE-PPE	proline-glutamate (PE) - proline-proline-glutamate (PPE)
 U	Ug_fadD5	specific_gene	.	fadD5	fadD5 predicted fatty-acid-CoA ligase	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Ug_mce1R	specific_gene	.	mce1R	mce1 operon proximal transcription regulator	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Ug_yrbE1A	specific_gene	.	yrbE1A	mce1 operon integral membrane protein yrbEA	XD:Z:doi:10.1007/s11010-011-0733-5
@@ -753,15 +751,15 @@ U	Ut_pseudogene	feature_type	SO:0000336	pseudogene	.
 U	Ug_acrD	specific_gene	.	acrD	.
 U	Ug_terC	specific_gene	.	terC	.
 U	Uc_soxYZB_hyp_resB_soxAX_resC	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxB,Ug_resB,Ug_soxA,Ug_soxX,Ug_resC	soxYZB-hyp-resB-soxAX-resC	.
+U	Uc_soxYZA_hyp_SoxB	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxA,Ug_hyp,Ug_soxB	soxYZA-hyp-SoxB	.
 U	Ug_soxA	specific_gene	.	soxA	.
 U	Ug_soxB	specific_gene	.	soxB	.
-U	Ug_hyp	specific_gene	.	hyp	.
 U	Ug_resB	specific_gene	.	resB	.
 U	Ug_resC	specific_gene	.	resC	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
-U	Uc_soxYZA_hyp_SoxB	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxA,Ug_hyp,Ug_soxB	soxYZA-hyp-SoxB	.
+U	Ug_hyp	specific_gene	.	hyp	.
 U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
 U	Ug_hpnH	specific_gene	.	hpnH	.
 U	Uog_COG2200	ortholog_group:COG	COG2200	.	.
@@ -773,7 +771,7 @@ U	Uf_FeSO_hybrid	function	.	.	iron-sulfur-oxygen hybrid cluster protein
 U	Uf_HBP	function	.	HBP	hemin-binding protein
 U	Uw_mevalonate	set:metabolic_pathway	KEGG:M00095	.	mevalonate pathway
 U	Uw_DOXP	set:metabolic_pathway	KEGG:M00096	.	DOXP pathway (1-deoxy-d-xylulose-5-phosphate)
-U	Up_aeGlyRS_a2dim	set:protein_complex	.	.	archeal-eukaryotic GlyRS α2 dimer
+U	Upc_GlyRs_ae_a2dim	set:protein_complex	.	.	archeal-eukaryotic GlyRS α2 dimer
 U	Uog_COG0110	ortholog_group:COG	COG0110	.	.
 U	Uf_a2b2tetramer	function	.	.	α2/β2 tetramer
 U	Ut_gta_like	feature_type	ref:PMID:22717884	GTA-like	structure similar to a gene transfer agent (GTA)
@@ -781,7 +779,7 @@ U	Uop_dlt	set:operon	.	dlt	D-alanylation of lipoteichoic acid (dlt) operon
 U	Ug_dltA	specific_gene	.	dltA	dlt operon gene dltA
 U	Ug_metH	specific_gene	.	metH	.
 U	Ud_PF04055	family_or_domain:Pfam	PF04055	.	radical SAM domain
-U	Ud_B12bind	family_or_domain	.	.	vitamin B12-binding domain
+U	Ud_met_B12b	family_or_domain:Pfam	PF02607	.	methionine synthase cobalamin(vitamin B12)-binding domain
 U	Ug_dsrB	specific_gene	.	dsrB	.
 U	Ug_odmA	specific_gene	.	odmA	O-demethylase
 U	Uc_hyf_focB	set!:gene_cluster	Ug_hyfA,Ug_hyfB,Ug_hyfC,Ug_hyfD,Ug_hyfE,Ug_hyfF,Ug_hyfG,Ug_hyfH,Ug_hyfI,Ug_hyfR,Ug_focB	hyfABCDEFGHIR-focB	.
@@ -867,11 +865,10 @@ M	Ug_metH	InterPro	IPR036594	Meth_synthase_dom	UP:Z:P13009	RV:Z:Y
 M	Ug_metH	Pfam	PF02965	Met_synt_B12	UP:Z:P13009	RV:Z:Y
 M	Ug_metH	PIRSF	PIRSF000381	MetH	UP:Z:P13009	RV:Z:Y
 M	Ug_metH	TIGRFAMs	TIGR02082	metH	UP:Z:P13009	RV:Z:Y
-M	Ud_PF04055	InterPro	IPR007197	rSAM	UP:Z:I7DPQ6	RV:Z:N	SM:Z:Ud_B12bind
+M	Ud_PF04055	InterPro	IPR007197	rSAM	UP:Z:I7DPQ6	RV:Z:N	SM:Z:Ud_met_B12b
 M	Ud_PF04055	Pfam	PF04055	Radical_SAM	UP:Z:I7DPQ6	RV:Z:N
 M	Ud_PF04055	SFLD	SFLDS00029	Radical_SAM	UP:Z:I7DPQ6	RV:Z:N
 M	Ud_PF04055	PROSITE	PS51918	RADICAL_SAM	UP:Z:I7DPQ6	RV:Z:N
-M	Ud_B12bind	InterPro	IPR007197	rSAM	UP:Z:I7EYQ6	RV:Z:N	SM:Z:Ud_PF04055
 M	Ug_dsrB	InterPro	IPR011808	DsrB	UP:Z:Q251E3	RV:Z:N
 M	Ug_dsrB	InterPro	IPR005117	NiRdtase/SiRdtase_haem-b_fer	UP:Z:Q251E3	RV:Z:N
 M	Ug_dsrB	TIGRFAMs	TIGR02066	dsrB	UP:Z:Q251E3	RV:Z:N
@@ -1013,9 +1010,6 @@ M	Ug_blaIMI6	InterPro	IPR012338	Beta-lactam/transpept-like	UP:Z:A0A125S6K2	RV:Z:
 M	Ug_blaIMI6	InterPro	IPR045155	Beta-lactam_cat	UP:Z:A0A125S6K2	RV:Z:N	SM:Z:Ug_blaNMC_A;Ug_blaIMI1;Ug_blaIMI9;Ug_blaIMI5
 M	Ug_blaIMI6	InterPro	IPR000871	Beta-lactam_class-A	UP:Z:A0A125S6K2	RV:Z:N	SM:Z:Ug_blaNMC_A;Ug_blaIMI1;Ug_blaIMI9;Ug_blaIMI5
 M	Ug_blaIMI6	Pfam	PF13354	Beta-lactamase2	UP:Z:A0A125S6K2	RV:Z:N	SM:Z:Ug_blaNMC_A;Ug_blaIMI1;Ug_blaIMI9;Ug_blaIMI5
-M	Ud_thiamine_ABC_tr	InterPro	IPR005947	ThiP_ABC_transpt	UP:Z:E4UBL5	RV:Z:N
-M	Ud_thiamine_ABC_tr	TIGRFAMs	TIGR01253	thiP	UP:Z:E4UBL5	RV:Z:N
-M	Ud_thiamine_ABC_tr	PROSITE	PS50928	ABC_TM1	UP:Z:E4UBL5	RV:Z:N
 M	Uf_t3_polyk_syn	InterPro	IPR011141	Polyketide_synthase_type-III	UP:Z:A0A7X9Z4J4	RV:Z:N
 M	Uf_t3_polyk_syn	PIRSF	PIRSF000451	PKS_III	UP:Z:A0A7X9Z4J4	RV:Z:N
 M	Ug_sdhA	InterPro	IPR030664	SdhA/FrdA/AprA	UP:Z:Q2RZT8	RV:Z:N
@@ -1194,8 +1188,8 @@ A	Ar_og_COG1028	Uog_COG1028	relative:Uog_anyCOG
 A	Ar_og_COG2124	Uog_COG2124	relative:Uog_anyCOG
 A	Ap_y_hrc	Uy_hrc	presence
 A	Ap_y_hrp	Uy_hrp	presence
-A	Ap_y_Ech_Rnf	Uy_Ech_Rnf	complete
-A	Amp_y_Ech_Rnf	Uy_Ech_Rnf	members_presence
+A	Ap_pc_Ech_Rnf	Upc_Ech_Rnf	complete
+A	Amp_pc_Ech_Rnf	Upc_Ech_Rnf	members_presence
 A	Ap_d_PPE	Ud_PPE	presence
 A	Ap_p_hemerythrin	Up_hemerythrin	presence
 A	Ap_c_thiocyanate	Uc_thiocyanate	presence
@@ -1219,14 +1213,14 @@ A	Ap_f_FeSO_hybrid	Uf_FeSO_hybrid	presence
 A	Ap_f_HBP	Uf_HBP	presence
 A	Ap_w_mevalonate	Uw_mevalonate	presence
 A	Ap_w_DOXP	Uw_DOXP	presence
-A	Ap_p_aeGlyRS_a2dim	Up_aeGlyRS_a2dim	presence
+A	Ap_pc_GlyRs_ae_a2dim	Upc_GlyRs_ae_a2dim	presence
 A	Ap_f_a2b2tetramer	Uf_a2b2tetramer	presence
 A	Ap_t_gta_like	Ut_gta_like	presence
 A	Ap_op_dlt	Uop_dlt	presence
 A	Ap_g_dltA	Ug_dltA	presence
 A	Ap_g_metH	Ug_metH	presence
 A	Ap_d_PF04055	Ud_PF04055	presence
-A	Ap_d_B12bind	Ud_B12bind	presence
+A	Ap_d_met_B12b	Ud_met_B12b	presence
 A	Ap_g_dsrB	Ug_dsrB	presence
 A	Ap_g_odmA	Ug_odmA	presence
 A	Ap_c_hyf_focB	Uc_hyf_focB	presence
@@ -1248,7 +1242,6 @@ A	Ap_t_RPE	Ut_RPE	presence
 A	Ar_k_G	Uk_G	relative:Uog_anyCOG
 A	Ar_k_M	Uk_M	relative:Uog_anyCOG
 A	Ap_g_pat1	Ug_pat1	presence
-A	Ac_d_sca	Ud_sca	count
 A	Ap_g_ompB	Ug_ompB	presence
 A	Ap_g_sca4	Ug_sca4	presence
 A	Ap_t_tox_antitox	Ut_tox_antitox	presence
@@ -1280,10 +1273,10 @@ A	Ap_g_attG	Ug_attG	presence
 A	Ap_r_dnaA_to_metS	Ur_dnaA_to_metS	presence
 A	Ap_C2_g_ppsA	Ug_ppsA	presence!chromosome:II
 A	Ap_C2_f_ppc	Uf_ppc	presence!chromosome:II
-A	Ap_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence
-A	Ap_chr_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence!replicon_type:chromosome
-A	Ap_pls_d_BorrelliaPfam48	Ud_BorrelliaPfam48	presence!replicon_type:plasmid
-A	Ap_pls_d_BorrelliaPfam54	Ud_BorrelliaPfam54	presence!replicon_type:plasmid
+A	Ap_d_BorreliaPfam48	Ud_BorreliaPfam48	presence
+A	Ap_chr_d_BorreliaPfam48	Ud_BorreliaPfam48	presence!replicon_type:chromosome
+A	Ap_pls_d_BorreliaPfam48	Ud_BorreliaPfam48	presence!replicon_type:plasmid
+A	Ap_pls_d_BorreliaPfam54	Ud_BorreliaPfam54	presence!replicon_type:plasmid
 A	Ap_pls_y_nrdEFI	Uy_nrdEFI	presence!replicon_type:plasmid
 A	Ap_lp54_y_ospABdbpAB	Uy_ospABdbpAB	presence!plasmid:lp54
 A	Ap_p_MompS	Up_MompS	presence
@@ -1301,9 +1294,9 @@ A	Ac_pt_lipoprotein	Upt_lipoprotein	count
 A	Av_lp54_g_dbpA	Ug_dbpA	conservation!plasmid:lp54
 A	Av_lp54_p_CRASP1	Up_CRASP1	conservation!plasmid:lp54
 A	Av_r_cp26_genes	Ur_cp26_genes	conservation
-A	Ap_d_BorrelliaPfam80	Ud_BorrelliaPfam80	presence
+A	Ap_d_BorreliaPfam80	Ud_BorreliaPfam80	presence
 A	Ap_g_visE	Ug_visE	presence
-A	Ap_w_SOX	Uw_SOX	presence
+A	Ap_w_Sox	Uw_Sox	presence
 A	Ap_f_carb_tr	Uf_carb_tr	presence
 A	Ap_f_glyc_perm	Uf_glyc_perm	presence
 A	Ap_y_czc	Uy_czc	presence
@@ -1369,14 +1362,14 @@ A	Ap_c_blalMI	Uc_blalMI	presence
 A	Ap_comb_g_hpn	Ucomb_g_hpn	presence
 A	Av_lp54_g_dbpB	Ug_dbpB	conservation!plasmid:lp54
 A	Ap_y_Laa_ABC_tr	Uy_Laa_ABC_tr	presence
-A	Ap_d_thiamine_ABC_tr	Ud_thiamine_ABC_tr	presence
+A	Ap_y_thiamine_ABC_tr	Uy_thiamine_ABC_tr	presence
 A	Ap_f_t3_polyk_syn	Uf_t3_polyk_syn	presence
 A	Ap_pls_h_14b_cellbios	Uh_14b_cellbios	presence!replicon_type:plasmid
 A	Ap_w_TCA	Uw_TCA	presence
 A	Ap_c_succ_dehy	Uc_succ_dehy	presence
 A	Ap_g_sdhA	Ug_sdhA	presence
-A	Ap_p_coxA1B1	Up_coxA1B1	presence
-A	Ap_p_coxA2B2	Up_coxA2B2	presence
+A	Ap_pc_CoxA1B1	Upc_CoxA1B1	presence
+A	Ap_pc_CoxA2B2	Upc_CoxA2B2	presence
 A	Ap_r_nosZDF_near_coxA2B2	Ur_nosZDF_near_coxA2B2	presence
 A	Ap_r_cprfnr_near_coxA2B2	Ur_cprfnr_near_coxA2B2	presence
 A	Ap_g_ccoO	Ug_ccoO	presence
@@ -1426,18 +1419,18 @@ A	Ap_d_PF05860	Ud_PF05860	presence
 A	Ap_d_PF05594	Ud_PF05594	presence
 A	Ap_h_ciaB	Uh_ciaB	presence
 A	Ap_h_PEB4a	Uh_PEB4a	presence
-A	Ap_d_sox	Ud_sox	presence
+A	Ap_y_Sox	Uy_Sox	presence
 V	V1	S16	Ap_y_T3SS	Gt_Xanthomonas:most	==	True
 V	V2	S8	Ac_op_ribosomal	Gt_Planctomycetes	==	1
 V	V3	T1	Ac_op_ribosomal	Gc_copiotrophic_B	==	9
 V	V4	S8	Ac_op_ribosomal	Gc_oligotrophic_B	==	1
 V	V5	S15	Ap_y_hrc	Gt_Xanthomonas	==	True
 V	V6	S15	Ap_y_hrp	Gt_Xanthomonas	==	True
-V	V7	S18	Ap_y_Ech_Rnf	Gr_anaerobic:most	==	False
-V	V8	S18	Amp_y_Ech_Rnf	Gr_anaerobic:most	==	True
-V	V10	S19	Ap_y_Ech_Rnf	Gc_rumen_Butyrivibrio	==	True
-V	V13	S19	Ap_y_Ech_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
-V	V16	S19	Ap_y_Ech_Rnf	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
+V	V7	S18	Ap_pc_Ech_Rnf	Gr_anaerobic:most	==	False
+V	V8	S18	Amp_pc_Ech_Rnf	Gr_anaerobic:most	==	True
+V	V10	S19	Ap_pc_Ech_Rnf	Gc_rumen_Butyrivibrio	==	True
+V	V13	S19	Ap_pc_Ech_Rnf	Gc_rumen_Pseudobutyrivibrio	==	True
+V	V16	S19	Ap_pc_Ech_Rnf	Gc_rumen_B_not_Butyriv_Pseudob:most	==	False
 V	V17	S23	Ap_op_mce2	Gt_Mtuberculosis	==	True
 V	V18	S23	Ap_op_mce2	Gt_Mavium	==	True
 V	V19	S28	Ap_g_acrD	Gt_Rtyphi	==	True
@@ -1453,9 +1446,9 @@ V	V28	S29	Ap_c_soxYZA_hyp_SoxB	Gc_neutrop_chemoaut_B	==	True
 V	V29	S31	Ap_comb_g_hpn	Gt_Methylobacterium	==	True
 V	V30	S35	Ap_f_g6p_kin	Gt_Geobacteraceae:most	==	True
 V	V31	S35	Ap_f_glu_gal4_epi	Gt_Geobacteraceae:most	==	True
-V	V32	S39	Ap_p_aeGlyRS_a2dim	Gc_obl_pred_B	==	True
-V	V33	S39	Ap_p_aeGlyRS_a2dim	Gc_fac_pred_B:most	==	True
-V	V34	S39	Ap_p_aeGlyRS_a2dim	Gt_Bacteria:most	==	False
+V	V32	S39	Ap_pc_GlyRs_ae_a2dim	Gc_obl_pred_B	==	True
+V	V33	S39	Ap_pc_GlyRs_ae_a2dim	Gc_fac_pred_B:most	==	True
+V	V34	S39	Ap_pc_GlyRs_ae_a2dim	Gt_Bacteria:most	==	False
 V	V35	S20	Ap_d_PPE	Gn_Mycobacterium	==	False
 V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
 V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
@@ -1482,9 +1475,9 @@ V	V58	S43	Ap_g_dltA	Gt_Phaeobacter	==	True
 V	V59	S43	Ap_g_dltA	Gn_Phaeobacter	==	False
 V	V60	S44	Ap_g_metH	Gt_Ecoli	==	True
 V	V61	S45	Ap_d_PF04055	Gt_Phaeobacter	==	True
-V	V62	S45	Ap_d_B12bind	Gt_Phaeobacter	==	True
+V	V62	S45	Ap_d_met_B12b	Gt_Phaeobacter	==	True
 V	V63	S45	Ap_d_PF04055	Gt_Roseobacter	==	True
-V	V64	S45	Ap_d_B12bind	Gt_Roseobacter	==	True
+V	V64	S45	Ap_d_met_B12b	Gt_Roseobacter	==	True
 V	V65	S46	Ap_g_dsrB	Gc_Desulfitob_not_metallired	==	True
 V	V66	S46	Ap_g_dsrA	Gc_Desulfitob_not_metallired	==	True
 V	V67	S47	Ap_g_odmA	Gc_Desulfitob_not_metallired	==	True
@@ -1533,7 +1526,6 @@ V	V109	S55	Ap_g_pat1	Gt_Rfelis	==	True
 V	V110	S55	Ap_g_pat1	Gt_Rtyphi	==	True
 V	V111	S55	Ap_g_pat1	Gt_Rprowazekii	==	True
 V	V112	S55	Ap_g_pat1	Gt_Rconorii	==	True
-V	V113	S56	Ac_d_sca	Gt_Rickettsia	level	high
 V	V114	S57	Ap_g_ompB	Gt_Rickettsia	==	True
 V	V115	S57	Ap_g_sca4	Gt_Rickettsia	==	True
 V	V116	S58	Ap_t_tox_antitox	Gc_obl_intracell_B:rare	==	True
@@ -1579,10 +1571,10 @@ V	V157	S76	Ap_C2_g_ppsA	Gt_Vibrio	==	True
 V	V158	S76	Ap_C2_f_ppc	Gt_Vibrio	==	True
 V	V159	S66	Ap_y_LuxS_AI2	Gt_Neisseria	==	True
 V	V160	S81	Ap_r_dnaA_to_metS	Gt_Bpumilus:most	==	True
-V	V161	S82	Ap_chr_d_BorrelliaPfam48	Gt_Borrelia	==	True
-V	V162	S82	Ap_pls_d_BorrelliaPfam48	Gt_Borrelia	==	True
-V	V163	S82	Ap_d_BorrelliaPfam48	Gn_Borrelia	==	False
-V	V164	S83	Ap_pls_d_BorrelliaPfam54	Gc_Lyme_Borrelia	==	True
+V	V161	S82	Ap_chr_d_BorreliaPfam48	Gt_Borrelia	==	True
+V	V162	S82	Ap_pls_d_BorreliaPfam48	Gt_Borrelia	==	True
+V	V163	S82	Ap_d_BorreliaPfam48	Gn_Borrelia	==	False
+V	V164	S83	Ap_pls_d_BorreliaPfam54	Gc_Lyme_Borrelia	==	True
 V	V165	S84	Ap_pls_y_nrdEFI	Gc_relapsfever_Borrelia	==	True
 V	V166	S85	Ap_lp54_y_ospABdbpAB	Gc_Lyme_Borrelia	==	True
 V	V167	S85	Ap_lp54_y_ospABdbpAB	Gc_relapsfever_Borrelia	==	False
@@ -1620,11 +1612,11 @@ V	V198	S100	Av_lp54_g_dbpA	Gt_Borrelia	level	low
 V	V199	S100	Av_lp54_g_dbpB	Gt_Borrelia	level	low
 V	V200	S100	Av_lp54_p_CRASP1	Gt_Borrelia	level	low
 V	V201	S101	Av_r_cp26_genes	Gt_Borrelia	level	high
-V	V202	S103	Ap_d_BorrelliaPfam80	Gt_Borrelia	==	True
-V	V203	S103	Ap_d_BorrelliaPfam80	Gn_Borrelia	==	False
+V	V202	S103	Ap_d_BorreliaPfam80	Gt_Borrelia	==	True
+V	V203	S103	Ap_d_BorreliaPfam80	Gn_Borrelia	==	False
 V	V204	S104	Ap_g_visE	Gt_Borrelia	==	True
-V	V205	S105	Ap_w_SOX	Gt_Cupriavidus	==	True
-V	V206	S105	Ap_w_SOX	Gt_Ralstonia	==	True
+V	V205	S105	Ap_w_Sox	Gt_Cupriavidus	==	True
+V	V206	S105	Ap_w_Sox	Gt_Ralstonia	==	True
 V	V207	S106	Ap_f_carb_tr	Gt_Cupriavidus:most	==	True
 V	V208	S106	Ap_f_carb_tr	Gt_Ralstonia:most	==	True
 V	V209	S107	Ac_f_SOD	Gt_Betaproteobacteria:many	==	2
@@ -1718,9 +1710,9 @@ V	V292	S152	Ap_c_blalMI	Gn_Enterobacter:most	==	False
 V	V293	S153	Ap_y_Laa_ABC_tr	Gt_Lasiaticus	==	True
 V	V294	S153	Ap_y_Laa_ABC_tr	Gt_Lsolanacearum	==	True
 V	V295	S153	Ap_y_Laa_ABC_tr	Gt_Lcrescens	==	True
-V	V296	S154	Ap_d_thiamine_ABC_tr	Gt_Lasiaticus	==	True
-V	V297	S154	Ap_d_thiamine_ABC_tr	Gt_Lsolanacearum	==	True
-V	V298	S154	Ap_d_thiamine_ABC_tr	Gt_Lcrescens	==	False
+V	V296	S154	Ap_y_thiamine_ABC_tr	Gt_Lasiaticus	==	True
+V	V297	S154	Ap_y_thiamine_ABC_tr	Gt_Lsolanacearum	==	True
+V	V298	S154	Ap_y_thiamine_ABC_tr	Gt_Lcrescens	==	False
 V	V299	S155	Ap_f_t3_polyk_syn	Gt_Streptomyces	==	True
 V	V300	S156	Ap_f_t3_polyk_syn	Gt_Avinelandii	==	True
 V	V301	S157	Ap_pls_h_14b_cellbios	Gt_Salinibacter	==	True
@@ -1728,15 +1720,15 @@ V	V302	S159,S161	Ap_w_TCA	Gt_Salinibacter	==	True
 V	V303	S159,S161	Ap_w_TCA	Gt_haloarchaea	==	True
 V	V304	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
 V	V304b	S160	Ap_c_succ_dehy	Gt_Salinibacter	==	True
-V	V305	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
-V	V305b	S161	Ap_p_coxA1B1	Gt_Salinibacter	==	True
+V	V305	S161	Ap_pc_CoxA2B2	Gt_Salinibacter	==	True
+V	V305b	S161	Ap_pc_CoxA1B1	Gt_Salinibacter	==	True
 V	V306	S162	Ap_r_cprfnr_near_coxA2B2	Gt_Salinibacter	==	True
 V	V307	S162	Ap_r_nosZDF_near_coxA2B2	Gt_Salinibacter	==	True
 V	V308	S163	Ap_g_ccoN	Gt_Salinibacter	==	True
 V	V309	S163	Ap_g_ccoN	Gt_Rmarinus	==	True
 V	V309b	S163	Ap_g_ccoN	Gt_haloarchaea	==	False
 V	V312	S160	Ap_g_sdhA	Gt_Salinibacter	==	True
-V	V313	S161	Ap_p_coxA2B2	Gt_Salinibacter	==	True
+V	V313	S161	Ap_pc_CoxA2B2	Gt_Salinibacter	==	True
 V	V314	S163	Ap_g_ccoO	Gt_Salinibacter	==	True
 V	V315	S163	Ap_g_ccoO	Gt_Rmarinus	==	True
 V	V315b	S163	Ap_g_ccoO	Gt_haloarchaea	==	False
@@ -1824,7 +1816,7 @@ V	V400	S196	Ap_h_ciaB	Gc_hydrvents_Epsilon_not_Hpylori	==	True
 V	V401	S197	Ap_h_PEB4a	Gt_Campylobacterales	==	True
 V	V402	S89	Ac_p_GroES	Gt_Bacteria:most	==	1
 V	V403	S89	Ac_p_GroES	Gt_Gdiazotrophicus	==	2
-V	V404	S30	Ap_d_sox	Gt_Aquificales	==	True
+V	V404	S30	Ap_y_Sox	Gt_Aquificales	==	True
 V	V405	S40	Ap_w_DOXP	Gc_nonpred_B:most	==	True
 V	V406	S46	Ap_g_dsrB	Gt_Dmetallireducens	==	False
 V	V407	S46	Ap_g_dsrA	Gt_Dmetallireducens	==	False
