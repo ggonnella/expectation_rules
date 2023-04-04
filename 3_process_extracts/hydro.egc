@@ -303,7 +303,7 @@ U	Ut_mobile_genetic_element	feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_3HP4HB	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
 U	Uw_rev_SO4_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway	XD:Z:doi:10.1111/j.1462-2920.2008.01760.x
 U	Ug_narG	specific_gene	.	narG	.
-U	Ut_split_pcgene	feature_type	.	.	split protein-coding gene
+U	Ut_split_pcgene	feature_type	SO:0000459	gene_with_trans_spliced_transcript	split protein-coding gene
 U	Ug_narH	specific_gene	.	narH	.
 U	Ug_pmoA	specific_gene	.	pmoA	particulate methane monooxygenase (pMMO)
 U	Uy_PcoAB	set!:gene_system	Ug_pcoA,Ug_pcoB	PcoAB	multicopper oxidase
@@ -343,11 +343,12 @@ U	Ug_soxK	specific_gene	.	soxK	.
 U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
-U	Ur_LTR_prkin	set!:arrangement	Ut_LTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: long tandem repeat
-U	Ut_LTR	feature_type	.	.	long tandem repeat
+U	Ur_largeTR_pk	set!:arrangement	Ut_largeTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: large tandem repeat
+U	Ut_largeTR	feature_type	derived:Ut_TR:large	.	large tandem repeat
+U	Ut_TR	feature_type	SO:0000705	tandem_repeat	tandem repeat
 U	Uf_protein_kinase	function	.	.	protein kinase
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
-U	Up_MARTX	specific_protein	.	MARTX	Multifunctional autoprocessing RTX toxin
+U	Ud_MARTX	family_or_domain:CDD	NF012221	MARTX	Multifunctional Autoprocessing Repeat-In-Toxin family	XR:Z:10.1128/microbiolspec.VE-0002-2014
 U	Ud_RHS_repeat	family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats
 U	Ud_RTX	family_or_domain:InterPro	IPR013550	RTX	Repeat-In-Toxin family
 U	Ug_lrsB	specific_gene	.	lrsB	.
@@ -385,12 +386,12 @@ U	Ug_mvhD	specific_gene	.	mvhD	.
 U	Ug_mvhG	specific_gene	.	mvhG	.
 U	Uf_pt_pyrop	function	.	.	proton-translocating pyrophosphatase
 U	Uk_T	ortholog_groups_category:COG_category	T	.	Signal transduction
-U	Uf_6pg_deh	function	.	.	6-phosphogluconate dehydratase
-U	Uf_2k3d6pg_ald	function	.	.	2-keto-3-deoxy-6-phosphogluconate aldolase
+U	Uf_pg_dehydratase	function:EC	4.2.1.12	.	phosphogluconate dehydratase
+U	Uf_2k3d6pg_ald	function:EC	4.1.2.14	.	2-keto-3-deoxy-6-phosphogluconate aldolase
 U	Uop_ribosomal	set:operon	.	ribosomal	.
 U	Uk_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
-U	Uf_ATP_cytr_ly	function	.	.	ATP citrate lyase subunits
-U	Uf_citr_syn	function	.	.	citrate synthase
+U	Uf_ATP_citr_ly	function:EC	2.3.3.8	.	ATP citrate lyase
+U	Uf_citr_syn	function:EC	2.3.3.1	.	citrate synthase
 U	Upc_AprBA	set!:protein_complex	Ug_aprB,Ug_aprA	AprBA	dissimilatory adenylyl-sulfate reductase
 U	Ug_aprB	specific_gene	.	aprB	.
 U	Uw_5p_ox	set:metabolic_pathway	KEGG:M00006	.	pentose phosphate pathway, oxidative branch
@@ -436,7 +437,7 @@ U	Uop_CBB	set:operon	.	.	CBB enzyme
 U	Ug_sorA	specific_gene	.	sorA	.
 U	Ug_sorB	specific_gene	.	sorB	.
 U	Ug_luxS	specific_gene	.	luxS	S-ribosylhomocysteinase
-U	Uf_5mA_SahC_nucl	function	.	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
+U	Uf_5mA_SahC_nucl	function:EC	3.2.2.9	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
 U	Ud_LMWP_ArsC	family_or_domain:CDD	cd16345	LMWP_ArsC	arsenate reductase of the LMWP family
 U	Ug_arsR	specific_gene	.	arsR	.
 U	Uog_COG1055	ortholog_group:COG	COG1055	.	arsenical permease
@@ -487,7 +488,7 @@ M	Ug_hdrC	InterPro	IPR017680	CoB/CoM_hetero-S_Rdtase_csu	UP:Z:Q6LY39
 M	Ug_hdrC	TIGRFAMs	TIGR03290	CoB_CoM_SS_C	UP:Z:Q6LY39
 M	Ug_hdrE	InterPro	IPR023234	NarG-like_domain	UP:Z:A0A0E3NFS5
 M	Ug_hdrE	InterPro	IPR036197	NarG-like_sf	UP:Z:A0A0E3NFS5
-M	Uf_6pg_deh	InterPro	IPR004786	6-phosphgluc_deHydtase	UP:Z:Q1CSG7
+M	Uf_pg_dehydratase	InterPro	IPR004786	6-phosphgluc_deHydtase	UP:Z:Q1CSG7
 M	Ug_soxB	InterPro	IPR030998	Thiosulf_SoxB	UP:Z:A0A6L7SV37
 M	Ug_soxB	TIGRFAMs	TIGR04486	thiosulf_SoxB	UP:Z:A0A6L7SV37
 M	Ug_aclB	InterPro	IPR032263	Citrate-bd	UP:Z:Q32SK4
@@ -566,7 +567,7 @@ A	Ap_f_tyr_tr	Uf_tyr_tr	presence
 A	Aall_w_5BP	Uw_5BP	complete
 A	Ap_t_CRISPR	Ut_CRISPR	presence
 A	Ac_t_CRISPR	Ut_CRISPR	count
-A	Ac_p_MARTX	Up_MARTX	count
+A	Ac_d_MARTX	Ud_MARTX	count
 A	Ac_d_RHS_repeat	Ud_RHS_repeat	count
 A	Ac_d_RTX	Ud_RTX	count
 A	Ap_g_lrsB	Ug_lrsB	presence
@@ -594,11 +595,11 @@ A	Ap_r_hdrBC_far_A	Ur_hdrBC_far_A	presence
 A	Ap_pc_mvhDGA	Upc_mvhDGA	presence
 U	Uog_anyCOG	*ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 A	Ar_k_T	Uk_T	relative:Uog_anyCOG
-A	Ap_f_6pg_deh	Uf_6pg_deh	presence
+A	Ap_f_pg_dehydratase	Uf_pg_dehydratase	presence
 A	Ap_f_2k3d6pg_ald	Uf_2k3d6pg_ald	presence
 A	Ac_op_ribosomal	Uop_ribosomal	count
 A	Ar_k_M	Uk_M	relative:Uog_anyCOG
-A	Ar_f_ATP_cytr_ly	Uf_ATP_cytr_ly	relative:Uf_citr_syn
+A	Ar_f_ATP_citr_ly	Uf_ATP_citr_ly	relative:Uf_citr_syn
 A	Ap_pc_AprBA	Upc_AprBA	presence
 A	Ap_y_Sox	Uy_Sox	presence
 A	Ap_g_aclB	Ug_aclB	presence
@@ -672,7 +673,7 @@ A	Ap_f_NDH1_NADH_deh	Uf_NDH1_NADH_deh	presence
 A	Ap_f_cyt_bc1	Uf_cyt_bc1	presence
 A	Ap_f_hydr_1d	Uf_hydr_1d	presence
 A	Ac_f_RubisCO	Uf_RubisCO	count
-A	Ap_r_LTR_prkin	Ur_LTR_prkin	presence
+A	Ap_r_largeTR_pk	Ur_largeTR_pk	presence
 A	Ap_w_WL	Uw_WL	presence
 V	VH1	SH3	Aall_w_CBB	Gh_hydrvents:some	==	True
 V	VH2	SH4	Ap_p_PPi_PFK	Gc_CH4_tr_Gamma	==	True
@@ -702,7 +703,7 @@ V	VH25	SH14	Aall_w_5BP	Gt_Tkodakarensis	==	True
 V	VH26	SH14	Aall_w_5BP	Gl_NarcMC1	==	True
 V	VH27	SH14	Aall_w_5BP	Gc_cultured_Nanoarch	==	False
 V	VH28	SH15	Ap_t_CRISPR	Gt_Nanoarchaeota	==	True
-V	VH29	SH16,SH17	Ac_p_MARTX	Gc_hashost_B	level	high
+V	VH29	SH16,SH17	Ac_d_MARTX	Gc_hashost_B	level	high
 V	VH30	SH16	Ac_d_RHS_repeat	Gc_intracellular_B	level	high
 V	VH31	SH19	Ac_d_RTX	Gc_mar_Roseob:most	level	high
 V	VH32	SH18	Ac_d_RTX	Gc_hashost_B	level	low
@@ -783,15 +784,15 @@ V	VH102	SH34	Ap_pc_mvhDGA	Gt_Methanopyrales	==	True
 V	VH103	SH34	Ap_pc_mvhDGA	Gt_Methanopyrales	==	True
 V	VH104	SH34	Ap_pc_mvhDGA	Gt_Methanosarcinales	==	False
 V	VH105	SH34	Ap_pc_mvhDGA	Gt_Methanomicrobiales:some	==	False
-V	VH106	SH37	Ap_f_6pg_deh	Gc_free_Epsilon	==	False
-V	VH107	SH37	Ap_f_6pg_deh	Gc_pathog_Epsilon	==	True
+V	VH106	SH37	Ap_f_pg_dehydratase	Gc_free_Epsilon	==	False
+V	VH107	SH37	Ap_f_pg_dehydratase	Gc_pathog_Epsilon	==	True
 V	VH108	SH37	Ap_f_2k3d6pg_ald	Gc_free_Epsilon	==	False
 V	VH109	SH37	Ap_f_2k3d6pg_ald	Gc_pathog_Epsilon	==	True
 V	VH110	SH43	Ac_op_ribosomal	Gt_Epsilonproteobacteria:most	in_range	3,4
-V	VH111	SH37	Ap_f_6pg_deh	Gc_epis_Apompejana_Epsilon	==	False
+V	VH111	SH37	Ap_f_pg_dehydratase	Gc_epis_Apompejana_Epsilon	==	False
 V	VH112	SH37	Ap_f_2k3d6pg_ald	Gc_epis_Apompejana_Epsilon	==	False
 V	VH113	SH44	Ar_k_M	Gc_epis_Apompejana_Epsilon	level	high
-V	VH114	SH45	Ar_f_ATP_cytr_ly	Gc_epis_Apompejana_Epsilon	>	1
+V	VH114	SH45	Ar_f_ATP_citr_ly	Gc_epis_Apompejana_Epsilon	>	1
 V	VH115	SH46	Ap_g_soxB	Gt_Epsilonproteobacteria:some	==	True
 V	VH116	SH46	Ap_g_soxB	Gt_Gammaproteobacteria	==	True
 V	VH117	SH46	Ap_g_soxB	Gt_Alphaproteobacteria	==	True
@@ -994,9 +995,9 @@ V	VH309	SH101	Ac_p_RubisCO_IAc	Gt_Thiomicrospira:most	==	True
 V	VH310	SH101	Ap_g_cbbM	Gt_Thiomicrospira:most	==	False
 V	VH311	SH96	Ap_c_SoxABXYZ	Gc_Hydrogenov_Thiomicror_Thiomicros	==	True
 V	VH312	SH96	Ap_c_SoxABCDXYZ	Gc_Hydrogenov_Thiomicror_Thiomicros	==	False
-V	VH313	SH91	Ap_r_LTR_prkin	Gt_Hhalophilus:many	==	True
-V	VH314	SH91	Ap_r_LTR_prkin	Gc_Hydrogenov_not_halophilus	==	False
-V	VH315	SH91	Ap_r_LTR_prkin	Gt_Thiomicrorhabdus:many	==	True
+V	VH313	SH91	Ap_r_largeTR_pk	Gt_Hhalophilus:many	==	True
+V	VH314	SH91	Ap_r_largeTR_pk	Gc_Hydrogenov_not_halophilus	==	False
+V	VH315	SH91	Ap_r_largeTR_pk	Gt_Thiomicrorhabdus:many	==	True
 V	VH316	SH95	Ap_p_SDH	Gc_Hydrogenov_Thiomicror_Thiomicros:most	==	True
 V	VH317	SH75	Ap_w_WL	Gc_CH4_gen_A:some	==	True
 V	VH318	SH51	Ap_w_Sox	Gt_Beggiatoa	==	False

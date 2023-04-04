@@ -486,9 +486,9 @@ U	Ur_dnaA_to_metS	set:arrangement	.	.	genes in range dnaA to metS (metG)
 U	Uog_COG1960	ortholog_group:COG	COG1960	.	.
 U	Ug_ppsA	specific_gene	.	ppsA	phosphoenolpyruvate synthase (ppsA)
 U	Uf_ppc	function	.	ppc	phosphoenolpyruvate carboxylase (ppc)
-U	Ud_BorreliaPfam48	family_or_domain	.	Pfam48	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
-U	Ud_BorreliaPfam54	family_or_domain	.	Pfam54	Borrelia paralogous gene family 54	# Pfam54 is not an ID of the Pfam database
-U	Ud_BorreliaPfam80	family_or_domain	.	Pfam80	Borrelia paralogous gene family 80: Bdr family	# Pfam80 is not an ID of the Pfam database
+U	Uog_BorreliaPfam48	ortholog_group	.	Pfam48	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
+U	Uog_BorreliaPfam54	ortholog_group	.	Pfam54	Borrelia paralogous gene family 54	# Pfam54 is not an ID of the Pfam database
+U	Uog_BorreliaPfam80	ortholog_group	.	Pfam80	Borrelia paralogous gene family 80: Bdr family	# Pfam80 is not an ID of the Pfam database
 U	Ug_nrdE	specific_gene	.	nrdE	.
 U	Uy_nrdEFI	set!:gene_system	Ug_nrdE,Ug_nrdF,Ug_nrdI	.	.
 U	Ug_ospA	specific_gene	.	ospA	.
@@ -569,14 +569,14 @@ U	Ud_CL0412	family_or_domain:Pfam_clan	CL0412	Frag1-like	.
 U	Ud_CL0546	family_or_domain:Pfam_clan	CL0546	Hexosaminidase	.
 U	Uog_COG1299	ortholog_group:COG	COG1299	FrwC	Phosphotransferase system, fructose-specific IIC component
 U	Uw_EMP	set:metabolic_pathway	KEGG:M00001	EMP	Embden–Meyerhof–Parnas glycolysis
-U	Uf_pyrkin	function	.	.	pyruvate kinase
+U	Uf_pyrkin	function:EC	2.7.1.40	.	pyruvate kinase
 U	Ug_ompA	specific_gene	.	ompA	.
 U	Uw_cof_syn	set:+metabolic_pathway	KEGG:map01240	.	cofactor biosynthesis
 U	Uw_pur_syn	set:metabolic_pathway	KEGG:M00053	.	purines biosynthesis
 U	Uw_pyr_syn	set:metabolic_pathway	KEGG:M00051	.	pyrimidines biosynthesis
 U	Uog_COG0733	ortholog_group:COG	COG0733	.	.
 U	Uf_phlipD	function	.	.	phospholipase D
-U	Ut_Intergenic	feature_type	.	.	intergenic region
+U	Ut_intergenic	feature_type	SO:0000605	intergenic_region	intergenic region
 U	Up_FAS1	specific_protein	.	.	fatty acid synthase (FAS) I
 U	Up_FAS2	specific_protein	.	.	fatty acid synthase (FAS) II
 U	Uc_actinorhodin	set:gene_cluster	.	.	type II aromatic polyketide biosynthetic gene cluster (actinorhodin)
@@ -742,7 +742,7 @@ U	Ug_mce3E	specific_gene	.	mce3E	.	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Ug_mce3F	specific_gene	.	mce3F	.	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Uop_mce3	set!:operon	Ug_mce3R,Ug_yrbE3A,Ug_yrbE3B,Ug_mce3A,Ug_mce3B,Ug_mce3C,Ug_mce3D,Ug_mce3E,Ug_mce3F	mce3	Mycobacterium mammalian cell entry operon 3	XD:Z:doi:10.1007/s11010-011-0733-5
 U	Uog_COG2199	ortholog_group:COG	COG2199	.	.
-U	Uf_2oxo_deh	function	.	.	2-oxogluatarate dehydrogenase enzyme complex
+U	Upc_OGDC	set:protein_complex	.	OGDC	oxoglutarate dehydrogenase enzyme complex	XR:Z:Wikipedia:Oxoglutarate_dehydrogenase_complex
 U	Ur_16S_sep_23S_5S	set!:arrangement	Ug_16S,<>,Ug_23S,><,Ug_5S	.	16S rRNA separated from 23s rRNA gene and 5S rRNA gene
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
 U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
@@ -1197,7 +1197,7 @@ A	Ap_d_PE_PPE	Ud_PE_PPE	presence
 A	Ap_op_mce1	Uop_mce1	presence
 A	Ap_op_mce2	Uop_mce2	presence
 A	Ap_op_mce3	Uop_mce3	presence
-A	Ap_f_2oxo_deh	Uf_2oxo_deh	presence
+A	Ap_pc_OGDC	Upc_OGDC	presence
 A	Ap_r_16S_sep_23S_5S	Ur_16S_sep_23S_5S	presence
 A	Ac_t_pseudogene	Ut_pseudogene	count
 A	Ap_g_acrD	Ug_acrD	presence
@@ -1273,10 +1273,10 @@ A	Ap_g_attG	Ug_attG	presence
 A	Ap_r_dnaA_to_metS	Ur_dnaA_to_metS	presence
 A	Ap_C2_g_ppsA	Ug_ppsA	presence!chromosome:II
 A	Ap_C2_f_ppc	Uf_ppc	presence!chromosome:II
-A	Ap_d_BorreliaPfam48	Ud_BorreliaPfam48	presence
-A	Ap_chr_d_BorreliaPfam48	Ud_BorreliaPfam48	presence!replicon_type:chromosome
-A	Ap_pls_d_BorreliaPfam48	Ud_BorreliaPfam48	presence!replicon_type:plasmid
-A	Ap_pls_d_BorreliaPfam54	Ud_BorreliaPfam54	presence!replicon_type:plasmid
+A	Ap_og_BorreliaPfam48	Uog_BorreliaPfam48	presence
+A	Ap_chr_og_BorreliaPfam48	Uog_BorreliaPfam48	presence!replicon_type:chromosome
+A	Ap_pls_og_BorreliaPfam48	Uog_BorreliaPfam48	presence!replicon_type:plasmid
+A	Ap_pls_og_BorreliaPfam54	Uog_BorreliaPfam54	presence!replicon_type:plasmid
 A	Ap_pls_y_nrdEFI	Uy_nrdEFI	presence!replicon_type:plasmid
 A	Ap_lp54_y_ospABdbpAB	Uy_ospABdbpAB	presence!plasmid:lp54
 A	Ap_p_MompS	Up_MompS	presence
@@ -1294,7 +1294,7 @@ A	Ac_pt_lipoprotein	Upt_lipoprotein	count
 A	Av_lp54_g_dbpA	Ug_dbpA	conservation!plasmid:lp54
 A	Av_lp54_p_CRASP1	Up_CRASP1	conservation!plasmid:lp54
 A	Av_r_cp26_genes	Ur_cp26_genes	conservation
-A	Ap_d_BorreliaPfam80	Ud_BorreliaPfam80	presence
+A	Ap_og_BorreliaPfam80	Uog_BorreliaPfam80	presence
 A	Ap_g_visE	Ug_visE	presence
 A	Ap_w_Sox	Uw_Sox	presence
 A	Ap_f_carb_tr	Uf_carb_tr	presence
@@ -1347,7 +1347,7 @@ A	Ap_w_cof_syn	Uw_cof_syn	presence
 A	Ap_w_pur_syn	Uw_pur_syn	presence
 A	Ap_w_pyr_syn	Uw_pyr_syn	presence
 A	Ap_f_phlipD	Uf_phlipD	presence
-A	Ap_t_Intergenic	Ut_Intergenic	presence
+A	Ap_t_intergenic	Ut_intergenic	presence
 A	Ap_p_FAS1	Up_FAS1	presence
 A	Ap_p_FAS2	Up_FAS2	presence
 A	Ap_c_actinorhodin	Uc_actinorhodin	presence
@@ -1454,7 +1454,7 @@ V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
 V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
 V	V38	S23	Ap_d_PE_PPE	Gt_Mycobacterium	==	True
 V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
-V	V40	S24	Ap_f_2oxo_deh	Gp_chm_lth_a_troph	==	False
+V	V40	S24	Ap_pc_OGDC	Gp_chm_lth_a_troph	==	False
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
 V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
 V	V44	S30	Ap_p_SQR	Gt_Aquificales	==	True
@@ -1571,10 +1571,10 @@ V	V157	S76	Ap_C2_g_ppsA	Gt_Vibrio	==	True
 V	V158	S76	Ap_C2_f_ppc	Gt_Vibrio	==	True
 V	V159	S66	Ap_y_LuxS_AI2	Gt_Neisseria	==	True
 V	V160	S81	Ap_r_dnaA_to_metS	Gt_Bpumilus:most	==	True
-V	V161	S82	Ap_chr_d_BorreliaPfam48	Gt_Borrelia	==	True
-V	V162	S82	Ap_pls_d_BorreliaPfam48	Gt_Borrelia	==	True
-V	V163	S82	Ap_d_BorreliaPfam48	Gn_Borrelia	==	False
-V	V164	S83	Ap_pls_d_BorreliaPfam54	Gc_Lyme_Borrelia	==	True
+V	V161	S82	Ap_chr_og_BorreliaPfam48	Gt_Borrelia	==	True
+V	V162	S82	Ap_pls_og_BorreliaPfam48	Gt_Borrelia	==	True
+V	V163	S82	Ap_og_BorreliaPfam48	Gn_Borrelia	==	False
+V	V164	S83	Ap_pls_og_BorreliaPfam54	Gc_Lyme_Borrelia	==	True
 V	V165	S84	Ap_pls_y_nrdEFI	Gc_relapsfever_Borrelia	==	True
 V	V166	S85	Ap_lp54_y_ospABdbpAB	Gc_Lyme_Borrelia	==	True
 V	V167	S85	Ap_lp54_y_ospABdbpAB	Gc_relapsfever_Borrelia	==	False
@@ -1612,8 +1612,8 @@ V	V198	S100	Av_lp54_g_dbpA	Gt_Borrelia	level	low
 V	V199	S100	Av_lp54_g_dbpB	Gt_Borrelia	level	low
 V	V200	S100	Av_lp54_p_CRASP1	Gt_Borrelia	level	low
 V	V201	S101	Av_r_cp26_genes	Gt_Borrelia	level	high
-V	V202	S103	Ap_d_BorreliaPfam80	Gt_Borrelia	==	True
-V	V203	S103	Ap_d_BorreliaPfam80	Gn_Borrelia	==	False
+V	V202	S103	Ap_og_BorreliaPfam80	Gt_Borrelia	==	True
+V	V203	S103	Ap_og_BorreliaPfam80	Gn_Borrelia	==	False
 V	V204	S104	Ap_g_visE	Gt_Borrelia	==	True
 V	V205	S105	Ap_w_Sox	Gt_Cupriavidus	==	True
 V	V206	S105	Ap_w_Sox	Gt_Ralstonia	==	True
@@ -1693,7 +1693,7 @@ V	V275	S141	Ap_w_cof_syn	Gt_Chlamydiae	==	False
 V	V276	S141	Ap_w_pur_syn	Gt_Chlamydiae	==	False
 V	V277	S141	Ap_w_pyr_syn	Gt_Chlamydiae	==	False
 V	V278	S142	Ap_f_phlipD	Gt_Rickettsia	==	True
-V	V279	S144	Ap_t_Intergenic	Gt_Rhizobium	==	True
+V	V279	S144	Ap_t_intergenic	Gt_Rhizobium	==	True
 V	V280	S145	Ap_p_FAS1	Gt_Mycobacterium	==	True
 V	V281	S145	Ap_p_FAS2	Gt_Mycobacterium	==	True
 V	V282	S146	Ap_c_actinorhodin	Gt_Streptomyces	==	True
@@ -1821,7 +1821,7 @@ V	V405	S40	Ap_w_DOXP	Gc_nonpred_B:most	==	True
 V	V406	S46	Ap_g_dsrB	Gt_Dmetallireducens	==	False
 V	V407	S46	Ap_g_dsrA	Gt_Dmetallireducens	==	False
 V	V408	S47	Ap_g_odmA	Gt_Dmetallireducens	==	False
-U	Ut_ins_seq	feature_type	SO:0000973	.	insertion sequence
+U	Ut_ins_seq	feature_type	SO:0000973	insertion_sequence	insertion sequence
 A	Arl_ins_seq	Ut_ins_seq	relative_length:Ub_N
 V	V409	S173	Arl_ins_seq	Gt_Cyanobacteriota	=~	0.02
 V	V410	S173	Arl_ins_seq	Gt_Maeruginosa	=~	0.1

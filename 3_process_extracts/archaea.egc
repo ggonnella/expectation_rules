@@ -255,10 +255,10 @@ U	Uf_copp_ox	function	.	.	multicopper oxidase
 U	Ud_BlueCu	family_or_domain:InterPro	IPR000923	BlueCu_1	blue copper domain
 U	Up_topoIB	specific_protein	.	.	topoisomerase IB
 U	Uf_RNApolG	function	.	.	RNA Polymerase G
-U	Uf_amm_monox	function	.	.	ammonia monooxygenase
+U	Uf_AMO	function:EC	1.14.99.39	AMO	ammonia monooxygenase
 U	Uf_acCoA_carb	function	.	.	acetyl-CoA carboxylase
-U	Uf_4hyxbutCoA_deh	function	.	.	4-hydroxybutyryl-CoA dehydratase
-U	Uf_methmalCoa_mut	function	.	.	methylmalonyl-CoA mutase
+U	Uf_4hyxbutCoA_deh	function:EC	4.2.1.120	.	4-hydroxybutyryl-CoA dehydratase
+U	Uf_methmalCoa_mut	function:EC	5.4.99.2	.	methylmalonyl-CoA mutase
 U	Ud_ferritin_Dps	family_or_domain:InterPro	IPR008331	Ferritin_DPS_dom	ferritin/Dps domain
 U	Up_hydr_am_oxr	specific_protein	.	.	hydroxylamine oxidoreductase
 U	Uh_hydr_am_oxr	homolog_protein	homolog:Up_hydr_am_oxr	.	hydroxylamine oxidoreductase homolog
@@ -271,7 +271,7 @@ U	Ug_SRP_RNA	specific_gene	ref:doi:10.1155/2010/485051	SRP_RNA	Archaeal signal r
 U	Uf_CPE	function	.	.	Capsular Polysaccharide Exporter
 U	Ug_pseG	specific_gene	.	pseG	.
 U	Ut_large_replicon	feature_type	.	.	large replicon (>100 kbp)
-U	Ut_intein	feature_type	.	.	intein	XR:Z:SO:0000728
+U	Ut_intein	feature_type	SO:0002026	intein_encoding_region	intein	XR:Z:SO:0000728!intein
 U	Uf_urea_tr	function:GO	0071918	.	urea transporter
 U	Upc_RCI	set:protein_complex	.	.	Respiratory Complex I
 U	Uf_citC_ox	function	.	.	cytochrome c-oxidase
@@ -305,10 +305,10 @@ U	Uf_SOR	function	.	SOR	superoxide reductase
 U	Ug_mcrA	specific_gene	.	mcrA	.
 U	Uw_CBB	set:metabolic_pathway	KEGG:M00165	.	Calvin–Bassham–Benson cycle
 U	Uw_3HP4HB	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
-U	Uf_AMPf_3HPCoA_s	function	.	.	AMP-forming 3-hydroxypropionyl-CoA synthetase
-U	Uf_ADPf_acylCoA_s	function	.	.	ADP-forming acyl-CoA synthetase
-U	Uf_ATP_citr_ly	function	.	.	citrate-cleaving enzyme (ATP citrate lyase)
-U	Uf_citrCoa_ly	function	.	.	citrate-cleaving enzyme (citryl-CoA lyase)
+U	Uf_AMPf_3HPCoA_s	function:EC	6.2.1.36	.	AMP-forming 3-hydroxypropionyl-CoA synthetase
+U	Uf_ADPf_acylCoA_s	function:EC	6.2.1.13	.	ADP-forming acyl-CoA synthetase
+U	Uf_ATP_citr_ly	function:EC	2.3.3.8	.	ATP citrate lyase
+U	Uf_citrCoa_ly	function:EC	4.1.3.34	.	citryl-CoA lyase
 U	Ud_TFIIB_arc	family_or_domain:InterPro	IPR023484	TFIIB_arc	archaeal transcription factor B	XR:Z:Wikipedia:Archaeal_transcription_factor_B
 U	Ud_TBP_arc	family_or_domain:InterPro	IPR033711	TBP_arch	TATA-box binding protein, archaeal
 U	Ug_cdvA	specific_gene	.	cdvA	.
@@ -328,8 +328,8 @@ U	Up_PhaP5	specific_protein	.	PhaP5	phasin PhaP5
 U	Ug_phaM	specific_gene	.	phaM	phasin-like PhaM
 U	Ug_gapN	specific_gene	.	gapN	.
 U	Ug_celB	specific_gene	.	celB	.
-U	Ut_ins_seq	feature_type	SO:0000973	.	insertion sequence
-U	Ut_ins_seq_part	feature_type	.	.	insertion sequence (partial)
+U	Ut_ins_seq	feature_type	SO:0000973	insertion_sequence	insertion sequence
+U	Ut_ins_seq_part	feature_type	derived:Ut_ins_seq:partial	.	insertion sequence (partial)
 U	Up_Cas6	specific_protein	.	Cas6	CRISPR-associated endoribonuclease Cas6
 U	Uf_3b_NADP_hydr	function	.	.	group 3b cytoplasmic NADP-dependent hydrogenase
 U	Uf_aconitase	function	.	.	aconitase
@@ -339,7 +339,7 @@ U	Ui_saccharolytic	set:genomic_island	.	.	saccharolytic gene island
 U	Uf_malt_treh_degr	function	.	.	maltose and trehalose degradation
 U	Ut_MGE	feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_XeR_bs	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis	XD:Z:doi:10.1186/1745-6150-6-52
-U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement
+U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150,doi:10.1016/j.mib.2007.06.004
 U	Uf_SPEARE	function	.	.	SPEARE proteins
 U	Ud_laminin_G	family_or_domain:InterPro	IPR001791	Laminin_G	laminin globular domain
 U	Ud_ConA_like	family_or_domain:InterPro	IPR013320	.	ConA-like domain
@@ -361,15 +361,15 @@ U	Uf_met_phglc_iso	function	.	.	metal-dependent phosphoglucose isomerase
 U	Up_bf_pgm_iso	specific_protein	.	.	bifunctional phosphoglucose/phosphomannose isomerase
 U	Up_pyr_dik	specific_protein	.	.	pyruvate dikinase
 U	Uh_pyr_dik	homolog_protein	homolog:Up_pyr_dik	.	pyruvate dikinase homolog
-U	Uf_6pg_deh	function	.	.	6-phosphogluconate dehydrogenase
-U	Uf_f420_oxr	function	.	.	F420-dependent oxidoreductase
+U	Uf_6pg_deh	function:EC	1.1.1.43	.	6-phosphogluconate dehydrogenase
+U	Uf_F420_G6PDH	function:EC	1.1.98.2	.	F420-dependent glucose-6-phosphate dehydrogenase	XD:Z:doi:10.1002/prot.26170
 U	Uf_phxyalk_syn	function	.	.	Polyhydroxyalkanoate synthase
-U	Uf_myoino1ph_syn	function	.	.	myo-inositol-1-phosphate synthase
+U	Uf_myoino1ph_syn	function:EC	5.5.1.4	.	myo-inositol-1-phosphate synthase
 U	Uf_man3phgly	function	.	.	Mannosyl-3-phosphoglycerate
 U	Up_ppl_divcattol	specific_protein	.	.	Periplasmic divalent cation tolerance protein
 U	Uf_nick_perm	function	.	.	nickel high affinity permease
 U	Uf_As_pump	function	.	.	arsenic pump
-U	Uf_glu_syn	function	.	.	Glutamate synthase
+U	Uf_GluSynNAPDH	function:EC	1.4.1.13	.	NADPH-dependent glutamate synthase
 U	Up_LXa	specific_protein	.	LXa	archaeal ribosomal protein LXa	XR:Z:doi:10.1155/2009/971494
 U	Ug_UvrA	specific_gene	.	UvrA	.
 U	Ug_UvrB	specific_gene	.	UvrB	.
@@ -398,9 +398,9 @@ M	Up_topoIB	InterPro	IPR013030	DNA_topo_DNA_db_N_dom2	UP:Z:A0A7J3RYR5	RV:Z:N
 M	Up_topoIB	InterPro	IPR001631	TopoI	UP:Z:A0A7J3RYR5	RV:Z:N
 M	Up_topoIB	Pfam	PF01028	Topoisom_I	UP:Z:A0A7J3RYR5	RV:Z:N
 M	Up_topoIB	Pfam	PF02919	Topoisom_I_N	UP:Z:A0A7J3RYR5	RV:Z:N
-M	Uf_amm_monox	InterPro	IPR024656	AmoA_arc	UP:Z:A0A7J2YBH4	RV:Z:N
-M	Uf_amm_monox	InterPro	IPR037001	NH3/CH4_mOase_suA_sf	UP:Z:A0A7J2YBH4	RV:Z:N
-M	Uf_amm_monox	Pfam	PF12942	Archaeal_AmoA	UP:Z:A0A7J2YBH4	RV:Z:N
+M	Uf_AMO	InterPro	IPR024656	AmoA_arc	UP:Z:A0A7J2YBH4	RV:Z:N
+M	Uf_AMO	InterPro	IPR037001	NH3/CH4_mOase_suA_sf	UP:Z:A0A7J2YBH4	RV:Z:N
+M	Uf_AMO	Pfam	PF12942	Archaeal_AmoA	UP:Z:A0A7J2YBH4	RV:Z:N
 M	Uf_acCoA_carb	InterPro	IPR001095	Acetyl_CoA_COase_a_su	UP:Z:A0A7K4P6P2	RV:Z:N
 M	Uf_acCoA_carb	InterPro	IPR011763	COA_CT_C	UP:Z:A0A7K4P6P2	RV:Z:N
 M	Uf_acCoA_carb	Pfam	PF03255	ACCA	UP:Z:A0A7K4P6P2	RV:Z:N
@@ -607,7 +607,7 @@ M	Uf_6pg_deh	InterPro	IPR013328	6PGD_dom2	UP:Z:K0ID35	RV:Z:N
 M	Uf_6pg_deh	InterPro	IPR006114	6PGDH_C	UP:Z:K0ID35	RV:Z:N
 M	Uf_6pg_deh	InterPro	IPR006115	6PGDH_NADP-bd	UP:Z:K0ID35	RV:Z:N
 M	Uf_6pg_deh	Pfam	PF00393	6PGD	UP:Z:K0ID35	RV:Z:N
-M	Uf_f420_oxr	Pfam	PF03807	F420_oxidored	UP:Z:D9PVP5	RV:Z:N
+M	Uf_F420_G6PDH	Pfam	PF03807	F420_oxidored	UP:Z:D9PVP5	RV:Z:N
 M	Uf_myoino1ph_syn	InterPro	IPR044270	AIP_synthase	UP:Z:A9A2A9	RV:Z:N
 M	Uf_man3phgly	InterPro	IPR012812	Osmo_MPG_synth	UP:Z:A0A838W7F1	RV:Z:N
 M	Uf_man3phgly	InterPro	IPR012812	Osmo_MPG_synth	UP:Z:A0A838W7F1	RV:Z:N
@@ -627,7 +627,7 @@ A	Ap_f_copp_ox	Uf_copp_ox	presence
 A	Ap_d_BlueCu	Ud_BlueCu	presence
 A	Ap_p_topoIB	Up_topoIB	presence
 A	Ap_f_RNApolG	Uf_RNApolG	presence
-A	Ap_f_amm_monox	Uf_amm_monox	presence
+A	Ap_f_AMO	Uf_AMO	presence
 A	Ap_f_acCoA_carb	Uf_acCoA_carb	presence
 A	Ap_f_4hyxbutCoA_deh	Uf_4hyxbutCoA_deh	presence
 A	Ap_f_methmalCoa_mut	Uf_methmalCoa_mut	presence
@@ -729,7 +729,7 @@ A	Ap_f_met_phglc_iso	Uf_met_phglc_iso	presence
 A	Ap_p_bf_pgm_iso	Up_bf_pgm_iso	presence
 A	Ap_h_pyr_dik	Uh_pyr_dik	presence
 A	Ap_f_6pg_deh	Uf_6pg_deh	presence
-A	Ap_f_f420_oxr	Uf_f420_oxr	presence
+A	Ap_f_F420_G6PDH	Uf_F420_G6PDH	presence
 A	Ac_g_amoC	Ug_amoC	count
 A	Ap_f_phxyalk_syn	Uf_phxyalk_syn	presence
 A	Ap_f_myoino1ph_syn	Uf_myoino1ph_syn	presence
@@ -737,7 +737,7 @@ A	Ap_f_man3phgly	Uf_man3phgly	presence
 A	Ap_p_ppl_divcattol	Up_ppl_divcattol	presence
 A	Ap_f_nick_perm	Uf_nick_perm	presence
 A	Ap_f_As_pump	Uf_As_pump	presence
-A	Ap_f_glu_syn	Uf_glu_syn	presence
+A	Ap_f_GluSynNAPDH	Uf_GluSynNAPDH	presence
 A	Ap_p_LXa	Up_LXa	presence
 A	Ap_y_UvrABC	Uy_UvrABC	presence
 A	Ap_d_Sec2324	Ud_Sec2324	presence
@@ -759,7 +759,7 @@ V	VA6	SA3	Ap_g_ftsZ	Gt_Nitrososphaeria	==	True
 V	VA7	SA3	Ap_c_cdvABC	Gt_Nitrososphaeria	==	True
 V	VA8	SA3	Ap_p_topoIB	Gt_Nitrososphaeria	==	True
 V	VA9	SA3	Ap_f_RNApolG	Gt_Nitrososphaeria	==	False
-V	VA10	SA4	Ap_f_amm_monox	Gt_Nitrososphaeria	==	True
+V	VA10	SA4	Ap_f_AMO	Gt_Nitrososphaeria	==	True
 V	VA11	SA5	Ap_f_acCoA_carb	Gt_Nitrososphaeria	==	True
 V	VA12	SA5	Ap_f_4hyxbutCoA_deh	Gt_Nitrososphaeria	==	True
 V	VA13	SA5	Ap_f_methmalCoa_mut	Gt_Nitrososphaeria	==	True
@@ -978,7 +978,7 @@ V	VA225	SA92	Ap_h_pyr_dik	Gt_Thermoprotei	==	True
 V	VA226	SA93	Ap_f_6pg_deh	Gc_Thaumarch_not_Ngargensis	==	False
 V	VA227	SA93	Ap_f_6pg_deh	Gt_Nevergladensis	==	False
 V	VA228	SA93	Ap_f_6pg_deh	Gt_Ngargensis	==	True
-V	VA229	SA94	Ap_f_f420_oxr	Gc_CH4_gen_A	==	True
+V	VA229	SA94	Ap_f_F420_G6PDH	Gc_CH4_gen_A	==	True
 V	VA230	SA95	Ac_g_amoC	Gt_Nmaritimus	==	1
 V	VA231	SA95	Ac_g_amoC	Gt_Nsediminis	==	1
 V	VA232	SA95	Ac_g_amoC	Gt_Nsalaria	==	1
@@ -1014,8 +1014,8 @@ V	VA257	SA102	Ap_f_nick_perm	Gt_Nevergladensis	==	True
 V	VA258	SA102	Ap_f_nick_perm	Gn_Nevergladensis	==	False
 V	VA259	SA103	Ap_f_As_pump	Gt_Nitrosopumilus	==	False
 V	VA260	SA103	Ap_f_As_pump	Gt_Nitrososphaera	==	True
-V	VA261	SA104	Ap_f_glu_syn	Gt_Nevergladensis	==	True
-V	VA262	SA104	Ap_f_glu_syn	Gc_AOA_not_Never	==	False
+V	VA261	SA104	Ap_f_GluSynNAPDH	Gt_Nevergladensis	==	True
+V	VA262	SA104	Ap_f_GluSynNAPDH	Gc_AOA_not_Never	==	False
 V	VA263	SA105	Ap_p_LXa	Gt_Thaumarchaeota	==	False
 V	VA264	SA107	Ap_p_topoIB	Gt_Thaumarchaeota	==	True
 V	VA265	SA107	Ap_p_topoIB	Gn_Thaumarchaeota	==	False
