@@ -765,8 +765,7 @@ U	Ug_hpnH	specific_gene	.	hpnH	.
 U	Uog_COG2200	ortholog_group:COG	COG2200	.	.
 U	Uc_mxa	set:gene_cluster	.	mxa	mxa gene cluster
 U	Ug_fadE	specific_gene	.	fadE	.
-U	Uf_g6p_kin	function	.	.	glucose 6-kinase
-U	Uf_glu_gal4_epi	function:5.1.3.2	.	.	UDP-glucose/galactose 4-epimerase
+U	Uf_glu_gal4_epi	function:EC	5.1.3.2	.	UDP-glucose/galactose 4-epimerase
 U	Uf_FeSO_hybrid	function	.	.	iron-sulfur-oxygen hybrid cluster protein
 U	Uf_HBP	function	.	HBP	hemin-binding protein
 U	Uw_mevalonate	set:metabolic_pathway	KEGG:M00095	.	mevalonate pathway
@@ -851,10 +850,10 @@ M	Ug_fadE	Pfam	PF02770	Acyl-CoA_dh_M	UP:Z:B5EDE5	RV:Z:N
 M	Ug_fadE	Pfam	PF02771	Acyl-CoA_dh_N	UP:Z:B5EDE5	RV:Z:N
 M	Ug_fadE	PROSITE	PS00072	ACYL_COA_DH_1	UP:Z:B5EDE5	RV:Z:N
 M	Ug_fadE	PROSITE	PS00073	ACYL_COA_DH_2	UP:Z:B5EDE5	RV:Z:N
-M	Uf_g6p_kin	InterPro	IPR043129	ATPase_NBD	UP:Z:B5EI81	RV:Z:N
-M	Uf_g6p_kin	InterPro	IPR000600	ROK	UP:Z:B5EI81	RV:Z:N
-M	Uf_g6p_kin	Pfam	PF00480	ROK	UP:Z:B5EI81	RV:Z:N
-M	Uf_g6p_kin	PROSITE	PS01125	ROK	UP:Z:B5EI81	RV:Z:N
+M	Uf_glucokinase	InterPro	IPR043129	ATPase_NBD	UP:Z:B5EI81	RV:Z:N
+M	Uf_glucokinase	InterPro	IPR000600	ROK	UP:Z:B5EI81	RV:Z:N
+M	Uf_glucokinase	Pfam	PF00480	ROK	UP:Z:B5EI81	RV:Z:N
+M	Uf_glucokinase	PROSITE	PS01125	ROK	UP:Z:B5EI81	RV:Z:N
 M	Uf_glu_gal4_epi	InterPro	IPR001509	Epimerase_deHydtase	UP:Z:B5E9P0	RV:Z:N
 M	Uf_glu_gal4_epi	Pfam	PF01370	Epimerase	UP:Z:B5E9P0	RV:Z:N
 M	Uf_FeSO_hybrid	InterPro	IPR004137	HCP/CODH	UP:Z:B5EGI9	RV:Z:N
@@ -1207,7 +1206,6 @@ A	Ap_c_soxYZA_hyp_SoxB	Uc_soxYZA_hyp_SoxB	presence
 A	Ap_p_SQR	Up_SQR	presence
 A	Ap_c_mxa	Uc_mxa	presence
 A	Ap_g_fadE	Ug_fadE	presence
-A	Ap_f_g6p_kin	Uf_g6p_kin	presence
 A	Ap_f_glu_gal4_epi	Uf_glu_gal4_epi	presence
 A	Ap_f_FeSO_hybrid	Uf_FeSO_hybrid	presence
 A	Ap_f_HBP	Uf_HBP	presence
@@ -1444,7 +1442,7 @@ V	V26	S28	Ap_g_terC	Gt_Rprowazekii	==	True
 V	V27	S28	Ap_g_terC	Gt_Rconorii	==	True
 V	V28	S29	Ap_c_soxYZA_hyp_SoxB	Gc_neutrop_chemoaut_B	==	True
 V	V29	S31	Ap_comb_g_hpn	Gt_Methylobacterium	==	True
-V	V30	S35	Ap_f_g6p_kin	Gt_Geobacteraceae:most	==	True
+V	V30	S35	Ap_f_glucokinase	Gt_Geobacteraceae:most	==	True
 V	V31	S35	Ap_f_glu_gal4_epi	Gt_Geobacteraceae:most	==	True
 V	V32	S39	Ap_pc_GlyRs_ae_a2dim	Gc_obl_pred_B	==	True
 V	V33	S39	Ap_pc_GlyRs_ae_a2dim	Gc_fac_pred_B:most	==	True
