@@ -322,9 +322,9 @@ U	Ud_Pfam00990	family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
 U	Ud_Pfam000159	family_or_domain:Pfam	Pfam000159	.	MCP domain
 U	Up_SDH	specific_protein	.	SDH	flavocytochrome c sulfide dehydrogenase
 U	Uf_NDH1_NADH_deh	function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase)
-U	Uf_cyt_bc1	function	.	.	cytochrome bc1 complex
+U	Uf_cyt_bc1	function:EC	7.1.1.8	.	cytochrome bc1 complex
 U	Uf_hydr_1d	function	.	.	group 1d hydrogenase
-U	Uf_RubisCO	function	.	RubisCO	Ribulose bisphosphate carboxylase
+U	Uf_RubisCO	function:EC	4.1.1.39	RubisCO	Ribulose bisphosphate carboxylase
 U	Up_RubisCO_IAc	specific_protein	.	.	carboxysomal RubisCO (form IAc)
 U	Uw_5BP	set:metabolic_pathway	KEGG:M00968	.	pentose biphosphate pathway
 U	Uw_Sox	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
@@ -346,7 +346,7 @@ U	Ug_soxZ	specific_gene	.	soxZ	.
 U	Ur_largeTR_pk	set!:arrangement	Ut_largeTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: large tandem repeat
 U	Ut_largeTR	feature_type	derived:Ut_TR:large	.	large tandem repeat
 U	Ut_TR	feature_type	SO:0000705	tandem_repeat	tandem repeat
-U	Uf_protein_kinase	function	.	.	protein kinase
+U	Uf_protein_kinase	function:EC	2.7.13.3	.	protein kinase
 U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
 U	Ud_MARTX	family_or_domain:CDD	NF012221	MARTX	Multifunctional Autoprocessing Repeat-In-Toxin family	XR:Z:10.1128/microbiolspec.VE-0002-2014
 U	Ud_RHS_repeat	family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats

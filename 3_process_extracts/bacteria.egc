@@ -485,7 +485,7 @@ U	Ug_attG	specific_gene	.	attG	.
 U	Ur_dnaA_to_metS	set:arrangement	.	.	genes in range dnaA to metS (metG)
 U	Uog_COG1960	ortholog_group:COG	COG1960	.	.
 U	Ug_ppsA	specific_gene	.	ppsA	phosphoenolpyruvate synthase (ppsA)
-U	Uf_ppc	function	.	ppc	phosphoenolpyruvate carboxylase (ppc)
+U	Uf_ppc	function:EC	4.1.1.31	ppc	phosphoenolpyruvate carboxylase (ppc)
 U	Uog_BorreliaPfam48	ortholog_group	.	Pfam48	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
 U	Uog_BorreliaPfam54	ortholog_group	.	Pfam54	Borrelia paralogous gene family 54	# Pfam54 is not an ID of the Pfam database
 U	Uog_BorreliaPfam80	ortholog_group	.	Pfam80	Borrelia paralogous gene family 80: Bdr family	# Pfam80 is not an ID of the Pfam database
@@ -575,7 +575,7 @@ U	Uw_cof_syn	set:+metabolic_pathway	KEGG:map01240	.	cofactor biosynthesis
 U	Uw_pur_syn	set:metabolic_pathway	KEGG:M00053	.	purines biosynthesis
 U	Uw_pyr_syn	set:metabolic_pathway	KEGG:M00051	.	pyrimidines biosynthesis
 U	Uog_COG0733	ortholog_group:COG	COG0733	.	.
-U	Uf_phlipD	function	.	.	phospholipase D
+U	Uf_phlipD	function:EC	3.1.4.4	.	phospholipase D
 U	Ut_intergenic	feature_type	SO:0000605	intergenic_region	intergenic region
 U	Up_FAS1	specific_protein	.	.	fatty acid synthase (FAS) I
 U	Up_FAS2	specific_protein	.	.	fatty acid synthase (FAS) II
@@ -648,7 +648,7 @@ U	Ug_recB	specific_gene	.	recB	recB
 U	Ug_irrE	specific_gene	.	irrE	Radiation response metalloprotease IrrE
 U	Uk_K	ortholog_groups_category:COG_category	K	.	Transcription
 U	Uog_COG0814	ortholog_group:COG	COG0814	.	.
-U	Uf_urease	function	.	.	urease
+U	Uf_urease	function:EC	3.5.1.5	.	urease
 U	Ug_ureI	specific_gene	.	ureI	.
 U	Ug_urtA	specific_gene	.	urtA	.
 U	Ug_urtB	specific_gene	.	urtB	.
@@ -659,9 +659,9 @@ U	Ug_ureE	specific_gene	.	ureE	.
 U	Ug_hypA	specific_gene	.	hypA	.
 U	Ug_hypB	specific_gene	.	hypB	.
 U	Uog_COG1114	ortholog_group:COG	COG1114	.	.
-U	Uf_SOD	function	.	SOD	superoxide dismutase
+U	Uf_SOD	function:EC	1.15.1.1	SOD	superoxide dismutase
 U	Uf_catalase	function:EC	1.11.1.7	.	catalase
-U	Uf_SOR	function	.	SOR	superoxide reductase
+U	Uf_SOR	function:EC	1.15.1.2	SOR	superoxide reductase
 U	Up_phiRv1	specific_protein	.	phiRv1	PhiRv1 integrase
 U	Up_phiRv2	specific_protein	.	phiRv2	PhiRv2 integrase
 U	Up_PE_PGRS33	specific_protein	.	PE_PGRS33	PE-PGRS family protein 33
@@ -676,7 +676,7 @@ U	Ug_argJ	specific_gene	.	argJ	.
 U	Uog_COG840	ortholog_group:COG	COG840	.	.
 U	Up_Theba1253	specific_protein	.	Theba_1253	Theba_1253
 U	Uh_Theba1253	homolog_protein	homolog:Up_Theba1253	.	Theba_1253 homolog
-U	Uf_TS	function	.	.	threonine synthase (TS)
+U	Uf_TS	function:EC	4.2.3.1	.	threonine synthase (TS)
 U	Uog_COG1972	ortholog_group:COG	COG1972	.	.
 U	Ui_cag	set:genomic_island	.	cag	cag pathogenicity island
 U	Ud_PF05860	family_or_domain:Pfam	PF05860	.	.
@@ -766,7 +766,7 @@ U	Uog_COG2200	ortholog_group:COG	COG2200	.	.
 U	Uc_mxa	set:gene_cluster	.	mxa	mxa gene cluster
 U	Ug_fadE	specific_gene	.	fadE	.
 U	Uf_g6p_kin	function	.	.	glucose 6-kinase
-U	Uf_glu_gal4_epi	function	.	.	UDP-glucose/galactose 4-epimerase
+U	Uf_glu_gal4_epi	function:5.1.3.2	.	.	UDP-glucose/galactose 4-epimerase
 U	Uf_FeSO_hybrid	function	.	.	iron-sulfur-oxygen hybrid cluster protein
 U	Uf_HBP	function	.	HBP	hemin-binding protein
 U	Uw_mevalonate	set:metabolic_pathway	KEGG:M00095	.	mevalonate pathway
