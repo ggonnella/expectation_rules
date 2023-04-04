@@ -50,3 +50,11 @@ scripts                  scripts are contained here and linked in the
 |
 |-statistics             statistics about the contents of the EGC files
 ```
+
+## Acknowledgements
+
+This rule collection has been created in context of the DFG project GO 3192/1-1
+“Automated characterization of microbial genomes and metagenomes by collection
+and verification of association rules”. The funders had no role in study
+design, data collection and analysis.
+
