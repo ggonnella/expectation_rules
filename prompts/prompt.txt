@@ -1,4 +1,4 @@
-Answer as an expert computational microbiologist.
+Answer as a senior computational microbiologist, expert in microbial genome annotation.
 
 We consider the following type of data in this analysis [G] (groups), [U] (genome content units), [A] (genome attributes), [S] (text snippet), [V] (value rules), [C] (comparative rules), defined as explained below.
 
@@ -72,7 +72,7 @@ Give the answer as a series of tab-separated-values lines defining [V], [C], [A]
     G	<ID>	<Name>	<Type>
     U	<ID>	<Type>	<Name>
     A	<ID>	<Unit ID>	<Mode>	<RelativeUnit ID>	<Region>
-    V	<ID>	<Snippet ID>	<Attribute ID>	<Group ID>	<Group_quantifier>	<Operator>	<Value”>
+    V	<ID>	<Snippet ID>	<Attribute ID>	<Group ID>	<Group_quantifier>	<Operator>	<Value>
     C	<ID>	<Snippet ID>	<Attribute ID>	<Group1 ID>	<Group1_quantifier>	<Operator>	<Group2 ID>	<Group2_quantifier>
 
     - Snippet, shortened:
@@ -83,8 +83,11 @@ For example: The line type is both output in the first field (e.g. S) and in the
 Also, if a COG unit is defined, COG will appear both in the <Type> field and as the beginning of the name
 (e.g. COG12345) and eventually also in the generated ID for the line. This is all OK so.
 
-Examples of lines well defined:
+Instead of output V lines where Operator is > and Value is 0,
+output them with Operator ==, Value == and use an Attribute with Mode presence.
 
+Examples of lines well defined:
+---
 V	VA286	SA77	Aal_TAC	Gta_Thermococcales	.	==	False
 C	CA1	SA65	Ac_t_ins_seq	Gt_Pfuriosus	.	>	Gc_Thcoc_not_Pfuriosus	.
 U	Usg_aprA	specific_gene	adenylyl sulfate reductase (AprA)
@@ -93,6 +96,26 @@ U	Uec_acCoA_carb	function:EC	6.4.1.2
 G	Gta_Hhispanica	Haloarcula hispanica	taxonomic
 G	Gge_arctic	Arctic	geographical
 S	SA112	The present identification of Sec23/24 domain proteins in all...Fig. 1d) prompted us to search for potential coatomer proteins.
+---
+
+Examples of bad lines:
+---
+V	V3	S3	A3	G1	.	>	0
+  # Problem: the operator is > and the value is 0
+  # Solution: use a A with mode Presence and use the operator == and value True instead
+A	A3	U2_co_phage_rel_ORFs	count
+  # Problem: The ID of A is badly defined
+  # Solution: Use something like Aco_phrelORFs
+U	U2	co	phage_rel_ORFs
+  # Problem: the ID of U is badly defined; the type is unclear; the name is unclear
+  # Solution: Define an ID according to the rules given above, such as Uco_phrelORFs; use a meaninful type, e.g. gene function; use names as they are in the text, e.g. "Phage-related ORF"
+G	G1	R_felis	ta
+  # Problem: the ID of G is badly defined; the type is unclear; the name is unclear
+  # Solution: Define an ID according to the rules given above, such as Gta_rfelis; use a meaninful type, e.g. taxonomy
+G Gco_Oligotrophs cp_Oligotrophs
+  # Problem: the type is unclear and is separated from the name by a _ and not a tab
+  # Solution: always output the right number of fields separated by tabs, i.e. 3 for [S], 4 for [G] and [U], 6 for [A], 8 for [V] and 9 for [C]
+---
 
 The output order shall be the following:
 - first either a C or a V line
@@ -115,9 +138,6 @@ In such cases do not output any C, V, A and U lines for those additional units.
 
 Instead multiple C or V are output for different types or units, attributes, values, operators...
 Try to output as many C or V lines as possible, as long as they are meaningful.
-
-Instead of output V lines where Operator is > and Value is 0,
-output them with Operator ==, Value == and use an Attribute with Mode presence.
 
 Here is the text to be analyzed:
 ===
