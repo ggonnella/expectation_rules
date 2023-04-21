@@ -31,7 +31,7 @@ We consider the following type of data in this analysis [G] (groups), [U] (genom
       -> Use the Mode 'relative_frequency' only if really necessary
     Relative_unit:
       -> If Mode is not 'relative_frequency': None (output as .)
-      -> if Mode is 'relative_frequency': a [U]; the count of Unit is divided by the count of this Relative_unit
+      -> if Mode is 'relative_frequency': a [U]; the count of Unit is divided by the count of this Relative_unit, which must have the same type as Unit
 [V]:
   Def: “value expectation rule, i.e. the expectation that in genomes of a [G], a [A] has a given value (e.g. 0.5) or lies in or outside a given value range (e.g. 1 to 10)”
   Properties:
@@ -77,8 +77,8 @@ Avoid V lines where Operator is '>' and Value is '0', use Attribute.Mode 'presen
 
 Examples of lines well defined:
 ---
-V	S77	adenylyl sulfate reductase (AprA)	specific_gene	presence	.	Rfelis	taxonomy	.	==	True
-C	S156	EC:6.4.1.2	function	count	.	Artic	geographic_location	many	>	Equator	geographic_location	most
+V	S77	adenylyl sulfate reductase (AprA)	specific_gene	presence	.	.	Rfelis	taxonomy	.	==	True
+C	S156	EC:6.4.1.2	function	relative_frequency	plasmids	EC:5.3.2.1	Artic	geographic_location	many	>	Equator	geographic_location	most
 ---
 
 Do not output empty lines.
