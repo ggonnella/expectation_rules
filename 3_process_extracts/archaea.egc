@@ -344,7 +344,7 @@ U	Uf_SPEARE	function	.	.	SPEARE proteins
 U	Ud_laminin_G	family_or_domain:InterPro	IPR001791	Laminin_G	laminin globular domain
 U	Ud_ConA_like	family_or_domain:InterPro	IPR013320	.	ConA-like domain
 U	Uw_ED	set:metabolic_pathway	KEGG:M00008	.	Entner-Doudoroff pathway
-U	Uf_reverse_gyr	function	.	.	reverse gyrase
+U	Uf_RG	function	.	RG	reverse gyrase	XD:Z:doi:10.1093/molbev/msz180
 U	Ug_rpoA	specific_gene	.	rpoA	DNA-dependent RNA polymerase (RNAP) (rpoA)
 U	Ug_rpoB	specific_gene	.	rpoB	DNA-dependent RNA polymerase (RNAP) (rpoB)
 U	Up_RPB8	specific_protein	.	RPB8	.
@@ -541,8 +541,8 @@ M	Upc_Mrt	InterPro	IPR009024	Me_CoM_Rdtase_Fd-like_fold	UP:Z:P07962	RV:Z:Y
 M	Upc_Mrt	Pfam	PF02249	MCR_alpha	UP:Z:P07962	RV:Z:Y
 M	Upc_Mrt	Pfam	PF02745	MCR_alpha_N	UP:Z:P07962	RV:Z:Y
 M	Upc_Mrt	PIRSF	PIRSF000262	MCR_alpha	UP:Z:P07962	RV:Z:Y
-M	Uf_reverse_gyr	InterPro	IPR005736	Reverse_gyrase	UP:Z:P95479	RV:Z:Y
-M	Uf_reverse_gyr	TIGRFAMs	TIGR01054	rgy	UP:Z:P95479	RV:Z:Y
+M	Uf_RG	InterPro	IPR005736	Reverse_gyrase	UP:Z:P95479	RV:Z:Y
+M	Uf_RG	TIGRFAMs	TIGR01054	rgy	UP:Z:P95479	RV:Z:Y
 M	Ug_rpoA	InterPro	IPR001514	DNA-dir_RNA_pol_30-40kDasu_CS	UP:Z:A0A429G5N3	RV:Z:N
 M	Ug_rpoA	InterPro	IPR011262	DNA-dir_RNA_pol_insert	UP:Z:A0A429G5N3	RV:Z:N
 M	Ug_rpoA	InterPro	IPR011263	DNA-dir_RNA_pol_RpoA/D/Rpb3	UP:Z:A0A429G5N3	RV:Z:N
@@ -712,7 +712,7 @@ A	Ap_f_SPEARE	Uf_SPEARE	presence
 A	Ap_d_laminin_G	Ud_laminin_G	presence
 A	Ap_d_ConA_like	Ud_ConA_like	presence
 A	Ap_w_ED	Uw_ED	presence
-A	Ap_f_reverse_gyr	Uf_reverse_gyr	presence
+A	Ap_f_RG	Uf_RG	presence
 A	Ap_g_rpoA	Ug_rpoA	presence
 A	Ap_g_rpoB	Ug_rpoB	presence
 A	Ap_p_RPB8	Up_RPB8	presence
@@ -953,7 +953,7 @@ V	VA200	SA82	Ap_t_DGR	Gt_Nanohalobium	==	True
 V	VA201	SA83	Ap_d_laminin_G	Gt_Nanohaloarchaea	==	True
 V	VA202	SA83	Ap_d_ConA_like	Gt_Nanohaloarchaea	==	True
 V	VA203	SA84	Ap_w_ED	Gt_Crenarchaeota	==	True
-V	VA204	SA85	Ap_f_reverse_gyr	Gr_hyperthermophilic	==	True
+V	VA204	SA85	Ap_f_RG	Gr_hyperthermophilic	==	True
 V	VA205	SA86	Ap_g_rpoA	Gt_Kcryptofilum	==	True
 V	VA206	SA86	Ap_g_rpoB	Gt_Kcryptofilum	==	True
 V	VA207	SA86	Ap_p_RPB8	Gc_hyperthermophilic_Crenarchaeota	==	True

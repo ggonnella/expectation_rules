@@ -240,7 +240,7 @@ G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
 G	Gx_magnetotactic	magnetotactic	taxis	MICRO:0000619
 G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_Bacteria
 G	Gi_pathogenic	pathogenic	biological_interaction	RO:0002556
-G	Gc_pathogenic_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
+G	Gc_path_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
 G	Gt_Mtuberculosis	Mycobacterium tuberculosis	taxonomic	taxid:1773	TR:Z:species
 G	Gt_Mavium	Mycobacterium avium	taxonomic	taxid:1764	TR:Z:species
 G	Gp_chm_lth_a_troph	chemolithoautotrophic	trophic_strategy	MICRO:0001477
@@ -587,7 +587,7 @@ U	Ug_ppsB	specific_gene	.	ppsB	.
 U	Ug_ppsC	specific_gene	.	ppsC	.
 U	Ug_ppsD	specific_gene	.	ppsD	.
 U	Ug_ppsE	specific_gene	.	ppsE	.
-U	Uf_haemolys	function	.	.	Putative haemolysin
+U	Uf_haemolys	function:GO	0044179	.	haemolysin
 U	Uop_cyoABCD	set!:operon	Ug_cyoA,Ug_cyoB,Ug_cyoC,Ug_cyoD	cyoABCD	cytochrome ba3/bo3-type ubiquinol oxidase (cyoABCD operon)
 U	Ug_cyoA	specific_gene	.	cyoA	.
 U	Ug_cyoB	specific_gene	.	cyoB	.
@@ -703,9 +703,9 @@ U	Uog_COG2124	ortholog_group:COG	COG2124	.	.
 U	Uy_hrc	set:gene_system	.	hrc	injectisome genes	XD:Z:doi.org/10.1093/femsle/fny201
 U	Uy_hrp	set:gene_system	.	hrp	host plant defence response suppressor
 U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
-U	Upc_Ech	set:protein_complex	doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
+U	Upc_Ech	set:protein_complex	ref:doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
 U	Upc_Ech_Rnf	set!:+protein_complex	Upc_Ech,Upc_Rnf	.	.
-U	Upc_Rnf	set:protein_complex	doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
+U	Upc_Rnf	set:protein_complex	ref:doi:10.1007/s00018-010-0555-8	Rnf	Rnf NAD+ reductase complex	# the exact composition depends on the species
 U	Ud_PPE	family_or_domain:Pfam	PF00823	PPE	proline-proline-glutamate
 U	Ud_PE_PPE	family_or_domain:Pfam	PF08237	PE-PPE	proline-glutamate (PE) - proline-proline-glutamate (PPE)
 U	Up_hemerythrin	specific_protein	.	.	hemerythrin
@@ -767,7 +767,7 @@ U	Uc_mxa	set:gene_cluster	.	mxa	mxa gene cluster
 U	Ug_fadE	specific_gene	.	fadE	.
 U	Uf_glu_gal4_epi	function:EC	5.1.3.2	.	UDP-glucose/galactose 4-epimerase
 U	Uf_FeSO_hybrid	function	.	.	iron-sulfur-oxygen hybrid cluster protein
-U	Uf_HBP	function	.	HBP	hemin-binding protein
+U	Uf_HBP	function	.	HBP	hemin-binding protein	XR:Z:doi:10.1002/cbic.201100556
 U	Uw_mevalonate	set:metabolic_pathway	KEGG:M00095	.	mevalonate pathway
 U	Uw_DOXP	set:metabolic_pathway	KEGG:M00096	.	DOXP pathway (1-deoxy-d-xylulose-5-phosphate)
 U	Upc_GlyRs_ae_a2dim	set:protein_complex	.	.	archeal-eukaryotic GlyRS α2 dimer
@@ -1449,7 +1449,7 @@ V	V33	S39	Ap_pc_GlyRs_ae_a2dim	Gc_fac_pred_B:most	==	True
 V	V34	S39	Ap_pc_GlyRs_ae_a2dim	Gt_Bacteria:most	==	False
 V	V35	S20	Ap_d_PPE	Gn_Mycobacterium	==	False
 V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
-V	V37	S22	Ap_c_thiocyanate	Gc_pathogenic_Mycobacterium	==	False
+V	V37	S22	Ap_c_thiocyanate	Gc_path_Mycobacterium	==	False
 V	V38	S23	Ap_d_PE_PPE	Gt_Mycobacterium	==	True
 V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
 V	V40	S24	Ap_pc_OGDC	Gp_chm_lth_a_troph	==	False
@@ -1698,8 +1698,8 @@ V	V282	S146	Ap_c_actinorhodin	Gt_Streptomyces	==	True
 V	V283	S146	Ap_c_tetracycline	Gt_Streptomyces	==	True
 V	V284	S146	Ap_c_tetracenomycin	Gt_Streptomyces	==	True
 V	V285	S147	Ap_op_ppsABCDE	Gt_Mycobacterium	==	True
-V	V286	S149	Ap_f_haemolys	Gc_path_Serpulina	==	True
-V	V287	S149	Ap_f_haemolys	Gc_pathogenic_Mycobacterium	==	True
+V	V286	S149	Ap_f_haemolys	Gc_path_Serpulina:many	==	True
+V	V287	S149	Ap_f_haemolys	Gc_path_Mycobacterium:many	==	True
 V	V288	S150	Ap_op_cyoABCD	Gc_AAB	==	True
 V	V289	S150	Ap_g_cydA	Gc_AAB	==	True
 V	V290	S150	Ap_g_cydB	Gc_AAB	==	True
