@@ -1,13 +1,13 @@
 # variant of the SVC prompt
-- roles.yaml: 1
-- tasks.yaml: 1
-- explanation.yaml: 3
-- output_format.yaml: svc
+- sections/roles.yaml: 1
+- sections/tasks.yaml: 1
+- sections/explanation.yaml: 3
+- sections/output_format.yaml: svc
 - "Examples of well-defined-lines:"
-- examples_good.yaml#!-: svc_examples
+- sections/examples_good.yaml#!-: svc_examples
 - "-----"
 - "Examples of WRONG definitions are given now. Do NOT give definitions like the following:"
-- examples_bad.yaml!#-: svc_examples
+- sections/examples_bad.yaml!#-: svc_examples
 - "-----"
-- output_format.yaml: svc_more
-- input_intro.yaml: 1
+- sections/output_format.yaml: svc_more
+- sections/input_intro.yaml: 1

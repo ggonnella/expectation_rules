@@ -1,18 +1,18 @@
 # Similar to EGClike but output as dict instead of TSV
 # the [S] is given, not the entire text
-- roles.yaml: 1
-- tasks.yaml: 2
-- entities.yaml: intro_long1
-- entities.yaml-: group_compact
-- values.yaml!!!: group_types
-- entities.yaml-: unit_compact
-- values.yaml!!!: unit_types
-- entities.yaml-: attribute_compact
-- values.yaml!!!: modes
-- entities.yaml-: vrule_compact
-- values.yaml!!!!: [quantifiers, operators]
-- entities.yaml-: crule_compact
-- values.yaml!!!!: [quantifiers, operators]
-- output_format.yaml: svc_dict_s_given
-- hints.yaml: svc_multiunits
-- input_intro.yaml: 1
+- sections/roles.yaml: 1
+- sections/tasks.yaml: 2
+- sections/entities.yaml: intro_long1
+- sections/entities.yaml-: group_compact
+- sections/values.yaml!!!: group_types
+- sections/entities.yaml-: unit_compact
+- sections/values.yaml!!!: unit_types
+- sections/entities.yaml-: attribute_compact
+- sections/values.yaml!!!: modes
+- sections/entities.yaml-: vrule_compact
+- sections/values.yaml!!!!: [quantifiers, operators]
+- sections/entities.yaml-: crule_compact
+- sections/values.yaml!!!!: [quantifiers, operators]
+- sections/output_format.yaml: svc_dict_s_given
+- sections/hints.yaml: svc_multiunits
+- sections/input_intro.yaml: 1
