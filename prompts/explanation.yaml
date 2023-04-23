@@ -182,4 +182,3 @@
   If nothing is written, or the quantifier is all/always, then a dot is used in the output ('.').
   
   The Operator tells how the comparison is done, it can be e.g. '==', '!=', '>', '<', 'in_range', 'out_of_range'.
-

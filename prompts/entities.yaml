@@ -1,0 +1,117 @@
+intro_long1: "Records describing entities of the following types of logical entities can be defined from the text."
+intro_short1: "The following entities can be identified from the text"
+snippet: |
+         [S]:
+           Def: “part of the input text (sentence, part of a sentence, multiple sentences), from which one or multiple rules are extracted, which express expectation regarding contents of genomes in a group of organisms compared with a reference value or another group of organisms; it should be complete and concise, i.e. contain the whole part of the text, necessary to understand the expectation, but also not more that that”
+           Explanation:
+             The Snippet is the relevant part of the text. It shall be complete (i.e. contain the reference to the Groups,
+             Unit, Attribute, Value, Operator, etc) and minimal (i.e. do not contain more than that).
+group: |
+       [G]:
+         Def: “group of prokaryotic organisms, with a group-defining commonality (e.g. common taxonomy, phenotype, habitat, geographical location)”
+         Properties:
+           Name: how the group is referred to in the original text (e.g. 'R.felis').
+           Type: type of commonality, e.g.: taxonomy, phenotype, habitat, location, host.
+unit: |
+      [U]:
+        Def: “one or a group of genome features, or product thereof; it is always directly connected to the genome or its annotation”
+        Examples: single letters, codons for coding for an amino acid, a gene, the gene for a protein (defined by its name, function or similarity to other proteins), a part of a gene coding for a protein domain, a gene cluster, an operon, a metabolic pathway (i.e. genes coding for the enzymes involved in it), arrangements of genes or other features, CRISPRs, RNA genes, COG classes, protein families, enzyme classification numbers
+        Not: a group of organisms, a species, a nutrient
+        Properties:
+          Name: “the name of the unit (as reported in the text), expressed in singular”
+          Type: “the type of unit; examples: specific_gene, specific_protein, gene_function, protein_function, metabolic_pathway, genes_ortholog_group,
+       protein_family_or_domain, operon, gene_cluster, protein_complex, genomic_arrangement, feature_type.
+attribute: |
+           [A]:
+             Def: “measurable entity from a genome (whole genome or parts of it) related to a [U], i.e. its count, presence, relative frequency compared to another [U]”
+             Properties:
+               Region: region of the genome, where the [U] is measured
+                       In most cases it is "whole genome" which is output as a dot ('.'). In some cases, however, it can be
+                       a molecule type (e.g. 'plasmid', 'chromosome') or the type and name of a specific molecule (e.g. 'plasmid:p57')
+                       or a feature type (e.g. 'ORFs' or 'RNA genes').
+               Unit: the [U]
+               Mode: mode of measurement, e.g. presence, count, total_length, relative_frequency.
+               Relative_unit: the count of Unit shall be divided by the count of Relative_unit
+             Explanation:
+               If Attribute.Mode is relative_frequency, then Attribute.RelativeUnit.Name is the name of a second unit
+               and the count of the first unit (mentioned in Unit.Name) is divided by it. This is used only if necessary.
+               In all other cases, when Attribute.Mode is not relative_frequency, the Attribute.RelativeUnit.Name is set
+               to a dot ('.').
+vrule: |
+       [V]:
+         Def: “value expectation rule, i.e. the expectation that in genomes of a [G], a [A] has a given value (e.g. 0.5) or lies in or outside a given value range (e.g. 1 to 10)”
+         Properties:
+           Snippet: the [S] from which the rule is derived
+           Attribute: the [A]
+           Operator: the comparison operator, e.g. <, >, ==, in_range, out_of_range; for Attribute.Mode presence use ==.
+           Value: quantitative value to compare to;
+                  In other cases the Value can be a non-exact quantifier expression, e.g. "large quantities". Use the
+                  form of the Value as in the input text whenever possible.
+           Group: the [G]
+           Group_quantifier: see below
+         Explanations:
+           If the Attribute.Mode is 'presence', the Operator can only be '==' and the value either 'True' or 'False'.
+           Attribute.Mode 'presence'it should be used in V lines, and always used instead of Attribute.Mode 'count' or 'relative_frequency'
+           whenever the Value would be 0. Also use 'presence' if the text does not mention a number,
+           e.g. when it just mentions that something is present or absent.
+crule: |
+       [C]:
+         Def: “ comparative expectation rule, i.e. the expectation regarding the value of a [A] in a [G] compared to another [G]”
+         Properties:
+           Snippet: the [S] from which the rule is derived
+           Attribute: the [A]
+           Group1: the first [G]
+           Group1_quantifier: see below
+           Operator: the comparison operator for the value of [A] in Group1 vs Group2, e.g. >, <, ==.
+           Group2: the second [G]
+           Group2_quantifier: see below
+         Explanations:
+           The Attribute.Mode 'presence' is not allowed in C lines.
+group_compact: |
+               [G]: group of prokaryotic organisms;
+                    <GroupName>: how the group is called in the text (e.g. 'R.felis');
+                    <GroupType>: type of characteristic which defines the group, i.e. common to all members of the group (e.g. taxonomy)
+unit_compact: |
+              [U]: unit of genome content; genome feature, set of genome features or product of genome features
+                   <UnitName>: how the genome content unit is called in the text
+                   <UnitType>: type of the genome content unit (e.g. specific_protein)
+attribute_compact: |
+                   [A]: attribute; something that can be measured, by observing a [U] (e.g. count, presence, etc) in the genome or part of it.
+                        <AttributeUnit>: which [U] is observed (<UnitName>, <UnitType>)
+                        <AttributeRegion>: In most cases: 'whole genome' -> output as a dot, '.';
+                                  In a few cases, one of:
+                                    (1) molecule type (e.g. 'plasmid', 'chromosome')
+                                    (2) name of molecule (e.g. 'plasmid p57')
+                                    (3) feature type (e.g. 'ORFs', 'RNA genes')
+                        <AttributeMode>: mode of measurement
+                        <AttributeRelativeTo>: if mode != 'relative': (most cases) not set -> output as a dot, '.';
+                                      if mode == 'relative': the count is relative to this [U]
+vrule_compact: |
+               [V]: value expectation; expectation, based on the input text, on how the value of [A] <Attribute>
+                    in genomes of organisms in [G] <Group> compare to a reference value <Value>
+                    <Operator>: operator for expressing the expectation compared to a reference value (e.g. >, ==)
+                    <Value>: can be numerical or a expression such as 'large quantities'
+                    <Group_quantifier>: how many of the organisms in <Group> respect the expectation
+crule_compact: |
+               [C]: comparative expectation; expectation, based on the input text, on how the value of [A] <Attribute>
+                    in genomes of organisms in [G] <Group1> compare to that in genomes or organisms in [G] <Group2>
+                    <Operator>: operator for expressing the expectation compared to a reference value (e.g. >, ==)
+                    <Group1_quantifier>/<Group2_quantifier>: how many of the organisms in <Group1> or <Group2> respect the expectation
+hint_vrule_presence: |
+                     If the Attribute.Mode is 'presence', the Operator can only be '==' and the value either 'True' or 'False'.
+                     Attribute.Mode 'presence'it should be used in V lines, and always used instead of Attribute.Mode 'count' or 'relative_frequency'
+                     whenever the Value would be 0. Also use 'presence' if the text does not mention a number,
+                     e.g. when it just mentions that something is present or absent.
+hint_crule_presence: |
+                     The Attribute.Mode 'presence' is not allowed in C lines.
+group_portion: |
+       Group Quantifier:
+         The Group.Quantifier tells how much of the Group follows the rule. E.g. sometimes in the text
+         it is written something like "most ...", "all ...", "many ..." where ... is the name of the group;
+         in these cases most, all, many would be the quantifier.
+         In other cases, equivalently, adverbs such as 'never', 'always', 'sometimes' are used,
+         which can be mapped to adjectives 'none', 'all', 'some', which would then be the Group.Quantifier.
+         If nothing is written, or the quantifier is all/always, then a dot is used in the output ('.').
+operator: |
+         Operator:
+           The Operator tells how the comparison is done, it can be e.g. '==', '!=', '>', '<', 'in_range', 'out_of_range'.

@@ -19,6 +19,32 @@ egc_like_examples:
     G Gco_Oligotrophs cp_Oligotrophs
     # Problem: the type is unclear and is separated from the name by a _ and not a tab
     # Solution: always output the right number of fields separated by tabs, i.e. 3 for [S], 4 for [G] and [U], 6 for [A], 8 for [V] and 9 for [C]
+egclike_dict:
+  - |
+    {'record_type': 'G', 'id': 'Gpl_lp54', 'name': 'lp54', 'type': 'molecule'}
+    # Problem: the record describes a molecule, but G records shall describe groups of organisms, not molecules
+    # Solution: do not define a G for a molecule, define G for [G], i.e. organisms groups
+  - |
+    {'record_type': 'A', 'id': 'Aco_dbpB', 'unit': 'Upr_dbpB', 'mode': 'presence', 'rel_unit': '.', 'region': '.'}
+    # Problem: the 'id' code is "co", but the 'mode' is 'presence'
+    # Solution: use 'pr' as code, when 'mode' is 'presence', i.e. start the ID as 'Apr_'
+  - |
+    {'record_type': 'A', 'id': 'Apr_dbpB_wholegenome_presence', 'unit': 'Upr_dbpB', 'mode': 'presence', 'rel_unit': '.', 'region': '.'}
+    # Problem: the 'id' is too long
+    # Solution: shorten the words, e.g. Apr_dpbB_wg_pr
+  - |
+    {'record_type': 'A', 'id': 'Apr_dbpB', 'unit': 'Upr_dbpB', 'mode': 'presence', 'rel_unit': '.', 'region': 'whole genome'}
+    # Problem: region is output as 'whole genome'
+    # Solution: output '.' instead of 'whole genome'
+  - |
+    {'record_type': 'A', 'id': 'Apr_chaperone', 'unit': 'Upr_chaperone', 'mode': 'relative', 'rel_unit': '.', 'region': '.'}
+    # Problem: relative, but no rel_unit given
+    # Solution: always specify a rel_unit if "relative" is used
+  - |
+    # Input: Many genes located on the conserved lp54 plasmid have low sequence identity across Borrelia species, among them are the genes encoding decorin binding proteins A and B (dbpA and dbpB, Pfam74) and the complement regulator-acquiring surface protein 1, CRASP-1, paralogous family 54 (Pfam54).
+    {'record_type': 'S', 'id': 'S1', 'text': 'We expect that the genomes of bacteria of the species X1, X2 and Y3, which live as endosymbionts in insects of the order Hemiptera and feed on plant sap, contain the gene that codes for the protein DbpB, which is involved in vitamin B12 synthesis.'}
+    # Problem: the text of the [S] is not contained in the input text
+    # Solution: only use parts of the input text as [S] text
 svc_examples:
   - |
     V	S5	RPEs within ORFs	specific_gene	count	.	.	R. felis	taxonomy	.	==	85

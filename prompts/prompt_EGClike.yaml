@@ -23,7 +23,7 @@
 - roles.yaml: 1
 - explanation.yaml: 1
 - tasks.yaml: 1
-- output_format.yaml: 1
+- output_format.yaml: egclike
 - "Examples of well-defined lines:"
 - examples_good.yaml#!-: egc_like_examples
 - "----"

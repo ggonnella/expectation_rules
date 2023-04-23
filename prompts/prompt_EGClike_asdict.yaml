@@ -1,0 +1,15 @@
+# Similar to EGClike but output as dict instead of TSV
+- roles.yaml: 1
+- explanation.yaml: 1
+- tasks.yaml: 1
+- output_format.yaml: egclike_dict
+- "I will list possible values of some of the entries."
+- values.yaml: "*"
+# - "Examples of well-defined lines:"
+# - examples_good.yaml#!-: egc_like_examples
+# - "----"
+- "Examples of NOT well-defined lines:"
+- examples_bad.yaml!#-: egclike_dict
+- "----"
+- output_order.yaml: 1
+- input_intro.yaml: 1

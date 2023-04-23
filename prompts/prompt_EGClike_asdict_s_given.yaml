@@ -1,0 +1,17 @@
+# Similar to EGClike but output as dict instead of TSV
+# the [S] is given, not the entire text
+- roles.yaml: 1
+- tasks.yaml: 2
+- entities.yaml: intro_long1
+- entities.yaml-: group_compact
+- values.yaml!!!: group_types
+- entities.yaml-: unit_compact
+- values.yaml!!!: unit_types
+- entities.yaml-: attribute_compact
+- values.yaml!!!: modes
+- entities.yaml-: vrule_compact
+- values.yaml!!!!: [quantifiers, operators]
+- entities.yaml-: crule_compact
+- values.yaml!!!!: [quantifiers, operators]
+- output_format.yaml: egclike_dict_s_given
+- input_intro.yaml: 1

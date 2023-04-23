@@ -1,0 +1,4 @@
+svc_multiunits: |
+                If for multiple units the same expectation can be extracted from the text
+                (everything equal except for the unit name), then only define one record
+                and give the unit names as an array instead of a string.

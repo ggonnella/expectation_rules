@@ -1,0 +1,49 @@
+group_types: |
+             Types of groups and some examples:
+               (1) taxonomic (a taxon name)
+               (2) trophic_strategy (e.g. autotrophic, obligate autotrophic, chemolithoautotropic)
+               (3) metabolic (e.g. acetogenic, methanotropic, sulfide-oxidizing, photosynthentic)
+               (4) habitat ('bathypelagic', 'gut', 'marine', 'hydrothermal vent', 'sediments', 'rumen', 'soil')
+               (5) nutrient_requirement (e.g. urea-rich environment)
+               (6) physical_requirement (e.g. acidophilic, anaerobic, halophilic, copiotrophic, thermophylic)
+               (7) geographical ('Arctic', 'Irina II vent')
+               (8) resultive_disase (e.g. 'Lyme disease')
+               (9) resultive_symptom (e.g. 'relapsing fever')
+               (10) biological_interaction ('endosymbiont', 'episymbiont', 'predatory', 'free-living', 'pathogenic')
+                   # also mention the taxon partner of the interaction
+               (11) metagenome_assembled (a genome name)
+               (12) gram_stain ('+', '-'),
+               (13) cultiviability ('cultivable', 'uncultured')
+               (14) taxis (e.g. magnetotactic)
+unit_types: |
+            Type of units:
+              (1) specific_gene: a gene, mentioned by its name
+              (2) gene_homolog: homologs of a gene, mentioned by its name
+              (3) specific_protein: a protein, mentioned by its name
+              (4) protein_homolog: homologs of a protein, mentioned by its name
+              (5) family: protein family, sometimes described, sometimes given as InterPro, Pfam, Pfam clan, etc
+              (6) domain: proteins containing a specific domain, sometimes given as CDD, etc.
+              (7) ortholog_group: gene ortholog group, e.g. COG, eggNOG, or named group of ortholog genes
+              (8) feature_type: e.g. gene, CRISPR, repeat
+              (9) function: function of proteins e.g. an enzymatic activity, a transporter activity, etc.
+              (10) protein_type: e.g. glycoprotein
+              (11) arrangement: relative position of multiple features, e.g. an order of genes in a cluster
+              (12) gene_system: multiple genes, which together have a given function
+              (13) gene_cluster: multiple genes next to each other, usually contributing to a common function
+              (14) operon: multiple genes next to each other, which are related by transcription regulation
+              (14) metabolic_pathway: genes which all together code for the proteins of a metabolic pathway
+              (15) gene_island: multiple genes, horizontally transfered, often with a common function
+modes: |
+      Attribute modes:
+        (1) presence: True if something is present (considered in its entirety)
+        (2) members_presence: True if at least one of members of a set of something (e.g. genes of a gene cluster) is present
+        (3) complete: True if all members of a set of something (e.g. genes of a gene cluster) are present
+        (3) count: use this if something is explicitely count (e.g. 5), or a general quantity specification is given (abundant, rare)
+        (4) relative: use this if the count shall be divided by a total count (e.g. rate of a COG = count of a given COG divided by all proteins assigned to a COG)
+        (5) length: total length of the described unit/units (e.g. genes for a given function)
+quantifiers: |
+            Quantifier examples: (1) 'all'; most common value; output as dot '.' (2) 'most' (3) 'many' (4) 'some' (5) 'few' (6) 'none' (7) '>90%'
+operators: |
+          Operator examples: (1) '<' less than (2) '<<' much less than (3) '<~' a little less than (4) '>' more than
+            (5) '>>' much more than (6) '>~' a little more than (7) '>=' more than or equal (8) '==' equal (9) '=~' similar to
+            (10) '><' in the specified range (11) '<>' out of the specified range (12) '$' level (high, low, etc)
