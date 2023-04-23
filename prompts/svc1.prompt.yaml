@@ -6,15 +6,15 @@
 # are e.g. no IDs to create and references of one line to another,
 # except for the snippets.
 #
-- sections/roles.yaml: 1
-- sections/tasks.yaml: 2
-- sections/output_format.yaml: svc
-- sections/explanation.yaml: 2
+- modules/roles.yaml: 1
+- modules/tasks.yaml: 2
+- modules/output_format.yaml: svc
+- modules/explanation.yaml: 2
 - "Examples of well-defined-lines:"
-- sections/examples_good.yaml#!-: svc_examples
+- modules/examples_good.yaml#!-: svc_examples
 - "-----"
 - "Examples of WRONG definitions are given now. Do NOT give definitions like the following:"
-- sections/examples_bad.yaml!#-: svc_examples
+- modules/examples_bad.yaml!#-: svc_examples
 - "-----"
-- sections/output_format.yaml: svc_more
-- sections/input_intro.yaml: 1
+- modules/output_format.yaml: svc_more
+- modules/input_intro.yaml: 1

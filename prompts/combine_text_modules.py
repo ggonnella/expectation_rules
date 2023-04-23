@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-Read an output description file (in YAML format), containing a list of output
-sections and the YAML files they are contained in (as dict entries or
-list items), and output the selected values or items in the specified order.
+Read an output description file (in YAML format), containing a list of
+text modules (YAML files they are contained in - as dict entries or
+list items; and selector of one or multiple values in the file).
 
 Usage:
-  combine_sections.py [options] <output_desc_file>
+  combine_text_modules.py [options] <output_desc_file>
 
 Options:
   --no-newlines, -N    Don't output newlines after each section and item.
 
 Example of an output description file:
 - dict1.yaml: key
-- dict2.yaml: [key1, key2]
+- dict2.yaml-: [key1, key2] # - means the newline after section end is not added
+- "string1"
 - list1.yaml#: [2, 3] # 1-based indexing; # means numbered output
 - list2.yaml!!!: "*" # select all items; each ! means indent by 2 spaces
 """

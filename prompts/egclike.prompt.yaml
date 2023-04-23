@@ -20,15 +20,15 @@
 # C or V for similar cases (eg. single COGs when a list is given in the text) are not
 # all explicitely output, but mentioned in a comment instead.
 #
-- sections/roles.yaml: 1
-- sections/explanation.yaml: 1
-- sections/tasks.yaml: 1
-- sections/output_format.yaml: egclike
+- modules/roles.yaml: 1
+- modules/explanation.yaml: 1
+- modules/tasks.yaml: 1
+- modules/output_format.yaml: egclike
 - "Examples of well-defined lines:"
-- sections/examples_good.yaml#!-: egc_like_examples
+- modules/examples_good.yaml#!-: egc_like_examples
 - "----"
 - "Examples of NOT well-defined lines:"
-- sections/examples_bad.yaml!#-: egc_like_examples
+- modules/examples_bad.yaml!#-: egc_like_examples
 - "----"
-- sections/output_order.yaml: 1
-- sections/input_intro.yaml: 1
+- modules/output_order.yaml: 1
+- modules/input_intro.yaml: 1
