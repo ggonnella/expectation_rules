@@ -1,0 +1,23 @@
+- |
+  The output order shall be the following:
+  - first either a C or a V line
+  - then the Gs and the A referred to in that C or V line (and only those), if they were not defined after a previous C or V line
+  - then Us referred to in the A line (and only those), if they were not defined after a previous C or V line
+  - then the S line referred to in the C or V line (and only that), if it was not output after a previous C or V line
+  - continue the output in the same order as long as necessary for defining
+    multiple C and V lines: i.e. restarting from either a C or V line, then the Gs and the A etc)
+
+  Do not produce multiple lines referring to the same [G], [A], [U] or [S].
+  Do not repeat G, A, U or S lines already output before.
+  Do not output empty lines.
+
+  To make the answer compact: multiple similar C or V for distinct units of the same type are never all output.
+  Instead a single [C] or [V] is output, followed by a comment line
+  indicating the similar unit or units, e.g.: ‘// same for units COG2, COG3, COG4’.
+  The comment lines immediately follows the U line to which it refers.
+  Include in the the text snippet [S] also the parts of the text about units mentioned in the comment.
+  In such cases do not output any C, V, A and U lines for those additional units.
+
+  Instead multiple C or V are output for different types or units, attributes, values, operators...
+  Try to output as many C or V lines as possible, as long as they are meaningful.
+

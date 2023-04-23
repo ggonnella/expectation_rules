@@ -1,0 +1,63 @@
+egc_like_examples:
+  - |
+    V	V3	S3	A3	G1	.	>	0
+    # Problem: the operator is > and the value is 0
+    # Solution: use a A with mode Presence and use the operator == and value True instead
+  - |
+    A	A3	U2_co_phage_rel_ORFs	count
+    # Problem: The ID of A is badly defined
+    # Solution: Use something like Aco_phrelORFs
+  - |
+    U	U2	co	phage_rel_ORFs
+    # Problem: the ID of U is badly defined; the type is unclear; the name is unclear
+    # Solution: Define an ID according to the rules given above, such as Uco_phrelORFs; use a meaninful type, e.g. gene function; use names as they are in the text, e.g. Phage-related ORF
+  - |
+    G	G1	R_felis	ta
+    # Problem: the ID of G is badly defined; the type is unclear; the name is unclear
+    # Solution: Define an ID according to the rules given above, such as Gta_rfelis; use a meaninful type, e.g. taxonomy
+  - |
+    G Gco_Oligotrophs cp_Oligotrophs
+    # Problem: the type is unclear and is separated from the name by a _ and not a tab
+    # Solution: always output the right number of fields separated by tabs, i.e. 3 for [S], 4 for [G] and [U], 6 for [A], 8 for [V] and 9 for [C]
+svc_examples:
+  - |
+    V	S5	RPEs within ORFs	specific_gene	count	.	.	R. felis	taxonomy	.	==	85
+    # Problem: the region to consider is indicated in the unit name.
+    # Solution: set Attribute.Region to "ORFs" and change the Unit.Name to "RPEs"
+  - |
+    V	S7	chromosomal patatin-like phospholipase gene (pat1)	specific_gene	presence	.	.	five Rickettsia species	taxonomy	.	==	True
+    # Problem (1): chromosomal should be in Attribute.Region and not in Unit.Name
+    # Solution (1): write 'chromosome' in Attribute.Region and 'patatin-like phospholipase gene (pat1)' in the Unit.Name
+    # Problem (2): five Rickettsia species is unclear/unspecific
+    # Solution (2): report the names of the species, as in the input text, in this case 'R. prowazekii, R. typhi, R. conorii, R. sibirica, R. felis'
+  - |
+    V	S4	phage-related ORFs	specific_gene	count	.	.	R. felis	taxonomy	.	==	8
+    # Problem (1): specific_gene is the wrong Unit.Type
+    # Solution (2): phage-related ORFs is instead a 'function'
+    # Problem (2): the Unit.Name shall be in singular
+    # Solution (2): use 'phage-related ORF' instead
+  - |
+    V	S1	repeated DNA sequence	feature_type	relative_frequency	.	.	R. felis	taxonomy	.	>	other sequenced Rickettsia genomes	taxonomy	.
+    # Problem: the rule compares two groups of organisms, so it's not a Value Rule
+    # Solution: use C instead of V in the first field
+  - |
+    S S3 W. pipientis wMel [14] and Parachlamydia sp. UWE25 [15] exhibit such a high number of large mobile genetic elements
+    C S3 transposase gene specific_gene count . . R. felis taxonomy . == W. pipientis wMel taxonomy .
+    C S3 transposase gene specific_gene count . . R. felis taxonomy . == Parachlamydia sp. UWE25 taxonomy .
+    # Problem: the rules are not correct, since the text does not speak of a specific count, but of a generic 'high number',
+               thus it is not possible to say that the counts are really equal
+    # Solution define 3 V rules instead, which do not compare the count to another species, but instead use
+               Value "high number" and Operator '==' for each of the species (R. felis, W. pipentis, Parachlamydia).
+  - |
+    # Input The R. felis chromosome and plasmids share several homologs, suggesting gene exchanges between these replicons. Of 68 ORFs in pRF, 11 have a close homolog.
+    S S1 R. felis chromosome and plasmids share several homologs
+    V S1 homolog feature_type count . . R. felis taxonomy . == 11
+    # Problem (1): the S Snippet does not contain the part which states the value (11).
+    # Solution (1): the Snippet shall be extended to include the following sentence as well
+    # Problem (2): The rule is incomplete since it is not written homologs of what
+    # Solution (2): This rule is wrong and shall not be output
+  - |
+    V	S1	chemolithoautotrophic primary producer	function	presence	.	.	deep-sea hydrothermal vent communities	habitat	.	==	True
+    V	S2	Thiomicrospira crunogena	taxonomy	presence	.	.	gamma class	taxonomy	.	==	True
+    # Problem: the Unit is not a genome feature, set of features or products thereof. It is a group of organisms.
+    # Solution: This rule is wrong and shall not be output

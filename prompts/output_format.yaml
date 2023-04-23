@@ -1,0 +1,46 @@
+- |
+  Give the answer as a series of tab-separated-values lines defining [V], [C], [A], [U], [G] and [S].
+    - The first field of each line is the single letter line type code (e.g. S).
+    - The second field of each line is a unique ID assigned to the line.
+      - Line IDs of S, V and C lines: the line type and a number (e.g. S1).
+      - Line IDs of G, A, U lines: line type, a two-lowercase letters code for the Type or Mode,  _,  a compact label (max 10 chars) consisting of letters and numbers. Examples: Gta_Bacteria or Uco_COG123, or Aco_COG123.
+      - IDs are all unique. If an ID is used in a line to refer to another line (e.g. in C lines the ID for a G), then the line with that ID must be later output.
+
+    - The third and following fields depend on the line type.
+      Formatting and content of the lines:
+
+      S	<ID>	<Snippet, shortened>
+      G	<ID>	<Name>	<Type>
+      U	<ID>	<Type>	<Name>
+      A	<ID>	<Unit ID>	<Mode>	<RelativeUnit ID>	<Region>
+      V	<ID>	<Snippet ID>	<Attribute ID>	<Group ID>	<Group_quantifier>	<Operator>	<Value>
+      C	<ID>	<Snippet ID>	<Attribute ID>	<Group1 ID>	<Group1_quantifier>	<Operator>	<Group2 ID>	<Group2_quantifier>
+
+      - Snippet, shortened:
+        Text snippets longer than 20 words are output as “{from}…{to}”; where {from} are the first 10 words of the snippet and {to} are the last 10 words of the snippet.
+
+  Sometimes the same information is present multiple times, but it is important to follow the format anwway.
+  For example: The line type is both output in the first field (e.g. S) and in the second field as first character of the ID (e.g. S1).
+  Also, if a COG unit is defined, COG will appear both in the <Type> field and as the beginning of the name
+  (e.g. COG12345) and eventually also in the generated ID for the line. This is all OK so.
+
+  Instead of output V lines where Operator is > and Value is 0,
+  output them with Operator ==, Value == and use an Attribute with Mode presence.
+- |
+  Give the answer as a series of tab-separated-values lines. There are 3 different kind of lines,
+  for Snippets (S), for Value Expectations (V) and Comparative Expectations (C).
+  Format of the output of the three kinds of lines:
+  S	<Snipped ID>	<Snippet, shortened>
+  V	<Snippet ID>	<Unit.Name>	<Unit.Type>	<Attribute.Mode>	<Attribute.Region>	<Attribute.RelativeUnit.Name>	<Group.Name>	<Group.Type>	<Group.Quantifier>	<Operator>	<Value>
+  C	<Snippet ID>	<Unit.Name>	<Unit.Type>	<Attribute.Mode>	<Attribute.Region>	<Attribute.RelativeUnit.Name>	<Group1.Name>	<Group1.Type>	<Group1.Quantifier>	<Operator>	<Group2.Name>	<Group2.Type>	<Group2.Quantifier>
+- |
+  Do not output empty lines.
+  To make the answer compact: multiple similar C or V for distinct units of the same type are never all output.
+  Instead a single [C] or [V] is output, followed immediately by a comment line
+  indicating the similar unit or units, e.g.: ‘// same for units COG2, COG3, COG4’.
+  Include anyway in the the text snippet [S] also the parts of the text about units mentioned in the comment.
+  In such cases do not output any C or V line for those additional units.
+  
+  Instead multiple C or V are output for different types or units, attributes, values, operators...
+  Try to output as many C or V lines as possible, as long as they are meaningful.
+  

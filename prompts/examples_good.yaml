@@ -1,0 +1,12 @@
+egc_like_examples:
+  - "V	VA286	SA77	Aal_TAC	Gta_Thermococcales	.	==	False"
+  - "C	CA1	SA65	Ac_t_ins_seq	Gt_Pfuriosus	.	>	Gc_Thcoc_not_Pfuriosus	."
+  - "U	Usg_aprA	specific_gene	adenylyl sulfate reductase (AprA)"
+  - "A	Apr_amm_tr	Uf_amm_tr	presence	.	."
+  - "U	Uec_acCoA_carb	function:EC	6.4.1.2"
+  - "G	Gta_Hhispanica	Haloarcula hispanica	taxonomic"
+  - "G	Gge_arctic	Arctic	geographical"
+  - "S	SA112	The present identification of Sec23/24 domain proteins in all...Fig. 1d) prompted us to search for potential coatomer proteins."
+svc_examples:
+  - "V	S77	adenylyl sulfate reductase (AprA)	specific_gene	presence	.	.	Rfelis	taxonomy	.	==	True"
+  - "C	S156	EC:6.4.1.2	function	relative_frequency	plasmids	EC:5.3.2.1	Artic	geographic_location	many	>	Equator	geographic_location	most"
