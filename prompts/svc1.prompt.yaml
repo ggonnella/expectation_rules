@@ -1,3 +1,4 @@
+#!/usr/bin/env python3 scripts/combine_text_modules.py
 #
 # In this prompt the output is done all on a single line for each rule, instead
 # of separating the definitions in multiple lines as in the EGC format.

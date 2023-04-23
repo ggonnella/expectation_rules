@@ -1,4 +1,7 @@
+#!/usr/bin/env python3 scripts/combine_text_modules.py
+#
 # Similar to EGClike but output as dict instead of TSV
+#
 - modules/roles.yaml: 1
 - modules/explanation.yaml: 1
 - modules/tasks.yaml: 1
