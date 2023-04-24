@@ -611,7 +611,7 @@ U	Ug_nrdF	specific_gene	.	nrdF	.
 U	Ug_nrdI	specific_gene	.	nrdI	.
 U	Uy_Laa_ABC_tr	set:gene_system	.	.	L-amino acid ATP-binding cassette (ABC) transporter
 U	Uog_COG2116	ortholog_group:COG	COG2116	.	.
-U	Uy_thiamine_ABC_tr	set:gene_system	.	thiBPQ	thiamine ABC transporter thiBPQ
+U	Uy_thiamine_ABC_tr	set!:gene_system	Ug_thiB,Ug_thiP,Ug_thiQ	thiBPQ	thiamine ABC transporter thiBPQ
 U	Uf_t3_polyk_syn	function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
 U	Uh_14b_cellbios	homolog_protein	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
@@ -700,7 +700,7 @@ U	Uog_COG2207	ortholog_group:COG	COG2207	.	.
 U	Uog_COG3710	ortholog_group:COG	COG3710	.	.
 U	Uog_COG1028	ortholog_group:COG	COG1028	.	.
 U	Uog_COG2124	ortholog_group:COG	COG2124	.	.
-U	Uy_hrc	set:gene_system	.	hrc	injectisome genes	XD:Z:doi.org/10.1093/femsle/fny201
+U	Uy_hrc	set:gene_system	.	hrc	injectisome genes	XD:Z:doi:10.1093/femsle/fny201
 U	Uy_hrp	set:gene_system	.	hrp	host plant defence response suppressor
 U	Uy_T3SS	set:gene_system	.	T3SS	Type III secretion system / injectisome
 U	Upc_Ech	set:protein_complex	ref:doi:10.3389/fmicb.2018.00401	Ech	Ech ferredoxin-dependent hydrogenase
@@ -1899,3 +1899,6 @@ G	Gt_Polynucleobacter	Polynucleobacter	taxonomic	taxid:44013	TR:Z:genus
 C	C60	S110	Ac_genome_size	Gt_Polynucleobacter	<	Gt_Burkholderiaceae:most
 C	Cx1	S8	Ac_genome_size	Gc_copiotrophic_B	>	Gc_oligotrophic_B
 C	Cx2	S8	Ac_genome_size	Gt_Planctomycetes	>	Gc_oligotrophic_B
+U	Ug_thiB	specific_gene	.	thiB	thiamine ABC transporter thiB gene
+U	Ug_thiP	specific_gene	.	thiP	thiamine ABC transporter thiP gene
+U	Ug_thiQ	specific_gene	.	thiQ	thiamine ABC transporter thiQ gene
