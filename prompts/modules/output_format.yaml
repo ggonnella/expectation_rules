@@ -13,7 +13,7 @@ egclike: |
              G	<ID>	<Name>	<Type>
              U	<ID>	<Type>	<Name>
              A	<ID>	<Unit ID>	<Mode>	<RelativeUnit ID>	<Region>
-             V	<ID>	<Snippet ID>	<Attribute ID>	<Group ID>	<Group_quantifier>	<Operator>	<Value>
+             V	<ID>	<Snippet ID>	<Attribute ID>	<Group ID>	<Group_quantifier>	<Operator>	<ReferenceValue>
              C	<ID>	<Snippet ID>	<Attribute ID>	<Group1 ID>	<Group1_quantifier>	<Operator>	<Group2 ID>	<Group2_quantifier>
 
              - Snippet, shortened:
@@ -43,7 +43,7 @@ egclike_dict: |
              [G]:	{"name": <Name>, "type": <Type>}
              [U]: {"type":<Type>, "name":<Name>}
              [A]: {"unit":<Unit ID>, "mode":<Mode>,	"rel_unit":<RelativeUnit ID>, "region":<Region>}
-             [V]: {"source":<Snippet ID>,	"attribute":<Attribute ID>,	"group":<Group ID>, "group_portion":<Group_quantifier>, "operator":<Operator>, "value":<Value>}
+             [V]: {"source":<Snippet ID>,	"attribute":<Attribute ID>,	"group":<Group ID>, "group_portion":<Group_quantifier>, "value":<ReferenceValue>, "operator":<Operator>}
              [C]: {"source":<Snippet ID>,	"attribute":<Attribute ID>,	"group1":<Group1 ID>	"group1_portion":<Group1_quantifier>	"operator":<Operator>, "group2":<Group2 ID>, "group2_portion":<Group2_quantifier>}
 
              - Snippet, shortened:
@@ -68,7 +68,7 @@ egclike_dict_s_given: |
            (U) {"rt": 'U', "id": <ID>, "type":<Type>, "name":<Name>}
            (A) {"rt": 'A', "id": <ID>, "unit":<Unit ID>, "mode":<Mode>, "rel_unit":<RelativeUnit ID>, "region":<Region>}
            (C) {"rt": 'C', "attribute":<Attribute ID>, "group1":<Group1 ID> "group1_portion":<Group1_quantifier> "operator":<Operator>, "group2":<Group2 ID>, "group2_portion":<Group2_quantifier>}
-           (V) {"rt": 'V', "attribute":<Attribute ID>, "group":<Group ID>, "group_portion":<Group_quantifier>, "operator":<Operator>, "value":<Value>}
+           (V) {"rt": 'V', "attribute":<Attribute ID>, "group":<Group ID>, "group_portion":<Group_quantifier>, "operator":<Operator>, "value":<ReferenceValue>}
          Identifiers:
              ID are unique identifiers assigned to the G A and U records, consisting of:
              record type code, underscore, unique label not longer than 10 chars, e.g.:
@@ -89,7 +89,7 @@ svc: |
      for Snippets (S), for Value Expectations (V) and Comparative Expectations (C).
      Format of the output of the three kinds of lines:
      S	<Snipped ID>	<Snippet, shortened>
-     V	<Snippet ID>	<Unit.Name>	<Unit.Type>	<Attribute.Mode>	<Attribute.Region>	<Attribute.RelativeUnit.Name>	<Group.Name>	<Group.Type>	<Group.Quantifier>	<Operator>	<Value>
+     V	<Snippet ID>	<Unit.Name>	<Unit.Type>	<Attribute.Mode>	<Attribute.Region>	<Attribute.RelativeUnit.Name>	<Group.Name>	<Group.Type>	<Group.Quantifier>	<Operator>	<ReferenceValue>
      C	<Snippet ID>	<Unit.Name>	<Unit.Type>	<Attribute.Mode>	<Attribute.Region>	<Attribute.RelativeUnit.Name>	<Group1.Name>	<Group1.Type>	<Group1.Quantifier>	<Operator>	<Group2.Name>	<Group2.Type>	<Group2.Quantifier>
 svc_more: |
           Do not output empty lines.
@@ -128,5 +128,5 @@ svc_dict_s_given: |
                 "group_type": <GroupType> of [G] <Group>,
                 "group_quant": <GroupQuantifier> for [G] <Group>}
                 "operator": <Operator>,
-                "reference": <Value>}
+                "ref_value": <ReferenceValue>}
 

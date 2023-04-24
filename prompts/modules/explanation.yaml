@@ -62,7 +62,7 @@
     - <Group>: group of prokaryotic organisms, with a group-defining commonality
     - <Attribute>: a kind of measurement of a Unit (possibly relative to another) in the whole genome or a part of it
     - <Operator>: a comparison operator
-    - <Value>: a value (or set of values) to compare to
+    - <ReferenceValue>: a value (or set of values) to compare to
   
   A Unit is NOT a Group of organisms.
   Examples of Unit.Type are: specific_gene, specific_protein, gene_function, protein_function, metabolic_pathway, genes_ortholog_group,

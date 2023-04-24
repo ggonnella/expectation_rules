@@ -88,30 +88,32 @@ attribute_compact: |
                                       if mode == 'relative': the count is relative to this [U]
 vrule_compact: |
                [V]: value expectation; expectation, based on the input text, on how the value of [A] <Attribute>
-                    in genomes of organisms in [G] <Group> compare to a reference value <Value>
+                    in genomes of organisms in [G] <Group> compare to a reference value <ReferenceValue>
                     <Operator>: operator for expressing the expectation compared to a reference value (e.g. >, ==)
-                    <Value>: can be numerical or a expression such as 'large quantities'
+                    <ReferenceValue>: reference value to compare to; numerical value or a quantitative expression such as 'low', 'many', etc;
                     <Group_quantifier>: how many of the organisms in <Group> respect the expectation
+                    CHECK:
+                    If the rule is extracted correctly, the input text is equivalent to the following text:
+                    "In <GroupQuantifier> genomes of <Group> organisms, the value of <Attribute> is <Operator> <ReferenceValue>"
 crule_compact: |
                [C]: comparative expectation; expectation, based on the input text, on how the value of [A] <Attribute>
                     in genomes of organisms in [G] <Group1> compare to that in genomes or organisms in [G] <Group2>
                     <Operator>: operator for expressing the expectation compared to a reference value (e.g. >, ==)
                     <Group1_quantifier>/<Group2_quantifier>: how many of the organisms in <Group1> or <Group2> respect the expectation
-hint_vrule_presence: |
-                     If the Attribute.Mode is 'presence', the Operator can only be '==' and the value either 'True' or 'False'.
-                     Attribute.Mode 'presence'it should be used in V lines, and always used instead of Attribute.Mode 'count' or 'relative_frequency'
-                     whenever the Value would be 0. Also use 'presence' if the text does not mention a number,
-                     e.g. when it just mentions that something is present or absent.
-hint_crule_presence: |
-                     The Attribute.Mode 'presence' is not allowed in C lines.
-group_portion: |
+                    If the rule is extracted correctly, the input text is equivalent to the following text:
+                    "In <GroupQuantifier1> genomes of <Group1> organisms, the value of <Attribute> is <Operator> than in <GroupQuantifier2> genomes of <Group2> organisms"
+quantifier: |
        Group Quantifier:
-         The Group.Quantifier tells how much of the Group follows the rule. E.g. sometimes in the text
-         it is written something like "most ...", "all ...", "many ..." where ... is the name of the group;
-         in these cases most, all, many would be the quantifier.
-         In other cases, equivalently, adverbs such as 'never', 'always', 'sometimes' are used,
-         which can be mapped to adjectives 'none', 'all', 'some', which would then be the Group.Quantifier.
-         If nothing is written, or the quantifier is all/always, then a dot is used in the output ('.').
+         The Group Quantifiers tell which portion of a Group is expected to follow the rule.
+         It is either:
+           - a quantitative adjective/expression such as most, all, many, which is found in the text
+             referred to the name of the group (do not consider such expressions here
+             when referring to anything else, such as units or else).
+           - a quantitative adverb which puts the expectation into a quantitative validity context,
+             e.g. 'never', 'always', 'rarely', 'sometimes'; (do not consider such expressions here
+             when referring to anything else, such as units or else).
+             such values shall be mapped to adjectives, such as 'none', 'all', 'few', 'some'
+          Often a group quantifier is not present in the text, then a dot ('.') is used in the output.
 operator: |
          Operator:
            The Operator tells how the comparison is done, it can be e.g. '==', '!=', '>', '<', 'in_range', 'out_of_range'.

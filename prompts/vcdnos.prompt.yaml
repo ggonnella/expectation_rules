@@ -6,15 +6,25 @@
 - modules/tasks.yaml: 2
 - modules/entities.yaml: intro_long1
 - modules/entities.yaml-: group_compact
+- "      It must be one of the following:"
 - modules/values.yaml!!!: group_types
 - modules/entities.yaml-: unit_compact
+- "      It must be one of the following:"
 - modules/values.yaml!!!: unit_types
 - modules/entities.yaml-: attribute_compact
 - modules/values.yaml!!!: modes
 - modules/entities.yaml-: vrule_compact
 - modules/values.yaml!!!!: [quantifiers, operators]
 - modules/entities.yaml-: crule_compact
-- modules/values.yaml!!!!: [quantifiers, operators]
+- modules/values.yaml!!!!: operators
+- modules/entities.yaml!!: quantifier
+- modules/values.yaml!!!!: quantifiers
 - modules/output_format.yaml: svc_dict_s_given
-- modules/hints.yaml: svc_multiunits
+- modules/rules.yaml: svc_multiunits
+- modules/rules.yaml: intro1
+- modules/rules.yaml#: [level, presence, one_unit_no_array, region_whole_genome]
+- modules/bad_values.yaml: intro1
+- modules/bad_values.yaml#: [ref_value_more, copiotroph_type]
+- modules/examples_bad.yaml: vcdnos_intro1
+- modules/examples_bad.yaml#: vcdnos
 - modules/input_intro.yaml: 1

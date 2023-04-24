@@ -87,3 +87,9 @@ svc_examples:
     V	S2	Thiomicrospira crunogena	taxonomy	presence	.	.	gamma class	taxonomy	.	==	True
     # Problem: the Unit is not a genome feature, set of features or products thereof. It is a group of organisms.
     # Solution: This rule is wrong and shall not be output
+vcdnos_intro1: "## Examples of WRONG output\nThe following are examples of WRONG outputs, with an explanation of the PROBLEM and a SOLUTION"
+vcdnos:
+  - |
+    WRONG: {"rt": "V", "ref_value": "higher than in non-copiotrophs"...
+    PROBLEM: [V] do NOT represent comparisons between 2 groups
+    SOLUTION: Use [C] instead to represent a comparison between copiotrophs and non-copiotrophs

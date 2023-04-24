@@ -1,0 +1,25 @@
+intro1: "Be sure to always respect the following rules:"
+level: |
+       If: <ReferenceValue> is unspecific, e.g. "high" or "low"
+       Then: <Operator> is "$"
+presence: |
+          If: <AttributeMode> 'presence'
+          Then: <Operator> is "=="; <ReferenceValue> is either "True" or "False"
+one_unit_no_array: |
+                   If: the rule applies for one <Unit>
+                   Then: the entry 'unit' contains a string key
+region_whole_genome: |
+                     Rule: use a '.' to represent <AttributeRegion> whole region
+                     NO: {'attribute_region': 'whole genome'}
+                     OK: {'attribute_region': '.'}
+svc_multiunits: |
+                If for multiple units the same expectation can be extracted from the text
+                (everything equal except for the unit name), then only define one record
+                and give the unit names as an array instead of a string.
+hint_vrule_presence: |
+                     If the Attribute.Mode is 'presence', the Operator can only be '==' and the value either 'True' or 'False'.
+                     Attribute.Mode 'presence'it should be used in V lines, and always used instead of Attribute.Mode 'count' or 'relative_frequency'
+                     whenever the Value would be 0. Also use 'presence' if the text does not mention a number,
+                     e.g. when it just mentions that something is present or absent.
+hint_crule_presence: |
+                     The Attribute.Mode 'presence' is not allowed in C lines.
