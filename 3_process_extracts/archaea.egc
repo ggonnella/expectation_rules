@@ -339,7 +339,7 @@ U	Ui_saccharolytic	set:genomic_island	.	.	saccharolytic gene island
 U	Uf_malt_treh_degr	function	.	.	maltose and trehalose degradation
 U	Ut_MGE	feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_XeR_bs	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis	XD:Z:doi:10.1186/1745-6150-6-52
-U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150,doi:10.1016/j.mib.2007.06.004
+U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150;doi:10.1016/j.mib.2007.06.004
 U	Uf_SPEARE	function	.	.	SPEARE proteins
 U	Ud_laminin_G	family_or_domain:InterPro	IPR001791	Laminin_G	laminin globular domain
 U	Ud_ConA_like	family_or_domain:InterPro	IPR013320	.	ConA-like domain
