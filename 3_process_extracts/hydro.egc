@@ -140,7 +140,7 @@ G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
 G	Gl_NarcMC1	Nanoarchaeota archaeon MC-1	metagenome_assembled	biosample:SAMN21554103
 G	Gi_hashost	host-associated (has host)	biological_interaction	RO:0002454
 G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
-G	Gt_Bacteria	Bacteria	taxonomic	taxid:2	TR:Z:superkingdom
+G	Gt_Bacteria	Bacteria	taxonomic	taxid:2	TR:Z:domain
 G	Gc_intracellular_B	intracellular bacteria	combined	Gt_Bacteria & Gi_intracellular
 G	Gh_marine	marine	habitat	ENVO:01000320
 G	Gt_Roseobacter	Roseobacter	taxonomic	taxid:2433	TR:Z:genus
@@ -201,7 +201,7 @@ G	Gp_obl_a_troph	obligate autotrophic	trophic_strategy	derived:Gp_a_troph:obliga
 G	Gc_obl_a_troph_Gamma	obligate autotrophic Gammaproteobacteria	combined	Gt_Gammaproteobacteria & Gp_obl_a_troph
 G	Gc_obl_a_troph_Alpha	obligate autotrophic Alphaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Alphaproteobacteria
 G	Gc_obl_a_troph_Beta	obligate autotrophic Betaproteobacteria	combined	Gt_Gammaproteobacteria & Gt_Betaproteobacteria
-G	Gt_Cyanobacteria	Cyanobacteria	taxonomic	taxid:1117	TR:Z:phylum
+G	Gt_Cyanobacteriota	Cyanobacteriota	taxonomic	taxid:1117	TR:Z:phylum
 G	Gc_obl_a_troph_B	obligate autotrophic bacteria	combined	Gp_obl_a_troph & Gt_Bacteria
 G	Gt_Campylobacter	Campylobacter	taxonomic	taxid:194	TR:Z:genus
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
@@ -293,17 +293,17 @@ G	Gr_acidophilic	acidophilic	pH_requirement	MICRO:0001390
 U	Ug_mcrA	specific_gene	.	mcrA	methyl coenzyme-M reductase
 U	Up_F420	specific_protein	.	F420	F420-hydrogenase
 U	Uh_F420	homolog_protein	homolog:Up_F420	.	F420-hydrogenase homolog
-U	Uf_CO_ox	function	.	.	oxidation of carbon monoxide (CO)
+U	Uf_CO_ox	ctg:function	.	.	oxidation of carbon monoxide (CO)
 U	Uw_CO2_fix	set:+metabolic_pathway	KEGG:map00720	.	CO2 fixation
 U	Upc_NiFe_hydr	set:protein_complex	.	.	[Ni-Fe] hydrogenase
 U	Ur_RubisCO_out_CBB	set!:arrangement	Uf_RubisCO,<>,Uc_CBB	.	RubisCO genes located outside Calvin-Benson-Bassham cluster
 U	Uc_CBB	set:gene_cluster	.	CBB	Calvin-Benson-Bassham cluster
 U	Uw_CBB	set:metabolic_pathway	KEGG:M00165	.	Calvin–Bassham–Benson cycle
-U	Ut_mobile_genetic_element	feature_type	SO:0001037	mobile_genetic_element	.
+U	Ut_mobile_genetic_element	ctg:feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_3HP4HB	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
 U	Uw_rev_SO4_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway	XD:Z:doi:10.1111/j.1462-2920.2008.01760.x
 U	Ug_narG	specific_gene	.	narG	.
-U	Ut_split_pcgene	feature_type	SO:0000459	gene_with_trans_spliced_transcript	split protein-coding gene
+U	Ut_split_pcgene	ctg:feature_type	SO:0000459	gene_with_trans_spliced_transcript	split protein-coding gene
 U	Ug_narH	specific_gene	.	narH	.
 U	Ug_pmoA	specific_gene	.	pmoA	particulate methane monooxygenase (pMMO)
 U	Uy_PcoAB	set!:gene_system	Ug_pcoA,Ug_pcoB	PcoAB	multicopper oxidase
@@ -315,16 +315,16 @@ U	Uh_cyc2	homolog_protein	homolog:Up_cyc2	.	outer membrane cytochrome protein (C
 U	Upc_ACIII	set:protein_complex	.	ACIII	alternative respiratory complex III
 U	Ug_cbb3	specific_gene	.	cbb3	cbb3-type oxidase
 U	Uh_cbb3	homolog_gene	homolog:Ug_cbb3	.	cbb3-type oxidase homolog
-U	Uf_tyr_tr	function:GO	0015828	.	tyrosine-specific transporter
-U	Uf_CODH	function:EC	1.2.7.4	CODH	Carbon monoxide dehydrogenase
-U	Ud_EAL	family_or_domain:Pfam	Pfam00563	EAL	phosphodiesterase (EAL) domain
-U	Ud_Pfam00990	family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
-U	Ud_Pfam000159	family_or_domain:Pfam	Pfam000159	.	MCP domain
+U	Uf_tyr_tr	ctg:function:GO	0015828	.	tyrosine-specific transporter
+U	Uf_CODH	ctg:function:EC	1.2.7.4	CODH	Carbon monoxide dehydrogenase
+U	Ud_EAL	ctg:family_or_domain:Pfam	Pfam00563	EAL	phosphodiesterase (EAL) domain
+U	Ud_Pfam00990	ctg:family_or_domain:Pfam	Pfam00990	GGDEF	GGDEF domain
+U	Ud_Pfam000159	ctg:family_or_domain:Pfam	Pfam000159	.	MCP domain
 U	Up_SDH	specific_protein	.	SDH	flavocytochrome c sulfide dehydrogenase
-U	Uf_NDH1_NADH_deh	function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase)
-U	Uf_cyt_bc1	function:EC	7.1.1.8	.	cytochrome bc1 complex
-U	Uf_hydr_1d	function	.	.	group 1d hydrogenase
-U	Uf_RubisCO	function:EC	4.1.1.39	RubisCO	Ribulose bisphosphate carboxylase
+U	Uf_NDH1_NADH_deh	ctg:function	.	.	NDH-1-type NADH:quinone oxidoreductase (NADH dehydrogenase)
+U	Uf_cyt_bc1	ctg:function:EC	7.1.1.8	.	cytochrome bc1 complex
+U	Uf_hydr_1d	ctg:function	.	.	group 1d hydrogenase
+U	Uf_RubisCO	ctg:function:EC	4.1.1.39	RubisCO	Ribulose bisphosphate carboxylase
 U	Up_RubisCO_IAc	specific_protein	.	.	carboxysomal RubisCO (form IAc)
 U	Uw_5BP	set:metabolic_pathway	KEGG:M00968	.	pentose biphosphate pathway
 U	Uw_Sox	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
@@ -344,36 +344,36 @@ U	Ug_soxX	specific_gene	.	soxX	.
 U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
 U	Ur_largeTR_pk	set!:arrangement	Ut_largeTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: large tandem repeat
-U	Ut_largeTR	feature_type	derived:Ut_TR:large	.	large tandem repeat
-U	Ut_TR	feature_type	SO:0000705	tandem_repeat	tandem repeat
-U	Uf_protein_kinase	function:EC	2.7.13.3	.	protein kinase
-U	Ut_CRISPR	feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
-U	Ud_MARTX	family_or_domain:CDD	NF012221	MARTX	Multifunctional Autoprocessing Repeat-In-Toxin family	XR:Z:doi:10.1128/microbiolspec.VE-0002-2014
-U	Ud_RHS_repeat	family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats
-U	Ud_RTX	family_or_domain:InterPro	IPR013550	RTX	Repeat-In-Toxin family
+U	Ut_largeTR	ctg:feature_type	derived:Ut_TR:large	.	large tandem repeat
+U	Ut_TR	ctg:feature_type	SO:0000705	tandem_repeat	tandem repeat
+U	Uf_protein_kinase	ctg:function:EC	2.7.13.3	.	protein kinase
+U	Ut_CRISPR	ctg:feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
+U	Ud_MARTX	ctg:family_or_domain:CDD	NF012221	MARTX	Multifunctional Autoprocessing Repeat-In-Toxin family	XR:Z:doi:10.1128/microbiolspec.VE-0002-2014
+U	Ud_RHS_repeat	ctg:family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats
+U	Ud_RTX	ctg:family_or_domain:InterPro	IPR013550	RTX	Repeat-In-Toxin family
 U	Ug_lrsB	specific_gene	.	lrsB	.
 U	Ug_luxP	specific_gene	.	luxP	.
-U	Uf_euk_like_hystone	function	.	.	eukaryotic-like histone
+U	Uf_euk_like_hystone	ctg:function	.	.	eukaryotic-like histone
 U	Uw_CO2_mCoM	set:+metabolic_pathway	KEGG:M00567	.	CO2 reduction C1-pathway forming methyl-CoM
 U	Ur_16S_tRNA_23S	set!:arrangement	Ug_16S,1:*(tRNA_gene),Ug_23S	.	16S rRNA; (tRNAs); 23S rRNA
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
 U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
 U	Up_topoVI	specific_protein	.	.	topoisomerase TopoVI
-U	Uf_bact_DNA_gyr	function	.	.	bacterial-type DNA gyrase
-U	Uf_bact_HTa_hist	function	.	.	bacterial-type HTa histone
+U	Uf_bact_DNA_gyr	ctg:function	.	.	bacterial-type DNA gyrase
+U	Uf_bact_HTa_hist	ctg:function	.	.	bacterial-type HTa histone
 U	Uw_rTCA	set:metabolic_pathway	KEGG:M00173	.	reductive/reverse TCA cycle (Arnon-Buchanan cycle)
 U	Uw_WL	set:metabolic_pathway	KEGG:M00377	.	reductive Acetyl-CoA (Wood-Ljungdahl pathway)
 U	Ug_purK	specific_gene	.	purK	.
-U	Uog_COG0790	ortholog_group:COG	COG0790	.	TPR repeat, SEL1 subfamily
-U	Uog_COG4654	ortholog_group:COG	COG4654	.	.
+U	Uog_COG0790	ctg:ortholog_group:COG	COG0790	.	TPR repeat, SEL1 subfamily
+U	Uog_COG4654	ctg:ortholog_group:COG	COG4654	.	.
 A	Ap_og_COG4654	Uog_COG4654	presence
 A	Ap_og_COG2863	Uog_COG2863	presence
-U	Uog_COG2863	ortholog_group:COG	COG2863	.	.
-U	Uf_Mtr	function	.	.	coenzyme M methyltransferase (Mtr) complex
+U	Uog_COG2863	ctg:ortholog_group:COG	COG2863	.	.
+U	Uf_Mtr	ctg:function	.	.	coenzyme M methyltransferase (Mtr) complex
 U	Up_PPi_PFK	specific_protein	.	PPi-PFK	pyrophosphate-dependent 6-phosphofructokinase (PPi-PFK)
-U	Uf_meth_coe_red	function	.	.	methyl coenzyme reductase
-U	Uog_arCOG00950	ortholog_group:arCOG	arCOG00950	.	.
-U	Uog_arCOG04866	ortholog_group:arCOG	arCOG04866	.	.
+U	Uf_meth_coe_red	ctg:function	.	.	methyl coenzyme reductase
+U	Uog_arCOG00950	ctg:ortholog_group:arCOG	arCOG00950	.	.
+U	Uog_arCOG04866	ctg:ortholog_group:arCOG	arCOG04866	.	.
 U	Ug_hdrA	specific_gene	.	hdrA	.
 U	Ug_hdrB	specific_gene	.	hdrB	.
 U	Ug_hdrC	specific_gene	.	hdrC	.
@@ -384,14 +384,14 @@ U	Upc_mvhDGA	set!:protein_complex	Ug_mvhD,Ug_mvhG,Ug_mvhA	.	cytoplasmic F420-non
 U	Ug_mvhA	specific_gene	.	mvhA	.
 U	Ug_mvhD	specific_gene	.	mvhD	.
 U	Ug_mvhG	specific_gene	.	mvhG	.
-U	Uf_pt_pyrop	function	.	.	proton-translocating pyrophosphatase
-U	Uk_T	ortholog_groups_category:COG_category	T	.	Signal transduction
-U	Uf_pg_dehydratase	function:EC	4.2.1.12	.	phosphogluconate dehydratase
-U	Uf_2k3d6pg_ald	function:EC	4.1.2.14	.	2-keto-3-deoxy-6-phosphogluconate aldolase
+U	Uf_pt_pyrop	ctg:function	.	.	proton-translocating pyrophosphatase
+U	Uk_T	ctg:ortholog_groups_category:COG_category	T	.	Signal transduction
+U	Uf_pg_dehydratase	ctg:function:EC	4.2.1.12	.	phosphogluconate dehydratase
+U	Uf_2k3d6pg_ald	ctg:function:EC	4.1.2.14	.	2-keto-3-deoxy-6-phosphogluconate aldolase
 U	Uop_ribosomal	set:operon	.	ribosomal	.
-U	Uk_M	ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
-U	Uf_ATP_citr_ly	function:EC	2.3.3.8	.	ATP citrate lyase
-U	Uf_citr_syn	function:EC	2.3.3.1	.	citrate synthase
+U	Uk_M	ctg:ortholog_groups_category:COG_category	M	.	Cell wall/membrane/envelope biogenesis
+U	Uf_ATP_citr_ly	ctg:function:EC	2.3.3.8	.	ATP citrate lyase
+U	Uf_citr_syn	ctg:function:EC	2.3.3.1	.	citrate synthase
 U	Upc_AprBA	set!:protein_complex	Ug_aprB,Ug_aprA	AprBA	dissimilatory adenylyl-sulfate reductase
 U	Ug_aprB	specific_gene	.	aprB	.
 U	Uw_5p_ox	set:metabolic_pathway	KEGG:M00006	.	pentose phosphate pathway, oxidative branch
@@ -400,48 +400,48 @@ U	Ug_aprA	specific_gene	.	aprA	.
 U	Ug_cbbM	specific_gene	.	cbbM	form II ribulose 1,5-bisphosphate carboxylase (RuBisCo) large subunit (cbbM)
 U	Up_SQR	specific_protein	.	SQR	sulfide:quinone oxidoreductase
 U	Upc_SorAB	set!:protein_complex	Ug_sorA,Ug_sorB	SorAB	sulfite:acceptor oxidoreductase
-U	Uf_aa3_cytC_ox	function	.	.	aa3-type cytochrome c oxidase
-U	Uf_cbb3_cytC_ox	function	.	.	cbb3-type cytochrome c oxidase
-U	Ud_SulP	family_or_domain:InterPro	IPR001902	SLC26A/SulP_fam	SLC26A/SulP transporter
-U	Uf_CarbAn	function:EC	4.2.1.1	.	carbonic anhydrase
+U	Uf_aa3_cytC_ox	ctg:function	.	.	aa3-type cytochrome c oxidase
+U	Uf_cbb3_cytC_ox	ctg:function	.	.	cbb3-type cytochrome c oxidase
+U	Ud_SulP	ctg:family_or_domain:InterPro	IPR001902	SLC26A/SulP_fam	SLC26A/SulP transporter
+U	Uf_CarbAn	ctg:function:EC	4.2.1.1	.	carbonic anhydrase
 U	Ur_SulP_CarbAn	set!:arrangement	Ud_SulP,Uf_CarbAn	.	SulP-type ion transporter adiacent to carbonic anhydrase
-U	Uog_arCOG04888	ortholog_group:arCOG	arCOG04888	.	.
-U	Uog_arCOG02822	ortholog_group:arCOG	arCOG02822	.	.
-U	Uog_arCOG03226	ortholog_group:arCOG	arCOG03226	.	.
-U	Uog_arCOG04904	ortholog_group:arCOG	arCOG04904	.	.
-U	Uog_arCOG02679	ortholog_group:arCOG	arCOG02679	.	.
-U	Uog_arCOG04903	ortholog_group:arCOG	arCOG04903	.	.
-U	Uog_arCOG04901	ortholog_group:arCOG	arCOG04901	.	.
-U	Uog_arCOG04900	ortholog_group:arCOG	arCOG04900	.	.
-U	Uog_arCOG03225	ortholog_group:arCOG	arCOG03225	.	.
-U	Uog_arCOG00185	ortholog_group:arCOG	arCOG00185	.	.
-U	Uog_arCOG04860	ortholog_group:arCOG	arCOG04860	.	.
-U	Uog_arCOG04859	ortholog_group:arCOG	arCOG04859	.	.
-U	Uog_arCOG04858	ortholog_group:arCOG	arCOG04858	.	.
-U	Uog_arCOG04857	ortholog_group:arCOG	arCOG04857	.	.
-U	Uog_arCOG04846	ortholog_group:arCOG	arCOG04846	.	.
-U	Uog_arCOG02882	ortholog_group:arCOG	arCOG02882	.	.
-U	Uog_arCOG00640	ortholog_group:arCOG	arCOG00640	.	.
-U	Uog_arCOG01116	ortholog_group:arCOG	arCOG01116	.	.
-U	Uog_arCOG00854	ortholog_group:arCOG	arCOG00854	.	.
-U	Uog_arCOG04893	ortholog_group:arCOG	arCOG04893	.	.
-U	Uog_arCOG03221	ortholog_group:arCOG	arCOG03221	.	.
-U	Uog_arCOG04867	ortholog_group:arCOG	arCOG04867	.	.
-U	Uog_arCOG04868	ortholog_group:arCOG	arCOG04868	.	.
-U	Uog_arCOG04869	ortholog_group:arCOG	arCOG04869	.	.
-U	Uog_arCOG04870	ortholog_group:arCOG	arCOG04870	.	.
-U	Uog_arCOG01579	ortholog_group:arCOG	arCOG01579	.	.
-U	Uog_arCOG04844	ortholog_group:arCOG	arCOG04844	.	.
-U	Uog_arCOG04885	ortholog_group:arCOG	arCOG04885	.	.
+U	Uog_arCOG04888	ctg:ortholog_group:arCOG	arCOG04888	.	.
+U	Uog_arCOG02822	ctg:ortholog_group:arCOG	arCOG02822	.	.
+U	Uog_arCOG03226	ctg:ortholog_group:arCOG	arCOG03226	.	.
+U	Uog_arCOG04904	ctg:ortholog_group:arCOG	arCOG04904	.	.
+U	Uog_arCOG02679	ctg:ortholog_group:arCOG	arCOG02679	.	.
+U	Uog_arCOG04903	ctg:ortholog_group:arCOG	arCOG04903	.	.
+U	Uog_arCOG04901	ctg:ortholog_group:arCOG	arCOG04901	.	.
+U	Uog_arCOG04900	ctg:ortholog_group:arCOG	arCOG04900	.	.
+U	Uog_arCOG03225	ctg:ortholog_group:arCOG	arCOG03225	.	.
+U	Uog_arCOG00185	ctg:ortholog_group:arCOG	arCOG00185	.	.
+U	Uog_arCOG04860	ctg:ortholog_group:arCOG	arCOG04860	.	.
+U	Uog_arCOG04859	ctg:ortholog_group:arCOG	arCOG04859	.	.
+U	Uog_arCOG04858	ctg:ortholog_group:arCOG	arCOG04858	.	.
+U	Uog_arCOG04857	ctg:ortholog_group:arCOG	arCOG04857	.	.
+U	Uog_arCOG04846	ctg:ortholog_group:arCOG	arCOG04846	.	.
+U	Uog_arCOG02882	ctg:ortholog_group:arCOG	arCOG02882	.	.
+U	Uog_arCOG00640	ctg:ortholog_group:arCOG	arCOG00640	.	.
+U	Uog_arCOG01116	ctg:ortholog_group:arCOG	arCOG01116	.	.
+U	Uog_arCOG00854	ctg:ortholog_group:arCOG	arCOG00854	.	.
+U	Uog_arCOG04893	ctg:ortholog_group:arCOG	arCOG04893	.	.
+U	Uog_arCOG03221	ctg:ortholog_group:arCOG	arCOG03221	.	.
+U	Uog_arCOG04867	ctg:ortholog_group:arCOG	arCOG04867	.	.
+U	Uog_arCOG04868	ctg:ortholog_group:arCOG	arCOG04868	.	.
+U	Uog_arCOG04869	ctg:ortholog_group:arCOG	arCOG04869	.	.
+U	Uog_arCOG04870	ctg:ortholog_group:arCOG	arCOG04870	.	.
+U	Uog_arCOG01579	ctg:ortholog_group:arCOG	arCOG01579	.	.
+U	Uog_arCOG04844	ctg:ortholog_group:arCOG	arCOG04844	.	.
+U	Uog_arCOG04885	ctg:ortholog_group:arCOG	arCOG04885	.	.
 U	Uop_CBB	set:operon	.	.	CBB enzyme
 U	Ug_sorA	specific_gene	.	sorA	.
 U	Ug_sorB	specific_gene	.	sorB	.
 U	Ug_luxS	specific_gene	.	luxS	S-ribosylhomocysteinase
-U	Uf_5mA_SahC_nucl	function:EC	3.2.2.9	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
-U	Ud_LMWP_ArsC	family_or_domain:CDD	cd16345	LMWP_ArsC	arsenate reductase of the LMWP family
+U	Uf_5mA_SahC_nucl	ctg:function:EC	3.2.2.9	.	5′methylthioadenosine/S-adenosylhomocysteine nucleosidase
+U	Ud_LMWP_ArsC	ctg:family_or_domain:CDD	cd16345	LMWP_ArsC	arsenate reductase of the LMWP family
 U	Ug_arsR	specific_gene	.	arsR	.
-U	Uog_COG1055	ortholog_group:COG	COG1055	.	arsenical permease
-U	Uf_ADP_rib_pyr	function:EC	2.7.7.96	.	ADP-ribose pyrophosphatase
+U	Uog_COG1055	ctg:ortholog_group:COG	COG1055	.	arsenical permease
+U	Uf_ADP_rib_pyr	ctg:function:EC	2.7.7.96	.	ADP-ribose pyrophosphatase
 U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase
 M	Up_PPi_PFK	InterPro	IPR011404	PPi-PFK_XF0274	UP:Z:Q609I3
 M	Uf_pt_pyrop	InterPro	IPR004131	PPase-energised_H-pump	UP:Z:Q8P5M6
@@ -593,7 +593,7 @@ A	Ap_g_hdrD	Ug_hdrD	presence
 A	Ap_g_hdrE	Ug_hdrE	presence
 A	Ap_r_hdrBC_far_A	Ur_hdrBC_far_A	presence
 A	Ap_pc_mvhDGA	Upc_mvhDGA	presence
-U	Uog_anyCOG	*ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
+U	Uog_anyCOG	ctg:+ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 A	Ar_k_T	Uk_T	relative:Uog_anyCOG
 A	Ap_f_pg_dehydratase	Uf_pg_dehydratase	presence
 A	Ap_f_2k3d6pg_ald	Uf_2k3d6pg_ald	presence
@@ -893,7 +893,7 @@ V	VH211	TH1	Ap_og_arCOG04885	Gc_not_CH4_gen_A_plus_Methanomas:>95%	==	False
 V	VH212	SH61	Ap_op_CBB	Gc_obl_a_troph_Gamma	==	True
 V	VH213	SH61	Ap_op_CBB	Gc_obl_a_troph_Alpha	==	True
 V	VH214	SH61	Ap_op_CBB	Gc_obl_a_troph_Beta	==	True
-V	VH215	SH61	Ap_op_CBB	Gt_Cyanobacteria	==	True
+V	VH215	SH61	Ap_op_CBB	Gt_Cyanobacteriota	==	True
 V	VH216	SH64	Ac_d_Pfam00990	Gc_free_Epsilon_not_Campylo_Helico	level	high
 V	VH217	SH64	Ac_d_Pfam00990	Gt_Campylobacter	level	none_or_low
 V	VH218	SH64	Ac_d_Pfam00990	Gt_Helicobacter	level	none_or_low
@@ -1005,7 +1005,7 @@ V	VH319	SH50	Ap_g_aprA	Gt_Beggiatoa	==	True
 V	VH320	SH75	Ap_w_WL	Gm_ac_gen:some	==	True
 G	Gc_photosyn_SOB	photosynthetic sulfur oxidizing bacteria	combined	Gm_photosyn & Gc_SOB
 G	Gc_chm_lth_a_Proteo	chemolithoautotrophic Proteobacteria	combined	Gt_Proteobacteria & Gp_chm_lth_a_troph
-U	Uf_dsr	function:EC	1.8.99.5	DSR	dissimilatory sulfite reductase
+U	Uf_dsr	ctg:function:EC	1.8.99.5	DSR	dissimilatory sulfite reductase
 A	Ap_f_dsr	Uf_dsr	presence
 V	VH321	SH97	Ap_f_dsr	Gc_photosyn_SOB:many	==	True
 V	VH322	SH97	Ap_f_dsr	Gc_chm_lth_a_Proteo:many	==	True

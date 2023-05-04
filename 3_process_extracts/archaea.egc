@@ -246,37 +246,37 @@ G	Gt_Odinarchaeota	Candidatus Odinarchaeota	taxonomic	taxid:1936271	TR:Z:phylum
 G	Gt_Lokiarchaeota	Candidatus Lokiarchaeota	taxonomic	taxid:1655434	TR:Z:phylum
 G	Gt_Tlitoralis	Thermococcus litoralis	taxonomic	taxid:2265	TR:Z:species
 U	Ub_G	base	.	G	guanine
-U	Ub_GC	*base	Ub_G,Ub_C	.	.
+U	Ub_GC	ctg!:+base	Ub_G,Ub_C	.	.
 U	Ub_N	base	.	N	any nucleic acid base
 U	Ub_C	base	.	C	cytosine
 U	Uw_amox	set:metabolic_pathway	KEGG:M00528	.	ammonia oxidation
-U	Uf_amm_tr	function:GO	0072488	.	ammonium transporter
-U	Uf_copp_ox	function	.	.	multicopper oxidase
-U	Ud_BlueCu	family_or_domain:InterPro	IPR000923	BlueCu_1	blue copper domain
+U	Uf_amm_tr	ctg:function:GO	0072488	.	ammonium transporter
+U	Uf_copp_ox	ctg:function	.	.	multicopper oxidase
+U	Ud_BlueCu	ctg:family_or_domain:InterPro	IPR000923	BlueCu_1	blue copper domain
 U	Up_topoIB	specific_protein	.	.	topoisomerase IB
-U	Uf_RNApolG	function	.	.	RNA Polymerase G
-U	Uf_AMO	function:EC	1.14.99.39	AMO	ammonia monooxygenase
-U	Uf_acCoA_carb	function:EC	6.4.1.2	.	acetyl-CoA carboxylase
-U	Uf_4hyxbutCoA_deh	function:EC	4.2.1.120	.	4-hydroxybutyryl-CoA dehydratase
-U	Uf_methmalCoa_mut	function:EC	5.4.99.2	.	methylmalonyl-CoA mutase
-U	Ud_ferritin_Dps	family_or_domain:InterPro	IPR008331	Ferritin_DPS_dom	ferritin/Dps domain
+U	Uf_RNApolG	ctg:function	.	.	RNA Polymerase G
+U	Uf_AMO	ctg:function:EC	1.14.99.39	AMO	ammonia monooxygenase
+U	Uf_acCoA_carb	ctg:function:EC	6.4.1.2	.	acetyl-CoA carboxylase
+U	Uf_4hyxbutCoA_deh	ctg:function:EC	4.2.1.120	.	4-hydroxybutyryl-CoA dehydratase
+U	Uf_methmalCoa_mut	ctg:function:EC	5.4.99.2	.	methylmalonyl-CoA mutase
+U	Ud_ferritin_Dps	ctg:family_or_domain:InterPro	IPR008331	Ferritin_DPS_dom	ferritin/Dps domain
 U	Up_hydr_am_oxr	specific_protein	.	.	hydroxylamine oxidoreductase
 U	Uh_hydr_am_oxr	homolog_protein	homolog:Up_hydr_am_oxr	.	hydroxylamine oxidoreductase homolog
 U	Ug_norB	specific_gene	.	norB	.
 U	Uh_norB	homolog_gene	homolog:Ug_norB	.	norB homolog
 U	Ug_dprA	specific_gene	.	dprA	.
 U	Ug_comF	specific_gene	.	comF	.
-U	Uf_urease	function:EC	3.5.1.5	.	urease
+U	Uf_urease	ctg:function:EC	3.5.1.5	.	urease
 U	Ug_SRP_RNA	specific_gene	ref:doi:10.1155/2010/485051	SRP_RNA	Archaeal signal recognition particle, 7S RNA
-U	Uf_CPE	function	.	.	Capsular Polysaccharide Exporter
+U	Uf_CPE	ctg:function	.	.	Capsular Polysaccharide Exporter
 U	Ug_pseG	specific_gene	.	pseG	.
-U	Ut_large_replicon	feature_type	.	.	large replicon (>100 kbp)
-U	Ut_intein	feature_type	SO:0002026	intein_encoding_region	intein	XR:Z:SO:0000728!intein
-U	Uf_urea_tr	function:GO	0071918	.	urea transporter
+U	Ut_large_replicon	ctg:feature_type	.	.	large replicon (>100 kbp)
+U	Ut_intein	ctg:feature_type	SO:0002026	intein_encoding_region	intein	XR:Z:SO:0000728!intein
+U	Uf_urea_tr	ctg:function:GO	0071918	.	urea transporter
 U	Upc_RCI	set:protein_complex	.	.	Respiratory Complex I
-U	Uf_citC_ox	function:EC	7.1.1.9	.	cytochrome c-oxidase
+U	Uf_citC_ox	ctg:function:EC	7.1.1.9	.	cytochrome c-oxidase
 U	Ug_nuoG	specific_gene	.	nuoG	.
-U	Uf_SOD	function:EC	1.15.1.1	SOD	superoxide dismutase
+U	Uf_SOD	ctg:function:EC	1.15.1.1	SOD	superoxide dismutase
 U	Ug_amoA	specific_gene	.	amoA	.
 U	Ug_amoB	specific_gene	.	amoB	.
 U	Ug_amoC	specific_gene	.	amoC	.
@@ -284,33 +284,33 @@ U	Ug_ectC	specific_gene	.	ectC	ectoine synthase
 U	Ug_ectB	specific_gene	.	ectB	L-2,4-diaminobutyrate transaminase
 U	Ug_ectA	specific_gene	.	ectA	L-2,4-diaminobutyrate acetyltransferase
 U	Ug_ectD	specific_gene	.	ectD	.
-U	Uf_MPGS	function:EC	2.4.1.217	.	MPGS (mannosyl-3-phosphoglycerate synthase)
-U	Uf_MPGP	function:EC	3.1.3.70	.	MPGP (mannosyl-3-phosphoglycerate phosphatase)
-U	Ud_MscL_ch	family_or_domain:TC	1.A.22	MscL	Large Conductance Mechanosensitive Ion Channel (MscL) Family
-U	Uf_flagella	function	.	.	flagella assembly
-U	Uf_pili	function	.	.	pili assembly
+U	Uf_MPGS	ctg:function:EC	2.4.1.217	.	MPGS (mannosyl-3-phosphoglycerate synthase)
+U	Uf_MPGP	ctg:function:EC	3.1.3.70	.	MPGP (mannosyl-3-phosphoglycerate phosphatase)
+U	Ud_MscL_ch	ctg:family_or_domain:TC	1.A.22	MscL	Large Conductance Mechanosensitive Ion Channel (MscL) Family
+U	Uf_flagella	ctg:function	.	.	flagella assembly
+U	Uf_pili	ctg:function	.	.	pili assembly
 U	Ug_nuoE	specific_gene	.	nuoE	.
 U	Ug_nuoF	specific_gene	.	nuoF	.
-U	Uf_Sat	function:EC	2.7.7.4	.	Sulfate adenylyltransferase (Sat)
+U	Uf_Sat	ctg:function:EC	2.7.7.4	.	Sulfate adenylyltransferase (Sat)
 U	Ug_aprA	specific_gene	.	aprA	adenylyl sulfate reductase (AprA)
 U	Uf_dsrA	specific_gene	.	dsrA	sulfite reductase (DsrA)
-U	Uf_MBH	function	.	.	membrane-bound [NiFe]-hydrogenase (MBH)
+U	Uf_MBH	ctg:function	.	.	membrane-bound [NiFe]-hydrogenase (MBH)
 U	Upc_FeFe_hydr	set:protein_complex	.	.	[FeFe] hydrogenase
 U	Upc_SH1	set:protein_complex	.	.	cytoplasmic [NiFe]-hydrogenase (SHI)
 U	Upc_SH2	set:protein_complex	.	.	cytoplasmic [NiFe]-hydrogenase (SHII)
 U	Upc_SH1_2	set!:+protein_complex	Upc_SH1,Upc_SH2	.	cytoplasmic [NiFe]-hydrogenases SHI and SHII
 U	Up_CODH	specific_protein	.	CODH	carbon monoxide dehydrogenase (CODH)
-U	Uf_Rubisco_type3	function	.	.	type III Rubisco enzyme
-U	Uf_SOR	function:EC	1.15.1.2	SOR	superoxide reductase
+U	Uf_Rubisco_type3	ctg:function	.	.	type III Rubisco enzyme
+U	Uf_SOR	ctg:function:EC	1.15.1.2	SOR	superoxide reductase
 U	Ug_mcrA	specific_gene	.	mcrA	.
 U	Uw_CBB	set:metabolic_pathway	KEGG:M00165	.	Calvin–Bassham–Benson cycle
 U	Uw_3HP4HB	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
-U	Uf_AMPf_3HPCoA_s	function:EC	6.2.1.36	.	AMP-forming 3-hydroxypropionyl-CoA synthetase
-U	Uf_ADPf_acylCoA_s	function:EC	6.2.1.13	.	ADP-forming acyl-CoA synthetase
-U	Uf_ATP_citr_ly	function:EC	2.3.3.8	.	ATP citrate lyase
-U	Uf_citrCoa_ly	function:EC	4.1.3.34	.	citryl-CoA lyase
-U	Ud_TFIIB_arc	family_or_domain:InterPro	IPR023484	TFIIB_arc	archaeal transcription factor B	XR:Z:Wikipedia:Archaeal_transcription_factor_B
-U	Ud_TBP_arc	family_or_domain:InterPro	IPR033711	TBP_arch	TATA-box binding protein, archaeal
+U	Uf_AMPf_3HPCoA_s	ctg:function:EC	6.2.1.36	.	AMP-forming 3-hydroxypropionyl-CoA synthetase
+U	Uf_ADPf_acylCoA_s	ctg:function:EC	6.2.1.13	.	ADP-forming acyl-CoA synthetase
+U	Uf_ATP_citr_ly	ctg:function:EC	2.3.3.8	.	ATP citrate lyase
+U	Uf_citrCoa_ly	ctg:function:EC	4.1.3.34	.	citryl-CoA lyase
+U	Ud_TFIIB_arc	ctg:family_or_domain:InterPro	IPR023484	TFIIB_arc	archaeal transcription factor B	XR:Z:Wikipedia:Archaeal_transcription_factor_B
+U	Ud_TBP_arc	ctg:family_or_domain:InterPro	IPR033711	TBP_arch	TATA-box binding protein, archaeal
 U	Ug_cdvA	specific_gene	.	cdvA	.
 U	Ug_cdvB	specific_gene	.	cdvB	.
 U	Ug_cdvC	specific_gene	.	cdvC	.
@@ -328,23 +328,23 @@ U	Up_PhaP5	specific_protein	.	PhaP5	phasin PhaP5
 U	Ug_phaM	specific_gene	.	phaM	phasin-like PhaM
 U	Ug_gapN	specific_gene	.	gapN	.
 U	Ug_celB	specific_gene	.	celB	.
-U	Ut_ins_seq	feature_type	SO:0000973	insertion_sequence	insertion sequence
-U	Ut_ins_seq_part	feature_type	derived:Ut_ins_seq:partial	.	insertion sequence (partial)
+U	Ut_ins_seq	ctg:feature_type	SO:0000973	insertion_sequence	insertion sequence
+U	Ut_ins_seq_part	ctg:feature_type	derived:Ut_ins_seq:partial	.	insertion sequence (partial)
 U	Up_Cas6	specific_protein	.	Cas6	CRISPR-associated endoribonuclease Cas6
-U	Uf_3b_NADP_hydr	function	.	.	group 3b cytoplasmic NADP-dependent hydrogenase
-U	Uf_aconitase	function:EC	4.2.1.3	.	aconitase
+U	Uf_3b_NADP_hydr	ctg:function	.	.	group 3b cytoplasmic NADP-dependent hydrogenase
+U	Uf_aconitase	ctg:function:EC	4.2.1.3	.	aconitase
 U	Up_nmd	specific_protein	.	hmd	[Fe]-hydrogenase dehydrogenase (hmd)
 U	Upc_Mrt	set:protein_complex	.	mrt	methyl coenzyme M reductase II (mrt)
 U	Ui_saccharolytic	set:genomic_island	.	.	saccharolytic gene island
-U	Uf_malt_treh_degr	function	.	.	maltose and trehalose degradation
-U	Ut_MGE	feature_type	SO:0001037	mobile_genetic_element	.
+U	Uf_malt_treh_degr	ctg:function	.	.	maltose and trehalose degradation
+U	Ut_MGE	ctg:feature_type	SO:0001037	mobile_genetic_element	.
 U	Uw_XeR_bs	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis	XD:Z:doi:10.1186/1745-6150-6-52
-U	Ut_DGR	feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150;doi:10.1016/j.mib.2007.06.004
-U	Uf_SPEARE	function	.	.	SPEARE proteins
-U	Ud_laminin_G	family_or_domain:InterPro	IPR001791	Laminin_G	laminin globular domain
-U	Ud_ConA_like	family_or_domain:InterPro	IPR013320	.	ConA-like domain
+U	Ut_DGR	ctg:feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150;doi:10.1016/j.mib.2007.06.004
+U	Uf_SPEARE	ctg:function	.	.	SPEARE proteins
+U	Ud_laminin_G	ctg:family_or_domain:InterPro	IPR001791	Laminin_G	laminin globular domain
+U	Ud_ConA_like	ctg:family_or_domain:InterPro	IPR013320	.	ConA-like domain
 U	Uw_ED	set:metabolic_pathway	KEGG:M00008	.	Entner-Doudoroff pathway
-U	Uf_RG	function	.	RG	reverse gyrase	XD:Z:doi:10.1093/molbev/msz180
+U	Uf_RG	ctg:function	.	RG	reverse gyrase	XD:Z:doi:10.1093/molbev/msz180
 U	Ug_rpoA	specific_gene	.	rpoA	DNA-dependent RNA polymerase (RNAP) (rpoA)
 U	Ug_rpoB	specific_gene	.	rpoB	DNA-dependent RNA polymerase (RNAP) (rpoB)
 U	Up_RPB8	specific_protein	.	RPB8	.
@@ -352,32 +352,32 @@ U	Up_S30e	specific_protein	.	S30e	ribosomal protein S30e
 U	Up_S25e	specific_protein	.	S25e	ribosomal protein S25e
 U	Up_S26e	specific_protein	.	S26e	ribosomal protein S26e
 U	Up_L13e	specific_protein	.	L13e	ribosomal protein L13e
-U	Ud_t2_DNApol	function	.	.	type II DNA polymerase
+U	Ud_t2_DNApol	ctg:function	.	.	type II DNA polymerase
 U	Ug_ftsZ	specific_gene	.	ftsZ	.
 U	Uh_ftsZ	homolog_gene	homolog:Ug_ftsZ	.	ftsZ homolog
 U	Uw_3HP4HB_mod	set:metabolic_pathway	.	.	modified 3-hydroxypropionate/4-hydroxybutyrate cycle	XD:Z:doi:10.1371/journal.pbio.0040095
-U	Uf_ribokinase	function:EC	2.7.1.15	.	ribokinase
-U	Uf_met_phglc_iso	function	.	.	metal-dependent phosphoglucose isomerase
+U	Uf_ribokinase	ctg:function:EC	2.7.1.15	.	ribokinase
+U	Uf_met_phglc_iso	ctg:function	.	.	metal-dependent phosphoglucose isomerase
 U	Up_bf_pgm_iso	specific_protein	.	.	bifunctional phosphoglucose/phosphomannose isomerase
 U	Up_pyr_dik	specific_protein	.	.	pyruvate dikinase
 U	Uh_pyr_dik	homolog_protein	homolog:Up_pyr_dik	.	pyruvate dikinase homolog
-U	Uf_6pg_deh	function:EC	1.1.1.43	.	6-phosphogluconate dehydrogenase
-U	Uf_F420_G6PDH	function:EC	1.1.98.2	.	F420-dependent glucose-6-phosphate dehydrogenase	XD:Z:doi:10.1002/prot.26170
-U	Uf_phxyalk_syn	function	.	.	Polyhydroxyalkanoate synthase
-U	Uf_myoino1ph_syn	function:EC	5.5.1.4	.	myo-inositol-1-phosphate synthase
-U	Uf_man3phgly	function:EC	2.4.1.217	.	Mannosyl-3-phosphoglycerate
+U	Uf_6pg_deh	ctg:function:EC	1.1.1.43	.	6-phosphogluconate dehydrogenase
+U	Uf_F420_G6PDH	ctg:function:EC	1.1.98.2	.	F420-dependent glucose-6-phosphate dehydrogenase	XD:Z:doi:10.1002/prot.26170
+U	Uf_phxyalk_syn	ctg:function	.	.	Polyhydroxyalkanoate synthase
+U	Uf_myoino1ph_syn	ctg:function:EC	5.5.1.4	.	myo-inositol-1-phosphate synthase
+U	Uf_man3phgly	ctg:function:EC	2.4.1.217	.	Mannosyl-3-phosphoglycerate
 U	Up_ppl_divcattol	specific_protein	.	.	Periplasmic divalent cation tolerance protein
-U	Uf_nick_perm	function	.	.	nickel high affinity permease
-U	Uf_As_pump	function	.	.	arsenic pump
-U	Uf_GluSynNAPDH	function:EC	1.4.1.13	.	NADPH-dependent glutamate synthase
+U	Uf_nick_perm	ctg:function	.	.	nickel high affinity permease
+U	Uf_As_pump	ctg:function	.	.	arsenic pump
+U	Uf_GluSynNAPDH	ctg:function:EC	1.4.1.13	.	NADPH-dependent glutamate synthase
 U	Up_LXa	specific_protein	.	LXa	archaeal ribosomal protein LXa	XR:Z:doi:10.1155/2009/971494
 U	Ug_UvrA	specific_gene	.	UvrA	.
 U	Ug_UvrB	specific_gene	.	UvrB	.
 U	Ug_UvrC	specific_gene	.	UvrC	.
 U	Uy_UvrABC	set!:gene_system	Ug_UvrA,Ug_UvrB,Ug_UvrC	UvrABC	UvrABC endonuclease
-U	Ud_Sec2324	family_or_domain:InterPro	IPR036174	.	Sec23/Sec24 family	# Sec23/24 have multiple domains, each with a separate InterPro record, IPR036174 is the Zn finger
-U	Ud_TRAPP	family_or_domain:Pfam	PF04051	TRAPP	TRAPP
-U	Ud_Longin	family_or_domain:InterPro	IPR010908	Longin	Longin domain
+U	Ud_Sec2324	ctg:family_or_domain:InterPro	IPR036174	.	Sec23/Sec24 family	# Sec23/24 have multiple domains, each with a separate InterPro record, IPR036174 is the Zn finger
+U	Ud_TRAPP	ctg:family_or_domain:Pfam	PF04051	TRAPP	TRAPP
+U	Ud_Longin	ctg:family_or_domain:InterPro	IPR010908	Longin	Longin domain
 A	Ap_d_Longin	Ud_Longin	presence
 M	Uf_copp_ox	InterPro	IPR001117	Cu-oxidase	UP:Z:A0A7K4DSV0	RV:Z:N
 M	Uf_copp_ox	InterPro	IPR011706	Cu-oxidase_2	UP:Z:A0A7K4DSV0	RV:Z:N
@@ -1041,13 +1041,13 @@ V	VA282	SA61	Ap_c_gap12_phaPEC	Gt_Hturkmenica	==	True
 V	VA283	SA61	Ap_c_gap12_phaPEC	Gt_Hxanaduensis	==	True
 V	VA284	SA61	Ap_c_gap12_phaPEC	Gt_Hwalsbyi	==	True
 V	VA285	SA61	Ap_c_gap12_phaPEC	Gt_Npharaonis	==	True
-U	Uw_TAC	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
-A	Aall_w_TAC	Uw_TAC	complete
-A	Ap_w_TAC	Uw_TAC	members_presence
-V	VA286	SA77	Aall_w_TAC	Gt_Thermococcales	==	False
-V	VA287	SA77	Aall_w_TAC	Gt_Ppacificus	==	False
-V	VA288	SA77	Ap_w_TAC	Gt_Thermococcales	==	True
-V	VA289	SA77	Ap_w_TAC	Gt_Ppacificus	==	True
+U	Uw_TCA	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
+A	Aall_w_TCA	Uw_TCA	complete
+A	Ap_w_TCA	Uw_TCA	members_presence
+V	VA286	SA77	Aall_w_TCA	Gt_Thermococcales	==	False
+V	VA287	SA77	Aall_w_TCA	Gt_Ppacificus	==	False
+V	VA288	SA77	Ap_w_TCA	Gt_Thermococcales	==	True
+V	VA289	SA77	Ap_w_TCA	Gt_Ppacificus	==	True
 V	VA290	SA74	Ap_t_intein	Gt_Tlitoralis	==	True
 U	Uw_EMP_mod	set:metabolic_pathway	.	.	Thermococcales modified Embden–Meyerhof–Parnas glycolysis	XD:Z:doi:10.1128/MMBR.00041-13
 U	Uw_EMP	set:metabolic_pathway	KEGG:M00001	EMP	Embden–Meyerhof–Parnas glycolysis
