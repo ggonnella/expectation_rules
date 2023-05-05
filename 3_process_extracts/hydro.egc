@@ -299,11 +299,11 @@ U	Upc_NiFe_hydr	set:protein_complex	.	.	[Ni-Fe] hydrogenase
 U	Ur_RubisCO_out_CBB	set!:arrangement	Uf_RubisCO,<>,Uc_CBB	.	RubisCO genes located outside Calvin-Benson-Bassham cluster
 U	Uc_CBB	set:gene_cluster	.	CBB	Calvin-Benson-Bassham cluster
 U	Uw_CBB	set:metabolic_pathway	KEGG:M00165	.	Calvin–Bassham–Benson cycle
-U	Ut_mobile_genetic_element	ctg:feature_type	SO:0001037	mobile_genetic_element	.
+U	Ut_mobile_genetic_element	ctg:feature_type:SO	SO:0001037	mobile_genetic_element	.
 U	Uw_3HP4HB	set:metabolic_pathway	KEGG:M00375	3HP-4HB	3-hydroxypropionate/4-hydroxybutyrate (3-HP/4-HB) cycle
 U	Uw_rev_SO4_red	set:metabolic_pathway	.	.	reverse sulfate reduction pathway	XD:Z:doi:10.1111/j.1462-2920.2008.01760.x
 U	Ug_narG	specific_gene	.	narG	.
-U	Ut_split_pcgene	ctg:feature_type	SO:0000459	gene_with_trans_spliced_transcript	split protein-coding gene
+U	Ut_split_pcgene	ctg:feature_type:SO	SO:0000459	gene_with_trans_spliced_transcript	split protein-coding gene
 U	Ug_narH	specific_gene	.	narH	.
 U	Ug_pmoA	specific_gene	.	pmoA	particulate methane monooxygenase (pMMO)
 U	Uy_PcoAB	set!:gene_system	Ug_pcoA,Ug_pcoB	PcoAB	multicopper oxidase
@@ -345,9 +345,9 @@ U	Ug_soxY	specific_gene	.	soxY	.
 U	Ug_soxZ	specific_gene	.	soxZ	.
 U	Ur_largeTR_pk	set!:arrangement	Ut_largeTR,Uf_protein_kinase	.	gene for a protein kinase, predeced by: large tandem repeat
 U	Ut_largeTR	ctg:feature_type	derived:Ut_TR:large	.	large tandem repeat
-U	Ut_TR	ctg:feature_type	SO:0000705	tandem_repeat	tandem repeat
+U	Ut_TR	ctg:feature_type:SO	SO:0000705	tandem_repeat	tandem repeat
 U	Uf_protein_kinase	ctg:function:EC	2.7.13.3	.	protein kinase
-U	Ut_CRISPR	ctg:feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
+U	Ut_CRISPR	ctg:feature_type:SO	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
 U	Ud_MARTX	ctg:family_or_domain:CDD	NF012221	MARTX	Multifunctional Autoprocessing Repeat-In-Toxin family	XR:Z:doi:10.1128/microbiolspec.VE-0002-2014
 U	Ud_RHS_repeat	ctg:family_or_domain:InterPro	IPR031325	RHS_repeat	Rearrangement HotSpot family, containing YD repeats
 U	Ud_RTX	ctg:family_or_domain:InterPro	IPR013550	RTX	Repeat-In-Toxin family

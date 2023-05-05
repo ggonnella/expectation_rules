@@ -270,8 +270,9 @@ U	Uf_urease	ctg:function:EC	3.5.1.5	.	urease
 U	Ug_SRP_RNA	specific_gene	ref:doi:10.1155/2010/485051	SRP_RNA	Archaeal signal recognition particle, 7S RNA
 U	Uf_CPE	ctg:function	.	.	Capsular Polysaccharide Exporter
 U	Ug_pseG	specific_gene	.	pseG	.
-U	Ut_large_replicon	ctg:feature_type	.	.	large replicon (>100 kbp)
-U	Ut_intein	ctg:feature_type	SO:0002026	intein_encoding_region	intein	XR:Z:SO:0000728!intein
+U	Ut_replicon	ctg:feature_type:SO	SO:0001235	replicon	replicon
+U	Ut_large_replicon	ctg:feature_type	derived:Ut_replicon:length>100kb	.	large replicon (>100 kbp)
+U	Ut_intein	ctg:feature_type:SO	SO:0002026	intein_encoding_region	intein	XR:Z:SO:0000728!intein
 U	Uf_urea_tr	ctg:function:GO	0071918	.	urea transporter
 U	Upc_RCI	set:protein_complex	.	.	Respiratory Complex I
 U	Uf_citC_ox	ctg:function:EC	7.1.1.9	.	cytochrome c-oxidase
@@ -328,7 +329,7 @@ U	Up_PhaP5	specific_protein	.	PhaP5	phasin PhaP5
 U	Ug_phaM	specific_gene	.	phaM	phasin-like PhaM
 U	Ug_gapN	specific_gene	.	gapN	.
 U	Ug_celB	specific_gene	.	celB	.
-U	Ut_ins_seq	ctg:feature_type	SO:0000973	insertion_sequence	insertion sequence
+U	Ut_ins_seq	ctg:feature_type:SO	SO:0000973	insertion_sequence	insertion sequence
 U	Ut_ins_seq_part	ctg:feature_type	derived:Ut_ins_seq:partial	.	insertion sequence (partial)
 U	Up_Cas6	specific_protein	.	Cas6	CRISPR-associated endoribonuclease Cas6
 U	Uf_3b_NADP_hydr	ctg:function	.	.	group 3b cytoplasmic NADP-dependent hydrogenase
@@ -337,7 +338,7 @@ U	Up_nmd	specific_protein	.	hmd	[Fe]-hydrogenase dehydrogenase (hmd)
 U	Upc_Mrt	set:protein_complex	.	mrt	methyl coenzyme M reductase II (mrt)
 U	Ui_saccharolytic	set:genomic_island	.	.	saccharolytic gene island
 U	Uf_malt_treh_degr	ctg:function	.	.	maltose and trehalose degradation
-U	Ut_MGE	ctg:feature_type	SO:0001037	mobile_genetic_element	.
+U	Ut_MGE	ctg:feature_type:SO	SO:0001037	mobile_genetic_element	.
 U	Uw_XeR_bs	set:metabolic_pathway	.	.	xenorhodopsin biosynthesis	XD:Z:doi:10.1186/1745-6150-6-52
 U	Ut_DGR	ctg:feature_type	.	DGR	diversity-generating retroelement	XD:Z:doi:10.1093/nar/gkx1150;doi:10.1016/j.mib.2007.06.004
 U	Uf_SPEARE	ctg:function	.	.	SPEARE proteins

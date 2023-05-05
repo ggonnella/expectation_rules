@@ -453,7 +453,7 @@ U	Ut_tox_antitox	ctg:feature_type	.	.	toxin–antitoxin gene pair modules
 U	Ug_ankA	specific_gene	.	ankA	Ankyrin-repeat protein AnkA
 U	Ud_HEPN	ctg:family_or_domain:Pfam	PF05168	HEPN	Higher Eukaryotes and Prokaryotes Nucleotide-binding domain	XD:Z:doi:10.1186/1745-6150-8-15
 U	Ud_NACHT	ctg:family_or_domain:Pfam	PF05729	NACHT	NACHT NTPase
-U	Ut_repeat	ctg:feature_type	SO:0000726	repeat	.
+U	Ut_repeat	ctg:feature_type:SO	SO:0000726	repeat	.
 U	Ucomb_rep_transp_integr	ctg!:+unit	Ut_repeat,Uf_transposase,Uf_integrase	.	.
 U	Uf_transposase	ctg:function:BRENDA_EC	2.7.7.B22	.	transposase
 U	Uf_integrase	ctg:function	.	.	retroviral integrase	XD:Z:doi:10.1146/annurev-virology-100114-055043
@@ -472,12 +472,12 @@ U	Ug_mecA	specific_gene	.	mecA	.
 U	Ug_kexD	specific_gene	.	kexD	KexD (RND family)
 U	Ug_kdeA	specific_gene	.	kdeA	KdeA (MATE family)
 U	Ug_kmrA	specific_gene	.	kmrA	KmrA (MFS family)
-U	Ut_tRNA	ctg:feature_type	SO:0000253	tRNA	Transfer RNA
-U	Uaa_L	amino_acid	SO:0001437	L	leucine
-U	Uaa_Q	amino_acid	SO:0001448	Q	glutamine
+U	Ut_tRNA	ctg:feature_type:SO	SO:0000253	tRNA	Transfer RNA
+U	Uaa_L	amino_acid:SO	SO:0001437	L	leucine
+U	Uaa_Q	amino_acid:SO	SO:0001448	Q	glutamine
 U	Uog_COG1804	ctg:ortholog_group:COG	COG1804	.	.
-U	Uaa_A	amino_acid	SO:0001435	A	alanine
-U	Uaa_X	amino_acid	SO:0001237	X	any amino acid
+U	Uaa_A	amino_acid:SO	SO:0001435	A	alanine
+U	Uaa_X	amino_acid:SO	SO:0001237	X	any amino acid
 U	Ug_hns	specific_gene	.	hns	DNA-binding protein H-NS
 U	Uw_MtnN_LuxS	set:metabolic_pathway	KEGG:M00609	.	MtnN(Pfs)/LuxS pathway
 U	Ug_attC	specific_gene	.	attC	.
@@ -537,7 +537,7 @@ U	Ug_nodA	specific_gene	.	nodA	.
 U	Uy_NodABC	set!:gene_system	Ug_nodA,Ug_nodB,Ug_nodC	NodABC	.
 U	Ug_nodB	specific_gene	.	nodB	.
 U	Uk_V	ctg:ortholog_groups_category:COG_category	V	.	Defense mechanisms
-U	Ut_CRISPR	ctg:feature_type	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
+U	Ut_CRISPR	ctg:feature_type:SO	SO:0001459	CRISPR	Clustered Regularly Interspaced Short Palindromic Repeat
 U	Ug_nodC	specific_gene	.	nodC	.
 U	Uc_PGC	set:gene_cluster	.	PGC	photosynthesis gene cluster
 U	Uc_tra	set:gene_cluster	.	tra	tra gene cluster
@@ -576,7 +576,7 @@ U	Uw_pur_syn	set:metabolic_pathway	KEGG:M00053	.	purines biosynthesis
 U	Uw_pyr_syn	set:metabolic_pathway	KEGG:M00051	.	pyrimidines biosynthesis
 U	Uog_COG0733	ctg:ortholog_group:COG	COG0733	.	.
 U	Uf_phlipD	ctg:function:EC	3.1.4.4	.	phospholipase D
-U	Ut_intergenic	ctg:feature_type	SO:0000605	intergenic_region	intergenic region
+U	Ut_intergenic	ctg:feature_type:SO	SO:0000605	intergenic_region	intergenic region
 U	Up_FAS1	specific_protein	.	.	fatty acid synthase (FAS) I
 U	Up_FAS2	specific_protein	.	.	fatty acid synthase (FAS) II
 U	Uc_actinorhodin	set:gene_cluster	.	.	type II aromatic polyketide biosynthetic gene cluster (actinorhodin)
@@ -747,7 +747,7 @@ U	Ur_16S_sep_23S_5S	set!:arrangement	Ug_16S,<>,Ug_23S,><,Ug_5S	.	16S rRNA separa
 U	Ug_16S	specific_gene	.	16S_rRNA	16S rRNA gene
 U	Ug_23S	specific_gene	.	23S_rRNA	23S rRNA gene
 U	Ug_5S	specific_gene	.	5S_rRNA	5S rRNA gene
-U	Ut_pseudogene	ctg:feature_type	SO:0000336	pseudogene	.
+U	Ut_pseudogene	ctg:feature_type:SO	SO:0000336	pseudogene	.
 U	Ug_acrD	specific_gene	.	acrD	.
 U	Ug_terC	specific_gene	.	terC	.
 U	Uc_soxYZB_hyp_resB_soxAX_resC	set!:gene_cluster	Ug_soxY,Ug_soxZ,Ug_soxB,Ug_resB,Ug_soxA,Ug_soxX,Ug_resC	soxYZB-hyp-resB-soxAX-resC	.
