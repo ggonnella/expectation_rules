@@ -292,7 +292,7 @@ G	Gc_mesophilic_B	mesophilic bacteria	combined	Gr_mesophilic & Gt_Bacteria
 G	Gr_acidophilic	acidophilic	pH_requirement	MICRO:0001390
 U	Ug_mcrA	specific_gene	.	mcrA	methyl coenzyme-M reductase
 U	Up_F420	specific_protein	.	F420	F420-hydrogenase
-U	Uh_F420	homolog_protein	homolog:Up_F420	.	F420-hydrogenase homolog
+U	Uh_F420	ctg:protein_homologs	homolog:Up_F420	.	F420-hydrogenase homolog
 U	Uf_CO_ox	ctg:function	.	.	oxidation of carbon monoxide (CO)
 U	Uw_CO2_fix	set:+metabolic_pathway	KEGG:map00720	.	CO2 fixation
 U	Upc_NiFe_hydr	set:protein_complex	.	.	[Ni-Fe] hydrogenase
@@ -311,10 +311,10 @@ U	Ug_pcoA	specific_gene	.	pcoA	copper resistance protein A
 U	Ug_pcoB	specific_gene	.	pcoB	copper resistance protein B
 U	Ug_cbbL	specific_gene	.	cbbL	form I RuBisCo (cbbL)
 U	Up_cyc2	specific_protein	.	cyc2	outer membrane cytochrome protein (Cyc2)
-U	Uh_cyc2	homolog_protein	homolog:Up_cyc2	.	outer membrane cytochrome protein (Cyc2) homolog
+U	Uh_cyc2	ctg:protein_homologs	homolog:Up_cyc2	.	outer membrane cytochrome protein (Cyc2) homolog
 U	Upc_ACIII	set:protein_complex	.	ACIII	alternative respiratory complex III
 U	Ug_cbb3	specific_gene	.	cbb3	cbb3-type oxidase
-U	Uh_cbb3	homolog_gene	homolog:Ug_cbb3	.	cbb3-type oxidase homolog
+U	Uh_cbb3	ctg:gene_homologs	homolog:Ug_cbb3	.	cbb3-type oxidase homolog
 U	Uf_tyr_tr	ctg:function:GO	0015828	.	tyrosine-specific transporter
 U	Uf_CODH	ctg:function:EC	1.2.7.4	CODH	Carbon monoxide dehydrogenase
 U	Ud_EAL	ctg:family_or_domain:Pfam	Pfam00563	EAL	phosphodiesterase (EAL) domain

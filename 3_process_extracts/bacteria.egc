@@ -526,13 +526,13 @@ U	Ug_ftsZ	specific_gene	.	ftsZ	.
 U	Uw_LPS_syn	set:+metabolic_pathway	KEGG:map00540	.	Lipopolysaccharide biosynthesis
 U	Uy_flagella	set:gene_system	.	.	flagella assembly
 U	Ug_virB1	specific_gene	.	virB1	.
-U	Uh_virB1	homolog_gene	homolog:Ug_virB1	.	virB1 homolog
+U	Uh_virB1	ctg:gene_homologs	homolog:Ug_virB1	.	virB1 homolog
 U	Ug_virB2	specific_gene	.	virB2	.
-U	Uh_virB2	homolog_gene	homolog:Ug_virB2	.	virB2 homolog
+U	Uh_virB2	ctg:gene_homologs	homolog:Ug_virB2	.	virB2 homolog
 U	Ug_virB5	specific_gene	.	virB5	.
-U	Uh_virB5	homolog_gene	homolog:Ug_virB5	.	virB5 homolog
+U	Uh_virB5	ctg:gene_homologs	homolog:Ug_virB5	.	virB5 homolog
 U	Ug_virB7	specific_gene	.	virB7	.
-U	Uh_virB7	homolog_gene	homolog:Ug_virB7	.	virB7 homolog
+U	Uh_virB7	ctg:gene_homologs	homolog:Ug_virB7	.	virB7 homolog
 U	Ug_nodA	specific_gene	.	nodA	.
 U	Uy_NodABC	set!:gene_system	Ug_nodA,Ug_nodB,Ug_nodC	NodABC	.
 U	Ug_nodB	specific_gene	.	nodB	.
@@ -614,7 +614,7 @@ U	Uog_COG2116	ctg:ortholog_group:COG	COG2116	.	.
 U	Uy_thiamine_ABC_tr	set!:gene_system	Ug_thiB,Ug_thiP,Ug_thiQ	thiBPQ	thiamine ABC transporter thiBPQ
 U	Uf_t3_polyk_syn	ctg:function	.	.	Type III polyketide synthase
 U	Up_14b_cellbios	specific_protein	.	.	1,4-β-cellobiosidase
-U	Uh_14b_cellbios	homolog_protein	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
+U	Uh_14b_cellbios	ctg:protein_homologs	homolog:Up_14b_cellbios	.	1,4-β-cellobiosidase homolog
 U	Uw_TCA	set:metabolic_pathway	KEGG:M00009	.	tricarboxylic acid cycle
 U	Uc_succ_dehy	set:gene_cluster	.	.	succinate dehydrogenase gene cluster
 U	Ug_sdhA	specific_gene	.	sdhA	succinate dehydrogenase flavoprotein subunit, sdhA
@@ -675,16 +675,16 @@ U	Ug_argE	specific_gene	.	argE	.
 U	Ug_argJ	specific_gene	.	argJ	.
 U	Uog_COG840	ctg:ortholog_group:COG	COG840	.	.
 U	Up_Theba1253	specific_protein	.	Theba_1253	Theba_1253
-U	Uh_Theba1253	homolog_protein	homolog:Up_Theba1253	.	Theba_1253 homolog
+U	Uh_Theba1253	ctg:protein_homologs	homolog:Up_Theba1253	.	Theba_1253 homolog
 U	Uf_TS	ctg:function:EC	4.2.3.1	.	threonine synthase (TS)
 U	Uog_COG1972	ctg:ortholog_group:COG	COG1972	.	.
 U	Ui_cag	set:genomic_island	.	cag	cag pathogenicity island
 U	Ud_PF05860	ctg:family_or_domain:Pfam	PF05860	.	.
 U	Ud_PF05594	ctg:family_or_domain:Pfam	PF05594	.	.
 U	Ug_ciaB	specific_gene	.	ciaB	.
-U	Uh_ciaB	homolog_gene	homolog:Ug_ciaB	.	ciaB homolog
+U	Uh_ciaB	ctg:gene_homologs	homolog:Ug_ciaB	.	ciaB homolog
 U	Up_PEB4a	specific_protein	.	PEB4a	PEB4a
-U	Uh_PEB4a	homolog_protein	homolog:Up_PEB4a	.	PEB4a homolog
+U	Uh_PEB4a	ctg:protein_homologs	homolog:Up_PEB4a	.	PEB4a homolog
 U	Uy_Sox	set:gene_system	.	Sox	Sox enzyme system	XR:Z:doi:10.1016/j.resmic.2009.07.003
 U	Uog_COG2271	ctg:ortholog_group:COG	COG2271	.	.
 U	Uog_COG3104	ctg:ortholog_group:COG	COG3104	.	.
