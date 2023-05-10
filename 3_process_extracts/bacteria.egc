@@ -139,8 +139,6 @@ S	S95	PMID:19775431	Finally, comparison of genome sequences of Gluconacetobacter
 S	S97	PMID:26769932	Although the majority of AOB genomes contain nirK (15), the gene for the copper-containing nitrite reductase, no homologues were found in N. communis for either nirK or the cytochrome cd1 nirS nitrite reductases; however, a recent study showed that NirK is not required for nitrifier denitrification in N. europaea (16).
 S	S98	PMID:25798594	Five other non-coding RNA sequences have been identified in the K78 genome, the RNA subunit of RNase P (rnpB) (Rfam family RF00010), the small signal recognition particle RNA (ffs) (RF00169), a transfer-messenger RNA (tmRNA) (RF00023) and analogs to dsrA and ssrS (6S RNA). In B. burgdorferi, dsrA has been shown to be involved in translational regulation of RpoS [71], ssrS binds to the RNA polymerase holoenzyme and regulates gene expression at the shift from exponential growth to stationary phase [72]. The genes ffs, dsrA and ssrS have previously not been annotated in any of the complete genomes of the different Borrelia species.
 S	S99	PMID:25798594	Borrelia genomes contain an exceptional high number of lipoproteins.
-S	S100	PMID:25798594	Many genes located on the conserved lp54 plasmid have low sequence identity across Borrelia species, among them are the genes encoding decorin binding proteins A and B (dbpA and dbpB, Pfam74) and the complement regulator-acquiring surface protein 1, CRASP-1, paralogous family 54 (Pfam54).
-S	S101	PMID:25798594	Even though multiple insertions and deletions occur at this location, the overall gene structure of the cp26 plasmids is highly conserved across Borrelia species, underlining the high importance of cp26.
 S	S103	PMID:25798594	Proteins with KID-repeats (IPR003900) are found on the cp32 and lp28 type plasmids of K78. These repeats contain the tripeptides KID and/or KIE, and are characteristic of the Bdr family (Pfam80), which are inner membrane proteins unique to Borrelia.
 S	S104	PMID:25798594	The membrane lipoprotein VlsE is part of the immune escape mechanisms of Borrelia.
 S	S105	PMID:22448227	For example, the genome contained genes involved in oxidization of inorganic sulfur (SOX genes, Fig. 7). Sulfur oxidization pathways are also present in Cupriavidus and Ralstonia strains (e.g. [25]).
@@ -499,7 +497,6 @@ U	Ug_dbpB	specific_gene	.	dbpB	decorin binding protein B
 U	Up_MompS	specific_protein	.	MompS	Major outer membrane porin S
 U	Uog_COG0625	ctg:ortholog_group:COG	COG0625	.	.
 U	Uc_nif	set:gene_cluster	.	nif	nif cluster
-U	Uc_gum	set:gene_cluster	.	.	gum cluster
 U	Ud_P450	ctg:family_or_domain:InterPro	IPR036396	Cyt_P450	cytochrome P450
 U	Ur_traI_first	set:arrangement	.	.	traI first_in_operon	# no way to express this with fardes
 U	Uf_Flp	ctg:function	.	.	Flp (fimbrial low-molecular-weight protein) pili assembly
@@ -510,8 +507,6 @@ U	Uog_COG0179	ctg:ortholog_group:COG	COG0179	.	.
 U	Ug_dsrA	specific_gene	.	dsrA	.
 U	Ug_ssrS	specific_gene	.	ssrS	ssrS
 U	Ut_lipoprotein	ctg:feature_type	.	.	lipoprotein
-U	Up_CRASP1	specific_protein	.	CRASP-1	complement regulator-acquiring surface protein 1 (Borrelia family Pfam54)
-U	Ur_cp26_genes	set:arrangement	.	.	cp26 plasmid genes
 U	Ug_visE	specific_gene	.	visE	membrane lipoprotein VlsE
 U	Uw_Sox	set:metabolic_pathway	KEGG:M00595	.	Sox sulfur oxidation pathway
 U	Uf_carb_tr	ctg:function:GO	0015144	.	carbohydrate transporter
@@ -953,8 +948,6 @@ M	Ud_P450	InterPro	IPR036396	Cyt_P450_sf	UP:Z:A9HMH0	RV:Z:N
 M	Ud_P450	Pfam	PF00067	p450	UP:Z:A9HMH0	RV:Z:N
 M	Ud_P450	PROSITE	PS00086	CYTOCHROME_P450	UP:Z:A9HMH0	RV:Z:N
 M	Ug_nirK	InterPro	IPR001287	NO2-reductase_Cu	UP:Z:A0FK10	RV:Z:N
-M	Up_CRASP1	InterPro	IPR008421	Borrelia_lipoprotein_Pfam54/60	UP:Z:Q66ZB6	RV:Z:N
-M	Up_CRASP1	Pfam	PF05714	Pfam54_60	UP:Z:Q66ZB6	RV:Z:N
 M	Ug_visE	InterPro	IPR000680	Borrelia_lipo	UP:Z:O06878	RV:Z:N
 M	Uf_carb_tr	InterPro	IPR017922	UgpC	UP:Z:Q0K998	RV:Z:Y
 M	Uf_glyc_perm	InterPro	IPR003804	Lactate_perm	UP:Z:B2AHN5	RV:Z:N
@@ -1279,7 +1272,6 @@ A	Ap_pls_y_nrdEFI	Uy_nrdEFI	complete_presence!replicon_type:plasmid
 A	Ap_lp54_y_ospABdbpAB	Uy_ospABdbpAB	complete_presence!plasmid:lp54
 A	Ap_p_MompS	Up_MompS	presence
 A	Ap_c_nif	Uc_nif	complete_presence
-A	Av_c_gum	Uc_gum	conservation
 A	Ap_d_P450	Ud_P450	presence
 A	Ap_R751_r_traI_first	Ur_traI_first	complete_presence!plasmid:R751
 A	Ap_f_Flp	Uf_Flp	presence
@@ -1289,9 +1281,6 @@ A	Ap_g_ffs	Ug_ffs	presence
 A	Ap_g_dsrA	Ug_dsrA	presence
 A	Ap_g_ssrS	Ug_ssrS	presence
 A	Ac_t_lipoprotein	Ut_lipoprotein	count
-A	Av_lp54_g_dbpA	Ug_dbpA	conservation!plasmid:lp54
-A	Av_lp54_p_CRASP1	Up_CRASP1	conservation!plasmid:lp54
-A	Av_r_cp26_genes	Ur_cp26_genes	conservation
 A	Ap_og_BorreliaPfam80	Uog_BorreliaPfam80	presence
 A	Ap_g_visE	Ug_visE	presence
 A	Ap_w_Sox	Uw_Sox	complete_presence
@@ -1358,7 +1347,6 @@ A	Ap_g_cydA	Ug_cydA	presence
 A	Ap_g_cydB	Ug_cydB	presence
 A	Ap_c_blalMI	Uc_blalMI	complete_presence
 A	Ap_comb_g_hpn	Ucomb_g_hpn	presence
-A	Av_lp54_g_dbpB	Ug_dbpB	conservation!plasmid:lp54
 A	Ap_y_Laa_ABC_tr	Uy_Laa_ABC_tr	complete_presence
 A	Ap_y_thiamine_ABC_tr	Uy_thiamine_ABC_tr	complete_presence
 A	Ap_f_t3_polyk_syn	Uf_t3_polyk_syn	presence
@@ -1579,8 +1567,6 @@ V	V167	S85	Ap_lp54_y_ospABdbpAB	Gc_relapsfever_Borrelia	==	False
 V	V168	S86	Ap_p_MompS	Gt_Legionella	==	True
 V	V169	S87	Ap_c_nif	Gt_Gdiazotrophicus	==	True
 V	V170	S87	Ap_c_nif	Gs_AspBH72	==	True
-V	V171	S87	Av_c_gum	Gt_Gdiazotrophicus	level	high
-V	V172	S87	Av_c_gum	Gs_AspBH72	level	high
 V	V173	S89	Ac_p_GroEL	Gt_Bacteria:most	==	1
 V	V174	S89	Ac_p_GroEL	Gt_Gdiazotrophicus	==	2
 V	V175	S90	Ap_d_P450	Gt_Gdiazotrophicus	==	True
@@ -1606,10 +1592,6 @@ V	V194	S98	Ap_g_ssrS	Gt_Borrelia:most	==	False
 V	V195	S98	Ap_g_ssrS	Gt_Bburgdorferi	==	True
 V	V196	S98	Ap_g_ssrS	Gs_BafzK78	==	True
 V	V197	S99	Ac_t_lipoprotein	Gt_Borrelia	level	high
-V	V198	S100	Av_lp54_g_dbpA	Gt_Borrelia	level	low
-V	V199	S100	Av_lp54_g_dbpB	Gt_Borrelia	level	low
-V	V200	S100	Av_lp54_p_CRASP1	Gt_Borrelia	level	low
-V	V201	S101	Av_r_cp26_genes	Gt_Borrelia	level	high
 V	V202	S103	Ap_og_BorreliaPfam80	Gt_Borrelia	==	True
 V	V203	S103	Ap_og_BorreliaPfam80	Gn_Borrelia	==	False
 V	V204	S104	Ap_g_visE	Gt_Borrelia	==	True
