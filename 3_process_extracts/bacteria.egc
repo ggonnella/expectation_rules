@@ -219,53 +219,53 @@ S	S197	PMID:20219135	HMU10120 is a homologue of proteins in other Campylobactera
 T	T1	PMID:23190728	Table One & Table Two
 T	T2	PMID:26900859	Excel sheet: pone.0148593.s007
 T	T3	PMID:23671678	Table 2. General genome comparisons of Roseobacter clade members
-G	Gr_copiotrophic	copiotrophic	nutrients_level_requirement	Wikipedia:Copiotroph	XR:Z:ENVO:00002224
+G	Gp_copiotrophic	copiotrophic	habitat_nutrients_level	Wikipedia:Copiotroph	XR:Z:ENVO:00002224
 G	Gt_Bacteria	bacteria	taxonomic	taxid:2	TR:Z:domain
-G	Gc_copiotrophic_B	copiotrophic bacteria	combined	Gr_copiotrophic & Gt_Bacteria
-G	Gt_oligotrophic	oligotrophic	nutrients_level_requirement	Wikipedia:Oligotroph	XR:Z:ENVO:00002223
+G	Gc_copiotrophic_B	copiotrophic bacteria	combined	Gp_copiotrophic & Gt_Bacteria
+G	Gt_oligotrophic	oligotrophic	habitat_nutrients_level	Wikipedia:Oligotroph	XR:Z:ENVO:00002223
 G	Gc_oligotrophic_B	oligotrophic bacteria	combined	Gt_oligotrophic & Gt_Bacteria
 G	Gt_Xanthomonas	Xanthomonas	taxonomic	taxid:338	TR:Z:genus
 G	Gt_Planctomycetes	Planctomycetes	taxonomic	taxid:203682	TR:Z:phylum
-G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
-G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
-G	Gh_rumen	rumen	habitat	UBERON:0007365
+G	Gr_anaerobic	anaerobic	habitat_O2	MICRO:0000495
+G	Gr_aerobic	aerobic	habitat_O2	MICRO:0000494
+G	Gh_rumen	rumen	biome	UBERON:0007365
 G	Gt_Butyrivibrio	Butyrivibrio	taxonomic	taxid:830	TR:Z:genus
 G	Gt_Pseudobutyrivibrio	Pseudobutyrivibrio	taxonomic	taxid:46205	TR:Z:genus
 G	Gc_rumen_Butyrivibrio	rumen Butyrivibrio	combined	Gh_rumen & Gt_Butyrivibrio
 G	Gc_rumen_Pseudobutyrivibrio	rumen Pseudobutyrivibrio	combined	Gh_rumen & Gt_Pseudobutyrivibrio
 G	Gc_rumen_B_not_Butyriv_Pseudob	rumen bacteria not including Butyrivibrio or Pseudobutyrivibrio	combined	Gh_rumen & Gt_Bacteria & !(Gt_Butyrivibrio|Gt_Pseudobutyrivibrio)
 G	Gt_Mycobacterium	Mycobacterium	taxonomic	taxid:1763	TR:Z:genus
-G	Gx_magnetotactic	magnetotactic	taxis	MICRO:0000619
-G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gx_magnetotactic & Gt_Bacteria
-G	Gi_pathogenic	pathogenic	biological_interaction	RO:0002556
-G	Gc_path_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gi_pathogenic
+G	Gts_magnetotactic	magnetotactic	taxis	MICRO:0000619
+G	Gc_magnetotactic_B	magnetotactic bacteria	combined	Gts_magnetotactic & Gt_Bacteria
+G	Gic_pathogenic	pathogenic	biointeraction_class	RO:0002556
+G	Gc_path_Mycobacterium	pathogenic Mycobacterium	combined	Gt_Mycobacterium & Gic_pathogenic
 G	Gt_Mtuberculosis	Mycobacterium tuberculosis	taxonomic	taxid:1773	TR:Z:species
 G	Gt_Mavium	Mycobacterium avium	taxonomic	taxid:1764	TR:Z:species
-G	Gp_chm_lth_a_troph	chemolithoautotrophic	trophic_strategy	MICRO:0001477
-G	Gp_chm_org_a_troph	chemoorganoautotrophic	trophic_strategy	MICRO:0001480
-G	Gc_chm_a_troph	chemoautotrophic	combined	Gp_chm_lth_a_troph | Gp_chm_org_a_troph
+G	Gpm_chm_lth_a_troph	chemolithoautotrophic	primary_metabolism	MICRO:0001477
+G	Gpm_chm_org_a_troph	chemoorganoautotrophic	primary_metabolism	MICRO:0001480
+G	Gc_chm_a_troph	chemoautotrophic	combined	Gpm_chm_lth_a_troph | Gpm_chm_org_a_troph
 G	Gt_Rickettsia	Rickettsia	taxonomic	taxid:780	TR:Z:genus
 G	Gt_Rtyphi	Rickettsia typhi	taxonomic	taxid:785	TR:Z:species
 G	Gt_Rprowazekii	Rickettsia prowazekii	taxonomic	taxid:782	TR:Z:species
 G	Gt_Rconorii	Rickettsia conorii	taxonomic	taxid:781	TR:Z:species
-G	Gr_neutrophilic	neutrophilic	pH_requirement	MICRO:0001546
+G	Gr_neutrophilic	neutrophilic	habitat_pH	MICRO:0001546
 G	Gc_neutrop_chemoaut_B	neutrophilic and chemoautotrophic bacteria	combined	Gr_neutrophilic & Gc_chm_a_troph & Gt_Bacteria
 G	Gt_Aquificales	Aquificales	taxonomic	taxid:32069	TR:Z:order
 G	Gt_Methylobacterium	Methylobacterium	taxonomic	taxid:407	TR:Z:genus
-G	Gm_1C_troph	methylotrophic	metabolic	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
-G	Gh_subsurface	subsurface	habitat	ENVO:01001776
+G	Gm_1C_troph	methylotrophic	metabolic_trait	Wikipedia:Methylotroph	XR:Z:NCIT:C38835;GO:0044227
+G	Gh_subsurface	subsurface	biome	ENVO:01001776
 G	Gt_Geobacter	Geobacter	taxonomic	taxid:28231	TR:Z:genus
 G	Gc_subsurface_Geobacter	subsurface Geobacter	combined	Gh_subsurface & Gt_Geobacter
 G	Gt_Geobacteraceae	Geobacteraceae	taxonomic	taxid:213422	TR:Z:family
 G	Gt_Bartonella	Bartonella	taxonomic	taxid:773	TR:Z:genus
-G	Gi_predatory	predatory	biological_interaction	RO:0002439
-G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gi_predatory & Gt_Bacteria & (!Gt_Maeruginosavorus)
-G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gi_predatory) & Gt_Bacteria
+G	Gic_predatory	predatory	biointeraction_class	RO:0002439
+G	Gc_predatory_B_not_Maer	predatory bacteria except Micavibrio aeruginosavorus	combined	Gic_predatory & Gt_Bacteria & (!Gt_Maeruginosavorus)
+G	Gc_nonpred_B	non-predatory bacteria	combined	(!Gic_predatory) & Gt_Bacteria
 G	Gt_Maeruginosavorus	Micavibrio aeruginosavorus	taxonomic	taxid:349221	TR:Z:species
-G	Gi_obl_pred	obligate predatory	biological_interaction	derived:Gi_predatory:obligate
-G	Gi_fac_pred	facultative predatory	biological_interaction	derived:Gi_predatory:facultative
-G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_Bacteria & Gi_obl_pred
-G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_Bacteria & Gi_fac_pred
+G	Gic_obl_pred	obligate predatory	biointeraction_class	derived:Gic_predatory:obligate
+G	Gic_fac_pred	facultative predatory	biointeraction_class	derived:Gic_predatory:facultative
+G	Gc_obl_pred_B	obligate predatory bacteria	combined	Gt_Bacteria & Gic_obl_pred
+G	Gc_fac_pred_B	facultative predatory bacteria	combined	Gt_Bacteria & Gic_fac_pred
 G	Gt_Rhodobacterales	Rhodobacterales	taxonomic	taxid:204455	TR:Z:order
 G	Ga_grampos	gram-positive	gram_stain	MICRO:0000616
 G	Gc_grampos_B	gram-positive bacteria	combined	Ga_grampos & Gt_Bacteria	XD:Z:MICRO:0001372
@@ -278,25 +278,25 @@ G	Gt_Dmetallireducens	Desulfitobacterium metallireducens	taxonomic	taxid:142877	
 G	Gc_Desulfitob_not_metallired	Desulfitobacterium excluding Desulfitobacterium metallireducens	combined	Gt_Desulfitobacterium & !(Gt_Dmetallireducens)
 G	Gt_Ddichloroeliminans	Desulfitobacterium dichloroeliminans	taxonomic	taxid:233055	TR:Z:species
 G	Gc_Desulfitob_not_dichloroel	Desulfitobacterium spp. excluding Desulfitobacterium dichloroeliminans	combined	Gt_Desulfitobacterium & !(Gt_Ddichloroeliminans)
-G	Gr_psychrotrophic	psychrotrophic	temperature_requirement	OMP:0005006
+G	Gr_psychrotrophic	psychrotrophic	habitat_temperature	OMP:0005006
 G	Gt_Bpsychrophilus	Bacillus psychrophilus	taxonomic	taxid:1476	TR:Z:species
 G	Gt_Phaloplanktis	Pseudoalteromonas haloplanktis	taxonomic	taxid:228	TR:Z:species
 G	Gt_Bacteroidota	Bacteroidota	taxonomic	taxid:976	TR:Z:phylum	SN:Z:Bacteroidetes
-G	Gh_gut	gut/enteric	habitat	ENVO:2100002!intestine environment	XR:Z:NCIT:C93019;OHMI:0000020
+G	Gh_gut	gut/enteric	biome	ENVO:2100002!intestine environment	XR:Z:NCIT:C93019;OHMI:0000020
 G	Gc_gut_Bacteroidota	gut Bacteroidota	combined	Gt_Bacteroidota & Gh_gut
 G	Gt_Rsibirica	Rickettsia sibirica	taxonomic	taxid:35793	TR:Z:species
 G	Gt_Rfelis	Rickettsia felis	taxonomic	taxid:42862	TR:Z:species
-G	Gi_obl_intracell	obligate intracellular	biological_interaction	derived:Gi_intracellular:obligate
-G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gi_obl_intracell & Gt_Bacteria	XR:Z:sctid:414922005
-G	Gi_free	free-living	biological_interaction	OMP:0007646!free-living lifestyle phenotype
+G	Gic_obl_intracell	obligate intracellular	biointeraction_class	derived:Gic_intracellular:obligate
+G	Gc_obl_intracell_B	intracellular obligate bacteria	combined	Gic_obl_intracell & Gt_Bacteria	XR:Z:sctid:414922005
+G	Gic_free	free-living	biointeraction_class	OMP:0007646!free-living lifestyle phenotype
 G	Gt_Atumefaciens	Agrobacterium tumefaciens	taxonomic	taxid:358	TR:Z:species
 G	Gt_Tmaritima	Thermotoga maritima	taxonomic	taxid:2336	TR:Z:species
 G	Gt_Smeliloti	Sinorhizobium meliloti	taxonomic	taxid:382	TR:Z:species
 G	Gt_Streptomyces	Streptomyces	taxonomic	taxid:1883	TR:Z:genus
-G	Gc_flea_path	flea-infecting	combined	Gi_pathogenic & Gip_siphonaptera
+G	Gc_flea_path	flea-infecting	combined	Gic_pathogenic & Gip_siphonaptera
 G	Gc_flea_path_B	flea-infecting bacteria	combined	Gc_flea_path & Gt_Bacteria
 G	Gc_non_flea_path_B	non flea-infecting bacteria	combined	(!Gc_flea_path) & Gt_Bacteria
-G	Gm_asaccharolytic	asaccharolytic	metabolic	Wiktionary:asaccharolytic
+G	Gm_asaccharolytic	asaccharolytic	metabolic_trait	Wiktionary:asaccharolytic
 G	Gc_asaccharolytic_B	asaccharolytic bacteria	combined	Gm_asaccharolytic & Gt_Bacteria
 G	Gt_Neisseria	Neisseria	taxonomic	taxid:482	TR:Z:genus
 G	Gt_Enterobacteriaceae	Enterobacteriaceae	taxonomic	taxid:543	TR:Z:family
@@ -308,9 +308,9 @@ G	Gt_Kpneumoniae	Klebsiella pneumoniae	taxonomic	taxid:573	TR:Z:species
 G	Gt_Vibrio	Vibrio	taxonomic	taxid:662	TR:Z:genus
 G	Gt_Pprofundum	Photobacterium profundum	taxonomic	taxid:74109	TR:Z:species
 G	Gt_Gammaproteobacteria	Gammaproteobacteria	taxonomic	taxid:1236	TR:Z:class
-G	Gr_thermophilic	thermophilic	temperature_requirement	MICRO:0000118
-G	Gr_psychrophilic	psychrophilic	temperature_requirement	MICRO:0001306
-G	Gr_mesophilic	mesophilic	temperature_requirement	MICRO:0000111
+G	Gr_thermophilic	thermophilic	habitat_temperature	MICRO:0000118
+G	Gr_psychrophilic	psychrophilic	habitat_temperature	MICRO:0001306
+G	Gr_mesophilic	mesophilic	habitat_temperature	MICRO:0000111
 G	Gt_Oiheyensis	Oceanobacillus iheyensis	taxonomic	taxid:182710	TR:Z:species
 G	Gc_psymes_not_Oiheyensis	psychrophilic or mesophilic excluding Oceanobacillus iheyensis	combined	(Gr_psychrophilic|Gr_mesophilic) & !(Gt_Oiheyensis)
 G	Gt_Soneidensis	Shewanella oneidensis	taxonomic	taxid:70863	TR:Z:species
@@ -322,17 +322,17 @@ G	Gt_Agrobacterium	Agrobacterium	taxonomic	taxid:357	TR:Z:genus
 G	Gt_Bpumilus	Bacillus pumilus	taxonomic	taxid:1408	TR:Z:species
 G	Gt_Borrelia	Borrelia	taxonomic	taxid:138	TR:Z:genus
 G	Gn_Borrelia	not Borrelia	inverted	!Gt_Borrelia
-G	Gd_Lyme	Lyme disease	resultive_disease_symptom	sctid:23502006
-G	Gc_Lyme_Borrelia	(Lyme-disease) Borrelia	combined	Gt_Borrelia & Gd_Lyme
-G	Gd_relapsfever	relapsing fever	resultive_disease_symptom	sctid:420079008
-G	Gc_relapsfever_Borrelia	(relapsing fever) Borrelia	combined	Gt_Borrelia & Gd_relapsfever
+G	Gio_Lyme	Lyme disease	biointeraction_outcome	sctid:23502006
+G	Gc_LD_Borrelia	Lyme-disease Borrelia	combined	Gt_Borrelia & Gio_Lyme
+G	Gio_relapsfever	relapsing fever	biointeraction_outcome	sctid:420079008
+G	Gc_RF_Borrelia	relapsing fever Borrelia	combined	Gt_Borrelia & Gio_relapsfever
 G	Gt_Legionella	Legionella	taxonomic	taxid:445	TR:Z:genus
 G	Gt_Gdiazotrophicus	Gluconacetobacter diazotrophicus	taxonomic	taxid:33996	TR:Z:species
 G	Gs_AspBH72	Azoarcus sp. BH72	strain	bacdive:140652	TS:Z:taxid:418699
 G	Gt_Acetobacteraceae	Acetobacteraceae	taxonomic	taxid:433	TR:Z:family
 G	Gt_Enterobacter	Enterobacter	taxonomic	taxid:547	TR:Z:genus
 G	Gn_Enterobacter	not Enterobacter	inverted	!Gt_Enterobacter
-G	Gd_tumor	tumor	resultive_disease_symptom	sctid:108369006
+G	Gd_tumor	tumor	biointeraction_outcome	sctid:108369006
 G	Gc_tumor_Enterobacter	tumor-inducing Enterobacter	combined	Gt_Enterobacter & Gd_tumor
 G	Gt_Actinobacillus	Actinobacillus	taxonomic	taxid:713	TR:Z:genus
 G	Gt_Haemophilus	Haemophilus	taxonomic	taxid:724	TR:Z:genus
@@ -342,14 +342,14 @@ G	Gt_Yersinia	Yersinia	taxonomic	taxid:629	TR:Z:genus
 G	Gt_Caulobacter	Caulobacter	taxonomic	taxid:75	TR:Z:genus
 G	Gt_Maeruginosa	Microcystis aeruginosa	taxonomic	taxid:1126	TR:Z:species
 G	Gt_Cyanobacteriota	Cyanobacteriota	taxonomic	taxid:1117	TR:Z:phylum	# cyanobacteria
-G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
+G	Gm_NH3_ox	ammonia-oxidizing	metabolic_trait	GO:0019329
 G	Gc_AOB	ammonia-oxidizing bacteria	combined	Gm_NH3_ox & Gt_Bacteria
 G	Gt_Bburgdorferi	Borrelia burgdorferi	taxonomic	taxid:139	TR:Z:species
 G	Gs_BafzK78	Borrelia afzelii K78	strain	doi:10.1371/journal.pone.0108013	TS:Z:taxid:411555
 G	Gt_Cupriavidus	Cupriavidus	taxonomic	taxid:106589	TR:Z:genus
 G	Gt_Ralstonia	Ralstonia	taxonomic	taxid:48736	TR:Z:genus
 G	Gt_Betaproteobacteria	Betaproteobacteria	taxonomic	taxid:28216	TR:Z:class
-G	Gh_marine	marine	habitat	ENVO:01000320
+G	Gh_marine	marine	biome	ENVO:01000320
 G	Gc_mar_olig	marine oligotroph	combined	Gt_oligotrophic & Gh_marine
 G	Gt_Chlamydiae	Chlamydiae	taxonomic	taxid:204428	TR:Z:phylum
 G	Gt_Anaplasmataceae	Anaplasmataceae	taxonomic	taxid:942	TR:Z:family
@@ -357,25 +357,25 @@ G	Gt_Ehrlichia	Ehrlichia	taxonomic	taxid:943	TR:Z:genus
 G	Gt_Lpneumophila	Legionella pneumophila	taxonomic	taxid:446	TR:Z:species
 G	Gt_Anaplasma	Anaplasma	taxonomic	taxid:768	TR:Z:genus
 G	Gpt_Rhizobia	Rhizobia	paraphyletic	Wikipedia:Rhizobia
-G	Gm_purple_photosyn	purple photosynthetic	metabolic	Wikipedia:Purple bacteria
+G	Gm_purple_photosyn	purple photosynthetic	metabolic_trait	Wikipedia:Purple bacteria
 G	Gc_purple_photosyn_B	purple photosynthetic bacteria	combined	Gm_purple_photosyn & Gt_Bacteria
 G	Gt_Actinomycetales	Actinomycetales	taxonomic	taxid:2037	TR:Z:order
-G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gi_free
+G	Gc_free_actinomycetes	free-living actinomycetes	combined	Gt_Actinomycetales & Gic_free
 G	Gt_Pseudomonadaceae	Pseudomonadaceae	taxonomic	taxid:135621	TR:Z:family
-G	Gc_vert_path	vertebrate pathogenic	combined	Gi_pathogenic & Gip_vertebrata
+G	Gc_vert_path	vertebrate pathogenic	combined	Gic_pathogenic & Gip_vertebrata
 G	Gt_Myxococcales	Myxococcales	taxonomic	taxid:29	TR:Z:order
 G	Gt_Deltaproteo	δ-proteobacteria	taxonomic	taxid:28221	TR:Z:class
 G	Gc_Deltapr_not_Myxococcales	non-Myxococcales δ-proteobacteria	combined	Gt_Deltaproteo & !(Gt_Myxococcales)
 G	Gt_Acinetobacter	Acinetobacter	taxonomic	taxid:469	TR:Z:genus
 G	Gt_Aasiaticus	Candidatus Amoebophilus asiaticus	taxonomic	taxid:281120	TR:Z:species
-G	Gc_intracellular_B	intracellular bacteria	combined	Gi_intracellular & Gt_Bacteria
+G	Gc_intracellular_B	intracellular bacteria	combined	Gic_intracellular & Gt_Bacteria
 G	Gc_not_intracell_B	bacteria excluding intracellular bacteria	combined	Gt_Bacteria & !(Gc_intracellular_B)
 G	Gt_Rhizobium	Rhizobium	taxonomic	taxid:379	TR:Z:genus
 G	Gt_Serpulina	Serpulina	taxonomic	taxid:29521	TR:Z:genus
-G	Gc_path_Serpulina	pathogenic Serpulina	combined	Gi_pathogenic & Gt_Serpulina
-G	Gm_ac_ox	acetic acid oxidizing	metabolic	MICRO:0000773
+G	Gc_path_Serpulina	pathogenic Serpulina	combined	Gic_pathogenic & Gt_Serpulina
+G	Gm_ac_ox	acetic acid oxidizing	metabolic_trait	MICRO:0000773
 G	Gc_AAB	acetic acid bacteria (AAB)	combined	Gt_Bacteria & Gm_ac_ox
-G	Gi_intracellular	intracellular	biological_interaction	RO:0002640
+G	Gic_intracellular	intracellular	biointeraction_class	RO:0002640
 G	Gt_Lasiaticus	Candidatus Liberibacter asiaticus	taxonomic	taxid:34021	TR:Z:species
 G	Gt_Lsolanacearum	Candidatus Liberibacter solanacearum	taxonomic	taxid:556287	TR:Z:species
 G	Gt_Lcrescens	Liberibacter crescens	taxonomic	taxid:1273132	TR:Z:species
@@ -393,8 +393,8 @@ G	Gt_Dgobiensis	Deinococcus gobiensis	taxonomic	taxid:502394	TR:Z:species
 G	Gc_Deinococcus_not_gobiensis	Deinococcus excluding Deinococcus gobiensis	combined	Gt_Deinococcus & !(Gt_Dgobiensis)
 G	Gt_Dradiodurans	Deinococcus radiodurans	taxonomic	taxid:1299	TR:Z:species
 G	Gt_Nitrospira	Nitrospira	taxonomic	taxid:35798	TR:Z:genus
-G	Gr_urearich	urea-rich	specific_nutrient_availability	CHEBI:16199
-G	Gc_urearich_Nitrospira	Nitrospira in urea abundant environments	combined	Gt_Nitrospira & Gr_urearich
+G	Gcl_urearich	urea-rich	compound_level	CHEBI:16199
+G	Gc_urearich_Nitrospira	Nitrospira in urea abundant environments	combined	Gt_Nitrospira & Gcl_urearich
 G	Gt_Helicobacter	Helicobacter	taxonomic	taxid:209	TR:Z:genus
 G	Gt_Hpylori	Helicobacter pylori	taxonomic	taxid:210	TR:Z:species
 G	Gt_Ndefluvii	Nitrospira defluvii	taxonomic	taxid:330214	TR:Z:species
@@ -421,12 +421,12 @@ G	Gc_Campylob_not_Hmustelae	Campylobacterales excluding Helicobacter mustelae	co
 G	Gt_Wsuccinogenes	Wolinella succinogenes	taxonomic	taxid:844	TR:Z:species
 G	Gt_Hhepaticus	Helicobacter hepaticus	taxonomic	taxid:32025	TR:Z:species
 G	Gt_Epsilonproteobacteria	Epsilonproteobacteria	taxonomic	taxid:29547	TR:Z:class
-G	Gh_hydrvents	marine hydrothermal vents	habitat	ENVO:01000122
+G	Gh_hydrvents	marine hydrothermal vents	biome	ENVO:01000122
 G	Gc_hydrvents_Epsilon_not_Hpylori	Epsilonproteobacteria in sea vents excluding Helicobacter mustelae	combined	Gt_Epsilonproteobacteria & Gh_hydrvents & !(Gt_Hpylori)
 G	Gn_Mycobacterium	not Mycobacterium	inverted	!Gt_Mycobacterium
 G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
-G	Gip_siphonaptera	interacting with Siphonaptera (fleas)	biological_interaction_partner_taxonomy	taxid:7509	TR:Z:order
-G	Gip_vertebrata	interacting with Vertebrata (vertebrates)	biological_interaction_partner_taxonomy	taxid:7742
+G	Gip_siphonaptera	interacting with Siphonaptera (fleas)	biointeraction_partner	taxid:7509	TR:Z:order
+G	Gip_vertebrata	interacting with Vertebrata (vertebrates)	biointeraction_partner	taxid:7742
 U	Uog_anyCOG	ctg:+ortholog_group:COG	.	any_COG	assigned to at least one COG	# used to define COG proportions
 U	Ub_C	base	.	C	cytosine
 U	Ub_G	base	.	G	guanine
@@ -484,13 +484,12 @@ U	Ur_dnaA_to_metS	set:arrangement	.	.	genes in range dnaA to metS (metG)
 U	Uog_COG1960	ctg:ortholog_group:COG	COG1960	.	.
 U	Ug_ppsA	specific_gene	.	ppsA	phosphoenolpyruvate synthase (ppsA)
 U	Uf_ppc	ctg:function:EC	4.1.1.31	ppc	phosphoenolpyruvate carboxylase (ppc)
-U	Uog_BorreliaPfam48	ctg:ortholog_group	.	Pfam48	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
+U	Uog_BorreliaPfam49	ctg:ortholog_group	.	Pfam49	Borrelia paralogous gene family 49	# Pfam49 is not an ID of the Pfam database
 U	Uog_BorreliaPfam54	ctg:ortholog_group	.	Pfam54	Borrelia paralogous gene family 54	# Pfam54 is not an ID of the Pfam database
 U	Uog_BorreliaPfam80	ctg:ortholog_group	.	Pfam80	Borrelia paralogous gene family 80: Bdr family	# Pfam80 is not an ID of the Pfam database
 U	Ug_nrdE	specific_gene	.	nrdE	.
 U	Uy_nrdEFI	set!:gene_system	Ug_nrdE,Ug_nrdF,Ug_nrdI	.	.
 U	Ug_ospA	specific_gene	.	ospA	.
-U	Uy_ospABdbpAB	set!:gene_system	Ug_ospA,Ug_ospB,Ug_dbpA,Ug_dbpB	.	.
 U	Ug_ospB	specific_gene	.	ospB	.
 U	Ug_dbpA	specific_gene	.	dbpA	decorin binding protein A
 U	Ug_dbpB	specific_gene	.	dbpB	decorin binding protein B
@@ -592,7 +591,7 @@ U	Uog_COG0697	ctg:ortholog_group:COG	COG0697	.	.
 U	Ug_cydA	specific_gene	.	cydA	cytochrome bd-type oxidase (cydA)
 U	Ug_cydB	specific_gene	.	cydB	cytochrome bd-type oxidase (cydB)
 U	Ug_blaNMC_A	specific_gene	.	blaNMC-A	blaNMC-A/IMI-type genes (blaNMC-A)
-U	Uc_blalMI	set!:gene_cluster	Ug_blaNMC_A,Ug_blaIMI1,Ug_blaIMI9,Ug_blaIMI5,Ug_blaIMI6	.	.
+U	Ug_blalMI	ctg!:+specific_gene	Ug_blaNMC_A,Ug_blaIMI1,Ug_blaIMI9,Ug_blaIMI5,Ug_blaIMI6	.	blaNMC-A/IMI-type carbapenemase genes
 U	Ug_blaIMI1	specific_gene	.	blaIMI-1	blaNMC-A/IMI-type genes (blaIMI-1)
 U	Ug_blaIMI9	specific_gene	.	blaIMI-9	blaNMC-A/IMI-type genes (blaIMI-9)
 U	Ug_blaIMI5	specific_gene	.	blaIMI-5	blaNMC-A/IMI-type genes (blaIMI-5)
@@ -1264,12 +1263,11 @@ A	Ap_g_attG	Ug_attG	presence
 A	Ap_r_dnaA_to_metS	Ur_dnaA_to_metS	complete_presence
 A	Ap_C2_g_ppsA	Ug_ppsA	presence!chromosome:II
 A	Ap_C2_f_ppc	Uf_ppc	presence!chromosome:II
-A	Ap_og_BorreliaPfam48	Uog_BorreliaPfam48	presence
-A	Ap_chr_og_BorreliaPfam48	Uog_BorreliaPfam48	presence!replicon_type:chromosome
-A	Ap_pls_og_BorreliaPfam48	Uog_BorreliaPfam48	presence!replicon_type:plasmid
+A	Ap_og_BorreliaPfam49	Uog_BorreliaPfam49	presence
+A	Ap_chr_og_BorreliaPfam49	Uog_BorreliaPfam49	presence!replicon_type:chromosome
+A	Ap_pls_og_BorreliaPfam49	Uog_BorreliaPfam49	presence!replicon_type:plasmid
 A	Ap_pls_og_BorreliaPfam54	Uog_BorreliaPfam54	presence!replicon_type:plasmid
 A	Ap_pls_y_nrdEFI	Uy_nrdEFI	complete_presence!replicon_type:plasmid
-A	Ap_lp54_y_ospABdbpAB	Uy_ospABdbpAB	complete_presence!plasmid:lp54
 A	Ap_p_MompS	Up_MompS	presence
 A	Ap_c_nif	Uc_nif	complete_presence
 A	Ap_d_P450	Ud_P450	presence
@@ -1345,7 +1343,7 @@ A	Ap_f_haemolys	Uf_haemolys	presence
 A	Ap_op_cyoABCD	Uop_cyoABCD	complete_presence
 A	Ap_g_cydA	Ug_cydA	presence
 A	Ap_g_cydB	Ug_cydB	presence
-A	Ap_c_blalMI	Uc_blalMI	complete_presence
+A	Ap_g_blalMI	Ug_blalMI	presence
 A	Ap_comb_g_hpn	Ucomb_g_hpn	presence
 A	Ap_y_Laa_ABC_tr	Uy_Laa_ABC_tr	complete_presence
 A	Ap_y_thiamine_ABC_tr	Uy_thiamine_ABC_tr	complete_presence
@@ -1440,7 +1438,7 @@ V	V36	S21	Ap_p_hemerythrin	Gc_magnetotactic_B:most	==	True
 V	V37	S22	Ap_c_thiocyanate	Gc_path_Mycobacterium	==	False
 V	V38	S23	Ap_d_PE_PPE	Gt_Mycobacterium	==	True
 V	V39	S23	Ap_op_mce1	Gt_Mycobacterium	==	True
-V	V40	S24	Ap_pc_OGDC	Gp_chm_lth_a_troph	==	False
+V	V40	S24	Ap_pc_OGDC	Gpm_chm_lth_a_troph	==	False
 V	V42	S26	Ap_r_16S_sep_23S_5S	Gt_Rickettsia	==	True
 V	V43	S27	Ac_t_pseudogene	Gt_Rickettsia	level	high
 V	V44	S30	Ap_p_SQR	Gt_Aquificales	==	True
@@ -1456,7 +1454,7 @@ V	V53	S39	Ap_f_a2b2tetramer	Gc_nonpred_B	==	True
 V	V54	S39	Ap_f_a2b2tetramer	Gc_obl_pred_B	==	False
 V	V55	S39	Ap_f_a2b2tetramer	Gc_fac_pred_B:most	==	False
 V	V56	S41	Ap_t_gta_like	Gt_Rhodobacterales:most	==	True
-V	V57	S42	Ap_op_dlt	Gc_grampos_B	==	True
+V	V57	S42	Ap_op_dlt	Gc_grampos_B:some	==	True
 V	V58	S43	Ap_g_dltA	Gt_Phaeobacter	==	True
 V	V59	S43	Ap_g_dltA	Gn_Phaeobacter	==	False
 V	V60	S44	Ap_g_metH	Gt_Ecoli	==	True
@@ -1515,7 +1513,7 @@ V	V112	S55	Ap_g_pat1	Gt_Rconorii	==	True
 V	V114	S57	Ap_g_ompB	Gt_Rickettsia	==	True
 V	V115	S57	Ap_g_sca4	Gt_Rickettsia	==	True
 V	V116	S58	Ap_t_tox_antitox	Gc_obl_intracell_B:rare	==	True
-V	V117	S58	Ap_t_tox_antitox	Gi_free:many	==	True
+V	V117	S58	Ap_t_tox_antitox	Gic_free:many	==	True
 V	V118	S61	Ap_d_HEPN	Gt_Atumefaciens	==	True
 V	V119	S61	Ap_d_HEPN	Gt_Tmaritima	==	True
 V	V120	S61	Ap_d_HEPN	Gt_Smeliloti	==	True
@@ -1557,13 +1555,13 @@ V	V157	S76	Ap_C2_g_ppsA	Gt_Vibrio	==	True
 V	V158	S76	Ap_C2_f_ppc	Gt_Vibrio	==	True
 V	V159	S66	Ap_y_LuxS_AI2	Gt_Neisseria	==	True
 V	V160	S81	Ap_r_dnaA_to_metS	Gt_Bpumilus:most	==	True
-V	V161	S82	Ap_chr_og_BorreliaPfam48	Gt_Borrelia	==	True
-V	V162	S82	Ap_pls_og_BorreliaPfam48	Gt_Borrelia	==	True
-V	V163	S82	Ap_og_BorreliaPfam48	Gn_Borrelia	==	False
-V	V164	S83	Ap_pls_og_BorreliaPfam54	Gc_Lyme_Borrelia	==	True
-V	V165	S84	Ap_pls_y_nrdEFI	Gc_relapsfever_Borrelia	==	True
-V	V166	S85	Ap_lp54_y_ospABdbpAB	Gc_Lyme_Borrelia	==	True
-V	V167	S85	Ap_lp54_y_ospABdbpAB	Gc_relapsfever_Borrelia	==	False
+V	V161	S82	Ap_chr_og_BorreliaPfam49	Gt_Borrelia	==	True
+V	V162	S82	Ap_pls_og_BorreliaPfam49	Gt_Borrelia	==	True
+V	V163	S82	Ap_og_BorreliaPfam49	Gn_Borrelia	==	False
+V	V164	S83	Ap_pls_og_BorreliaPfam54	Gc_LD_Borrelia	==	True
+V	V165	S84	Ap_pls_y_nrdEFI	Gc_RF_Borrelia	==	True
+V	V166	S85	Ap_lp54_op_ospAB	Gc_LD_Borrelia	==	True
+V	V167	S85	Ap_lp54_op_ospAB	Gc_RF_Borrelia	==	False
 V	V168	S86	Ap_p_MompS	Gt_Legionella	==	True
 V	V169	S87	Ap_c_nif	Gt_Gdiazotrophicus	==	True
 V	V170	S87	Ap_c_nif	Gs_AspBH72	==	True
@@ -1632,7 +1630,7 @@ V	V234	S121	Ap_c_PGC	Gc_purple_photosyn_B	==	True
 V	V235	S123	Ar_pls_b_GC	Gc_free_actinomycetes	level	high
 V	V236	S125	Ap_pls_c_tra	Gt_Pseudomonadaceae	==	True
 V	V237	S125	Ap_pls_c_trb	Gt_Pseudomonadaceae	==	True
-V	V238	S132	Ap_t_Nmeni	Gc_vert_path	==	True
+V	V238	S132	Ap_t_Nmeni	Gc_vert_path:some	==	True
 V	V239	S135,T2	Ap_d_CL0001	Gt_Myxococcales	==	True
 V	V240	S135,T2	Ap_d_CL0066	Gt_Myxococcales	==	True
 V	V241	S135,T2	Ap_d_CL0333	Gt_Myxococcales	==	True
@@ -1685,15 +1683,15 @@ V	V287	S149	Ap_f_haemolys	Gc_path_Mycobacterium:many	==	True
 V	V288	S150	Ap_op_cyoABCD	Gc_AAB	==	True
 V	V289	S150	Ap_g_cydA	Gc_AAB	==	True
 V	V290	S150	Ap_g_cydB	Gc_AAB	==	True
-V	V291	S152	Ap_c_blalMI	Gt_Enterobacter	==	True
-V	V292	S152	Ap_c_blalMI	Gn_Enterobacter:most	==	False
+V	V291	S152	Ap_g_blalMI	Gt_Enterobacter:some	==	True
+V	V292	S152	Ap_g_blalMI	Gn_Enterobacter:most	==	False
 V	V293	S153	Ap_y_Laa_ABC_tr	Gt_Lasiaticus	==	True
 V	V294	S153	Ap_y_Laa_ABC_tr	Gt_Lsolanacearum	==	True
 V	V295	S153	Ap_y_Laa_ABC_tr	Gt_Lcrescens	==	True
 V	V296	S154	Ap_y_thiamine_ABC_tr	Gt_Lasiaticus	==	True
 V	V297	S154	Ap_y_thiamine_ABC_tr	Gt_Lsolanacearum	==	True
 V	V298	S154	Ap_y_thiamine_ABC_tr	Gt_Lcrescens	==	False
-V	V299	S155	Ap_f_t3_polyk_syn	Gt_Streptomyces	==	True
+V	V299	S155	Ap_f_t3_polyk_syn	Gt_Streptomyces:many	==	True
 V	V300	S156	Ap_f_t3_polyk_syn	Gt_Avinelandii	==	True
 V	V301	S157	Ap_pls_h_14b_cellbios	Gt_Salinibacter	==	True
 V	V302	S159,S161	Ap_w_TCA	Gt_Salinibacter	==	True
@@ -1756,10 +1754,10 @@ V	V356	S182	Ap_p_Pks8	Gt_Mtub_complex	==	True
 V	V357	S182	Ap_p_Pks8	Gn_Mtub_complex	==	False
 V	V358	S182	Ap_p_Pks17	Gt_Mtub_complex	==	True
 V	V359	S182	Ap_p_Pks17	Gn_Mtub_complex	==	False
-V	V360	S183	Ap_f_phlipD	Gi_pathogenic:some	==	True
+V	V360	S183	Ap_f_phlipD	Gic_pathogenic:some	==	True
 V	V361	S183	Ap_g_acpA	Gt_Lpneumophila	==	True
 V	V362	S183	Ap_f_phlipD	Gt_Lpneumophila	==	True
-V	V363	S184	Ap_f_IMP	Gt_Enterobacteriaceae:most	==	True
+V	V363	S184	Ap_f_IMP	Gt_Enterobacteriaceae:some	==	True
 V	V364	S186	Ac_t_CRISPR	Gt_Ypalearctica	==	False
 V	V365	S186	Ac_t_CRISPR	Gt_Yruckeri	==	True
 V	V366	S186	Ac_t_CRISPR	Gt_Ypestis	==	True
@@ -1884,3 +1882,17 @@ C	Cx2	S8	Ac_genome_size	Gt_Planctomycetes	>	Gc_oligotrophic_B
 U	Ug_thiB	specific_gene	.	thiB	thiamine ABC transporter thiB gene
 U	Ug_thiP	specific_gene	.	thiP	thiamine ABC transporter thiP gene
 U	Ug_thiQ	specific_gene	.	thiQ	thiamine ABC transporter thiQ gene
+U	Uog_BorreliaPfam32	ctg:ortholog_group	.	Pfam32	Borrelia paralogous gene family 32	# Pfam32 is not an ID of the Pfam database
+A	Ap_og_BorreliaPfam32	Uog_BorreliaPfam32	presence
+V	V9	S82	Ap_og_BorreliaPfam32	Gt_Borrelia	==	True
+U	Uop_ospAB	set!:operon	Ug_ospA,Ug_ospB	ospAB	.
+U	Uop_dbpAB	set!:operon	Ug_dbpA,Ug_dbpB	dbpAB	.
+A	Ap_lp54_op_ospAB	Uop_ospAB	complete_presence!plasmid:lp54
+A	Ap_lp54_op_dbpAB	Uop_dbpAB	complete_presence!plasmid:lp54
+V	V11	S85	Ap_lp54_op_dbpAB	Gc_LD_Borrelia	==	True
+V	V12	S85	Ap_lp54_op_dbpAB	Gc_RF_Borrelia	==	False
+G	Gg_EastAsia	Eastern Asia	geographical	geonames:7729894
+G	Gn_EastAsia	Outside of Eastern Asia	inverted	!Gg_EastAsia
+G	Gc_nEastAsia_Entero	Enterobacteriaceae not in Eastern Asia	combined	Gn_EastAsia & Gt_Enterobacteriaceae
+V	V14	S184	Ap_f_IMP	Gc_nEastAsia_Entero:most	==	False
+V	V15	S155	Ap_f_t3_polyk_syn	Gt_Bacteria:some	==	True

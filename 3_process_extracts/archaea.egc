@@ -139,28 +139,28 @@ G	Gt_Crenarchaeota	Crenarchaeota	taxonomic	taxid:28889	TR:Z:phylum
 G	Gt_Archaea	Archaea	taxonomic	taxid:2157	TR:Z:superkingdom
 G	Gt_MGI_Thaumarchaeota	Marine Group I (MGI) Thaumarchaeota	taxonomic	taxid:905826
 G	Gg_arctic	Arctic	geographical	geonames:10941926
-G	Gh_marine	marine waters	habitat	ENVO:01000320
+G	Gh_marine	marine waters	biome	ENVO:01000320
 G	Gc_arc_mar_MGI	Marine Group I (MGI) Thaumarchaeota [arctic marine waters]	combined	Gt_MGI_Thaumarchaeota & Gg_arctic & Gh_marine
-G	Gh_mesopelagic	mesopelagic	habitat	ENVO:00000213
-G	Gh_bathypelagic	bathypelagic	habitat	ENVO:00000211
+G	Gh_mesopelagic	mesopelagic	biome	ENVO:00000213
+G	Gh_bathypelagic	bathypelagic	biome	ENVO:00000211
 G	Gc_meso_bathy_MGI	Marine Group I (MGI) Thaumarchaeota [mesopelagic or bathypelagic]	combined	Gt_MGI_Thaumarchaeota & (Gh_mesopelagic | Gh_bathypelagic)
-G	Gh_marsed	marine sediment	habitat	ENVO:00002113
+G	Gh_marsed	marine sediment	biome	ENVO:00002113
 G	Gc_marsed_MGI	Marine Group I (MGI) Thaumarchaeota [marine sendiment]	combined	Gt_MGI_Thaumarchaeota & Gh_marsed
 G	Gt_Thermoproteaceae	Thermoproteaceae	taxonomic	taxid:2267	TR:Z:family
 G	Gt_haloarchaea	haloarchaea	taxonomic	taxid:2239	TR:Z:class
 G	Gn_haloarchaea	not haloarchaea	inverted	!Gt_haloarchaea
-G	Gr_anaerobic	anaerobic	O2_requirement	MICRO:0000495
-G	Gr_aerobic	aerobic	O2_requirement	MICRO:0000494
+G	Gr_anaerobic	anaerobic	habitat_O2	MICRO:0000495
+G	Gr_aerobic	aerobic	habitat_O2	MICRO:0000494
 G	Gt_Archaeoglobus	Archaeoglobus	taxonomic	taxid:2233	TR:Z:genus
 G	Gt_Thermoproteus	Thermoproteus	taxonomic	taxid:2270	TR:Z:genus
-G	Gm_NH3_ox	ammonia-oxidizing	metabolic	GO:0019329
+G	Gm_NH3_ox	ammonia-oxidizing	metabolic_trait	GO:0019329
 G	Gt_Ngargensis	Candidatus Nitrososphaera gargensis	taxonomic	taxid:497727	TR:Z:species
 G	Gt_Nevergladensis	Candidatus Nitrososphaera evergladensis	taxonomic	taxid:1459637	TR:Z:species
 G	Gn_Nevergladensis	not Candidatus Nitrososphaera evergladensis	inverted	!Gt_Nevergladensis
 G	Gt_Nuzonensis	Candidatus Nitrosotenuis uzonensis	taxonomic	taxid:1407055	TR:Z:species
 G	Gc_amox_Nitrosopumilus	ammonia-oziding Nitrosopumilus	combined	Gm_NH3_ox & Gt_Nitrosopumilus
 G	Gt_Nitrosopumilus	Nitrosopumilus	taxonomic	taxid:338191	TR:Z:genus
-G	Gr_hyperthermophilic	hyperthermophilic	temperature_requirement	MICRO:0001294
+G	Gr_hyperthermophilic	hyperthermophilic	habitat_temperature	MICRO:0001294
 G	Gc_hyperthermophilic_A	hyperthermophilic Archaea	combined	Gr_hyperthermophilic & Gt_Archaea
 G	Gc_hypert_Archaeoglobus	hyperthermophilic Archaeoglobus	combined	Gt_Archaeoglobus & Gr_hyperthermophilic
 G	Gt_Pfuriosus	Pyrococcus furiosus	taxonomic	taxid:2261	TR:Z:species
@@ -171,7 +171,7 @@ G	Gt_Tkodakarensis	Thermococcus kodakarensis	taxonomic	taxid:311400	TR:Z:species
 G	Gt_Malvus	Candidatus Methanomethylophilus alvus	taxonomic	taxid:1291540	TR:Z:species
 G	Gc_AOA	ammonia-oxidizing Archaea	combined	Gm_NH3_ox & Gt_Archaea
 G	Gc_AOB	ammonia-oxidizing Bacteria	combined	Gm_NH3_ox & Gt_Bacteria
-G	Gh_soil	soil	habitat	ENVO:01001044
+G	Gh_soil	soil	biome	ENVO:01001044
 G	Gc_marine_AOA	marine ammonia-oxidizing Archaea	combined	Gh_marine & Gc_AOA
 G	Gc_marine_AOB	marine ammonia-oxidizing Bacteria	combined	Gh_marine & Gc_AOB
 G	Gc_soil_AOB	soil ammonia-oxidizing Bacteria	combined	Gh_soil & Gc_AOB
@@ -203,12 +203,12 @@ G	Gt_Hmediterranei	Haloferax mediterranei	taxonomic	taxid:2252	TR:Z:species
 G	Gt_Tcellulolyticus	Thermogladius cellulolyticus	taxonomic	taxid:1200300	TR:Z:species
 G	Gc_Crenarch_not_Tcellulolyticus	Crenarcheota excluding Thermogladius cellulolyticus	combined	Gt_Crenarchaeota & !(Gt_Tcellulolyticus)
 G	Gt_Hlacusprofundi	Halorubrum lacusprofundi	taxonomic	taxid:2247	TR:Z:species
-G	Gr_halophilic	halophilic	salinity_requirement	MICRO:0001314	XR:Z:MICRO:0001367
+G	Gr_halophilic	halophilic	habitat_salinity	MICRO:0001314	XR:Z:MICRO:0001367
 G	Gc_arch_halophilic	halophilic Archaea	combined	Gr_halophilic & Gt_Archaea
 G	Gt_Methanocellales	Methanocellales	taxonomic	taxid:570264	TR:Z:order
 G	Gs_MconHZ254	Methanocella conradii HZ254	strain	taxid:1041930
-G	Gm_H_troph	hydrogenotrophic	metabolic	Wikipedia:Hydrogenotroph
-G	Gm_CH4_gen	methanogenic	metabolic	MICRO:0000166
+G	Gm_H_troph	hydrogenotrophic	metabolic_trait	Wikipedia:Hydrogenotroph
+G	Gm_CH4_gen	methanogenic	metabolic_trait	MICRO:0000166
 G	Gc_CH4_gen_not_MbarCM1	hydrogenotrophic methanogen excluding Methanosarcina barkeri CM1	combined	Gm_H_troph & Gm_CH4_gen & !Gs_MbarCM1
 G	Gs_MbarCM1	Methanosarcina barkeri CM1	strain	taxid:796385
 G	Gt_Smetallicus	Sulfolobus metallicus	taxonomic	taxid:47303	TR:Z:species
@@ -226,8 +226,8 @@ G	Gc_Nanohaloarchaea_not_HspLC1Hm	Nanohaloarchaea excluding Halomicrobium sp. LC
 G	Gc_hyperthermophilic_Crenarchaeota	hyperthermophilic Crenarchaeota	combined	Gr_hyperthermophilic & Gt_Crenarchaeota
 G	Gt_Kcryptofilum	Candidatus Korarchaeum cryptofilum	taxonomic	taxid:498846	TR:Z:species
 G	Gt_Euryarchaeota	Euryarchaeota	taxonomic	taxid:28890	TR:Z:phylum
-G	Gp_chm_lth_troph	chemolithotrophic	trophic_strategy	MICRO:0001476
-G	Gc_chm_lth_troph_AOA	chemolithotrophic AOA	combined	Gp_chm_lth_troph & Gc_AOA
+G	Gpm_chm_lth_troph	chemolithotrophic	primary_metabolism	MICRO:0001476
+G	Gc_chm_lth_troph_AOA	chemolithotrophic AOA	combined	Gpm_chm_lth_troph & Gc_AOA
 G	Gt_Nitrososphaera	Nitrososphaera	taxonomic	taxid:497726	TR:Z:genus
 G	Gt_Thermoprotei	Thermoprotei	taxonomic	taxid:183924	TR:Z:class
 G	Gc_Thaumarch_not_Ngargensis	Thaumarchaeota excluding Candidatus Nitrososphaera gargensis	combined	Gt_Thaumarchaeota & !Gt_Ngargensis
@@ -238,7 +238,7 @@ G	Gt_Nlimnia	Candidatus Nitrosoarchaeum limnia	taxonomic	taxid:1007084	TR:Z:spec
 G	Gt_Nkoreensis	Candidatus Nitrosopumilus koreensis	taxonomic	taxid:1510466	TR:Z:species
 G	Gc_AOA_not_Never	ammonia oxidizing archaea excluding Candidatus Nitrososphaera evergladensis	combined	Gc_AOA & !Gt_Nevergladensis
 G	Gc_arch_mesophilic	mesophilic Archaea	combined	Gt_Archaea & Gr_mesophilic
-G	Gr_mesophilic	mesophilic	temperature_requirement	MICRO:0000111
+G	Gr_mesophilic	mesophilic	habitat_temperature	MICRO:0000111
 G	Gt_Thorarchaeota	Thorarchaeota	taxonomic	taxid:1706441	TR:Z:phylum
 G	Gt_Nanoarchaeota	Nanoarchaeota	taxonomic	taxid:192989	TR:Z:phylum
 G	Gt_Heimdallarchaeota	Candidatus Heimdallarchaeota	taxonomic	taxid:1936272	TR:Z:phylum
@@ -794,9 +794,9 @@ V	VA40	SA23	Ap_f_SOD	Gr_aerobic	==	True
 V	VA41	SA24	Ap_g_amoA	Gt_Thaumarchaeota	==	True
 V	VA42	SA24	Ap_g_amoB	Gt_Thaumarchaeota	==	True
 V	VA43	SA24	Ap_g_amoC	Gt_Thaumarchaeota	==	True
-V	VA44	SA26	Ap_g_amoA	Gm_NH3_ox	==	True
-V	VA45	SA27	Ap_f_urease	Gm_NH3_ox:some	==	True
-V	VA46	SA27	Ap_f_urea_tr	Gm_NH3_ox:some	==	True
+V	VA44	SA26	Ap_g_amoA	Gc_AOA	==	True
+V	VA45	SA27	Ap_f_urease	Gc_AOA:some	==	True
+V	VA46	SA27	Ap_f_urea_tr	Gc_AOA:some	==	True
 V	VA47	SA28	Ap_g_ectB	Gt_Nmaritimus	==	True
 V	VA48	SA28	Ap_g_ectA	Gt_Nmaritimus	==	True
 V	VA49	SA28	Ap_g_ectC	Gt_Nmaritimus	==	True
@@ -820,7 +820,6 @@ V	VA66	SA34	Ap_pc_FeFe_hydr	Gt_Archaea	==	False
 V	VA67	SA35	Ap_f_MBH	Gc_hypert_Pfuriosus	==	True
 V	VA68	SA35	Ap_pc_SH1_2	Gc_hypert_Pfuriosus	==	True
 V	VA69	SA36	Ap_f_MBH	Gt_Thermococcales:most	==	True
-V	VA70	SA36	Ap_pc_SH1_2	Gt_Thermococcales:most	==	False
 V	VA71	SA36	Amp_pc_SH1_2	Gt_Thermococcales:most	==	True
 V	VA72	SA37	Ap_p_CODH	Gt_Tonnurineus	==	True
 V	VA73	SA37	Ap_p_CODH	Gt_Tonnurineus	==	True
@@ -832,8 +831,8 @@ V	VA78	SA43	Ap_w_amox	Gc_AOA	==	True
 V	VA79	SA43	Ap_p_hydr_am_oxr	Gc_AOA	==	False
 V	VA80	SA46	Ap_w_CBB	Gt_Nmaritimus	==	True
 V	VA81	SA47	Ap_w_3HP4HB	Gt_Msedula	==	True
-V	VA82	SA48	Ap_w_3HP4HB	Gt_Csymbiosum:most	==	True
-V	VA83	SA48	Ap_w_3HP4HB	Gt_Nmaritimus:most	==	True
+V	VA82	SA48	Ap_w_3HP4HB	Gt_Csymbiosum	==	True
+V	VA83	SA48	Ap_w_3HP4HB	Gt_Nmaritimus	==	True
 V	VA84	SA49	Ap_f_AMPf_3HPCoA_s	Gt_Nmaritimus	==	False
 V	VA85	SA49	Ap_f_ADPf_acylCoA_s	Gt_Nmaritimus	==	True
 V	VA86	SA49	Ap_f_AMPf_3HPCoA_s	Gt_Msedula	==	True
@@ -858,7 +857,7 @@ V	VA104	SA57	Ap_g_ectB	Gt_Nmaritimus	==	True
 V	VA105	SA57	Ap_g_ectA	Gt_Nmaritimus	==	True
 V	VA106	SA57	Ap_g_ectD	Gt_Nmaritimus	==	True
 V	VA107	SA58	Ap_g_phaE	Gt_Hhispanica	==	True
-V	VA108	SA59	Ap_g_phaE	Gt_haloarchaea	==	True
+V	VA108	SA59	Ap_g_phaE	Gt_haloarchaea:some	==	True
 V	VA109	SA60	Ap_g_phaE	Gt_Hutahensis	==	True
 V	VA110	SA60	Ap_g_phaE	Gt_Hhispanica	==	True
 V	VA111	SA60	Ap_g_phaE	Gt_Hmukohataei	==	True
@@ -870,7 +869,7 @@ V	VA116	SA60	Ap_g_phaE	Gt_Hjeotgali	==	True
 V	VA117	SA60	Ap_g_phaE	Gt_Hxanaduensis	==	True
 V	VA118	SA60	Ap_g_phaE	Gt_Hwalsbyi	==	True
 V	VA119	SA58	Ap_g_phaB	Gt_Hhispanica	==	True
-V	VA120	SA59	Ap_g_phaB	Gt_haloarchaea	==	True
+V	VA120	SA59	Ap_g_phaB	Gt_haloarchaea:some	==	True
 V	VA121	SA60	Ap_g_phaP	Gt_Hutahensis	==	True
 V	VA122	SA60	Ap_g_phaP	Gt_Hhispanica	==	True
 V	VA123	SA60	Ap_g_phaP	Gt_Hmukohataei	==	True
@@ -882,7 +881,7 @@ V	VA128	SA60	Ap_g_phaP	Gt_Hjeotgali	==	True
 V	VA129	SA60	Ap_g_phaP	Gt_Hxanaduensis	==	True
 V	VA130	SA60	Ap_g_phaP	Gt_Hwalsbyi	==	True
 V	VA131	SA58	Ap_g_phaC	Gt_Hhispanica	==	True
-V	VA132	SA59	Ap_g_phaC	Gt_haloarchaea	==	True
+V	VA132	SA59	Ap_g_phaC	Gt_haloarchaea:some	==	True
 V	VA133	SA60	Ap_g_phaC	Gt_Hutahensis	==	True
 V	VA134	SA60	Ap_g_phaC	Gt_Hhispanica	==	True
 V	VA135	SA60	Ap_g_phaC	Gt_Hmukohataei	==	True
@@ -1060,3 +1059,18 @@ V	VA293	SA33	Aall_w_EMP_mod	Gc_hyperthermophilic_A:most	==	True
 V	VA294	SA77	Aall_w_EMP	Gt_Thermococcales	==	False
 V	VA295	SA77	Aall_w_EMP	Gt_Ppacificus	==	False
 V	VA296	SA33	Aall_w_EMP	Gc_hyperthermophilic_A:most	==	False
+U	Ut_plasmid	ctg:feature_type:SO	SO:0000155	plasmid	plasmid, extrachromosomal replicon
+A	Aal_t_plasmid	Ut_plasmid	average_length
+V	VA297	SA72	Aal_t_plasmid	Gt_Hlacusprofundi	level	high
+V	VA298	SA72	Aal_t_plasmid	Gc_arch_halophilic	level	high
+U	Uf_eulike_DNArepl	ctg:function	.	.	archaeal eukaryotic-like DNA replication gene
+U	Uf_eulike_DNAtr	ctg:function	.	.	archaeal eukaryotic-like DNA transcription gene
+V	VA299	SA72	Ap_f_eulike_DNArepl	Gt_Hlacusprofundi	==	True
+V	VA300	SA72	Ap_f_eulike_DNArepl	Gc_arch_halophilic	==	True
+V	VA301	SA72	Ap_f_eulike_DNAtr	Gt_Hlacusprofundi	==	True
+V	VA302	SA72	Ap_f_eulike_DNAtr	Gc_arch_halophilic	==	True
+A	Ap_f_eulike_DNArepl	Uf_eulike_DNArepl	presence
+A	Ap_f_eulike_DNAtr	Uf_eulike_DNAtr	presence
+A	Ap_t_plasmid	Ut_plasmid	presence
+V	VA303	SA72	Ap_t_plasmid	Gt_Hlacusprofundi	==	True
+V	VA304	SA72	Ap_t_plasmid	Gc_arch_halophilic	==	True
